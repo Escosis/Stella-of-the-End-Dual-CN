@@ -1,0 +1,1736 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"se", id=0, file="se074", time=500},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg47", x=480, y=-270, speed=35000, ease="none", time=2000, zoom=150, sync=1, path=":bg/", x2=-480, y2=-270, set="bg47"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"足下に水がたまっていたが、空気は生ぬるい。",
+				},
+			},
+			en = {
+				{
+					"The ground beneath my feet is waterlogged, but the air is strangely humid.",
+				},
+			},
+			cn = {
+				{
+					"脚下有积水，但空气却有些温热。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 8,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"温度が高い。",
+				},
+			},
+			en = {
+				{
+					"No normal cave would be this warm.",
+				},
+			},
+			cn = {
+				{
+					"这里温度很高。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 9,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"地熱ではないだろうし、発酵熱ならかなりの危険要因として警告が出るはずだ。",
+				},
+			},
+			en = {
+				{
+					"Geothermal heat? Not likely. Fermentation? No, that would have shown up on my safety readings.",
+				},
+			},
+			cn = {
+				{
+					"不太可能是地热，如果是发酵热又有相当的危险性，应该早有提示警告。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 10,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"残された可能性はひとつだった。",
+				},
+			},
+			en = {
+				{
+					"That just leaves one other possibility.",
+				},
+			},
+			cn = {
+				{
+					"那就只剩下一种可能性。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 11,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200009"},
+			},
+			ja = {
+				{
+					"「やはりここにアレが……」",
+				},
+			},
+			en = {
+				{
+					[["This has to be the place."]],
+				},
+			},
+			cn = {
+				{
+					"「这里果然有那个……」",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 17,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"期待が膨らみつつ、奥へ。",
+				},
+			},
+			en = {
+				{
+					"More excited than ever, I head further in.",
+				},
+			},
+			cn = {
+				{
+					"心怀着期待走向深处。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 22,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"空間全体が傾き、徐々に下方に向かっていく。",
+				},
+			},
+			en = {
+				{
+					"The incline leads steadily downwards.",
+				},
+			},
+			cn = {
+				{
+					"空间整体缓缓向下方倾斜。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 23,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"足下を確認しながら、慎重に下った。",
+				},
+			},
+			en = {
+				{
+					"Watching my step, I carefully pick my way down.",
+				},
+			},
+			cn = {
+				{
+					"仔细注意着脚下，小心翼翼地往下走。",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 24,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"傾斜はきつく、坂道というよりは崖のようだ。",
+				},
+			},
+			en = {
+				{
+					"The slope continues to get steeper until I'm not so much walking down it as climbing.",
+				},
+			},
+			cn = {
+				{
+					"坡度很陡，比起坡道更像是断崖。 ",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 25,
+	},
+	block_00009 = {
+		{"msgoff"},
+		{"se", id=0, file="se074", time=500},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg47", x=0, y=270, speed=25000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg47"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人工物と自然物が混ざった悪路を、地面に指が触れるほどに腰を落として進んでいく。",
+				},
+			},
+			en = {
+				{
+					"The path is a jumble of artificial and natural surfaces, and the ceiling has collapsed in places.",
+				},
+			},
+			cn = {
+				{
+					"我下蹲到几乎手指能够到地面，在混杂着人造物和天然物的险路上前进。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 31,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天井付近に捻れた階段が埋もれていた。",
+				},
+			},
+			en = {
+				{
+					"I have to crouch and crawl on my knees to make any progress.",
+				},
+			},
+			cn = {
+				{
+					"天花板附近埋着一道扭曲的楼梯。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 32,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"通常、放置された建物は数百年で塵に還る。",
+				},
+			},
+			en = {
+				{
+					"Considering the age of this place, it wouldn't be unusual for it to be falling apart by now.",
+				},
+			},
+			cn = {
+				{
+					"一般情况下，废弃建筑物会在数百年以内重归尘土。",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 33,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"例外は高度科学期の建材で、ものによっては数千年の耐用年数を持つ。",
+				},
+			},
+			en = {
+				{
+					"But Advanced Era buildings are different - they really built things to last back then.",
+				},
+			},
+			cn = {
+				{
+					"先进科学期的建筑材料是个例外，有些甚至使用寿命能达数千年。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 34,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"このビルは、建物ごと地層に取りこまれ、土中でもみくちゃにされながら今まで残っていたのだ。",
+				},
+			},
+			en = {
+				{
+					"Despite being buried underground for hundreds of years, it's remarkably well preserved.",
+				},
+			},
+			cn = {
+				{
+					"这座大楼被整体埋入地层，在土壤的挤压下至今依然得以保全。 ",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 35,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"高度な建物には、高度な物品が残されている。",
+				},
+			},
+			en = {
+				{
+					"And a technologically advanced building means equally advanced stuff inside.",
+				},
+			},
+			cn = {
+				{
+					"先进的建筑中会留存有先进的物品。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 36,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"はやる気持ちを抑えつつ、最下層を目指す。",
+				},
+			},
+			en = {
+				{
+					"I try not to let my expectations get too high as I descend to the lowest level.",
+				},
+			},
+			cn = {
+				{
+					"平复着自己迫不及待的情绪，前往最下层。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 37,
+	},
+	block_00016 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1000, path=":bg/"},
+		{"se", id=0, file="se180"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", x=0, y=270, speed=25000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg48"},
+		{"ex", time=1000, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", time=1500, path=":bg/", set="bg48"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"眼前に現れたのは、堅固な金属扉だった。",
+				},
+			},
+			en = {
+				{
+					"Standing in front of me are a set of solid metal doors.",
+				},
+			},
+			cn = {
+				{
+					"一扇坚固的金属门出现在我的面前。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 47,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"奇跡的に水没を免れていた。",
+				},
+			},
+			en = {
+				{
+					"By some miracle, they've escaped any kind of water damage or erosion.",
+				},
+			},
+			cn = {
+				{
+					"奇迹般地没有被水淹没。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 48,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200025"},
+			},
+			ja = {
+				{
+					"「……電源まで生きているのか」",
+				},
+			},
+			en = {
+				{
+					[["I wonder if the power's still on...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……连电源都还在运作啊」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 54,
+	},
+	block_00019 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", time=1000, path=":bg/", set="bg48"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"古代科学の遺物には、千年を越えるメンテナンスフリーを実現したものもあるが、これもそのひとつだろう。",
+				},
+			},
+			en = {
+				{
+					"Some of these ruins were made to weather the centuries without any need for maintenance. Maybe this is one of them.",
+				},
+			},
+			cn = {
+				{
+					"有些古代科学的遗迹可以上千年都不需要维护，可能这里也是其中一处吧。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 59,
+	},
+	block_00020 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", x=-960, y=100, speed=4000, time=1000, zoom=200, sync=1, path=":bg/", x2=-760, y2=100, set="bg48"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"扉の横に、認証用のスロットが見えた。",
+				},
+			},
+			en = {
+				{
+					"Next to the doors is what looks like an authentication device.",
+				},
+			},
+			cn = {
+				{
+					"门旁边有一个认证用的插槽。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 64,
+	},
+	block_00021 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_item_cutin01", time=500, y=0, speed=550, ease="in", sync=1, path=":cg/", y2=100},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"手持ちのキープレートから規格の合致するものを選び、ねじこむ。",
+				},
+			},
+			en = {
+				{
+					"I take out my key plates and find one that fits into the slot.",
+				},
+			},
+			cn = {
+				{
+					"选择规格匹配的钥匙卡插了进去。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 69,
+	},
+	block_00022 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5, time=500, y2=0, y=100, speed=600, ease="in", sync=1},
+		{"se", id=0, file="se078"},
+		{"fg", mode=-2},
+		{"bg", file="bg48_01", zoom=200, x=-960, y=100, sync=0, path=":bg/", set="bg48"},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"扉のアクセスランプが激しく明滅した。",
+				},
+			},
+			en = {
+				{
+					"The access light immediately blinks on.",
+				},
+			},
+			cn = {
+				{
+					"门上的指示灯高速闪烁着。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 79,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"マスターキーを認識してくれたようだ。",
+				},
+			},
+			en = {
+				{
+					[[Looks like my "master key" will work here.]],
+				},
+			},
+			cn = {
+				{
+					"看来它认可了这把万能钥匙。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 80,
+	},
+	block_00024 = {
+		{"bgm", stop=1, time=8000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48_01", time=1000, path=":bg/", set="bg48"},
+		{"se", id=0, file="se079"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="bg48_01", speed=10000, time=0, zoom=125, sync=1, ease="in", path=":bg/", z2=100, set="bg48"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"数分の激しいせめぎ合いの果て、扉がゆっくりと開いていく。",
+				},
+			},
+			en = {
+				{
+					"After a few seconds of fighting with the system, the key does its job and the doors slide open.",
+				},
+			},
+			cn = {
+				{
+					"经过几分钟激烈的开合挣扎，门缓缓地打开了。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 93,
+	},
+	block_00025 = {
+		{"msgoff"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200034"},
+			},
+			ja = {
+				{
+					"「…………ッ」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 100,
+	},
+	block_00026 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"bgm", file="bgm15"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=480, y=-200, speed=35000, ease="none", sync=0, zoom=150, path=":bg/", x2=-480, y2=-200, set="bg46"},
+		{"flash", mode="siglus", time=3500, alpha=255, color="ffffff", style="ar_screen"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"浸蝕の一切を拒絶して、その部屋は完璧に保全されていた。",
+				},
+			},
+			en = {
+				{
+					"Aside from one small corroded patch, the entire room is intact.",
+				},
+			},
+			cn = {
+				{
+					"房间回绝了任何形式的侵蚀，完好地保存着一切。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 108,
+	},
+	block_00027 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=200, y=200, speed=5000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=200, y2=100, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"四方の壁を埋める機材。",
+				},
+			},
+			en = {
+				{
+					"Not only that, it's full of machinery.",
+				},
+			},
+			cn = {
+				{
+					"四面的墙边布满了设备。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 110,
+	},
+	block_00028 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-400, y=270, speed=5000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=-200, y2=270, set="bg46"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"星の数ほど瞬く、緑色のインジケーターランプ。",
+				},
+			},
+			en = {
+				{
+					"Green indicator lamps flash and blink, numerous as the stars in the night sky.",
+				},
+			},
+			cn = {
+				{
+					"无数的绿色指示灯如繁星般闪烁着。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 112,
+	},
+	block_00029 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-100, y=-200, speed=4000, time=1500, zoom=200, sync=1, path=":bg/", x2=-100, y2=-100, set="bg46"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そして部屋の中央に安置された、棺を印象させるカプセル。",
+				},
+			},
+			en = {
+				{
+					"In the middle of the room is a coffin-like capsule.",
+				},
+			},
+			cn = {
+				{
+					"安放在房间中央的胶囊型设备，不禁使人联想到棺材。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 117,
+	},
+	block_00030 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", time=1500, path=":bg/", set="bg46"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200041"},
+			},
+			ja = {
+				{
+					"「生成装置」",
+				},
+			},
+			en = {
+				{
+					[["A replicator?"]],
+				},
+			},
+			cn = {
+				{
+					"「生成装置」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 121,
+	},
+	block_00031 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-100, y=-150, speed=12000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=200, y2=-150, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"プリンターとも呼ばれる機械だ。",
+				},
+			},
+			en = {
+				{
+					"Some people also call it a printer.",
+				},
+			},
+			cn = {
+				{
+					"又称打印台的机器。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 126,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カプセルに満たした特殊溶液を電気制御し、直接物体を生成・出力する。",
+				},
+			},
+			en = {
+				{
+					"It passes a current through a special liquid to create and output matter in whatever arrangement is specified.",
+				},
+			},
+			cn = {
+				{
+					"通过电流控制充盈于胶囊中的特殊溶液，直接生成和输出物体。 ",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 127,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"言うまでもなく、科学の失われた今となっては貴重品だ。",
+				},
+			},
+			en = {
+				{
+					"Needless to say, this is also a relic of the Advanced Era.",
+				},
+			},
+			cn = {
+				{
+					"在科学技术失传的当下，这毫无疑问是极为贵重的设备。",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 128,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"完動状態となれば、その価値は計り知れない。",
+				},
+			},
+			en = {
+				{
+					"If this thing is still operational, its value is inestimable.",
+				},
+			},
+			cn = {
+				{
+					"只要能完美运行，其价值将不可估量。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 129,
+	},
+	block_00035 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-100, y=-200, speed=4000, time=1000, zoom=200, sync=1, path=":bg/", x2=-100, y2=-100, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"震える手で、カプセル表面に触れる。",
+				},
+			},
+			en = {
+				{
+					"My hand is trembling as I reach out and touch it.",
+				},
+			},
+			cn = {
+				{
+					"激动颤抖的手触碰着胶囊的表面。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 134,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"内部はよく見えない。",
+				},
+			},
+			en = {
+				{
+					"I can't see if there's anything inside.",
+				},
+			},
+			cn = {
+				{
+					"内部看不太清楚。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 135,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"パラメーターはプロセス完了後の待機状態を示している。",
+				},
+			},
+			en = {
+				{
+					"It's on standby, the mode it typically shifts into after finishing an operation.",
+				},
+			},
+			cn = {
+				{
+					"参数显示程序处理已经结束，正处于待机状态。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 136,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あたたかい。",
+				},
+			},
+			en = {
+				{
+					"Still warm.",
+				},
+			},
+			cn = {
+				{
+					"很暖和。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 137,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"この熱が洞窟内を暖めているのだ。",
+				},
+			},
+			en = {
+				{
+					"This must have been heating the cave for who knows how long.",
+				},
+			},
+			cn = {
+				{
+					"是这股热量在温暖着洞窟。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 138,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もしこの装置を一式、まるごと持ち帰れば、一生遊んで暮らせる。",
+				},
+			},
+			en = {
+				{
+					"If I could take all this stuff with me I'd be on easy street for the rest of my life.",
+				},
+			},
+			cn = {
+				{
+					"如果能把这一整套设备都搬回家，我这辈子就不愁吃喝了。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 139,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが不可能だ。持ち帰れるサイズじゃない。",
+				},
+			},
+			en = {
+				{
+					"But that wouldn't be practical. It's too big, and there's too much of it.",
+				},
+			},
+			cn = {
+				{
+					"但这是不可能的，尺寸上来说无法带走。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 140,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……気持ちを仕事に戻す。",
+				},
+			},
+			en = {
+				{
+					"Anyway, back to the job at hand...",
+				},
+			},
+			cn = {
+				{
+					"……让自己回到工作状态。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 141,
+	},
+	block_00043 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", time=1000, path=":bg/", set="bg46"},
+		{"se", id=0, file="se006"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"パネルを操作する。",
+				},
+			},
+			en = {
+				{
+					"I find the control panel and input some commands.",
+				},
+			},
+			cn = {
+				{
+					"操作面板。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 146,
+	},
+	block_00044 = {
+		{"se", id=0, file="se080"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カプセル内から濃緑色の溶液が排水されていく。",
+				},
+			},
+			en = {
+				{
+					"There's a rushing sound, and a green liquid is expelled from inside the capsule.",
+				},
+			},
+			cn = {
+				{
+					"深绿色的溶液从胶囊内排出。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 148,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"溶液が抜けると、今度は強めの水圧による洗浄が開始される。",
+				},
+			},
+			en = {
+				{
+					"After that drains away, it begins a high-pressure wash cycle.",
+				},
+			},
+			cn = {
+				{
+					"排尽溶液后，又用稍强的水压开始清洗。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 149,
+	},
+	block_00046 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"bgm", stop=1, time=1000},
+		{"se", id=0, file="se007"},
+		{"ex", time=2000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カプセルの天面が、ゆっくりと開いた。",
+				},
+			},
+			en = {
+				{
+					"Finally, the lid slowly lifts open.",
+				},
+			},
+			cn = {
+				{
+					"胶囊的顶盖慢慢地打开。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 158,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"息を呑む。",
+				},
+			},
+			en = {
+				{
+					"My breath catches in my throat.",
+				},
+			},
+			cn = {
+				{
+					"我倒吸了一口气。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 159,
+	},
+	block_00048 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=-500, y=0, speed=10000, ease="none", sync=0, zoom=100, path=":ev/", x2=-100, y2=0, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"bgm", file="bgm23", time=5000},
+		{"flash", mode="siglus", time=3000, alpha=255, color="ffffff", style="ar_screen"},
+		{"ex", time=500, func="wait"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01", speed=2000, time=2000, zoom=100, lv=5, z2=115, sync=1, path=":ev/", id=1, set="ts01"},
+		{"ex", time=1000, func="wait"},
+		{"msgon"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200063"},
+			},
+			ja = {
+				{
+					"「こいつは――」",
+				},
+			},
+			en = {
+				{
+					[["This is..."]],
+				},
+			},
+			cn = {
+				{
+					"「这是――」",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 173,
+	},
+	block_00049 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=-300, y=-150, speed=20000, ease="none", time=1500, zoom=100, sync=1, path=":ev/", x2=100, y2=-150, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少女型アンドロイド。",
+				},
+			},
+			en = {
+				{
+					"It's an android.",
+				},
+			},
+			cn = {
+				{
+					"少女型仿生人。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 178,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外見年齢１２歳前後。",
+				},
+			},
+			en = {
+				{
+					"In appearance, it resembles a human girl of around 12.",
+				},
+			},
+			cn = {
+				{
+					"外观年龄大约１２岁。 ",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 179,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"愛玩用にしばしば見られる、不自然な誇張がない。",
+				},
+			},
+			en = {
+				{
+					[[But there's no weird anatomy like you'd see on models built for "entertainment."]],
+				},
+			},
+			cn = {
+				{
+					"玩赏用人偶上常见的那些夸张到不自然的部位，一概没有。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 180,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"生きた人間そのものだ。",
+				},
+			},
+			en = {
+				{
+					"It looks just like a real human.",
+				},
+			},
+			cn = {
+				{
+					"完全就是活生生的人。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 181,
+	},
+	block_00053 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=100, y=-1090, speed=20000, ease="none", time=2000, zoom=100, sync=0, path=":ev/", x2=100, y2=-690, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"体表はシームレス構造。",
+				},
+			},
+			en = {
+				{
+					[[The outer casing - its "skin" - is totally seamless.]],
+				},
+			},
+			cn = {
+				{
+					"体表是无缝构造。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 185,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一体生成されており、パーツの合わせ目はまったく見られない。",
+				},
+			},
+			en = {
+				{
+					"I can't make out where any of the parts fit together.",
+				},
+			},
+			cn = {
+				{
+					"它是一体成型的，看不到任何零件的接缝。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 186,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ここまでリアルな人形を、愛玩目的以外でわざわざ設計する理由。",
+				},
+			},
+			en = {
+				{
+					"If this wasn't made to be someone's companion, why aim for such a high degree of realism?",
+				},
+			},
+			cn = {
+				{
+					"如果不是用来玩赏，又为什么要费尽心思设计如此真实的人偶？",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 187,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……俺には思いつかない。",
+				},
+			},
+			en = {
+				{
+					"I can't figure it out.",
+				},
+			},
+			cn = {
+				{
+					"……我是想不出来理由。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 188,
+	},
+	block_00057 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01", time=1500, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが構わない。考えるのは俺の仕事じゃない。",
+				},
+			},
+			en = {
+				{
+					"But my place is not to reason why.",
+				},
+			},
+			cn = {
+				{
+					"不过无所谓，思考这些也不是我的任务。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 190,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"すべきことは、こいつを回収して依頼人に届けること。",
+				},
+			},
+			en = {
+				{
+					"My mission is just to get this thing out of here and deliver it to my client.",
+				},
+			},
+			cn = {
+				{
+					"我要做的就是回收它，并把它交到委托人手上。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 191,
+	},
+	block_00059 = {
+		{"msgoff"},
+		{"bgm", stop=1, time=2000},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=-150, y=-270, speed=2000, ease="none", time=1500, zoom=75, sync=1, path=":ev/", x2=-150, y2=-300, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200077"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 197,
+	},
+	block_00060 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_02_ex", x=-150, y=-270, speed=0, ease="none", time=2000, zoom=75, sync=1, path=":ev/", x2=-150, y2=-300, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そのとき、少女の目が開いた。",
+				},
+			},
+			en = {
+				{
+					[[The "girl" opens her eyes.]],
+				},
+			},
+			cn = {
+				{
+					"这时，少女睁开了眼睛。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 202,
+	},
+	block_00061 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_04_ex", x=-200, y=-100, speed=2000, ease="none", time=2000, zoom=100, sync=1, path=":ev/", x2=-150, y2=-100, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"深みのある青い瞳が、俺を射すくめる。",
+				},
+			},
+			en = {
+				{
+					"They're a deep shade of blue, and they bore right into me.",
+				},
+			},
+			cn = {
+				{
+					"那深邃的蓝色眼瞳盯向了我。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 207,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"圧を感じた。",
+				},
+			},
+			en = {
+				{
+					"It's actually a little intimidating.",
+				},
+			},
+			cn = {
+				{
+					"有一股压迫感。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 208,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"聡明な相手に不利な交渉を強いられるような、居心地の悪さ。",
+				},
+			},
+			en = {
+				{
+					"Her gaze gives me the same feeling as when an awkward client gets the better of me in negotiations.",
+				},
+			},
+			cn = {
+				{
+					"仿佛我在被迫与一位聪明的对手进行不利的谈判一般，令人不适。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 209,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"理解できる。",
+				},
+			},
+			en = {
+				{
+					"That's when I know it for sure.",
+				},
+			},
+			cn = {
+				{
+					"我可以感受得到。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 210,
+	},
+	block_00065 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_04", speed=2000, time=2000, zoom=100, lv=5, z2=110, sync=1, path=":ev/", id=1, set="ts01"},
+		{"msg", no=98, mode="novel"},
+		{"msgoff"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"この人形には、知性がある。",
+				},
+			},
+			en = {
+				{
+					"This machine lying before me...is intelligent.",
+				},
+			},
+			cn = {
+				{
+					"这是一个拥有智能的人偶。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 217,
+	},
+	block_00066 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", wait=0, func="wait", time=0},
+		{"achievements", name="stat_2"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00065",
+		line = 230,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

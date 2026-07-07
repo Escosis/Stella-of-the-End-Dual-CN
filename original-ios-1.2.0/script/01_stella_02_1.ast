@@ -1,0 +1,2349 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"user", mode="altthumb", no=2},
+		{"msgoff"},
+		{"savetitle", text="疑わしき依頼", en="Dubious Request", cn="可疑的请求"},
+		{"user", mode="autosave", no=2},
+		{"eval", exp="g.chap02=1"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"se", file="se_eyecatch00", id=1},
+		{"savetitle", text="疑わしき依頼", en="Dubious Request", cn="可疑的请求"},
+		{"bg", file="eyecatch_02", movie=1, path=":ani/", bx=960},
+		{"ex", movie=1, func="wait", time=0},
+		{"ex", time=4000, func="wait"},
+		{"ex", time=4500, func="wait"},
+		{"se", stop=1, id=-1, time=1000},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"msg", no=98, mode="novel"},
+		{"msgoff"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"時は巻き戻る――",
+				},
+			},
+			en = {
+				{
+					"Let's turn back the clock a little.",
+				},
+			},
+			cn = {
+				{
+					"回溯时间――",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"msgoff"},
+		{"bgm", file="bgm17"},
+		{"se", id=0, file="se179", time=1000},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg05", x=-480, y=270, speed=25000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=-480, y2=-270, set="bg05"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, path=":ani/", bx=960},
+		{"extrans", time=2000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ほとんどの人間が、生まれた街で育ってそのまま死ぬ。",
+				},
+			},
+			en = {
+				{
+					"Most people live their whole lives in the town where they were born.",
+				},
+			},
+			cn = {
+				{
+					"大多数人都会在出生的城镇中长大，并在那里度过一生。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 26,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当たり前のことだ。",
+				},
+			},
+			en = {
+				{
+					"It's only natural.",
+				},
+			},
+			cn = {
+				{
+					"这是再正常不过的事情。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 27,
+	},
+	block_00003 = {
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg05", x=-480, y=-150, speed=35000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=480, y2=-150, set="bg05"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, path=":ani/", bx=960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"険しい自然、獣、ならず者、有毒物質、機械――",
+				},
+			},
+			en = {
+				{
+					"The outside world is full of dangerous wildlife, poisonous plants, gangs, not to mention the Machines.",
+				},
+			},
+			cn = {
+				{
+					"险恶的自然环境、野兽、暴徒、有毒物质、机器――",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 32,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外界には命を脅かすものがいくらでもある。",
+				},
+			},
+			en = {
+				{
+					"Everywhere you turn, there's a new threat to your wellbeing.",
+				},
+			},
+			cn = {
+				{
+					"在外部，威胁生命的事物多到数不过来。",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 33,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"地球はもう人間の世界じゃないのだ。",
+				},
+			},
+			en = {
+				{
+					"Humans stopped being this planet's dominant species a long time ago.",
+				},
+			},
+			cn = {
+				{
+					"地球早已不再是属于人类的世界了。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 34,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"こんな時代、好んで共同体の外に出向く人間なんて、俺のような運び屋くらいのものだ。",
+				},
+			},
+			en = {
+				{
+					"The only ones who wander beyond their home settlements anymore are Couriers, like me.",
+				},
+			},
+			cn = {
+				{
+					"这时代里愿意离开共同体外出的人很少，估计也就只有我这样的货运人了。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 35,
+	},
+	block_00007 = {
+		{"se", stop=1, id=0, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts61", time=1000, path=":ev/", set="ts61"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="man", file="z000300016"},
+			},
+			ja = {
+				{
+					"「よう、ジュード」",
+				},
+			},
+			en = {
+				{
+					[["Hey, Jude."]],
+				},
+			},
+			cn = {
+				{
+					"「哟，裘德」",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 41,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000300017"},
+			},
+			ja = {
+				{
+					"「どうも、ローエンさん。",
+				},
+			},
+			en = {
+				{
+					[["Rowan. Good to see you.]],
+				},
+			},
+			cn = {
+				{
+					"「你好，罗恩。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 42,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000300018"},
+			},
+			ja = {
+				{
+					"どうですか、新しい浄水装置の方は」",
+				},
+			},
+			en = {
+				{
+					[[How's that new water filter treating you?"]],
+				},
+			},
+			cn = {
+				{
+					"新的滤水装置还好用吗？」",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 43,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="man", file="z000300019"},
+			},
+			ja = {
+				{
+					"「おかげさんで、何の問題もないよ」",
+				},
+			},
+			en = {
+				{
+					[["It's going great, thanks to you."]],
+				},
+			},
+			cn = {
+				{
+					"「多亏了你，现在没有任何问题」",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 44,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000300020"},
+			},
+			ja = {
+				{
+					"「そいつは何より」",
+				},
+			},
+			en = {
+				{
+					[["I'm glad to hear it."]],
+				},
+			},
+			cn = {
+				{
+					"「那太好了」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 45,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仕事でこの港町を訪れたのは、４ヶ月ほど前のこと。",
+				},
+			},
+			en = {
+				{
+					"I came to this port on business about four months back.",
+				},
+			},
+			cn = {
+				{
+					"４个月前，我因工作来到这个港口城镇。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 47,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大勢の運び屋とともに、指定された遺跡を調査した。",
+				},
+			},
+			en = {
+				{
+					"It was a joint mission with some other Couriers to investigate a ruins site nearby.",
+				},
+			},
+			cn = {
+				{
+					"和其他许多货运人一起，前去调查了指定的遗迹。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 48,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"運び屋とは、各地を点々と渡り歩く者たちの総称だ。",
+				},
+			},
+			en = {
+				{
+					[["Couriers." That's the name given to us itinerant workers.]],
+				},
+			},
+			cn = {
+				{
+					"货运人是时常奔波于各处这类人的总称。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 49,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"共同体間の密な交流が途絶えた現代では、運び屋のもたらすわずかな技術や物資すら、貴重な物流だ。",
+				},
+			},
+			en = {
+				{
+					"With communities being so close knit, we're the primary means of moving technology and resources around.",
+				},
+			},
+			cn = {
+				{
+					"在共同体之间的密切交流被切断的当今时代，即使货运人带来的技术或物资微不足道，也都是很宝贵的物流。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 50,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"命知らずであれば誰でも名乗れるから、絵に描いたようなならず者も多いが、中には俺のように専門技術を身につけた者もいる。",
+				},
+			},
+			en = {
+				{
+					"Anyone with a disregard for their own safety can do the job, but our ranks also include more specialized workers, myself included.",
+				},
+			},
+			cn = {
+				{
+					"只要不要命谁都能干，所以做这行的有不少非常典型的法外恶徒，但也有一些像我这样掌握了专业技术的人。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 51,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"調査隊での仕事で、俺は古代の浄水装置を回収した。",
+				},
+			},
+			en = {
+				{
+					"Our survey of the ruins here netted the town some new water processing equipment.",
+				},
+			},
+			cn = {
+				{
+					"在调查队的工作中，我回收了一台古代的滤水器。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 52,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"発電や浄水、上下水といったインフラ問題は、どこの土地でも共通の悩みだ。",
+				},
+			},
+			en = {
+				{
+					"When you get a lot of people living together, facilities like electricity, water, and sewage is always an issue.",
+				},
+			},
+			cn = {
+				{
+					"发电以及滤水、上下水道这些基建相关的问题，是所有地区共通的烦恼。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 53,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"が、人類はかつてこれらの問題に、一度究極的な解答を導き出している。",
+				},
+			},
+			en = {
+				{
+					"But every now and then, we find that humanity already found a solution to those problems.",
+				},
+			},
+			cn = {
+				{
+					"然而，人类曾经找到过解决这些问题的终极方案。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 54,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺が発見した浄水装置がそれだ。",
+				},
+			},
+			en = {
+				{
+					"The filtration system I found is a perfect example.",
+				},
+			},
+			cn = {
+				{
+					"就比如我发现的滤水器。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 55,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小屋程度のサイズしかないが、１０００人分の飲み水を確保できる。",
+				},
+			},
+			en = {
+				{
+					"It's the size of a small cabin, but it can produce enough safe drinking water for a thousand people.",
+				},
+			},
+			cn = {
+				{
+					"大小只有小房子程度，却能提供上千人份的饮用水。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 56,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"汚水だろうが海水だろうが、お構いなしに濾過してしまう。",
+				},
+			},
+			en = {
+				{
+					"Seawater, sewage, it all comes out clean as a whistle.",
+				},
+			},
+			cn = {
+				{
+					"无论是要过滤污水还是海水都来者不拒。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 57,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"超科学文明の遺物である。",
+				},
+			},
+			en = {
+				{
+					"Another technological wonder from the Advanced Era.",
+				},
+			},
+			cn = {
+				{
+					"这就是超科学文明的遗产。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 58,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"現在、人類がかろうじて生存できているのも、こうした遺物の恩恵によるものだ。",
+				},
+			},
+			en = {
+				{
+					"It's thanks to these relics that mankind can still eke out any kind of existence.",
+				},
+			},
+			cn = {
+				{
+					"现在人类能够苟活下来，也是得益于这些遗产的恩惠。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 59,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="man", file="z000300036"},
+			},
+			ja = {
+				{
+					"「あんたがアレを回収してくれなかったら、この街もどうなっていたか」",
+				},
+			},
+			en = {
+				{
+					[["I don't know what we would've done if you hadn't brought that in for us."]],
+				},
+			},
+			cn = {
+				{
+					"「要不是你带回来的那东西，我们这也不知道会怎样」",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 61,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000300037"},
+			},
+			ja = {
+				{
+					"「それが俺の稼業なんでね」",
+				},
+			},
+			en = {
+				{
+					[["Just doing my job."]],
+				},
+			},
+			cn = {
+				{
+					"「我的工作就是做这个的嘛」",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 62,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="man", file="z000300038"},
+			},
+			ja = {
+				{
+					"「ここもあと３０年は安泰だってみんな言ってるよ」",
+				},
+			},
+			en = {
+				{
+					[["Everyone says we'll be set for the next 30 years now."]],
+				},
+			},
+			cn = {
+				{
+					"「大家都说这里还能再安逸个３０年呢」",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 63,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000300039"},
+			},
+			ja = {
+				{
+					"「あれは大事に使えば、もっと保ちますよ」",
+				},
+			},
+			en = {
+				{
+					[["Maybe even longer, if you take good care of it."]],
+				},
+			},
+			cn = {
+				{
+					"「那东西好好保养的话，还能用更久」",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 64,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="man", file="z000300040"},
+			},
+			ja = {
+				{
+					"「そうだといい。今まで使っていたものも、１００年は保ったという噂だが」",
+				},
+			},
+			en = {
+				{
+					[["Could be. They say the last one kept going for a whole century."]],
+				},
+			},
+			cn = {
+				{
+					"「希望如此。听说之前用的那个都坚持了上百年呢」",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 65,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000300041"},
+			},
+			ja = {
+				{
+					"「メンテナンスのご依頼もお待ちしてますよ」",
+				},
+			},
+			en = {
+				{
+					[["If it needs any maintenance, you know who to call."]],
+				},
+			},
+			cn = {
+				{
+					"「维修工作也请随时找我」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 66,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="man", file="z000300042"},
+			},
+			ja = {
+				{
+					"「もちろんだ。ここの者であんたに頼むことに反対する者はおらんよ」",
+				},
+			},
+			en = {
+				{
+					[["Sure! I don't think anyone here would object to hiring you again."]],
+				},
+			},
+			cn = {
+				{
+					"「那当然会了。请你帮忙这里没人会反对」",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 67,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000300043"},
+			},
+			ja = {
+				{
+					"「どうも」",
+				},
+			},
+			en = {
+				{
+					[["Thanks."]],
+				},
+			},
+			cn = {
+				{
+					"「多谢了」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 68,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"訪れた当初、この男の態度はよそよそしかった。",
+				},
+			},
+			en = {
+				{
+					"Compared to when I first showed up, Rowan's done a complete 180 on me.",
+				},
+			},
+			cn = {
+				{
+					"刚来这里的时候，这个男人的态度十分冷漠。",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 70,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それが、これだ。",
+				},
+			},
+			en = {
+				{
+					"That's just the way it is.",
+				},
+			},
+			cn = {
+				{
+					"而现在却是这样。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 71,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"結果ひとつでここまで態度が変わる。",
+				},
+			},
+			en = {
+				{
+					"The way people treat you all depends on what you can do for them.",
+				},
+			},
+			cn = {
+				{
+					"做出一点成绩就能让人的态度大幅转变。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 72,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"運び屋という仕事の醍醐味だった。",
+				},
+			},
+			en = {
+				{
+					"That's part of what being a Courier is all about.",
+				},
+			},
+			cn = {
+				{
+					"这就是货运人这份工作的乐趣所在。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 73,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="man", file="z000300050"},
+			},
+			ja = {
+				{
+					"「ずっとここにいてくれよ、ジュード！」",
+				},
+			},
+			en = {
+				{
+					[["You're welcome here anytime, Jude!"]],
+				},
+			},
+			cn = {
+				{
+					"「一直留在这里吧，裘德！」",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 75,
+	},
+	block_00038 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg05", time=1000, path=":bg/", set="bg05"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"親しげに肩を叩き、男は離れていった。",
+				},
+			},
+			en = {
+				{
+					"He gives me a friendly slap on the shoulder, and we part ways.",
+				},
+			},
+			cn = {
+				{
+					"他亲热地拍了拍我的肩膀便离开了。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 79,
+	},
+	block_00039 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg05", sync=0, zoom=150, path=":bg2/", set="bg05"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_jd01_base01", face="bs3_jd_f01_01", ch="c001", path=":fg/", sync=0, mode=3, head="bs3_jd0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"ex", time=250, func="wait"},
+		{"bgm", stop=1, time=1500},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", id=1, lv=1, file="b_bg05", zoom=350, sync=0, path=":bg2/", set="bg05"},
+		{"bg", id=9, lv=5, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_jd01_base01", face="bs3_jd_f01_01", ch="c001", path=":fg/", zoom=250, mode=3, head="bs3_jd0", x=-50, y=-120, lv=3, id=13, sync=0},
+		{"extrans", time=1000},
+		{"fg", file="bs3_jd01_base01", face="bs3_jd_f01_04", ch="c001", path=":fg/", sync=1, mode=3, head="bs3_jd0", x=-50, y=-120, lv=3, id=13, zoom=250},
+		{"msg", no=98, mode="novel"},
+		{"msgoff"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000300054"},
+			},
+			ja = {
+				{
+					"「……潮時かもな」",
+				},
+			},
+			en = {
+				{
+					[["I've stayed here long enough..."]],
+				},
+			},
+			cn = {
+				{
+					"「……也许我该走了」",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 94,
+	},
+	block_00040 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"cgdel", id=9, lv=5},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1000, path=":bg/"},
+		{"se", id=0, file="se128"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg06_01", x=-480, y=-200, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=-200, set="bg06"},
+		{"bgm", file="bgm27"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"市場で手に入れた食材で、遅めの朝食をすませる。",
+				},
+			},
+			en = {
+				{
+					"I grab some food at the market and make myself a late dinner.",
+				},
+			},
+			cn = {
+				{
+					"用市场买到的食材做了顿稍迟的早餐。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 109,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ここは人口が多いだけあり、ベーコンや卵が毎朝市場に出回るのは、ありがたかった。",
+				},
+			},
+			en = {
+				{
+					"This is one of the more developed settlements in this region - you can even get bacon and eggs here.",
+				},
+			},
+			cn = {
+				{
+					"令人欣慰的是由于这里人口众多，每天早市上都能买到些培根鸡蛋。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 110,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これが数十人規模となると、ほぼ身内の関係になってしまう。",
+				},
+			},
+			en = {
+				{
+					"In smaller villages, everyone keeps the best stuff for themselves.",
+				},
+			},
+			cn = {
+				{
+					"如果人口规模只有数十人程度，就会形成互为亲朋的人际关系。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 111,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少人数の集団は、えてして排他的だ。",
+				},
+			},
+			en = {
+				{
+					"Not that I blame them. It's just human nature.",
+				},
+			},
+			cn = {
+				{
+					"小团体往往有排外倾向。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 112,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そんな人々が生活に窮すれば、容易に山賊と化す。",
+				},
+			},
+			en = {
+				{
+					"When people like that get really hard pressed, banditry is only a short step away.",
+				},
+			},
+			cn = {
+				{
+					"这样的群体一旦生活拮据，马上就会上山当强盗。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 113,
+	},
+	block_00045 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg05", x=480, y=0, speed=35000, ease="none", time=1500, zoom=150, sync=0, path=":bg/", x2=-480, y2=0, set="bg05"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, atyle="ar_add", alpha=220, file="ef_rec_black00", ax=0, ay=0, path=":ani/", bx=960},
+		{"bg", id=8, lv=9, movie=1, movieloop=1, alpha=170, file="ef_fnoise00", ax=0, ay=0, path=":ani/", bx=960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この街は平和だ。",
+				},
+			},
+			en = {
+				{
+					"But this town is nice and peaceful.",
+				},
+			},
+			cn = {
+				{
+					"这个小镇是和平的。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 120,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人と物資が有り余っているから、平和でいられる。",
+				},
+			},
+			en = {
+				{
+					"They have enough to go around and then some.",
+				},
+			},
+			cn = {
+				{
+					"人口和物资都很充足，所以才能维持和平。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 121,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんなコミュニティに恩を売れたのは、運び屋としては大きい。",
+				},
+			},
+			en = {
+				{
+					"Not to brag, but they owe a lot of that prosperity to Couriers.",
+				},
+			},
+			cn = {
+				{
+					"能给这样的社区卖些人情，对货运人来说也是很有好处的。 ",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 122,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"根を張ることもできるだろう。",
+				},
+			},
+			en = {
+				{
+					"It wouldn't be too hard for me to put down roots here.",
+				},
+			},
+			cn = {
+				{
+					"也许可以在这里扎下根。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 123,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"住人からも歓迎されるはずだ。",
+				},
+			},
+			en = {
+				{
+					"The townsfolk would probably welcome me with open arms.",
+				},
+			},
+			cn = {
+				{
+					"住民肯定也会表示欢迎。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 124,
+	},
+	block_00050 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts61", time=1000, path=":ev/", set="ts61"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, atyle="ar_add", alpha=220, file="ef_rec_black00", ax=0, ay=0, path=":ani/", bx=960},
+		{"bg", id=8, lv=9, movie=1, movieloop=1, alpha=170, file="ef_fnoise00", ax=0, ay=0, path=":ani/", bx=960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが運び屋は定住しない。",
+				},
+			},
+			en = {
+				{
+					"But that's not how Couriers operate.",
+				},
+			},
+			cn = {
+				{
+					"但货运人是不会定居的。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 131,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"物資や情報を抱えて、共同体を渡り歩くからこそ運び屋でいられる。",
+				},
+			},
+			en = {
+				{
+					"We go wherever the work is, following any lead, any resource, from town to town.",
+				},
+			},
+			cn = {
+				{
+					"只有身携物资或信息游走于各个共同体，才能称得上是货运人。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 132,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"根を張ってしまったら、単なる機械屋だ。",
+				},
+			},
+			en = {
+				{
+					"If I did stay here, I'd just be a regular engineer.",
+				},
+			},
+			cn = {
+				{
+					"要是扎下根，就只不过是普通的机械工了。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 133,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"重宝はされるだろうが……。",
+				},
+			},
+			en = {
+				{
+					"That wouldn't be a bad life, but it's not for me.",
+				},
+			},
+			cn = {
+				{
+					"当然八成还是会很有市场的吧……",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 134,
+	},
+	block_00054 = {
+		{"bgm", stop=1, time=5000},
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg06_01", time=500, path=":bg/", set="bg06"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そろそろ＜渡り＞の頃合いかもしれない。",
+				},
+			},
+			en = {
+				{
+					"It's time I thought about moving on.",
+				},
+			},
+			cn = {
+				{
+					"差不多是时候该“游走”去下一个地方了。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 141,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そんなことを思案していると――",
+				},
+			},
+			en = {
+				{
+					"Just as I start organizing my future plans--",
+				},
+			},
+			cn = {
+				{
+					"正当我这么想着的时候――",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 142,
+	},
+	block_00056 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg06_01", x=480, y=-200, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=-480, y2=-200, set="bg06"},
+		{"se", id=0, file="se023"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"借りている廃ビルに設置したセンサーが、何かをとらえた。",
+				},
+			},
+			en = {
+				{
+					"Something triggers the sensor I set up on the outside of the building.",
+				},
+			},
+			cn = {
+				{
+					"安装在租用的废弃建筑内的传感器捕捉到了某种信号。 ",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 151,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鳴ったのは、肌身離さず持ち歩いている端末だ。",
+				},
+			},
+			en = {
+				{
+					"The data terminal I always wear starts beeping to let me know.",
+				},
+			},
+			cn = {
+				{
+					"一直随身携带的终端响了起来。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 152,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小型だが、最終世代のレストア品だ。",
+				},
+			},
+			en = {
+				{
+					"I don't know what I'd do without this thing. It's an Advanced Era relic I had restored.",
+				},
+			},
+			cn = {
+				{
+					"尽管小巧，却其实是最终世代的修复品。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 153,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"性能はどの時代のスパコンより高い。",
+				},
+			},
+			en = {
+				{
+					"It may be small, but it's more sophisticated than some supercomputers I've seen.",
+				},
+			},
+			cn = {
+				{
+					"性能高于任何时代的超级计算机。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 154,
+	},
+	block_00060 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg06_01", time=1000, path=":bg/", set="bg06"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"端末からの通知を、網膜モニターに流す。",
+				},
+			},
+			en = {
+				{
+					"The terminal streams the security footage directly into my retinal monitors.",
+				},
+			},
+			cn = {
+				{
+					"将终端发出的通知投射到视网膜屏上。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 158,
+	},
+	block_00061 = {
+		{"msgoff"},
+		{"bgm", file="bgm06"},
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"se", file="se054", id=1},
+		{"bg", id=1, lv=5, time=0, file="black", sync=1, path=":bg/"},
+		{"bg", id=2, lv=5, time=200, file="ef_monitor01_on", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"bg", id=1, lv=5, time=200, file="ef_ui05", zoom=150, y=0, alpha=224, rule="rule006", path=":cg/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=200, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960},
+		{"bg", id=1, lv=5, time=200, file="ef_ui05", zoom=150, y=270, speed=2000, ease="in", path=":cg/", y2=0, alpha=224},
+		{"ex", time=1800, func="wait"},
+		{"se", file="se106", id=1},
+		{"ex", time=200, func="wait"},
+		{"bg", id=1, lv=5, file="ef_ui05", zoom=100, y=0, time=1000, path=":cg/", alpha=224},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"上空を飛翔体が通過している。",
+				},
+			},
+			en = {
+				{
+					"Our intruder is a small flying object.",
+				},
+			},
+			cn = {
+				{
+					"上空有飞行物正在穿过这一带。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 166,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"飛翔体の高度は……３０００メートルほど。",
+				},
+			},
+			en = {
+				{
+					"It's at an elevation of 3,000 meters above sea level.",
+				},
+			},
+			cn = {
+				{
+					"飞行物的高度是……约３０００米。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 167,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"微弱な電波を撒き散らしている。妙なふるまいだ。",
+				},
+			},
+			en = {
+				{
+					"So far, it hasn't done anything noteworthy. It's just putting out a faint energy signature in all directions.",
+				},
+			},
+			cn = {
+				{
+					"它释放着微弱的电波，举动很古怪。 ",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 168,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"飛翔体自体は低速。",
+				},
+			},
+			en = {
+				{
+					"Whatever it is, it doesn't move all that fast.",
+				},
+			},
+			cn = {
+				{
+					"飞行物本身的速度很慢。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 169,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"明らかに人工物だが、飛行機ではない。",
+				},
+			},
+			en = {
+				{
+					"It's clearly manmade, but it's not a plane.",
+				},
+			},
+			cn = {
+				{
+					"很显然是人造物，但又不是飞机。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 170,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"鳥とも違う。",
+				},
+			},
+			en = {
+				{
+					"Not a bird, either.",
+				},
+			},
+			cn = {
+				{
+					"也不像是鸟类。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 171,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000300094"},
+			},
+			ja = {
+				{
+					"「乗っ取りを仕掛けてみるか」",
+				},
+			},
+			en = {
+				{
+					[["Let's see what you've got."]],
+				},
+			},
+			cn = {
+				{
+					"「试试看能不能劫持下来」",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 179,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おそらくこれは自動操縦で、セキュリティ対策もされていないと踏む。",
+				},
+			},
+			en = {
+				{
+					"If the thing is controlled automatically, it probably doesn't have any worthwhile security.",
+				},
+			},
+			cn = {
+				{
+					"我推测它处于自动运行模式，也没有做相应的安全措施。",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 181,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"持ち主とて、いるかどうか。",
+				},
+			},
+			en = {
+				{
+					"But does it have an owner? That's the real question.",
+				},
+			},
+			cn = {
+				{
+					"甚至不确定它是否被人所拥有。",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 182,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"どこかで自動生産された無人機械の一種かもしれない。",
+				},
+			},
+			en = {
+				{
+					"It could be a completely autonomous machine created without any human input.",
+				},
+			},
+			cn = {
+				{
+					"没准是某个地方自动生产出来的一种无人机器。",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 183,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そういうことは、たまにある。",
+				},
+			},
+			en = {
+				{
+					"You see stuff like that every now and then.",
+				},
+			},
+			cn = {
+				{
+					"这种情况也时有发生。",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 184,
+	},
+	block_00072 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5},
+		{"cgdel", id=2, lv=5},
+		{"se", id=0, file="se102"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg06_01", x=-480, y=-200, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=-200, set="bg06"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"念のため電波妨害をしかけ、高高度飛行装置などとの接続を強制切断する。",
+				},
+			},
+			en = {
+				{
+					"Just in case, I set up a jamming signal to stop it connecting to any other machines that might be nearby.",
+				},
+			},
+			cn = {
+				{
+					"为了安全起见我干扰了无线电，强制切断了它与超高空飞行装置等设备的连接。 ",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 192,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それから制御コマンドを送った。",
+				},
+			},
+			en = {
+				{
+					"That done, it's time for me to take control.",
+				},
+			},
+			cn = {
+				{
+					"然后发送了控制指令。",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 193,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"各時代、各文明の規格を総当たり式に試していく。",
+				},
+			},
+			en = {
+				{
+					"I try out some different approaches from different eras until I find one that works.",
+				},
+			},
+			cn = {
+				{
+					"将各个时代和文明的规格一个个地试了过去。",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 194,
+	},
+	block_00075 = {
+		{"msgoff"},
+		{"se", id=0, file="se112"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg06_01", time=1000, path=":bg/", set="bg06"},
+		{"msgon"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z900000046"},
+			},
+			ja = {
+				{
+					"「ヒット。……よし」",
+				},
+			},
+			en = {
+				{
+					[["We have a hit. And...done."]],
+				},
+			},
+			cn = {
+				{
+					"「中了……很好」",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 202,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"制御下に置けた。",
+				},
+			},
+			en = {
+				{
+					"I'm in.",
+				},
+			},
+			cn = {
+				{
+					"它现在由我所控了。",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 204,
+	},
+	block_00077 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"se", id=0, file="se188"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"部屋を飛び出て、階段をかけのぼる。",
+				},
+			},
+			en = {
+				{
+					"I leave my room and head up the stairs.",
+				},
+			},
+			cn = {
+				{
+					"冲出房间，疾步奔上楼梯。",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 210,
+	},
+	block_00078 = {
+		{"se", id=0, file="se186"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60", x=-200, y=270, speed=25000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=-200, y2=-270, set="bg60"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"８階――",
+				},
+			},
+			en = {
+				{
+					"Finally, I reach the 8th floor.",
+				},
+			},
+			cn = {
+				{
+					"８楼――",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 217,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"元は１０階建てだったが倒壊し、今は事実上の屋上となっている。",
+				},
+			},
+			en = {
+				{
+					"There were originally two more floors above this one, but this is effectively the roof now.",
+				},
+			},
+			cn = {
+				{
+					"原本是１０层楼的建筑，倒塌一部分之后这里就成了实际上的楼顶。",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 218,
+	},
+	block_00080 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="bg60_03", speed=2000, time=1500, zoom=100, lv=5, z2=115, sync=1, path=":bg/", id=1, set="bg60"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"空を見上げると、点のような飛翔体が確認できる。",
+				},
+			},
+			en = {
+				{
+					"From here, I can just make out a tiny speck high in the air.",
+				},
+			},
+			cn = {
+				{
+					"仰望天空，看到了还是一个点状的飞行物。",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 223,
+	},
+	block_00081 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="bg60_03", speed=5000, time=0, zoom=120, sync=1, ease="in", path=":bg/", z2=100, set="bg60"},
+		{"se", id=0, file="se009", time=500},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"こちらの操作に従い、ゆっくりと高度を下げ……目の前に着陸した。",
+				},
+			},
+			en = {
+				{
+					"I send out a command, and the device slowly descends and lands in front of me.",
+				},
+			},
+			cn = {
+				{
+					"它在我的操作下慢慢降低高度……最终着陆在了我的面前。",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 230,
+	},
+	block_00082 = {
+		{"se", stop=1, id=0, time=2000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts58", x=0, y=170, speed=2500, time=1000, zoom=150, sync=1, path=":ev/", x2=0, y2=270, set="ts58"},
+		{"ex", time=1000, func="wait"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts58", speed=2000, time=1500, zoom=100, lv=5, z2=110, sync=1, path=":ev/", id=1, set="ts58"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000300115"},
+			},
+			ja = {
+				{
+					"「ドローンか……！」",
+				},
+			},
+			en = {
+				{
+					[["A drone...?!"]],
+				},
+			},
+			cn = {
+				{
+					"「是无人机吗……！」",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 240,
+	},
+	block_00083 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"se", file="se054", id=1},
+		{"bg", id=1, lv=5, time=0, file="black", sync=1, path=":bg/"},
+		{"bg", id=2, lv=5, time=200, file="ef_monitor01_on", movie=1, path=":ani/", bx=960},
+		{"bg", id=1, lv=5, time=200, file="ef_ui06", alpha=192, rule="rule006", path=":cg/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=200, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"解析をかける。",
+				},
+			},
+			en = {
+				{
+					"I run an analysis on it.",
+				},
+			},
+			cn = {
+				{
+					"进行分析。",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 245,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"爆発物ではない。人を殺傷する機能はない。",
+				},
+			},
+			en = {
+				{
+					"No explosives or other harmful functions.",
+				},
+			},
+			cn = {
+				{
+					"不是爆炸物，也没有造成杀伤的能力。",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 246,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"見たことのない型。",
+				},
+			},
+			en = {
+				{
+					"It's a model I've never seen before.",
+				},
+			},
+			cn = {
+				{
+					"是我不曾见过的型号。",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 247,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが精密なつくりだった。",
+				},
+			},
+			en = {
+				{
+					"An extremely well-made one, too.",
+				},
+			},
+			cn = {
+				{
+					"但工艺十分精妙。",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 248,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ハンドメイドではない。機械による生産品だ。",
+				},
+			},
+			en = {
+				{
+					"Not handcrafted, though. Definitely the work of machines.",
+				},
+			},
+			cn = {
+				{
+					"并非手工制造，而是机器生产的产品。",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 249,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"きわめて高度な機械だ。",
+				},
+			},
+			en = {
+				{
+					"It's a very high-tech piece of equipment.",
+				},
+			},
+			cn = {
+				{
+					"这是一台极为先进的机器。",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 250,
+	},
+	block_00089 = {
+		{"bgm", stop=1, time=3000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"現代人によって運用されているとは、にわかに信じがたかった。",
+				},
+			},
+			en = {
+				{
+					"Honestly, I didn't think anything this advanced still existed.",
+				},
+			},
+			cn = {
+				{
+					"有些难以置信，它会是由现代人所控制的。",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 252,
+	},
+	block_00090 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5},
+		{"cgdel", id=2, lv=5},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", wait=1500, func="wait", time=0},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00089",
+		line = 260,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,2233 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bgm", file="bgm24"},
+		{"se", id=0, file="se208", time=1000},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg38", x=-480, y=0, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=0, set="bg38"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"密林に踏み出す。",
+				},
+			},
+			en = {
+				{
+					"We scramble into the woods.",
+				},
+			},
+			cn = {
+				{
+					"踏入丛林。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不安定な地形に加え、斜面となっている。",
+				},
+			},
+			en = {
+				{
+					"The ground is steep, crumbling beneath our feet with every step.",
+				},
+			},
+			cn = {
+				{
+					"地形本就不稳定，还是斜坡。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 15,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"気温、湿度。",
+				},
+			},
+			en = {
+				{
+					"It's warm here, and humid.",
+				},
+			},
+			cn = {
+				{
+					"再加上气温、湿度。 ",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 16,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"体力の消耗は想像以上に激しい。",
+				},
+			},
+			en = {
+				{
+					"Just walking through takes up more energy than I was expecting.",
+				},
+			},
+			cn = {
+				{
+					"体力消耗远比想象中要狠得多。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 17,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"コートのコンディションモードをフルに活用し、疲労を抑える。",
+				},
+			},
+			en = {
+				{
+					"I turn my coat's settings up to maximum to take as much of the strain off my body as I can.",
+				},
+			},
+			cn = {
+				{
+					"全面活用起外套的环境调节模式，抑制疲劳。 ",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 18,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg81", time=1000, path=":bg/", set="bg81"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しばらく進むと、偽装された砲塔に出くわした。",
+				},
+			},
+			en = {
+				{
+					"A little ways up, we find a camouflaged turret.",
+				},
+			},
+			cn = {
+				{
+					"前进一段时间后，遇到一台施加了伪装的炮塔。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 22,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"警戒したが、攻撃を仕掛けてくる気配はなかった。",
+				},
+			},
+			en = {
+				{
+					"There's a moment of tension, but it doesn't make any move to attack us.",
+				},
+			},
+			cn = {
+				{
+					"我提高了警惕，但它并没有要发动攻击的迹象。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 23,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こいつは乗っ取られていない。",
+				},
+			},
+			en = {
+				{
+					"This one hasn't been taken over yet.",
+				},
+			},
+			cn = {
+				{
+					"这台没有被劫持。",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 24,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"基部に人間用かアンドロイド用かは不明だが、通信設備が設置されていた。",
+				},
+			},
+			en = {
+				{
+					"I'm not sure whether it's meant to be operated by humans or androids, but it does seem to be connected to the central system.",
+				},
+			},
+			cn = {
+				{
+					"基座上装有通信设备，不清楚是给人类还是仿生人使用的。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 25,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"有線型だ。地下にケーブルを通している。",
+				},
+			},
+			en = {
+				{
+					"It's a wired connection, with cables running under the ground.",
+				},
+			},
+			cn = {
+				{
+					"这还是有线式的，地下有电缆穿过。 ",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 26,
+	},
+	block_00010 = {
+		{"msgoff"},
+		{"se", id=0, file="se006"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg81", time=1000, path=":bg/", set="bg81"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"交信を試みた。",
+				},
+			},
+			en = {
+				{
+					"I try to patch a call through it.",
+				},
+			},
+			cn = {
+				{
+					"尝试进行通讯。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 33,
+	},
+	block_00011 = {
+		{"se", stop=1, id=0, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg38", time=1000, path=":bg/", set="bg38"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004200017"},
+			},
+			ja = {
+				{
+					"「……誰かいないか？」",
+				},
+			},
+			en = {
+				{
+					[["Is anybody there...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……有人在吗？」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 38,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"一秒で反応があった。",
+				},
+			},
+			en = {
+				{
+					"A second later, I get a reply.",
+				},
+			},
+			cn = {
+				{
+					"一秒钟就有了反应。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 40,
+	},
+	block_00013 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", id=2, lv=5, time=200, file="ef_monitor02b_off", movie=1, style="ar_add", alpha=170, path=":ani/", bx=960},
+		{"se", file="se010", id=1},
+		{"ex", time=50, func="wait"},
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, path=":cg/"},
+		{"bg", id=20, lv=9, file="ef_monitor01", movie=1, movieloop=1, style="ar_add", path=":ani/", bx=960},
+		{"extrans", time=450, rule="rule081"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200021"},
+			},
+			ja = {
+				{
+					"『君か、ジュード君！』",
+				},
+			},
+			en = {
+				{
+					[["Is that you, Jude?"]],
+				},
+			},
+			cn = {
+				{
+					"『是你啊，裘德！』",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 46,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200022"},
+			},
+			ja = {
+				{
+					"「状況を教えてくれ」",
+				},
+			},
+			en = {
+				{
+					[["What's the situation?"]],
+				},
+			},
+			cn = {
+				{
+					"「告诉我现在的状况」",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 47,
+	},
+	block_00015 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi08", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200023"},
+			},
+			ja = {
+				{
+					"『クリムゾンアイが攻めてきた』",
+				},
+			},
+			en = {
+				{
+					[["Crimson Eye is attacking."]],
+				},
+			},
+			cn = {
+				{
+					"『赤红之眼攻了过来』",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 49,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200024"},
+			},
+			ja = {
+				{
+					"「本当か？　海を渡ってか？」",
+				},
+			},
+			en = {
+				{
+					[["Really? It got across the ocean already?"]],
+				},
+			},
+			cn = {
+				{
+					"「真的吗？　越过了大海？」",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 50,
+	},
+	block_00017 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi10", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200025"},
+			},
+			ja = {
+				{
+					"『そうだ、海底を移動してきたようだ。",
+				},
+			},
+			en = {
+				{
+					[["It seems it's equipped for marine travel.]],
+				},
+			},
+			cn = {
+				{
+					"『是的，看来是走海底移动过来的。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 52,
+	},
+	block_00018 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200026"},
+			},
+			ja = {
+				{
+					"島に導入しているシステムの一部に、ＡＩ群の干渉を受けて製造された部品が紛れ込んでいた』",
+				},
+			},
+			en = {
+				{
+					[[The system that governs this island has been infiltrated. The AI are slowly taking over."]],
+				},
+			},
+			cn = {
+				{
+					"岛上引入系统的一部分中，混入了制造时受到了ＡＩ群干扰的一些部件』",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 54,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004200027"},
+			},
+			ja = {
+				{
+					"「バックドアが仕掛けられていたんだな」",
+				},
+			},
+			en = {
+				{
+					[["Must've got in through a backdoor..."]],
+				},
+			},
+			cn = {
+				{
+					"「所以是被它们设置了后门」",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 55,
+	},
+	block_00020 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200028"},
+			},
+			ja = {
+				{
+					"『シンギュラリティマシンは４割ほどのコントロールを奪取した。",
+				},
+			},
+			en = {
+				{
+					[["The Singularity Machines have already claimed 40% of the system.]],
+				},
+			},
+			cn = {
+				{
+					"『奇点机器夺走了我约四成的控制权。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 57,
+	},
+	block_00021 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200029"},
+			},
+			ja = {
+				{
+					"現在、奪われた砲塔を順次無力化しているが、まだ時間がかかる。クラッキングも継続して仕掛けられているようだ。私自らが対処に当たっている。",
+				},
+			},
+			en = {
+				{
+					"I'm shutting down the affected turrets, but it will take time, and they're still keeping up their attack. I'm doing all I can, though.",
+				},
+			},
+			cn = {
+				{
+					"现在正逐步压制被夺走的炮塔，但还需要一些时间。黑客攻击似乎也还在继续，我正在亲自应对。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 59,
+	},
+	block_00022 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004200030"},
+			},
+			ja = {
+				{
+					"さらにクリムゾンアイ本体もさきほど上陸を開始、侵攻を開始している』",
+				},
+			},
+			en = {
+				{
+					[[Crimson Eye's main body has also made landfall. It's advancing onto the island as we speak."]],
+				},
+			},
+			cn = {
+				{
+					"并且赤红之眼本体刚刚也已经登陆，开始发动进攻』",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 61,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……超科学大戦だな。",
+				},
+			},
+			en = {
+				{
+					"Feels like we've been thrust into the middle of a high-tech war.",
+				},
+			},
+			cn = {
+				{
+					"……简直是超科学大战。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 63,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200034"},
+			},
+			ja = {
+				{
+					"「勝てそうか？」",
+				},
+			},
+			en = {
+				{
+					[["Do you think we can win?"]],
+				},
+			},
+			cn = {
+				{
+					"「感觉能赢吗？」",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 65,
+	},
+	block_00025 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200035"},
+			},
+			ja = {
+				{
+					"『電子戦については最終的にこちらが勝つ。だがクリムゾンアイ本体については、どうなるかわからん』",
+				},
+			},
+			en = {
+				{
+					[["Ultimately, yes. But there's no telling what Crimson Eye will do in the meantime."]],
+				},
+			},
+			cn = {
+				{
+					"『电子战最终我们会取得胜利。但赤红之眼本体那边还充满了悬念』",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 67,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200036"},
+			},
+			ja = {
+				{
+					"「俺たちはどうしたらいい？」",
+				},
+			},
+			en = {
+				{
+					[["What do you want us to do?"]],
+				},
+			},
+			cn = {
+				{
+					"「我们应该怎么办？」",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 68,
+	},
+	block_00027 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200037"},
+			},
+			ja = {
+				{
+					"『その位置は……徒歩で山頂を目指していたのだな？』",
+				},
+			},
+			en = {
+				{
+					[["From your current position... Can you make it up the mountain on foot?"]],
+				},
+			},
+			cn = {
+				{
+					"『你们现在的位置……是打算徒步前往山顶吗？』",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 70,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200038"},
+			},
+			ja = {
+				{
+					"「ああ」",
+				},
+			},
+			en = {
+				{
+					[["Yes..."]],
+				},
+			},
+			cn = {
+				{
+					"「是的」",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 71,
+	},
+	block_00029 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200039"},
+			},
+			ja = {
+				{
+					"『では今のコースを進んでくれ。くれぐれも道には出ぬよう。つねに監視されているはずだ。悪いがたいした護衛はつけられん。なんとか自力で辿り着いてくれ』",
+				},
+			},
+			en = {
+				{
+					[["Then make for the peak. Stay off the roads, they're being watched. I'm afraid I have my hands full, so you'll have to get by without any help."]],
+				},
+			},
+			cn = {
+				{
+					"『那么请继续按照现在的路线前进。千万不要走到道路上，你们恐怕时刻在被监视着。很抱歉我没法为你们提供多少保护，请自己设法到达目的地』",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 73,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004200040"},
+			},
+			ja = {
+				{
+					"「もとよりそのつもりだ」",
+				},
+			},
+			en = {
+				{
+					[["I'm used to that."]],
+				},
+			},
+			cn = {
+				{
+					"「本来就是这么打算的」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 74,
+	},
+	block_00031 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200041"},
+			},
+			ja = {
+				{
+					"『……クリムゾンアイは、ずっと諸君を監視していたのだろう。そしてちょうど今、彼女の成長具合を危険と見なしたようだ』",
+				},
+			},
+			en = {
+				{
+					[["Crimson Eye may have been observing you this whole time... This attack may be because your android's development reached a certain level."]],
+				},
+			},
+			cn = {
+				{
+					"『……赤红之眼应该一直在监视着你们，而且就在刚刚，似乎认定了她的成长状况很危险』",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 76,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200042"},
+			},
+			ja = {
+				{
+					"「狙いはフィリアか？」",
+				},
+			},
+			en = {
+				{
+					[["It's after Philia?"]],
+				},
+			},
+			cn = {
+				{
+					"「它的目标是菲莉娅吗？」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 77,
+	},
+	block_00033 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004200043"},
+			},
+			ja = {
+				{
+					"『いや、君も危険だ。Ａｅ型アンドロイドの育成者と認識されたはず』",
+				},
+			},
+			en = {
+				{
+					[["Not just her. It's probably aware you're the one who raised her as well."]],
+				},
+			},
+			cn = {
+				{
+					"『不，你也很危险。它应该将你识别为了Ａｅ型仿生人的培育者』",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 79,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200044"},
+			},
+			ja = {
+				{
+					"「……ふん、ここまで来たら、なんでもいい」",
+				},
+			},
+			en = {
+				{
+					[["Well, we've come this far, why make things easy?"]],
+				},
+			},
+			cn = {
+				{
+					"「……呵，都走到这一步了，随它去吧」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 80,
+	},
+	block_00035 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg38", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004200045"},
+			},
+			ja = {
+				{
+					"『苦労をかける。報酬は増額させてもらう。では現地で待つ』",
+				},
+			},
+			en = {
+				{
+					[["I appreciate it's not ideal. I'll increase your payment accordingly. We'll speak more when you get here."]],
+				},
+			},
+			cn = {
+				{
+					"『给你添麻烦了，我会多提供一些报酬的。那么，我在目的地等你们』",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 82,
+	},
+	block_00036 = {
+		{"msgoff"},
+		{"bg", id=20, lv=9, file="ef_monitor02b_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"se", file="se011", id=1},
+		{"bg", file="bg38", path=":bg/", set="bg38"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"extrans", time=450, rule="rule081"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"通信が切れる。",
+				},
+			},
+			en = {
+				{
+					"The connection cuts out.",
+				},
+			},
+			cn = {
+				{
+					"通信结束。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 87,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老人も余裕がなかった。",
+				},
+			},
+			en = {
+				{
+					"Willem's under a lot of stress right now.",
+				},
+			},
+			cn = {
+				{
+					"老人也没有空闲。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 88,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それでも口調からは、最後には自分が勝つという意思を感じた。",
+				},
+			},
+			en = {
+				{
+					"But he sounded confident enough he'd triumph in the end.",
+				},
+			},
+			cn = {
+				{
+					"即便如此从他的语气中，我还是听出了他认为自己会笑到最后的决心。 ",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 89,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"島の中心に辿り着けば、生き残ることができる。",
+				},
+			},
+			en = {
+				{
+					"If we can make it up the mountain we might just survive.",
+				},
+			},
+			cn = {
+				{
+					"只要到达岛的中心，我们就能活下来。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 90,
+	},
+	block_00040 = {
+		{"fg", file="bs2_ph03_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", ex01="bs2_ph01_parts01", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200052"},
+			},
+			ja = {
+				{
+					"「フィリア、行くぞ！」",
+				},
+			},
+			en = {
+				{
+					[["Come on, Philia!"]],
+				},
+			},
+			cn = {
+				{
+					"「菲莉娅，我们走！」",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 93,
+	},
+	block_00041 = {
+		{"fg", file="bs2_ph03_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", ex01="bs2_ph01_parts01", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z004200053"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 95,
+	},
+	block_00042 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"se", id=0, file="se161"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"再び密林へ飛び込む。",
+				},
+			},
+			en = {
+				{
+					"We dive back into the tree cover.",
+				},
+			},
+			cn = {
+				{
+					"再次跳进丛林。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 102,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"蔓草を鉈で切り払い、倒木を乗り越え、崖をよじ登る。",
+				},
+			},
+			en = {
+				{
+					"I cut through undergrowth with my knife and clamber over fallen trees as we make our way up.",
+				},
+			},
+			cn = {
+				{
+					"用砍刀劈开藤蔓，翻越倒木，攀爬悬崖。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 103,
+	},
+	block_00044 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg38", x=-480, y=0, speed=35000, ease="none", time=1000, zoom=150, sync=0, path=":bg/", x2=480, y2=0, set="bg38"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000},
+		{"se", id=0, file="se055"},
+		{"quake", dir="user", move="wh", dir2="wh", time=120, count=2, power=10},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"砲声が轟く。",
+				},
+			},
+			en = {
+				{
+					"Guns are firing all around us.",
+				},
+			},
+			cn = {
+				{
+					"炮声轰鸣。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 111,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"なるたけ射線の通る空間を避けて移動する。",
+				},
+			},
+			en = {
+				{
+					"I do my best to keep us out of the crossfire.",
+				},
+			},
+			cn = {
+				{
+					"尽量避开有弹道穿过的空间移动。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 112,
+	},
+	block_00046 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=1},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg38", sync=0, zoom=150, path=":bg2/", set="bg38"},
+		{"fg", file="bs3_ph03_base01", face="bs3_ph_f01_13", ch="c002", path=":fg/", ex01="bs3_ph01_parts01", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004200060"},
+			},
+			ja = {
+				{
+					"「手を出せ！」",
+				},
+			},
+			en = {
+				{
+					[["Give me your hand!"]],
+				},
+			},
+			cn = {
+				{
+					"「把手伸过来！」",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 118,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"先に高台に上がり、フィリアに手を貸す。",
+				},
+			},
+			en = {
+				{
+					"I reach a high ledge and reach down to pull Philia up.",
+				},
+			},
+			cn = {
+				{
+					"我先爬上了高台，然后伸手去帮菲莉娅。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 120,
+	},
+	block_00048 = {
+		{"bgm", stop=1, time=3000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そこからは海岸の様子が一望できた。",
+				},
+			},
+			en = {
+				{
+					"We have a full view of the harbor from here.",
+				},
+			},
+			cn = {
+				{
+					"从那里可以俯瞰海岸的情况。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 125,
+	},
+	block_00049 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60_01", x=0, y=-270, speed=25000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=0, y2=270, set="bg60"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最初、何も見えなかった。",
+				},
+			},
+			en = {
+				{
+					"At first I don't see our enemy.",
+				},
+			},
+			cn = {
+				{
+					"起初，什么也看不见。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 130,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"激しい戦闘だけが起きていた。",
+				},
+			},
+			en = {
+				{
+					"But there's obviously a fight going on.",
+				},
+			},
+			cn = {
+				{
+					"只有激烈的战斗在进行着。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 131,
+	},
+	block_00051 = {
+		{"se", id=0, file="se055"},
+		{"quake", dir="user", move="wh", dir2="wh", time=120, count=2, power=10},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg60_01", x=-480, y=0, speed=35000, ease="none", time=1500, zoom=150, sync=0, path=":bg/", x2=480, y2=0, set="bg60"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, dir="rx", path=":ani/", bx=960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ドローンが自爆攻撃を仕掛け、地上の迎撃兵器群が砲弾の雨を降らせる。",
+				},
+			},
+			en = {
+				{
+					"Drones are hovering around, unleashing a hail of bullets.",
+				},
+			},
+			cn = {
+				{
+					"无人机发动自杀式攻击，地面上的防御武器群倾泄弹雨。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 138,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"何もない空間に対してそれを行う。",
+				},
+			},
+			en = {
+				{
+					"The spot they're aiming at looks like just a big empty space.",
+				},
+			},
+			cn = {
+				{
+					"它们对着空无一物的空间进行着这一切。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 139,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"飽和気味の攻撃にやがて電磁偽装が乱されると、そいつの姿が暴かれた。",
+				},
+			},
+			en = {
+				{
+					"Eventually, the barrage manages to disrupt the thing's cloaking, and it shimmers into view.",
+				},
+			},
+			cn = {
+				{
+					"在略显饱和的攻击下，电磁伪装不久便被打乱，它的身影也就暴露了出来。 ",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 140,
+	},
+	block_00054 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"se", id=0, file="se003"},
+		{"quake", dir="user", move="wh", dir2="wh", time=120, count=2, power=10},
+		{"bgm", file="bgm11"},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="cg_ts07_01", x=0, y=270, speed=3000, ease="none", time=1500, zoom=150, sync=0, path=":ev/", x2=0, y2=-100, set="ts07"},
+		{"bg", id=10, lv=5, alpha=192, file="ef_dust01_short", movie=1, sync=0, path=":ani/", bx=960},
+		{"extrans", time=1500},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……ヤツだ。",
+				},
+			},
+			en = {
+				{
+					"The old man was right.",
+				},
+			},
+			cn = {
+				{
+					"……就是它。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 155,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"シンギュラリティマシン、クリムゾンアイ。",
+				},
+			},
+			en = {
+				{
+					"It's the Singularity Machine, Crimson Eye.",
+				},
+			},
+			cn = {
+				{
+					"奇点机器，赤红之眼。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 156,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"本体の中央に建つ塔頂に、赤く輝く灯台めいた輝きが灯っている。",
+				},
+			},
+			en = {
+				{
+					"There's no mistaking that bizarre form or the glowing red orb on top.",
+				},
+			},
+			cn = {
+				{
+					"本体中央矗立的塔顶上，点亮着红色灯塔般的光芒。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 157,
+	},
+	block_00057 = {
+		{"se", id=0, file="se004"},
+		{"msgoff"},
+		{"quake", dir="user", move="wh", dir2="wh", time=120, count=2, power=10},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts07_01", speed=1000, time=1000, rule="sig_250", zoom=100, lv=5, z2=150, sync=1, path=":ev/", id=1, set="ts07"},
+		{"ex", time=350, func="wait"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="cg_ts07_01", x=-100, y=200, speed=15000, ease="none", time=1000, zoom=150, sync=0, path=":ev/", x2=200, y2=200, set="ts07"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, dir="rx", path=":ani/", bx=960},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"全身に火砲を生やしている。",
+				},
+			},
+			en = {
+				{
+					"It's firing attacks from every inch of its body.",
+				},
+			},
+			cn = {
+				{
+					"它全身都长满了火炮。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 169,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"とはいっても火薬式ではなく、電磁投射式の実体弾兵器が主武装のようだ。",
+				},
+			},
+			en = {
+				{
+					"Not actual bullets, though. Some kind of electromagnetic energy blast seems to be its weapon of choice.",
+				},
+			},
+			cn = {
+				{
+					"话虽如此主武装也并非火药型，而是电磁投射型的实体弹武器。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 170,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人類もかつてこの種の電磁兵器を開発した。",
+				},
+			},
+			en = {
+				{
+					"Humans developed weapons like that, once.",
+				},
+			},
+			cn = {
+				{
+					"人类过去也曾开发出这种类型的电磁武器。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 171,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"時には戦争に持ち出されたこともあるという。",
+				},
+			},
+			en = {
+				{
+					"They even used them in a couple of wars.",
+				},
+			},
+			cn = {
+				{
+					"据说偶尔也会将其投入于战争。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 172,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"が、最終的にはペイできるところまで練り上げることができなかった。",
+				},
+			},
+			en = {
+				{
+					"But in the end they failed to be cost effective.",
+				},
+			},
+			cn = {
+				{
+					"但最终也没能打磨到收益可以超过成本的水准。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 173,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"より安価で安定している、枯れた技術に戻った。",
+				},
+			},
+			en = {
+				{
+					"Investors opted for cheaper, more conventional weapons.",
+				},
+			},
+			cn = {
+				{
+					"转而回去使用些更便宜、更稳定的陈旧技术。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 174,
+	},
+	block_00063 = {
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="cg_ts07_01", x=0, y=200, speed=20000, ease="none", time=1500, zoom=200, sync=0, path=":ev/", x2=0, y2=-200, set="ts07"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, dir="rx", path=":ani/", bx=960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"クリムゾンアイは体内に大出力の電源を持つのだ。",
+				},
+			},
+			en = {
+				{
+					"However, Crimson Eye has a massive power source all on its own.",
+				},
+			},
+			cn = {
+				{
+					"赤红之眼拥有高功率的内部电源。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 179,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人類が越えられない壁を越えた、歩く要塞。",
+				},
+			},
+			en = {
+				{
+					"It's a walking fortress unaffected by the obstacles humanity faced.",
+				},
+			},
+			cn = {
+				{
+					"它逾越了人类无法逾越的壁垒，是一座行走的要塞。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 180,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"無数の砲塔が蠢いている。",
+				},
+			},
+			en = {
+				{
+					"Countless turrets all open fire.",
+				},
+			},
+			cn = {
+				{
+					"无数炮塔蠢动着。 ",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 181,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"それぞれが軌条や内部構造を通過して移動し、最適位置から最大火力を放つ。",
+				},
+			},
+			en = {
+				{
+					"They run on rails back and forth within the thing, giving it maximum firepower from optimum angles.",
+				},
+			},
+			cn = {
+				{
+					"它们各自通过轨道和其内部结构移动，从最佳位置释放出最强火力。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 182,
+	},
+	block_00067 = {
+		{"se", id=1, file="se003"},
+		{"msgoff"},
+		{"quake", dir="user", move="wh", dir2="wh", time=120, count=2, power=10},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts07_01", x=0, y=540, speed=2000, time=1000, zoom=200, sync=1, path=":ev/", x2=0, y2=40, set="ts07"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_cg_ts28_01", zoom=200, y=0, speed=1000, ease="in", sync=0, path=":bg2/", y2=-50, set="ts28"},
+		{"bg", id=1, lv=5, file="ef_machine22", y=0, speed=1000, ease="in", sync=0, path=":cg/", y2=-0, ax=960, ay=640, bx=0},
+		{"bg", id=2, lv=5, file="ef_attack02", sync=0, movie=1, style="ar_add", path=":ani/", bx=960},
+		{"se", file="se051", id=1},
+		{"extrans", time=500},
+		{"ex", time=950, func="wait"},
+		{"cgdel", id=-1},
+		{"bg", file="white", time=500, path=":bg/"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts26", time=1000, rule="sig_240", path=":ev/", set="ts26"},
+		{"bg", file="white", time=500, rule="sig_250", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"島側の防衛砲台は次々と破壊されていく。",
+				},
+			},
+			en = {
+				{
+					"The island's defensive guns are destroyed one after another.",
+				},
+			},
+			cn = {
+				{
+					"岛上的防御炮台接连地被摧毁。",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 192,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"圧倒的な火力だ。",
+				},
+			},
+			en = {
+				{
+					"Crimson Eye's sheer destructive power is overwhelming.",
+				},
+			},
+			cn = {
+				{
+					"压倒性的火力。",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 193,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"それでも、物量の差が少しずつクリムゾンアイに傷をつけているのがわかる。",
+				},
+			},
+			en = {
+				{
+					"Even so, it's taking damage, a little at a time.",
+				},
+			},
+			cn = {
+				{
+					"尽管如此，还是能看出来凭借着数量的差距，逐渐让赤红之眼受到了损伤。",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 194,
+	},
+	block_00070 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="cg_ts07_01", x=0, y=150, speed=15000, ease="none", time=1000, zoom=200, sync=0, path=":ev/", x2=400, y2=150, set="ts07"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, dir="rx", path=":ani/", bx=960},
+		{"extrans", time=1000},
+		{"se", id=0, file="se056"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"クリムゾンアイが基部から、無数の多脚機械を吐き出した。",
+				},
+			},
+			en = {
+				{
+					"That's when it starts spewing out drones of its own.",
+				},
+			},
+			cn = {
+				{
+					"赤红之眼从基底部喷吐出了无数的多足机器。",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 202,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小型の無人機。",
+				},
+			},
+			en = {
+				{
+					"Small-scale autonomous machines.",
+				},
+			},
+			cn = {
+				{
+					"是一群小型无人机。",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 203,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その形状は、とうてい人間が設計したものとは思えない。",
+				},
+			},
+			en = {
+				{
+					"Their design definitely isn't something humans could come up with.",
+				},
+			},
+			cn = {
+				{
+					"它们的形状绝不像是人类设计的。",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 204,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"歪で、不気味で、類例がない形をしていた。",
+				},
+			},
+			en = {
+				{
+					"They're twisted, creepy, with no real cohesion or uniformity between them.",
+				},
+			},
+			cn = {
+				{
+					"扭曲、诡异、找不到类似的形状。",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 205,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"だがおそらくは、機能的なのだろう。",
+				},
+			},
+			en = {
+				{
+					"Odds are they've been built with pure functionality in mind.",
+				},
+			},
+			cn = {
+				{
+					"但这恐怕是极具实用性的吧。",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 206,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それらの姿は、地球上のいかなる生物とも似ていなかった。",
+				},
+			},
+			en = {
+				{
+					"They bear no resemblance to any kind of organic life.",
+				},
+			},
+			cn = {
+				{
+					"它们的模样不与地球上的任何生物相似。",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 207,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ドローン――それらは港湾を警備する無人機群を数で圧倒すると、周辺の砲塔に群がり、顎状の工具で体内に潜り込んで機能停止に至らしめる。",
+				},
+			},
+			en = {
+				{
+					"First, they take down the drones and other automated defenses. Then they swarm the turrets, digging inside them with their wicked sharp claws.",
+				},
+			},
+			cn = {
+				{
+					"无人机——它们在数量上压倒港口的警卫无人机群后，便向周围的炮塔涌去，用颚状工具钻进其内部，使其停止运转。 ",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 208,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"歩く工場。",
+				},
+			},
+			en = {
+				{
+					"It's a walking factory.",
+				},
+			},
+			cn = {
+				{
+					"行走的工厂。",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 209,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"いくらでも生み出せるのだ。",
+				},
+			},
+			en = {
+				{
+					"It can create anything it needs to turn the tide in its favor.",
+				},
+			},
+			cn = {
+				{
+					"可以无限地生产出它们来。",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 210,
+	},
+	block_00079 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg38", sync=0, zoom=150, path=":bg2/", set="bg38"},
+		{"fg", file="bs3_ph03_base01", face="bs3_ph_f01_10", ch="c002", path=":fg/", ex01="bs3_ph01_parts01", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004200098"},
+			},
+			ja = {
+				{
+					"「……まずいな。急ぐぞ」",
+				},
+			},
+			en = {
+				{
+					[["This is bad... We have to hurry."]],
+				},
+			},
+			cn = {
+				{
+					"「……不太妙啊，得赶紧了」",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 216,
+	},
+	block_00080 = {
+		{"fg", file="bs3_ph03_base01", face="bs3_ph_f01_13", ch="c002", path=":fg/", ex01="bs3_ph01_parts01", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z004200099"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 218,
+	},
+	block_00081 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg38", time=500, path=":bg/", set="bg38"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一刻の猶予もない。",
+				},
+			},
+			en = {
+				{
+					"This is no time to stand around gawking.",
+				},
+			},
+			cn = {
+				{
+					"没有一刻的喘息。",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 222,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小型機であれば、俺たちを直接追跡させることもできる。",
+				},
+			},
+			en = {
+				{
+					"A little tree cover won't stop those machines.",
+				},
+			},
+			cn = {
+				{
+					"如果是小型机器，甚至可以直接对我们展开追踪。",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 223,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"急がねばならなかった。",
+				},
+			},
+			en = {
+				{
+					"We need every second we can get.",
+				},
+			},
+			cn = {
+				{
+					"必须加快速度了。",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 224,
+	},
+	block_00084 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=3000, path=":bg/"},
+		{"ex", wait=1500, func="wait", time=0},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00083",
+		line = 229,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

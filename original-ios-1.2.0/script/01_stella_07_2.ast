@@ -1,0 +1,5090 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"excall", label="label_z50", cond="f.chap==1"},
+		{"bgm", file="bgm17"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg57", x=480, y=-200, speed=35000, ease="none", time=1000, rule="rule101", zoom=150, sync=1, path=":bg/", x2=-480, y2=-200, set="bg57"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ロビーのような場所に出た。",
+				},
+			},
+			en = {
+				{
+					"Waiting for us there is a lobby-like area.",
+				},
+			},
+			cn = {
+				{
+					"进去了一个像是大厅的地方。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 11,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"広告ひとつない殺風景な光景。",
+				},
+			},
+			en = {
+				{
+					"It looks so dreary and bleak without any ads or notices.",
+				},
+			},
+			cn = {
+				{
+					"毫无广告的荒芜光景。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 12,
+	},
+	block_00002 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg57", time=1000, path=":bg/", set="bg57"},
+		{"se", id=0, file="se054"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg57", time=1000, path=":bg/", set="bg57"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それらはすべて拡張レイヤー側に表示されていた。",
+				},
+			},
+			en = {
+				{
+					"Of course, none of the ones we saw before were physically there to begin with.",
+				},
+			},
+			cn = {
+				{
+					"它们都显示在了扩展图层上。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 18,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"数百年前のインフォメーションから、無料配布の案内図を取得した。",
+				},
+			},
+			en = {
+				{
+					"I pick up a city map from a centuries-old tourist information bureau.",
+				},
+			},
+			cn = {
+				{
+					"从几百年前的服务站处，获得了免费发放的导览图。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 19,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"この場所を中心に、四方八方に狭苦しいトンネルが延びている。",
+				},
+			},
+			en = {
+				{
+					"We wander toward a cramped-looking tunnel system leading off in all directions.",
+				},
+			},
+			cn = {
+				{
+					"以这个地方为中心，狭窄的隧道向四面八方延伸。",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 20,
+	},
+	block_00005 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400010"},
+			},
+			ja = {
+				{
+					"「ここは何？」",
+				},
+			},
+			en = {
+				{
+					[["What is this place?"]],
+				},
+			},
+			cn = {
+				{
+					"「这里是什么？」",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 24,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400011"},
+			},
+			ja = {
+				{
+					"「駅だな。都市鉄道の。",
+				},
+			},
+			en = {
+				{
+					[["Looks like a subway station.]],
+				},
+			},
+			cn = {
+				{
+					"「是一个车站，城市铁路的。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 25,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400012"},
+			},
+			ja = {
+				{
+					"鉄道というのは、鉄の道を走る大型の貨物車輌だ。",
+				},
+			},
+			en = {
+				{
+					"It's a form of public transport that uses freight cars running on metal rails.",
+				},
+			},
+			cn = {
+				{
+					"铁路交通指的是大型货运车辆沿铁轨行驶的运输系统。 ",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 26,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400013"},
+			},
+			ja = {
+				{
+					"都市内の主要な移動手段だから、あのトンネルを抜ければ、都市のどこにでも行けるはずだ」",
+				},
+			},
+			en = {
+				{
+					[[It connects to key points around the city; we can probably follow this tunnel to anywhere we need to go."]],
+				},
+			},
+			cn = {
+				{
+					"这是城市内的主要交通手段，穿过那些隧道，应该可以到达城市的任何地方」",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 27,
+	},
+	block_00009 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400014"},
+			},
+			ja = {
+				{
+					"「どこに行くの？」",
+				},
+			},
+			en = {
+				{
+					[["Where ARE we going?"]],
+				},
+			},
+			cn = {
+				{
+					"「要去哪里？」",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 29,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400015"},
+			},
+			ja = {
+				{
+					"「どうにかして南に抜ける道を探す。都市の向こう側に山が広がっていただろ。あそこに行きたいんだ。",
+				},
+			},
+			en = {
+				{
+					[["Well, we need a way out that leads south. We still need to cross those mountains outside.]],
+				},
+			},
+			cn = {
+				{
+					"「我们要设法找到条通往南方的路。城市的另一边有一片山脉，我想去那里。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 30,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400016"},
+			},
+			ja = {
+				{
+					"ここで一泊だ。情報を集めてから進路を決める。休んでいいぞ」",
+				},
+			},
+			en = {
+				{
+					[[But we'll call it a day here. I'll try to work out a plan for tomorrow, you just rest."]],
+				},
+			},
+			cn = {
+				{
+					"在这里过一夜，收集完信息后再决定行进路线。你可以休息了」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 31,
+	},
+	block_00012 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400017"},
+			},
+			ja = {
+				{
+					"「うん、そうするよ。もうへとへと」",
+				},
+			},
+			en = {
+				{
+					[["Thanks, I'm really exhausted..."]],
+				},
+			},
+			cn = {
+				{
+					"「嗯，这就休息。我已经快累晕了」",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 33,
+	},
+	block_00013 = {
+		{"fg", mode=-2, time=300},
+		{"se", id=0, file="se177", time=200},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"体力が尽きたのか、野営の準備が終わると同時にへたり込んだ。",
+				},
+			},
+			en = {
+				{
+					"The minute the camp is set up, Philia collapses in a heap. I guess everything's finally starting to catch up with her.",
+				},
+			},
+			cn = {
+				{
+					"或许是筋疲力尽了，菲莉娅刚做好露营的准备工作就瘫倒了。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 38,
+	},
+	block_00014 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg57", x=-480, y=-100, speed=35000, ease="none", time=1000, zoom=150, sync=0, path=":bg/", x2=480, y2=-100, set="bg57"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"フィリアを休ませ、ひとりでホールを調べて回る。",
+				},
+			},
+			en = {
+				{
+					"While she's sleeping, I take a look around the hall.",
+				},
+			},
+			cn = {
+				{
+					"让菲莉娅休息下后，我独自前去调查大厅。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 44,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ホールとはいっても、アーコロジー特有の土地事情で、天井が低く狭苦しい。",
+				},
+			},
+			en = {
+				{
+					[[Although I'm not sure if "hall" is the right word. In typical arcology fashion, the ceiling is low and cramped.]],
+				},
+			},
+			cn = {
+				{
+					"说是大厅，但由于生态建筑特有的土地问题导致天花板很低，空间显得狭窄。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 45,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"都市末期は避難所として利用されていたらしい。",
+				},
+			},
+			en = {
+				{
+					"It looks like it was used as an emergency shelter in the city's latter days.",
+				},
+			},
+			cn = {
+				{
+					"似乎在城市最后的时期曾被用作了避难所。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 46,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大半が腐って床にへばりついてしまっているが、無数のテントが張られていた。",
+				},
+			},
+			en = {
+				{
+					"The floor is covered with tents, most of the canvasses flaky and crumbling with age.",
+				},
+			},
+			cn = {
+				{
+					"这里立有无数的帐篷，尽管大部分已经腐烂并粘附在了地板上。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 47,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いくつかのキオスクめいた小屋も見つけた。",
+				},
+			},
+			en = {
+				{
+					"There are also stalls and kiosks dotted around the place.",
+				},
+			},
+			cn = {
+				{
+					"还找到了几个类似亭楼的小屋子。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 48,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"例によって商品は現存していない。",
+				},
+			},
+			en = {
+				{
+					"They've been cleaned out, just like the one I saw earlier.",
+				},
+			},
+			cn = {
+				{
+					"按照惯例，商品早已不复存在。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 49,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"持ち去られたか、売り切れたか、生分解したか。",
+				},
+			},
+			en = {
+				{
+					"Did their products get sold? Or stolen? Or did they just rot away?",
+				},
+			},
+			cn = {
+				{
+					"不知道是被抢走了，卖光了，还是被生物降解了。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 50,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"残っているものもある。",
+				},
+			},
+			en = {
+				{
+					"Either way, there's nothing here for me now.",
+				},
+			},
+			cn = {
+				{
+					"也有一些留了下来的东西。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 51,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"バラバラになった白骨や、ガラス瓶の類い。",
+				},
+			},
+			en = {
+				{
+					"Corpses, bones, and glass shards litter the floor.",
+				},
+			},
+			cn = {
+				{
+					"诸如四散的白骨和玻璃瓶之类的物品。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 52,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"相当数の集団が、ここで長期滞在するようなトラブルがあったようだ。",
+				},
+			},
+			en = {
+				{
+					"If I had to guess, I'd say this was the site of a conflict between different factions.",
+				},
+			},
+			cn = {
+				{
+					"看来曾有相当多的人，遭遇了一些不得不长期滞留在此的麻烦。 ",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 53,
+	},
+	block_00024 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"se", id=0, file="se008"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg57", time=1000, path=":bg/", set="bg57"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"端末が、サブプロセス終了の通知を吐いた。",
+				},
+			},
+			en = {
+				{
+					"My terminal sends me a notification about one of the sub-processes it's been running.",
+				},
+			},
+			cn = {
+				{
+					"终端跳出了子进程结束的通知。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 61,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"都市鉄道の路線図が取得できた。",
+				},
+			},
+			en = {
+				{
+					"It's finished analyzing the subway map.",
+				},
+			},
+			cn = {
+				{
+					"成功获取到了城市铁路的路线图。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 62,
+	},
+	block_00026 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60_01", time=1000, path=":bg/", set="bg60"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60e", time=1000, path=":bg/", set="bg60"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"夕食後、進路を検討する。",
+				},
+			},
+			en = {
+				{
+					"After dinner, I inspect the map and put together a route.",
+				},
+			},
+			cn = {
+				{
+					"晚饭后，我开始研究行进路线。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 68,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"複雑怪奇な路線図を読み解く。",
+				},
+			},
+			en = {
+				{
+					"It's complex enough to be incomprehensible at first, but I manage to make sense of it somehow.",
+				},
+			},
+			cn = {
+				{
+					"破译着复杂怪异的路线图。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 69,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そうして立てた移動径路を、フィリアにも説明しておく。",
+				},
+			},
+			en = {
+				{
+					"Once I have the way forward all planned out, I go through it with Philia.",
+				},
+			},
+			cn = {
+				{
+					"并向菲莉娅解释了我制定的移动路线。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 70,
+	},
+	block_00029 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg57", time=1000, path=":bg/", set="bg57"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400036"},
+			},
+			ja = {
+				{
+					"「とにかく、都市の南側に抜ける。それが全てだ。",
+				},
+			},
+			en = {
+				{
+					[["Basically, we're going to leave the city on its south side.]],
+				},
+			},
+			cn = {
+				{
+					"「总之我们要前往城市的南方，这就是所有。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 76,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400037"},
+			},
+			ja = {
+				{
+					"そのために鉄道の路線にそって、このルートで進もうと思う」",
+				},
+			},
+			en = {
+				{
+					[[But to get there, we'll have to follow this route along the subway."]],
+				},
+			},
+			cn = {
+				{
+					"为此我打算沿着铁路线，按照这条路线前进」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 77,
+	},
+	block_00031 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400038"},
+			},
+			ja = {
+				{
+					"「ふーん」",
+				},
+			},
+			en = {
+				{
+					[["Hmm..."]],
+				},
+			},
+			cn = {
+				{
+					"「哦——」 ",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 79,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400039"},
+			},
+			ja = {
+				{
+					"「疑問点はあるか？」",
+				},
+			},
+			en = {
+				{
+					[["Any questions?"]],
+				},
+			},
+			cn = {
+				{
+					"「有什么疑问吗？」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 80,
+	},
+	block_00033 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400040"},
+			},
+			ja = {
+				{
+					"「なし。ジュードについてくから」",
+				},
+			},
+			en = {
+				{
+					[["Nope. I trust you, Jude."]],
+				},
+			},
+			cn = {
+				{
+					"「没有，我就跟着裘德走」",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 82,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400041"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 83,
+	},
+	block_00035 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg57", sync=0, zoom=150, path=":bg2/", set="bg57"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_20", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400042"},
+			},
+			ja = {
+				{
+					"（……こいつ舐めてるな）",
+				},
+			},
+			en = {
+				{
+					"(She's still way too soft...)",
+				},
+			},
+			cn = {
+				{
+					"（……这态度不太端正啊）",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 88,
+	},
+	block_00036 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg57", sync=0, zoom=100, path=":bg/", set="bg57"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400043"},
+			},
+			ja = {
+				{
+					"「もしはぐれたりしたら、落ち合う場所はここだからな」",
+				},
+			},
+			en = {
+				{
+					[["Let's make this our meeting point in case we get separated."]],
+				},
+			},
+			cn = {
+				{
+					"「万一走散了，我们就在这里碰头」",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 93,
+	},
+	block_00037 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400044"},
+			},
+			ja = {
+				{
+					"「えっ？　はぐれるの？」",
+				},
+			},
+			en = {
+				{
+					[["Huh? What do you mean, separated?"]],
+				},
+			},
+			cn = {
+				{
+					"「啊？　会走散吗？」",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 95,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400045"},
+			},
+			ja = {
+				{
+					"「そういうこともあるかもな。おまえが不注意であれば」",
+				},
+			},
+			en = {
+				{
+					[["You never know what could happen, especially if you're not careful."]],
+				},
+			},
+			cn = {
+				{
+					"「你不够小心的话，搞不好就会走散」",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 96,
+	},
+	block_00039 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_07", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400046"},
+			},
+			ja = {
+				{
+					"「ち、注意するよ……」",
+				},
+			},
+			en = {
+				{
+					[["I-I'll be careful, I promise...!"]],
+				},
+			},
+			cn = {
+				{
+					"「我、我会小心的……」",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 98,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400047"},
+			},
+			ja = {
+				{
+					"「だとしても、一応落ち合う場所は知っておけ。ここだ」",
+				},
+			},
+			en = {
+				{
+					[["Even so, we need to be prepared. Make a note of this place, okay?"]],
+				},
+			},
+			cn = {
+				{
+					"「即使如此，你最好也记一下碰头的地点。在这里」",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 99,
+	},
+	block_00041 = {
+		{"se", id=0, file="se054"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"データも送信する。",
+				},
+			},
+			en = {
+				{
+					"I send her the location data.",
+				},
+			},
+			cn = {
+				{
+					"数据也发送了过去。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 104,
+	},
+	block_00042 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400051"},
+			},
+			ja = {
+				{
+					"「えっと……はぐれたら、どうやってここに移動したらいいの？」",
+				},
+			},
+			en = {
+				{
+					[["But...if we do get separated, how am I supposed to get back here on my own?"]],
+				},
+			},
+			cn = {
+				{
+					"「那个……要是走丢了，应该怎么才能来到这里？」",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 107,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400052"},
+			},
+			ja = {
+				{
+					"「そんなものはケースバイケースだ。今まで教えたことを総動員して、なんとかしろ。",
+				},
+			},
+			en = {
+				{
+					[["Improvise. Put together everything I've taught you and figure something out.]],
+				},
+			},
+			cn = {
+				{
+					"「这就得看具体情况了。动用我迄今为止教给你的全部知识，想办法解决。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 108,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400053"},
+			},
+			ja = {
+				{
+					"質問はないんだったな。なら寝ていいぞ」",
+				},
+			},
+			en = {
+				{
+					[[Any more questions? No? Good. Let's hit the sack."]],
+				},
+			},
+			cn = {
+				{
+					"你刚才说没有疑问对吧。那就可以去睡觉了」",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 109,
+	},
+	block_00045 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400054"},
+			},
+			ja = {
+				{
+					"「ま、待って待って……」",
+				},
+			},
+			en = {
+				{
+					[["H-Hey, wait a minute!"]],
+				},
+			},
+			cn = {
+				{
+					"「等、等下等下……」",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 111,
+	},
+	block_00046 = {
+		{"bgm", stop=1, time=2000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"わちゃわちゃと質問をしてきた。",
+				},
+			},
+			en = {
+				{
+					"I pointedly ignore her questions and go to sleep.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅喋喋不休地问了一大堆问题。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 114,
+	},
+	block_00047 = {
+		{"user", mode="altthumb", no=10},
+		{"msgoff"},
+		{"savetitle", text="生きる廃墟", en="Living Ruins", cn="有生命的废墟"},
+		{"user", mode="autosave", no=10},
+		{"eval", exp="g.chap10=1"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"se", file="se_eyecatch00", id=1},
+		{"savetitle", text="生きる廃墟", en="Living Ruins", cn="有生命的废墟"},
+		{"bg", file="eyecatch_10", movie=1, path=":ani/", bx=960},
+		{"ex", movie=1, func="wait", time=0},
+		{"ex", time=4000, func="wait"},
+		{"ex", time=4500, func="wait"},
+		{"se", stop=1, id=-1, time=1000},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm17"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg58", x=480, y=-150, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=-480, y2=-150, set="bg58"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"鉄道の路線にそって、南側を目指す。",
+				},
+			},
+			en = {
+				{
+					"Next morning, we start our southward journey along the subway.",
+				},
+			},
+			cn = {
+				{
+					"我们沿着铁路线向南行进。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 125,
+	},
+	block_00048 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg58", time=1000, path=":bg/", set="bg58"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"危険には遭遇しなかった。",
+				},
+			},
+			en = {
+				{
+					"Thankfully, we don't run into any obstacles or enemies.",
+				},
+			},
+			cn = {
+				{
+					"没有遭遇什么危险。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 129,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"車輌も通過せず、安全な道だった。",
+				},
+			},
+			en = {
+				{
+					"It's a safe route the unmanned cars have long since stopped running on.",
+				},
+			},
+			cn = {
+				{
+					"这里也没有车辆通过，是一条安全的道路。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 130,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"少なくとも各所で封鎖されているとおぼしき、ビル内のフリーエリアを移動するよりは、確実である。",
+				},
+			},
+			en = {
+				{
+					"And it's better than having to contend with old barricades or collapsed corridors in the rest of the building.",
+				},
+			},
+			cn = {
+				{
+					"至少远比在建筑内的自由区域移动要靠谱得多，想必那边到处都被封锁着吧。 ",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 131,
+	},
+	block_00051 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=500, path=":bg/"},
+		{"bg", file="bg57", time=1000, rule="rule101", path=":bg/", set="bg57"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"数駅分ほど移動し、駅構内にあがって休憩をとった。",
+				},
+			},
+			en = {
+				{
+					"After passing several stations, we stop at one and climb up to the platform to rest.",
+				},
+			},
+			cn = {
+				{
+					"我们走了大约数站的距离，现在上到车站内部休息。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 135,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"駅はどこも同じ構造をしていた。",
+				},
+			},
+			en = {
+				{
+					"This one looks just the same as all the others.",
+				},
+			},
+			cn = {
+				{
+					"每处车站的结构都是相同的。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 136,
+	},
+	block_00053 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400067"},
+			},
+			ja = {
+				{
+					"「もう杖いらないみたい」",
+				},
+			},
+			en = {
+				{
+					[["I don't think I need the stick anymore."]],
+				},
+			},
+			cn = {
+				{
+					"「好像已经不需要拐杖了」",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 139,
+	},
+	block_00054 = {
+		{"se", id=0, file="se113"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"両足だけで、ぴょんぴょんとはねてみせた。",
+				},
+			},
+			en = {
+				{
+					"Philia hops lightly from foot to foot.",
+				},
+			},
+			cn = {
+				{
+					"她用双脚蹦蹦跳跳给我看。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 144,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400071"},
+			},
+			ja = {
+				{
+					"「一晩で完全修復したな」",
+				},
+			},
+			en = {
+				{
+					[["You healed completely in just one night?"]],
+				},
+			},
+			cn = {
+				{
+					"「一夜之间就完全修复好了啊」",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 146,
+	},
+	block_00056 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400072"},
+			},
+			ja = {
+				{
+					"「早かった？」",
+				},
+			},
+			en = {
+				{
+					[["Is that fast?"]],
+				},
+			},
+			cn = {
+				{
+					"「是不是很快？」",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 148,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400073"},
+			},
+			ja = {
+				{
+					"「早いな。さすがだ」",
+				},
+			},
+			en = {
+				{
+					[["It is. Nice job."]],
+				},
+			},
+			cn = {
+				{
+					"「很快，真不愧是你」",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 149,
+	},
+	block_00058 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400074"},
+			},
+			ja = {
+				{
+					"「やっと褒めてもらえた。",
+				},
+			},
+			en = {
+				{
+					[["Yay, you finally complimented me!]],
+				},
+			},
+			cn = {
+				{
+					"「终于得到表扬了。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 151,
+	},
+	block_00059 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400075"},
+			},
+			ja = {
+				{
+					"人間になったらもっと早く治るのかな？」",
+				},
+			},
+			en = {
+				{
+					[[Maybe when I'm human I'll heal even faster."]],
+				},
+			},
+			cn = {
+				{
+					"如果我变成了人，是不是能恢复得更快呢？」",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 153,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400076"},
+			},
+			ja = {
+				{
+					"「は？",
+				},
+			},
+			en = {
+				{
+					[["Huh?]],
+				},
+			},
+			cn = {
+				{
+					"「啥？",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 154,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400077"},
+			},
+			ja = {
+				{
+					"馬鹿言え。その怪我は人間なら完治に三ヶ月はかかる」",
+				},
+			},
+			en = {
+				{
+					[[Don't be stupid. For a human, that would take at least three months to heal."]],
+				},
+			},
+			cn = {
+				{
+					"别说傻话了，那种伤人类想完全恢复怎么也得花三个多月」",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 155,
+	},
+	block_00062 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_18", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400078"},
+			},
+			ja = {
+				{
+					"「ええっ！？　そうなんだ……。",
+				},
+			},
+			en = {
+				{
+					[["What?! That's so long...]],
+				},
+			},
+			cn = {
+				{
+					"「哎哎！？　是这样啊……",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 157,
+	},
+	block_00063 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400079"},
+			},
+			ja = {
+				{
+					"じゃあ人間になったあとは、もう怪我できないね」",
+				},
+			},
+			en = {
+				{
+					[[I'll have to avoid injuries like this when I'm human, then."]],
+				},
+			},
+			cn = {
+				{
+					"那变成人以后，就不能再受伤了呢」",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 159,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400080"},
+			},
+			ja = {
+				{
+					"「負傷をもっと恐れろ。俺は恐れてる。だから慎重なんだ」",
+				},
+			},
+			en = {
+				{
+					[["Humans are generally afraid of getting hurt. I know I am. It's part of why I'm so careful."]],
+				},
+			},
+			cn = {
+				{
+					"「你应该再多害怕点受伤这件事。我很害怕，所以我会谨慎行事」",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 160,
+	},
+	block_00065 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_07", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400081"},
+			},
+			ja = {
+				{
+					"「がんばっておそれてみる……」",
+				},
+			},
+			en = {
+				{
+					[["Right. I'll do my best to be afraid..."]],
+				},
+			},
+			cn = {
+				{
+					"「我会努力害怕的……」",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 162,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"それでも人間になりたくないとは、まるで思わないようだった。",
+				},
+			},
+			en = {
+				{
+					"Even after hearing all that, her desire to become human is still just as strong as ever.",
+				},
+			},
+			cn = {
+				{
+					"即使如此，她也毫无想放弃成为人类的意思。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 164,
+	},
+	block_00067 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", wait=1000, func="wait", time=0},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg57", x=-480, y=-150, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=-150, set="bg57"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"周辺の安全確認をすませ、ざっとホールを見て回った。",
+				},
+			},
+			en = {
+				{
+					"We run another scan for safety and look around the hall.",
+				},
+			},
+			cn = {
+				{
+					"我确保周围的安全后，大致查看了一下大厅。",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 169,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"物理的な収穫はなし。",
+				},
+			},
+			en = {
+				{
+					"Our search doesn't turn up anything physical.",
+				},
+			},
+			cn = {
+				{
+					"没有物质意义上的收获。",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 170,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのかわり端末側の蓄積データ量は一定量を超えた。",
+				},
+			},
+			en = {
+				{
+					"But my terminal is working hard collecting data the whole time.",
+				},
+			},
+			cn = {
+				{
+					"不过相应的，终端上的数据积累量已经超过了一定程度。",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 171,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おかげで、そこから抽出される情報も高精度になってきた。",
+				},
+			},
+			en = {
+				{
+					"After crunching some numbers, it returns some more detailed information on this place.",
+				},
+			},
+			cn = {
+				{
+					"因此，从中提取出的信息也变得更加精确。",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 172,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すでにかなり専門的な長文でも支障なく翻訳できる。",
+				},
+			},
+			en = {
+				{
+					"It's all pretty specialized, but the terminal can translate it, too.",
+				},
+			},
+			cn = {
+				{
+					"已经可以毫无障碍地翻译相当专业的长篇文章了。",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 173,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"都市ネットワークへのフリーな侵入路も多数確保できた。",
+				},
+			},
+			en = {
+				{
+					"I also managed to find several backdoors in the city network.",
+				},
+			},
+			cn = {
+				{
+					"还成功找到了多条无需认证便可黑入城市网络的路径。",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 174,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"いつの時代にも、無防備なネットワークというのは存在するものだ。",
+				},
+			},
+			en = {
+				{
+					"Whatever the era, if you look hard enough you'll always find a security hole to exploit somewhere.",
+				},
+			},
+			cn = {
+				{
+					"在任何时代，总会有一些没有防护措施的网络存在。",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 175,
+	},
+	block_00074 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg57", sync=0, path=":bg/", set="bg57"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"se", id=0, file="se083"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400092"},
+			},
+			ja = {
+				{
+					"「ジュード、何かが来る！」",
+				},
+			},
+			en = {
+				{
+					[["Jude, something's coming!"]],
+				},
+			},
+			cn = {
+				{
+					"「裘德，有什么东西过来了！」",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 181,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"寝そべって端末を眺めていたフィリアが、突然起き上がって叫ぶ。",
+				},
+			},
+			en = {
+				{
+					"Philia's looking at her terminal screen and flailing her arms in a panic.",
+				},
+			},
+			cn = {
+				{
+					"平躺着看着终端的菲莉娅突然坐起身来大叫。",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 183,
+	},
+	block_00076 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_18", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400096"},
+			},
+			ja = {
+				{
+					"「たいへん、ジュード！」",
+				},
+			},
+			en = {
+				{
+					[["Jude, this is really bad!"]],
+				},
+			},
+			cn = {
+				{
+					"「不好了，裘德！」",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 186,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あたふたする。",
+				},
+			},
+			en = {
+				{
+					"It's nice to see her finally take our safety seriously.",
+				},
+			},
+			cn = {
+				{
+					"慌慌张张的。",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 188,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"俺はゆっくり味わいながら茶を飲む。",
+				},
+			},
+			en = {
+				{
+					"I take it all in and leisurely sip my tea.",
+				},
+			},
+			cn = {
+				{
+					"我悠闲地品着茶。",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 189,
+	},
+	block_00079 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400101"},
+			},
+			ja = {
+				{
+					"「……あの、端末がなんか来るって言ってるんだけど」",
+				},
+			},
+			en = {
+				{
+					[["I-It says something big is headed this way..."]],
+				},
+			},
+			cn = {
+				{
+					"「……那个，终端说有什么东西要过来了」",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 192,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"光線銃を手に下げて、フィリアが俺の横に立つ。",
+				},
+			},
+			en = {
+				{
+					"She shuffles behind me, clutching her toy gun tightly to her chest.",
+				},
+			},
+			cn = {
+				{
+					"手上提着光线枪，菲莉娅站在我旁边说道。",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 194,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400105"},
+			},
+			ja = {
+				{
+					"「ああ、心配ない。来るのは無人列車だ」",
+				},
+			},
+			en = {
+				{
+					[["Don't worry about it. It's just an unmanned train."]],
+				},
+			},
+			cn = {
+				{
+					"「哦，不用担心。过来的这个是无人列车」",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 196,
+	},
+	block_00082 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400106"},
+			},
+			ja = {
+				{
+					"「そう……なの？」",
+				},
+			},
+			en = {
+				{
+					[["Oh... Okay?"]],
+				},
+			},
+			cn = {
+				{
+					"「是这……样吗？」",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 198,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400107"},
+			},
+			ja = {
+				{
+					"「そうだ。１４：１７通過の臨時貨物便、とかいうのだ」",
+				},
+			},
+			en = {
+				{
+					[["The 14:17 express freighter, to be precise."]],
+				},
+			},
+			cn = {
+				{
+					"「没错。好像是１４：１７经过的临时货运班次」",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 199,
+	},
+	block_00084 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400108"},
+			},
+			ja = {
+				{
+					"「大丈夫なやつなの？」",
+				},
+			},
+			en = {
+				{
+					[["So...we're safe?"]],
+				},
+			},
+			cn = {
+				{
+					"「这东西没问题吗？」",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 201,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400109"},
+			},
+			ja = {
+				{
+					"「いたって大丈夫だな」",
+				},
+			},
+			en = {
+				{
+					[["Yeah, it's totally fine."]],
+				},
+			},
+			cn = {
+				{
+					"「极其的没问题」",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 202,
+	},
+	block_00086 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_01", time=1000, path=":ev/", set="ts93"},
+		{"se", id=0, file="se114"},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_01", x=-200, y=-100, speed=10000, ease="none", time=1000, zoom=150, sync=1, path=":ev/", x2=200, y2=-100, set="ts93"},
+		{"bg", file="cg_ts93", time=300, rule="_mask13", hold=1, path=":ev/", set="ts93"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"やがて、線路の奥から列車が滑り込んできた。",
+				},
+			},
+			en = {
+				{
+					"Soon enough, the train comes rocketing through.",
+				},
+			},
+			cn = {
+				{
+					"不久，列车从轨道的远端驶入。",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 212,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"それは停車することなく、ステーションを通過していく。",
+				},
+			},
+			en = {
+				{
+					"It's not scheduled to stop at this station and rushes right past.",
+				},
+			},
+			cn = {
+				{
+					"它没有停车，经过了这里的车站。",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 213,
+	},
+	block_00088 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_01", time=1000, path=":ev/", set="ts93"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400114"},
+			},
+			ja = {
+				{
+					"「今、運行されているのはあの便だけだ」",
+				},
+			},
+			en = {
+				{
+					[["That's the only train that's still running."]],
+				},
+			},
+			cn = {
+				{
+					"「现在只剩那班车在运行了」",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 217,
+	},
+	block_00089 = {
+		{"bgm", stop=1, time=2500},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg57", sync=0, path=":bg/", set="bg57"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアは拍子抜けした顔で突っ立っていた。",
+				},
+			},
+			en = {
+				{
+					"Philia watches it go by in amazement.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅失望地傻站着。",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 223,
+	},
+	block_00090 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1000, path=":bg/"},
+		{"bgm", file="bgm07"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg58", x=-480, y=-150, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=-150, set="bg58"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"午後の移動は、かなりの勾配となった。",
+				},
+			},
+			en = {
+				{
+					"Later in the day, the path gets a lot steeper.",
+				},
+			},
+			cn = {
+				{
+					"下午的行程中遇到了相当大的坡度。",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 230,
+	},
+	block_00091 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg58", sync=0, path=":bg/", set="bg58"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400122"},
+			},
+			ja = {
+				{
+					"「……問題ないか？」",
+				},
+			},
+			en = {
+				{
+					[["You sure you're okay?"]],
+				},
+			},
+			cn = {
+				{
+					"「……你还好吗？」",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 234,
+	},
+	block_00092 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400123"},
+			},
+			ja = {
+				{
+					"「少しふらふらしてる」",
+				},
+			},
+			en = {
+				{
+					[["I do feel a little unsteady..."]],
+				},
+			},
+			cn = {
+				{
+					"「感觉有点晕」",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 236,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400124"},
+			},
+			ja = {
+				{
+					"「……おまえのバッテリー、蓄電より消費の方が大きくなってるらしいな」",
+				},
+			},
+			en = {
+				{
+					[["Guess this is draining your battery more than usual."]],
+				},
+			},
+			cn = {
+				{
+					"「……看来你电池的消耗量已经远大于充电量了」",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 237,
+	},
+	block_00094 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400125"},
+			},
+			ja = {
+				{
+					"「そういう言い方良くないよ」",
+				},
+			},
+			en = {
+				{
+					[["Do you have to put it like that?"]],
+				},
+			},
+			cn = {
+				{
+					"「我不喜欢这种说法哦」",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 239,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400126"},
+			},
+			ja = {
+				{
+					"「実際、バッテリーが減ってるって自覚できるのか？」",
+				},
+			},
+			en = {
+				{
+					[["Do you have any real awareness of when your battery's running low?"]],
+				},
+			},
+			cn = {
+				{
+					"「其实你能意识到电量在减少吗？」",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 240,
+	},
+	block_00096 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400127"},
+			},
+			ja = {
+				{
+					"「……どうだろう。わかんない。今は元気ないなーって感じ。",
+				},
+			},
+			en = {
+				{
+					[["I don't know... I can tell when I'm tired, but that's about it.]],
+				},
+			},
+			cn = {
+				{
+					"「……能不能呢，我也不太清楚。现在是感觉没什么精神。",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 242,
+	},
+	block_00097 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400128"},
+			},
+			ja = {
+				{
+					"本当に限界に近くなると、ふらふらしだす」",
+				},
+			},
+			en = {
+				{
+					[[And when I'm really tired, I start to get all faint and wobbly."]],
+				},
+			},
+			cn = {
+				{
+					"真的快到极限的时候，会开始头晕」",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 244,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400129"},
+			},
+			ja = {
+				{
+					"「空腹感を再現してるのかもな。人間と同じように感覚できるように」",
+				},
+			},
+			en = {
+				{
+					[["Your system must be recreating how hunger would affect a human."]],
+				},
+			},
+			cn = {
+				{
+					"「也许是在模拟饥饿感，让你能和人类有同样的感知」",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 245,
+	},
+	block_00099 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400130"},
+			},
+			ja = {
+				{
+					"「寝てたり止まってたりすると、力がじわじわ戻るのはわかるよ」",
+				},
+			},
+			en = {
+				{
+					[["It usually goes away if I rest for long enough, though."]],
+				},
+			},
+			cn = {
+				{
+					"「在睡觉或者停下来的时候，我能感觉到力气在慢慢恢复」",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 247,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400131"},
+			},
+			ja = {
+				{
+					"「興味深いな」",
+				},
+			},
+			en = {
+				{
+					[["Huh. Interesting."]],
+				},
+			},
+			cn = {
+				{
+					"「真是有趣」",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 248,
+	},
+	block_00101 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400132"},
+			},
+			ja = {
+				{
+					"「私は……誰に作られたのかな」",
+				},
+			},
+			en = {
+				{
+					[["I... I wonder who made me?"]],
+				},
+			},
+			cn = {
+				{
+					"「我是……被谁造出来的呢」",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 250,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400133"},
+			},
+			ja = {
+				{
+					"「俺もたまに考えるが……どうもこれというのが思いつかんな」",
+				},
+			},
+			en = {
+				{
+					[["I wonder that too, sometimes. But we've got no real way of knowing."]],
+				},
+			},
+			cn = {
+				{
+					"「这问题我也偶尔会思考……但就是得不出一个明确的结论」",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 251,
+	},
+	block_00103 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400134"},
+			},
+			ja = {
+				{
+					"「設計した人は、私をどうしたかったんだろ？」",
+				},
+			},
+			en = {
+				{
+					[["And what did they want me to do?"]],
+				},
+			},
+			cn = {
+				{
+					"「设计我的人，到底想让我做些什么？」",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 253,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400135"},
+			},
+			ja = {
+				{
+					"「……人間社会に溶け込んで欲しかったことは間違いない」",
+				},
+			},
+			en = {
+				{
+					[["I'm pretty sure you were supposed to integrate into human society."]],
+				},
+			},
+			cn = {
+				{
+					"「……无疑是希望你能够融入人类社会」",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 254,
+	},
+	block_00105 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400136"},
+			},
+			ja = {
+				{
+					"「それが目的？」",
+				},
+			},
+			en = {
+				{
+					[["That's my purpose?"]],
+				},
+			},
+			cn = {
+				{
+					"「这是目的吗？」",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 256,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400137"},
+			},
+			ja = {
+				{
+					"「いや、手段だ。人間集団の中で、何かをして欲しかったはずだ。",
+				},
+			},
+			en = {
+				{
+					[["More like a means to an end. You were probably meant to do something else afterwards.]],
+				},
+			},
+			cn = {
+				{
+					"「不，是手段。肯定是想让你在人类集体中完成某些事情。",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 257,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400138"},
+			},
+			ja = {
+				{
+					"自分でそういう願望みたいのは感じないのか？」",
+				},
+			},
+			en = {
+				{
+					[[Do you ever feel the urge to do anything else?"]],
+				},
+			},
+			cn = {
+				{
+					"你自己没有感觉到类似这种的心愿吗？」",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 258,
+	},
+	block_00108 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400139"},
+			},
+			ja = {
+				{
+					"「……ない」",
+				},
+			},
+			en = {
+				{
+					[["Not really..."]],
+				},
+			},
+			cn = {
+				{
+					"「……没有」",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 260,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400140"},
+			},
+			ja = {
+				{
+					"「それがヘンなんだ。",
+				},
+			},
+			en = {
+				{
+					[["That's so weird.]],
+				},
+			},
+			cn = {
+				{
+					"「这就很奇怪了。",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 261,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400141"},
+			},
+			ja = {
+				{
+					"どうして製造目的をおまえ自身が知らされてないんだ」",
+				},
+			},
+			en = {
+				{
+					[[I can't understand why someone would create you without telling you why."]],
+				},
+			},
+			cn = {
+				{
+					"为什么连你自己都没有被告知过制造目的？」",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 262,
+	},
+	block_00111 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=500, path=":bg/"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"colortone", style="sepia2"},
+		{"se", id=0, file="se181"},
+		{"fg", mode=-2},
+		{"bg", file="bg46", speed=15000, time=1000, rule="sig_240", zoom=100, lv=5, z2=115, sync=1, ease="none", path=":bg/", id=1, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あの生成槽設備は、かなり金がかかったはずだ。",
+				},
+			},
+			en = {
+				{
+					"The replicator Philia came out of was a highly advanced piece of equipment.",
+				},
+			},
+			cn = {
+				{
+					"那个生成装置应该花费了不少金钱。",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 271,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"酔狂で用意できるものじゃない。",
+				},
+			},
+			en = {
+				{
+					"Not the kind of thing someone would use on a whim.",
+				},
+			},
+			cn = {
+				{
+					"并不是心血来潮就能准备好的东西。",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 272,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"製造目的は必ずある。",
+				},
+			},
+			en = {
+				{
+					"They had to have had some objective in mind.",
+				},
+			},
+			cn = {
+				{
+					"肯定存在着什么制造目的。",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 273,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それは必ず達成したいものであったはず。",
+				},
+			},
+			en = {
+				{
+					"Something only an android like Philia could help them achieve.",
+				},
+			},
+			cn = {
+				{
+					"也肯定是想要实现的某种目标。",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 274,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"なのに、なぜ？",
+				},
+			},
+			en = {
+				{
+					"But what? What could it be?",
+				},
+			},
+			cn = {
+				{
+					"但是，为什么？",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 275,
+	},
+	block_00116 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg58", sync=0, path=":bg/", set="bg58"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400149"},
+			},
+			ja = {
+				{
+					"「嘘っぽくなるからじゃないかなあ」",
+				},
+			},
+			en = {
+				{
+					[["Maybe that's to make me seem more real?"]],
+				},
+			},
+			cn = {
+				{
+					"「可能是因为看上去会很假吧」",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 283,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400150"},
+			},
+			ja = {
+				{
+					"「嘘？」",
+				},
+			},
+			en = {
+				{
+					[["More real?"]],
+				},
+			},
+			cn = {
+				{
+					"「很假？」",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 284,
+	},
+	block_00118 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400151"},
+			},
+			ja = {
+				{
+					"「生まれた瞬間からぜんぶ知ってたら、あまり人間っぽくないというか」",
+				},
+			},
+			en = {
+				{
+					[["If I were human, it'd be weird for me to know everything right from the moment I was born."]],
+				},
+			},
+			cn = {
+				{
+					"「从一出生就知道所有事情的话，就不太像人类了吧」",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 286,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400152"},
+			},
+			ja = {
+				{
+					"「ありそうな気はするが。",
+				},
+			},
+			en = {
+				{
+					[["I guess there's logic in that.]],
+				},
+			},
+			cn = {
+				{
+					"「感觉确实有可能。",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 287,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400153"},
+			},
+			ja = {
+				{
+					"ただその理屈なら、最初から会話可能だったことからしておかしいが」",
+				},
+			},
+			en = {
+				{
+					[[But then, why could you talk right out of the box?"]],
+				},
+			},
+			cn = {
+				{
+					"但如果按照这个逻辑，从一开始就能说话已经很奇怪了」",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 288,
+	},
+	block_00121 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400154"},
+			},
+			ja = {
+				{
+					"「私くらいの大きさで、言葉を話さないのってヘンじゃない？」",
+				},
+			},
+			en = {
+				{
+					[["Wouldn't it be weirder for a human my age to not be able to talk?"]],
+				},
+			},
+			cn = {
+				{
+					"「以我的大小来说，不会说话才更奇怪吧？」",
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 290,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400155"},
+			},
+			ja = {
+				{
+					"「そうだな……」",
+				},
+			},
+			en = {
+				{
+					[["Yeah, maybe..."]],
+				},
+			},
+			cn = {
+				{
+					"「说的也是……」",
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 291,
+	},
+	block_00123 = {
+		{"fg", mode=-2, time=300},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"どうも製造者の感覚が見えてこない。",
+				},
+			},
+			en = {
+				{
+					"Her creator's thought processes continue to baffle me.",
+				},
+			},
+			cn = {
+				{
+					"总觉得看不透制造者的想法。",
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 295,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ちぐはぐというか、何というか。",
+				},
+			},
+			en = {
+				{
+					"They just seem so... I don't know, obscure?",
+				},
+			},
+			cn = {
+				{
+					"该说是不协调呢，还是其他的什么。",
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 296,
+	},
+	block_00125 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400160"},
+			},
+			ja = {
+				{
+					"「あ、ねえ、ジュード。さっきの列車、どうして来るってわかったの？」",
+				},
+			},
+			en = {
+				{
+					[["Hey Jude, how did you know there was a train coming?"]],
+				},
+			},
+			cn = {
+				{
+					"「啊，对了，裘德。你是怎么知道刚才的列车会来的？」",
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 299,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400161"},
+			},
+			ja = {
+				{
+					"「情報収集したからに決まってる」",
+				},
+			},
+			en = {
+				{
+					[["I could tell from the data."]],
+				},
+			},
+			cn = {
+				{
+					"「当然是因为我做了信息收集」",
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 300,
+	},
+	block_00127 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400162"},
+			},
+			ja = {
+				{
+					"「私もやってたんだけど……見つけられなかったよ」",
+				},
+			},
+			en = {
+				{
+					[["But I scanned too, and I didn't find anything."]],
+				},
+			},
+			cn = {
+				{
+					"「我也收集了……可我还是没找到啊」",
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 302,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400163"},
+			},
+			ja = {
+				{
+					"「索敵と情報集めは違うさ。",
+				},
+			},
+			en = {
+				{
+					[["You need more experience.]],
+				},
+			},
+			cn = {
+				{
+					"「侦查和信息收集是不同的。",
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 303,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400164"},
+			},
+			ja = {
+				{
+					"定義があるわけじゃないが、索敵は近距離しか調べない。情報収集はもっと全体的なもんだ」",
+				},
+			},
+			en = {
+				{
+					[[From what I've seen, you only search by distance. You need to take a more holistic approach."]],
+				},
+			},
+			cn = {
+				{
+					"虽然没有明确的定义，但侦查只能调查近距离的事物，而信息收集是更全局一些的」 ",
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 304,
+	},
+	block_00130 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400165"},
+			},
+			ja = {
+				{
+					"「それって難しいの？」",
+				},
+			},
+			en = {
+				{
+					[["Is that hard?"]],
+				},
+			},
+			cn = {
+				{
+					"「那个很难吗？」",
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 306,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400166"},
+			},
+			ja = {
+				{
+					"「……難しいといえば難しいが、単純に索敵より難易度が高いわけじゃない。",
+				},
+			},
+			en = {
+				{
+					[["A little, maybe... But it's not that different from what you've learned already.]],
+				},
+			},
+			cn = {
+				{
+					"「……可以说是难，不过不单纯是因为它比侦查难度更高。",
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 307,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400167"},
+			},
+			ja = {
+				{
+					"索敵だって難しいんだ。いろんな状況判断が必要だからな。",
+				},
+			},
+			en = {
+				{
+					"The sensors do a lot of the heavy lifting, actually collecting the data.",
+				},
+			},
+			cn = {
+				{
+					"侦查也很难，因为需要对各种状况做出判断。",
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 308,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400168"},
+			},
+			ja = {
+				{
+					"対して情報集めは……適当に電波なり履歴なりを拾えば、成立はする。問題は拾ったデータをどう分析するかだ」",
+				},
+			},
+			en = {
+				{
+					[[It gets converted into electrical signals and displays it for you. How useful it is depends on how you interpret that data."]],
+				},
+			},
+			cn = {
+				{
+					"而信息收集……只是随便截取些无线电或者历史记录也能算完成。问题在于如何去分析这些截取到的数据」",
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 309,
+	},
+	block_00134 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400169"},
+			},
+			ja = {
+				{
+					"「難しいね。ちょっとは機械に慣れたと思ってたのに」",
+				},
+			},
+			en = {
+				{
+					[["That sounds really complicated. I thought I was finally getting better with technology..."]],
+				},
+			},
+			cn = {
+				{
+					"「好难呀，我还以为自己已经有点适应机器了呢」",
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 311,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400170"},
+			},
+			ja = {
+				{
+					"「いや、おまえは端末に慣れるのは人間の子供並には早い。俺もそうだった」",
+				},
+			},
+			en = {
+				{
+					[["You are. You learned to use that terminal as fast as a human child would. I was the same."]],
+				},
+			},
+			cn = {
+				{
+					"「不，你适应终端的速度已经和人类小孩差不多快了。我以前也和你一样」",
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 312,
+	},
+	block_00136 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400171"},
+			},
+			ja = {
+				{
+					"「そうなんだ、へえ……。",
+				},
+			},
+			en = {
+				{
+					[["Oh wow, really...?]],
+				},
+			},
+			cn = {
+				{
+					"「原来如此，哦……",
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 314,
+	},
+	block_00137 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400172"},
+			},
+			ja = {
+				{
+					"列車が来るのはどうやったの？」",
+				},
+			},
+			en = {
+				{
+					[[So how did you work out that stuff about the train?"]],
+				},
+			},
+			cn = {
+				{
+					"列车会来你是怎么知道的？」",
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 316,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400173"},
+			},
+			ja = {
+				{
+					"「都市ネットワークに繋いで、駅施設の運行状況を調べた。公開情報だ。誰でも閲覧できる。それで知った」",
+				},
+			},
+			en = {
+				{
+					[["I checked the schedule on the city network. It's public information, so anyone can access it. The rest was easy."]],
+				},
+			},
+			cn = {
+				{
+					"「连上城市网络，查看了车站设施的运行状况。这些是公开信息，任何人都可以查看。然后我就知道了」",
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 317,
+	},
+	block_00139 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400174"},
+			},
+			ja = {
+				{
+					"「都市ネットワークって、どう繋ぐの？」",
+				},
+			},
+			en = {
+				{
+					[["How do you get into the city network?"]],
+				},
+			},
+			cn = {
+				{
+					"「城市网络要怎么连接？」",
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 319,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400175"},
+			},
+			ja = {
+				{
+					"「駅の公式サイトはフリーログインだ。自由に閲覧できる」",
+				},
+			},
+			en = {
+				{
+					[["Just log in to the station site and view it from there."]],
+				},
+			},
+			cn = {
+				{
+					"「车站的官方网站是免费登录的，可以随意浏览」",
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 320,
+	},
+	block_00141 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400176"},
+			},
+			ja = {
+				{
+					"「どうやるの？」",
+				},
+			},
+			en = {
+				{
+					[["And how do I do that?"]],
+				},
+			},
+			cn = {
+				{
+					"「要怎么做？」",
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 322,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400177"},
+			},
+			ja = {
+				{
+					"「端末のカメラを副現実モードにしてみろ」",
+				},
+			},
+			en = {
+				{
+					[["Switch your camera to AR mode."]],
+				},
+			},
+			cn = {
+				{
+					"「把终端的摄像头切换到副现实模式试试」",
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 323,
+	},
+	block_00143 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400178"},
+			},
+			ja = {
+				{
+					"「いろいろ字とかが浮かんでるけど」",
+				},
+			},
+			en = {
+				{
+					[["There's lots of words floating in front of me now..."]],
+				},
+			},
+			cn = {
+				{
+					"「到处都是浮动的文字」",
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 325,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400179"},
+			},
+			ja = {
+				{
+					"「それが拡張レイヤーだ。公式サイトでもある。路線図や運行表はそこらじゅうに張り出されてる」",
+				},
+			},
+			en = {
+				{
+					[["That's the AR guidance. There should be an official site too, with a map and timetable."]],
+				},
+			},
+			cn = {
+				{
+					"「那就是ＡＲ图层，同时也是官方网站。线路图和运行表都在那里贴出」 ",
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 326,
+	},
+	block_00145 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400180"},
+			},
+			ja = {
+				{
+					"「ある……これ、最新情報？」",
+				},
+			},
+			en = {
+				{
+					[["I see it... Is this still accurate?"]],
+				},
+			},
+			cn = {
+				{
+					"「有了……这个是最新信息？」",
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 328,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400181"},
+			},
+			ja = {
+				{
+					"「そうだ。今でも一部が自動更新される。履歴を見て、最近の更新があるようならシステムが生きている証拠だ」",
+				},
+			},
+			en = {
+				{
+					[["Yeah, the whole thing gets updated automatically. The log will show you a list of any recent changes."]],
+				},
+			},
+			cn = {
+				{
+					"「对，现在仍有一部分信息会自动更新。查看历史记录，如果最近有更新，那就证明系统还在运行」",
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 329,
+	},
+	block_00147 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400182"},
+			},
+			ja = {
+				{
+					"「あ。あった」",
+				},
+			},
+			en = {
+				{
+					[["Oh, you're right!"]],
+				},
+			},
+			cn = {
+				{
+					"「啊，有了」",
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 331,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400183"},
+			},
+			ja = {
+				{
+					"「文字は読めるようになってるか？」",
+				},
+			},
+			en = {
+				{
+					[["Can you read the text okay?"]],
+				},
+			},
+			cn = {
+				{
+					"「文字读得出来吗？」",
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 332,
+	},
+	block_00149 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_07", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400184"},
+			},
+			ja = {
+				{
+					"「……半分くらい文字化けしてる」",
+				},
+			},
+			en = {
+				{
+					[["Half of it still looks kind of glitchy..."]],
+				},
+			},
+			cn = {
+				{
+					"「……有一半都是乱码」",
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 334,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400185"},
+			},
+			ja = {
+				{
+					"「おまえに渡す前に同期解除したからな。そら、データセットだけ同期してやるよ」",
+				},
+			},
+			en = {
+				{
+					[["Your settings aren't right for this language. Try changing the date on your dataset."]],
+				},
+			},
+			cn = {
+				{
+					"「因为在交给你之前就把同步关闭了。拿着，我给你同步数据集」",
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 335,
+	},
+	block_00151 = {
+		{"msgoff"},
+		{"se", id=0, file="se112"},
+		{"ex", time=750, func="wait"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400186"},
+			},
+			ja = {
+				{
+					"「あ。ほんやくされた」",
+				},
+			},
+			en = {
+				{
+					[["Ooh, it's translating it!"]],
+				},
+			},
+			cn = {
+				{
+					"「啊，翻译出来了」",
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 342,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400187"},
+			},
+			ja = {
+				{
+					"「俺は空き時間にちゃんと端末を教育してるからな。差が出たな」",
+				},
+			},
+			en = {
+				{
+					[["I study ways to use this more effectively in my downtime. That's why there's a gap between our skill levels."]],
+				},
+			},
+			cn = {
+				{
+					"「因为我在空闲时间里好好教育了终端，于是我们之间拉开了差距」",
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 343,
+	},
+	block_00153 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400188"},
+			},
+			ja = {
+				{
+					"「ほあ……」",
+				},
+			},
+			en = {
+				{
+					[["Oh, wow..."]],
+				},
+			},
+			cn = {
+				{
+					"「哈啊……」",
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 345,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400189"},
+			},
+			ja = {
+				{
+					"「現在運行されているのは、二週に一度の臨時貨物便のみ。さっきのやつだ」",
+				},
+			},
+			en = {
+				{
+					[["The only thing running anymore is the twice-monthly goods train. That's what we saw just now."]],
+				},
+			},
+			cn = {
+				{
+					"「目前运行的只有每两周一班的临时货运列车，就是刚才那个」",
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 346,
+	},
+	block_00155 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400190"},
+			},
+			ja = {
+				{
+					"「じゃ、まだ誰かが鉄道を利用してる？」",
+				},
+			},
+			en = {
+				{
+					[["People still use the trains?"]],
+				},
+			},
+			cn = {
+				{
+					"「那，是说还有人在使用铁路吗？」",
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 348,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400191"},
+			},
+			ja = {
+				{
+					"「どうだかな。上層に生き残りなんていないんじゃないか？　いたら……もっと現状は違ってるはずだしな」",
+				},
+			},
+			en = {
+				{
+					[["I doubt it. None of the upper classes survived... If they did, things around here would be a lot different."]],
+				},
+			},
+			cn = {
+				{
+					"「不知道，上层应该也不会有幸存者了吧？　如果有的话……现状应该会相当有所不同」 ",
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 349,
+	},
+	block_00157 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400192"},
+			},
+			ja = {
+				{
+					"「コンピューターが勝手にやってるってこと？」",
+				},
+			},
+			en = {
+				{
+					[["So the computer's running it by itself?"]],
+				},
+			},
+			cn = {
+				{
+					"「那就是电脑自己操控的？」",
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 351,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400193"},
+			},
+			ja = {
+				{
+					"「そうだ。自動化された処理が、都市滅亡後も維持されてる。",
+				},
+			},
+			en = {
+				{
+					[["Yeah. The whole system's automated, so it's kept running even after all the people are gone.]],
+				},
+			},
+			cn = {
+				{
+					"「没错，自动化过后的处理在城市毁灭后仍在维持。",
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 352,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002400194"},
+			},
+			ja = {
+				{
+					"その臨時便だがな、どうも古いニュース記事を読む限り、難民相手への支援物資らしい」",
+				},
+			},
+			en = {
+				{
+					[[From what I can work out from old news articles, that train was meant to carry supplies for the residents."]],
+				},
+			},
+			cn = {
+				{
+					"至于那个临时列车，从我读到的一些旧新闻文章来看，好像是为难民提供救援物资的」",
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 353,
+	},
+	block_00160 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400195"},
+			},
+			ja = {
+				{
+					"「昨日の……？」",
+				},
+			},
+			en = {
+				{
+					[["Like the ones from yesterday?"]],
+				},
+			},
+			cn = {
+				{
+					"「昨天的……？」",
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 355,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400196"},
+			},
+			ja = {
+				{
+					"「主に食料だろうが……ことによると連中、これだけで食いつないでいるのかもしれん」",
+				},
+			},
+			en = {
+				{
+					[["It's mostly food... Who knows, maybe that tribe survives on that alone."]],
+				},
+			},
+			cn = {
+				{
+					"「虽然主要应该是食物……或许那群人就是靠着这些东西勉强度日」",
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 356,
+	},
+	block_00162 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400197"},
+			},
+			ja = {
+				{
+					"「じゃあいつか機械が壊れて、支援が届かなくなったら……」",
+				},
+			},
+			en = {
+				{
+					[["But if it ever breaks, they'll run out, and..."]],
+				},
+			},
+			cn = {
+				{
+					"「那如果有一天机器坏了，救援物资不再能送达……」",
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 358,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400198"},
+			},
+			ja = {
+				{
+					"「全滅だな」",
+				},
+			},
+			en = {
+				{
+					[["They'll all die."]],
+				},
+			},
+			cn = {
+				{
+					"「他们就会灭绝了吧」",
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 359,
+	},
+	block_00164 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_16", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400199"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 361,
+	},
+	block_00165 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg58", sync=0, zoom=150, path=":bg2/", set="bg58"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_16", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あんな奴らのためにこんな顔ができるフィリアは、優しいを通り越して危うい。",
+				},
+			},
+			en = {
+				{
+					"She's still feeling pity for those ruffians? Philia is way too kindhearted for her own good.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅能为那些人露出这样的表情，这已经不再是善良而是危险了。",
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 366,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……教育はいる。",
+				},
+			},
+			en = {
+				{
+					"I'll have to do something about that.",
+				},
+			},
+			cn = {
+				{
+					"……需要教育。",
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 367,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"老人に言われたからではなく、俺自身の主義として。",
+				},
+			},
+			en = {
+				{
+					"Not because the old man told me to educate her. It just makes sense to me.",
+				},
+			},
+			cn = {
+				{
+					"并不是遵循老人的要求，而是出于我自己的信念。",
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 368,
+	},
+	block_00168 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg58", sync=0, zoom=100, path=":bg/", set="bg58"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_16", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400205"},
+			},
+			ja = {
+				{
+					"「話を統合すると、都市で暴動が起きて閉鎖された。それで多くの市民が難民化したので、上層の支配者階級は支援物資を出した。ってところか」",
+				},
+			},
+			en = {
+				{
+					[["Putting it all together, there was a violent uprising and the lower levels were sealed off. The other citizens were displaced, and the upper classes sent out these supplies."]],
+				},
+			},
+			cn = {
+				{
+					"「故事整理一下就是，城市中发生暴乱后进行了封锁，许多市民因此变成难民，上层统治阶层提供了救援物资，大概就是这样」",
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 373,
+	},
+	block_00169 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400206"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 375,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400207"},
+			},
+			ja = {
+				{
+					"「あまり考えすぎるな。それは俺たちの仕事じゃない」",
+				},
+			},
+			en = {
+				{
+					[["Don't think about it too much. That's not part of the job."]],
+				},
+			},
+			cn = {
+				{
+					"「不要想太多了，那不是我们的工作」",
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 376,
+	},
+	block_00171 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_16", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400208"},
+			},
+			ja = {
+				{
+					"「……そうだね」",
+				},
+			},
+			en = {
+				{
+					[["Right... You're right."]],
+				},
+			},
+			cn = {
+				{
+					"「……是呢」",
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 378,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400209"},
+			},
+			ja = {
+				{
+					"「さて、次の駅に司令所があるから、ちょっと乗っ取って行こう。さすがにこの坂道はこたえる」",
+				},
+			},
+			en = {
+				{
+					[["There's a command center at the next station. Let's see if we can borrow something to get us up this slope."]],
+				},
+			},
+			cn = {
+				{
+					"「很好，下一站有指挥部，我们去稍微占用一下。这个陡坡确实很累人」",
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 379,
+	},
+	block_00173 = {
+		{"bgm", stop=1, time=2500},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400210"},
+			},
+			ja = {
+				{
+					"「……うん？」",
+				},
+			},
+			en = {
+				{
+					[["Huh...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……嗯？」",
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 382,
+	},
+	block_00174 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1000, path=":bg/"},
+		{"bgm", file="bgm17"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"司令所からシステムをいじり、臨時便をチャーターするのは簡単だった。",
+				},
+			},
+			en = {
+				{
+					"I hack into the command system and easily charter us a private train.",
+				},
+			},
+			cn = {
+				{
+					"在指挥部操作了下系统，很容易就让临时列车来接我们了。",
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 388,
+	},
+	block_00175 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_02", time=1000, path=":ev/", set="ts93"},
+		{"se", id=0, file="se244", time=500},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_01", x=200, y=-100, speed=10000, ease="none", time=1000, zoom=150, sync=1, path=":ev/", x2=-200, y2=-100, set="ts93"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="cg_ts93_03", time=1000, hold=1, path=":ev/", set="ts93"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自動メンテナンス機能を備えた車庫から、ピカピカの車輌が指定時間通りにホームに滑り込んできた。",
+				},
+			},
+			en = {
+				{
+					"The maintenance shed lights up and a maintenance car slides out onto the rails.",
+				},
+			},
+			cn = {
+				{
+					"一列亮锃锃的列车从带有自动维护功能的车库出发，并在指定好的时间准点驶入站台。",
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 401,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺たち専用車輌である。",
+				},
+			},
+			en = {
+				{
+					"A whole train all to ourselves.",
+				},
+			},
+			cn = {
+				{
+					"这是我们的专车。 ",
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 402,
+	},
+	block_00177 = {
+		{"se", stop=1, id=0, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_03", time=1000, path=":ev/", set="ts93"},
+		{"ex", time=250, func="wait"},
+		{"se", id=0, file="se173", time=500},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts93_04", time=1000, path=":ev/", set="ts93"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"まともに稼働する鉄道に乗るのは、俺にしても三度目だ。",
+				},
+			},
+			en = {
+				{
+					"This is only the third time I've traveled on a working railway.",
+				},
+			},
+			cn = {
+				{
+					"能正常运行的列车，连我也才是第三次坐。 ",
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 412,
+	},
+	block_00178 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_cg_ts93_04", sync=0, zoom=150, path=":bg2/", set="ts93"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_11", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"フィリアは最後まで目を白黒させていた。",
+				},
+			},
+			en = {
+				{
+					"Philia remains shocked and amazed throughout the whole experience.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅始终目瞪口呆地看着。",
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 417,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そして人生ではじめて鉄道に乗る者がほぼ確実にとる行動として、窓からの景色を食い入るようにして眺めていた。",
+				},
+			},
+			en = {
+				{
+					"It's the same reaction as most people on their first train ride. Her eyes are glued to the window and the scenery rushing by.",
+				},
+			},
+			cn = {
+				{
+					"然后，它和所有初次乘坐轨道交通的人一样，瞪大眼睛看着窗外的风景。 ",
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 418,
+	},
+	block_00180 = {
+		{"msgoff"},
+		{"se", id=0, file="se185"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg70_02", x=0, y=270, speed=25000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg70"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺たちだけを乗せ、列車が高度を上げていく。",
+				},
+			},
+			en = {
+				{
+					"The altitude gradually gets higher and higher.",
+				},
+			},
+			cn = {
+				{
+					"列车载着我们，不断提高高度。",
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 426,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"超高層の領域に。",
+				},
+			},
+			en = {
+				{
+					"We're heading into the territory of the upper classes.",
+				},
+			},
+			cn = {
+				{
+					"进入超高层区域。",
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 427,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"５０階以上の高度に築かれた、富裕層の世界に。",
+				},
+			},
+			en = {
+				{
+					"Anything above Floor 50 is reserved for only the most elite citizens.",
+				},
+			},
+			cn = {
+				{
+					"前往建于５０层的高度之上，富裕阶层所生活的世界。",
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 428,
+	},
+	block_00183 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"上層と中層の境目には、大きな商業フロアがあった。",
+				},
+			},
+			en = {
+				{
+					"The buffer between the middle and upper class floors is used for different businesses.",
+				},
+			},
+			cn = {
+				{
+					"在上层和中层的分界线处，有一个大型商业区。",
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 429,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そこがこの路線の終点らしかった。",
+				},
+			},
+			en = {
+				{
+					"That's as far as this line will take us.",
+				},
+			},
+			cn = {
+				{
+					"那里似乎是这条线路的终点。",
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 430,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"上層に直通しても良い作りだが、そうはなっていないようだ。",
+				},
+			},
+			en = {
+				{
+					"Building a direct path to the upper floors should have been easy, but for whatever reason they chose not to.",
+				},
+			},
+			cn = {
+				{
+					"虽然设计上可以直接通往上层，但最终并没能这样。",
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 431,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"中層から上層に行くには、別の手段が必要なのだ。",
+				},
+			},
+			en = {
+				{
+					"To get further up than this, we'll need to find another route.",
+				},
+			},
+			cn = {
+				{
+					"想从中层前往上层，需要使用些其他手段。",
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 432,
+	},
+	block_00187 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg70_02", sync=0, zoom=150, path=":bg2/", set="bg70"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_11", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002400228"},
+			},
+			ja = {
+				{
+					"「まだ上があるのに、途中で止まるの？」",
+				},
+			},
+			en = {
+				{
+					[["We're not at the top yet. Why does it stop here?"]],
+				},
+			},
+			cn = {
+				{
+					"「上面还有楼层，但为什么停在了路上？」",
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 440,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002400229"},
+			},
+			ja = {
+				{
+					"「大昔、ここからは馬車で行かにゃならんと決めた奴らがいたんだ」",
+				},
+			},
+			en = {
+				{
+					[["Maybe someone wanted more space for their horse and carriage."]],
+				},
+			},
+			cn = {
+				{
+					"「很久以前，有一群人下令必须要乘坐马车才能从这里上去」",
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 441,
+	},
+	block_00189 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002400230"},
+			},
+			ja = {
+				{
+					"「……馬車？」",
+				},
+			},
+			en = {
+				{
+					[["Horse and what...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……马车？」",
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 444,
+	},
+	block_00190 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1500, path=":bg/"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00189",
+		line = 451,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+		label_z50 = { block="block_00047", label=1 },
+		z50 = { block="block_00047", label=1 },
+	},
+}
