@@ -1,0 +1,2850 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"savetitle", text="廃墟都市"},
+		{"user", mode="autosave", no=8},
+		{"eval", exp="g.chap08=1"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"se", file="se_eyecatch00", id=1},
+		{"savetitle", text="廃墟都市"},
+		{"bg", file="eyecatch_08", movie=1, path=":ani/", bx=960},
+		{"ex", movie=1, func="wait", time=0},
+		{"ex", time=4000, func="wait"},
+		{"ex", time=4500, func="wait"},
+		{"se", stop=1, id=-1, time=1000},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm17"},
+		{"se", id=0, file="se005", time=750},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg16", x=-480, y=0, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=0, set="bg16"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们在连绵起伏的山丘上前行着，周围的绿意渐渐散尽，前方的山上染上了一丝荒芜。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"信号刚变得通畅，南边便传回大量人造物的独特信息，一瞬间淹没了视膜屏。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 15,
+	},
+	block_00002 = {
+		{"se", stop=1, id=0, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg16", sync=0, path=":bg/", set="bg16"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600008"},
+			},
+			ja = {
+				{
+					"「……嗯？欸，裘德，这是……」",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 21,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600009"},
+			},
+			ja = {
+				{
+					"「你那边也搜到了吗」",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 22,
+	},
+	block_00004 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600010"},
+			},
+			ja = {
+				{
+					"「对不起。终端好像坏掉了」",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 24,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600011"},
+			},
+			ja = {
+				{
+					"「不是。是因为一下子获取了太多信息。没坏」",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 25,
+	},
+	block_00006 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600012"},
+			},
+			ja = {
+				{
+					"「这是什么啊？」",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 27,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600013"},
+			},
+			ja = {
+				{
+					"「都市遗迹」",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 28,
+	},
+	block_00008 = {
+		{"fg", mode=-2, time=300},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"位置就在前方的盆地。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 32,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我们稍稍偏离预定路线，前往附近一处高地。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 34,
+	},
+	block_00010 = {
+		{"bgm", stop=1, time=3000},
+		{"msgoff"},
+		{"se", id=0, file="se005", time=350},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"se", stop=1, id=0, time=1000},
+		{"ex", time=1000, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60_01", x=0, y=-270, speed=25000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=0, y2=270, set="bg60"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600018"},
+			},
+			ja = {
+				{
+					"「看到了，在那」",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 47,
+	},
+	block_00011 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm23"},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg03", x=0, y=270, speed=15000, ease="none", time=2000, zoom=150, sync=1, path=":bg/", x2=0, y2=0, set="bg03"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600022"},
+			},
+			ja = {
+				{
+					"「好壮观啊……！」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 59,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600023"},
+			},
+			ja = {
+				{
+					"「这规模比预想的大了不少啊」",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 60,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600024"},
+			},
+			ja = {
+				{
+					"「有人住在那里吗？」",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 61,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600025"},
+			},
+			ja = {
+				{
+					"「要真有人住就麻烦了」",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 62,
+	},
+	block_00015 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg03", sync=0, path=":bg/", set="bg03"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600026"},
+			},
+			ja = {
+				{
+					"「为什么啊？」",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600027"},
+			},
+			ja = {
+				{
+					"「那就不得不考虑考虑会不会被他们袭击了。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 67,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600028"},
+			},
+			ja = {
+				{
+					"不过要是没人住在这里，那肯定有让流浪者都没法栖身的理由。也不见得是什么好事。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 68,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600029"},
+			},
+			ja = {
+				{
+					"但在所有无法预知的危险中，还是人类最可怕」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 69,
+	},
+	block_00019 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600030"},
+			},
+			ja = {
+				{
+					"「……这样啊」",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 71,
+	},
+	block_00020 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg03", sync=0, zoom=150, path=":bg2/", set="bg03"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_10", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的脸上浮现出一丝阴霾。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 76,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"菲莉娅具有那种亲近人类的思想。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 77,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是在她制造过程中的默认设置，并不是她积累生活经验形成的价值观。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 78,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而她的自我意识便以此为基础。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 79,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所以菲莉娅现在的态度算不上是无厘头的。反而更接近人类本能。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 80,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"普通人就是会像她这样，贪吃、贪睡、喜欢抱团。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 81,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我对这种设计意图也有了一个大致的猜测。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 82,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……这是为了让她能融入人类社会。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 83,
+	},
+	block_00028 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg03", sync=0, zoom=100, path=":bg/", set="bg03"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600041"},
+			},
+			ja = {
+				{
+					"「有人靠近我们的话，最好还是不要乱对他们开枪了吧……」",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 89,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600042"},
+			},
+			ja = {
+				{
+					"「这，肯定要开枪的……具体还得看情况」",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 90,
+	},
+	block_00030 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600043"},
+			},
+			ja = {
+				{
+					"「为什么啊？！」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 92,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600044"},
+			},
+			ja = {
+				{
+					"「别人一旦靠近我们，就已经算表明敌对态度了」",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 93,
+	},
+	block_00032 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600045"},
+			},
+			ja = {
+				{
+					"「不会的啦，就是偶尔可能会有吧……」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 95,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600046"},
+			},
+			ja = {
+				{
+					"「对方要是先动手呢？」",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 96,
+	},
+	block_00034 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600047"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 98,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600048"},
+			},
+			ja = {
+				{
+					"「在群体之外，每个人都拼上性命作生存斗争。因此那些外界的人不会放过任何袭击你的机会。这就是自然法则。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 99,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600049"},
+			},
+			ja = {
+				{
+					"就算是为了保护你，我除了扣动扳机也别无他法」",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 100,
+	},
+	block_00037 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600050"},
+			},
+			ja = {
+				{
+					"「我没关系的。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 102,
+	},
+	block_00038 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600051"},
+			},
+			ja = {
+				{
+					"要是遇到人，我会去和他们沟通的」",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 104,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600052"},
+			},
+			ja = {
+				{
+					"「算我求你的了，别这么搞。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 105,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600053"},
+			},
+			ja = {
+				{
+					"不是说好了会听从我吩咐的吗？你说谎？」",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 106,
+	},
+	block_00041 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600054"},
+			},
+			ja = {
+				{
+					"「……听你的」",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 108,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的语气非常不情不愿。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 110,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最坏情况就是，还得让她长个教训，她才能理解。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 111,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"但就不知道吃过苦头以后，菲莉娅能不能安然无事了……",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 112,
+	},
+	block_00045 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600060"},
+			},
+			ja = {
+				{
+					"「既然有可能发生冲突，那还是没有人更好」",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 115,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600061"},
+			},
+			ja = {
+				{
+					"「我也希望如此」",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 116,
+	},
+	block_00047 = {
+		{"bgm", stop=1, time=3500},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_16", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600062"},
+			},
+			ja = {
+				{
+					"「明明大家要是齐心协力，都可以建成这么大的城市的」",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 119,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"菲莉娅远眺着都市，嘴角流露出了一丝落寞。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 121,
+	},
+	block_00049 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, wait=1500, path=":bg/"},
+		{"bgm", file="bgm07"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg64", x=480, y=-200, speed=35000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=-480, y2=-200, set="bg64"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我们需要穿过这片都市遗迹。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 128,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"之后还要穿过都市南面那座高耸入云的山峰。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 129,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这便是直达半岛的最短路径。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 130,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其他路径都要绕很大一圈。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 131,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我认为那样反而要冒更大的风险。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 132,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然，都市遗迹本身也是极其危险的地方。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 133,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一丝不苟地重新配置了搜索方案。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 134,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这时才注意到。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 135,
+	},
+	block_00057 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg64", time=1000, path=":bg/", set="bg64"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"se", file="se054", id=1},
+		{"bg", id=2, lv=5, file="ef_monitor01_on", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"bg", id=1, lv=5, file="black", alpha=192, path=":bg/", sync=0},
+		{"extrans", time=0},
+		{"bg", id=1, lv=5, time=120, file="ef_ui16", rule="rule120", alpha=192, path=":fgf/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=0, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从都市中心处传回的信息远比我预期的要少。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 141,
+	},
+	block_00058 = {
+		{"bg", id=1, lv=5, file="ef_ui16", time=1000, zoom=150, alpha=224, x=-200, y=-50, speed=1000, ease="in", path=":fgf/", y2=-100, sync=0},
+		{"bg", id=2, lv=5, file="ef_monitor01", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"extrans"},
+		{"se", id=0, file="se077"},
+		{"ex", time=350, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我马上动用了全身上下的信息收集器，进行高输出功率和高精度的侦察。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 152,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……但皆如石沉大海。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 153,
+	},
+	block_00060 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5, sync=0},
+		{"bg", id=1, lv=5, file="ef_ui16", path=":fgf/", sync=0},
+		{"bg", id=2, lv=5, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600080"},
+			},
+			ja = {
+				{
+					"「……这是」",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 158,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只有都市外围的设备有嘈杂的响应，证明自己的存在。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 160,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正是因为科技水平存在差距，才会发生这种情况。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 161,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我本来还以为这片遗迹同属于一个时代，但现在看来市中心和市外围建成于不同时代。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 162,
+	},
+	block_00064 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600086"},
+			},
+			ja = {
+				{
+					"「菲莉娅，现在开始要加强戒备了」",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 169,
+	},
+	block_00065 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600087"},
+			},
+			ja = {
+				{
+					"「嗯？我们不是一直在戒备吗？」",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 171,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600088"},
+			},
+			ja = {
+				{
+					"「是，但现在开始要万分注意」",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 172,
+	},
+	block_00067 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600089"},
+			},
+			ja = {
+				{
+					"「为什么啊？」",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 174,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600090"},
+			},
+			ja = {
+				{
+					"「因为这座都市还在运作」",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 175,
+	},
+	block_00069 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"se", id=0, file="se107"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"菲莉娅摆弄起了手中的终端。",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 180,
+	},
+	block_00070 = {
+		{"se", stop=1, id=0, time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600094"},
+			},
+			ja = {
+				{
+					"「……我这儿的终端，扫不出来」",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 185,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600095"},
+			},
+			ja = {
+				{
+					"「扫得出来，只是你还看不懂罢了」",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 186,
+	},
+	block_00072 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600096"},
+			},
+			ja = {
+				{
+					"「都市还在运作，是什么意思？」",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 188,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600097"},
+			},
+			ja = {
+				{
+					"「就是说一部分城市设施还维持在运行状态。",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 189,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600098"},
+			},
+			ja = {
+				{
+					"但也不是说还有人类居住在这里。大多数情况是人死绝了，城市设施也进入了休眠状态」",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 190,
+	},
+	block_00075 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600099"},
+			},
+			ja = {
+				{
+					"「这很危险吗？」",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 192,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600100"},
+			},
+			ja = {
+				{
+					"「非常危险」",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 193,
+	},
+	block_00077 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg03", x=480, y=420, speed=35000, ease="none", time=1000, zoom=150, sync=0, path=":bg/", x2=-480, y2=420, set="bg03"},
+		{"bg", id=1, lv=1, file="cinema200", path=":fgf/", sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"假如发生了内乱，市里的警戒状态必然会提升一个档次。",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 199,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果在这种情况下，市里的居民死绝了——",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 200,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"收到自动打击报复指令的机群就会一直维持当时的状态。",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 201,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在某些情况下甚至能持续几个世纪。",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 202,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我向菲莉娅大概解释了一番。",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 203,
+	},
+	block_00082 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg64", sync=0, path=":bg/", set="bg64"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600108"},
+			},
+			ja = {
+				{
+					"「打击报复……」",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 208,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600109"},
+			},
+			ja = {
+				{
+					"「因为在文明末期，人类是以都市为单位划分敌对关系的」",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 209,
+	},
+	block_00084 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"菲莉娅一脸不解。",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 213,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600113"},
+			},
+			ja = {
+				{
+					"「通过调查那些已发掘的遗迹，会发现在很多例子中，即便是在同时代同地区，在技术上也存在着巨大的差异。这也是受其影响吧。",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 215,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600114"},
+			},
+			ja = {
+				{
+					"曾经还上演过万人大战呢」",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 216,
+	},
+	block_00087 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600115"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 218,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600116"},
+			},
+			ja = {
+				{
+					"「……这座都市的规模这么大，估计安保系统也相当先进。",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 219,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600117"},
+			},
+			ja = {
+				{
+					"你要小心行动。别到处瞎转悠，也别乱碰东西」",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 220,
+	},
+	block_00090 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600118"},
+			},
+			ja = {
+				{
+					"「我知道的……对了」",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 222,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600119"},
+			},
+			ja = {
+				{
+					"「怎么？」",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 223,
+	},
+	block_00092 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600120"},
+			},
+			ja = {
+				{
+					"「那我们就在这里探索一番……看看有没有成为人类的办法？」",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 225,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那不可能。",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 227,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"但也不一定。",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 228,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600125"},
+			},
+			ja = {
+				{
+					"「……谁知道呢。在哪一处遗迹里沉睡了哪些科技，不搜上来谁都说不清楚。",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 230,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600126"},
+			},
+			ja = {
+				{
+					"就算真的有，也需要人手和时间去调查，还需要设备。",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 231,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600127"},
+			},
+			ja = {
+				{
+					"耗那么大的人力物力来这调查，工程量也太大了，基本上不可能」",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 232,
+	},
+	block_00098 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600128"},
+			},
+			ja = {
+				{
+					"「那我们就只是路过吗？」",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 234,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600129"},
+			},
+			ja = {
+				{
+					"「嗯，我是这样打算的」",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 235,
+	},
+	block_00100 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600130"},
+			},
+			ja = {
+				{
+					"「那就算了吧。",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 237,
+	},
+	block_00101 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600131"},
+			},
+			ja = {
+				{
+					"真的好大啊，这座都市」",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 239,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600132"},
+			},
+			ja = {
+				{
+					"「毕竟是少说也有数百万人口规模的特大都市」",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 240,
+	},
+	block_00103 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg03", x=0, y=100, speed=10000, ease="none", time=1000, zoom=125, sync=1, path=":bg/", x2=0, y2=-50, set="bg03"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事实上这也确实是个大发现。",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 245,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仅仅把这一情报带回去就已经是大功一件了，要是再组织考古队取得实绩，绝对可以青史留名。",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 246,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"之后便可享度余生。",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 247,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"只不过发掘这件事根本就是天方夜谭。",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 248,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种规模的发掘，搞不好要花上数十年。",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 249,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"也没人知道那里究竟潜伏着多少危险。",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 250,
+	},
+	block_00109 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg64", sync=0, path=":bg/", set="bg64"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600141"},
+			},
+			ja = {
+				{
+					"「把终端的设置调成同时针对人、机器和生物的模式」",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 254,
+	},
+	block_00110 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600142"},
+			},
+			ja = {
+				{
+					"「这样的话耗电量会变得很大吧」",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 256,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600143"},
+			},
+			ja = {
+				{
+					"「没事」",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 257,
+	},
+	block_00112 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600144"},
+			},
+			ja = {
+				{
+					"「把机器调成最高优先级吗？」",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 259,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600145"},
+			},
+			ja = {
+				{
+					"「全部采用同等优先级」",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 260,
+	},
+	block_00114 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600146"},
+			},
+			ja = {
+				{
+					"「这种地方会有小动物吗？」",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 262,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600147"},
+			},
+			ja = {
+				{
+					"「可别说什么小动物了。别把敌人想得这么可爱」",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 263,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这一路上都没有遭遇过动物袭击，所以菲莉娅对动物一点危机感都没有。",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 265,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600151"},
+			},
+			ja = {
+				{
+					"「可能有动物已经盘踞在这座都市里。就算只是条野狗，被它咬伤也会感染狂犬病。",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 267,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600152"},
+			},
+			ja = {
+				{
+					"狂犬病的致死率可是１００％啊」",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 268,
+	},
+	block_00119 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600153"},
+			},
+			ja = {
+				{
+					"「嗯……这样啊」",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 270,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她完全没在怕的。",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 273,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大概是对疾病没什么概念吧。",
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 274,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"因为自己是机器么。不，普通小孩也一样不怕生病。",
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 275,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600159"},
+			},
+			ja = {
+				{
+					"「……丫头，你不是说想成为人类吗？」",
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 278,
+	},
+	block_00124 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600160"},
+			},
+			ja = {
+				{
+					"「是啊是啊！」",
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 280,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600161"},
+			},
+			ja = {
+				{
+					"「那就起码表现得害怕一点，像个正常人行不」",
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 281,
+	},
+	block_00126 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600162"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 283,
+	},
+	block_00127 = {
+		{"bgm", vol=0, time=2000, file="bgm07"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_07", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600163"},
+			},
+			ja = {
+				{
+					"「……好害怕」",
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 287,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600164"},
+			},
+			ja = {
+				{
+					"（……算了当我没说）",
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 288,
+	},
+	block_00129 = {
+		{"bgm", file="bgm07", time=1000, vol=0},
+		{"bgm", vol=100, time=3000, file="bgm07"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600165"},
+			},
+			ja = {
+				{
+					"「对了，都市里的机器是什么样的？跟之前那个大家伙一样吗？」",
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 292,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600166"},
+			},
+			ja = {
+				{
+					"「不一样，更多的是那种小型无人机器。",
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 293,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600167"},
+			},
+			ja = {
+				{
+					"和你之前看到的巨型机，是两样东西」",
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 294,
+	},
+	block_00132 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600168"},
+			},
+			ja = {
+				{
+					"「嗯……？」",
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 296,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600169"},
+			},
+			ja = {
+				{
+					"「能在这种地方遇到的，基本上是守卫各处建筑的安保机器」",
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 297,
+	},
+	block_00134 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600170"},
+			},
+			ja = {
+				{
+					"「要注意些什么呢？」",
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 299,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600171"},
+			},
+			ja = {
+				{
+					"「不要靠近它们，也不要踏入它们的管辖范围」",
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 300,
+	},
+	block_00136 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600172"},
+			},
+			ja = {
+				{
+					"「怎样才能分辨出它们的管辖范围啊？」",
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 302,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600173"},
+			},
+			ja = {
+				{
+					"「这是个难点。",
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 303,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600174"},
+			},
+			ja = {
+				{
+					"最坏的情况，也就是那些建筑已经荡然无存了，却还剩安保机器在正常运作」",
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 304,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就比如路过某块空地，却发现那其实是一家古代企业的私有财产。",
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 306,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这是个不容忽视的问题，我们必须时刻保持警惕。",
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 307,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600179"},
+			},
+			ja = {
+				{
+					"「你一旦遇到安保机器，有多远跑多远」",
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 309,
+	},
+	block_00142 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600180"},
+			},
+			ja = {
+				{
+					"「好呀」",
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 311,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600181"},
+			},
+			ja = {
+				{
+					"「……不要好不好的，跑就对了。基本上刚开始它都会警告你，也算是有点提示」",
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 312,
+	},
+	block_00144 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600182"},
+			},
+			ja = {
+				{
+					"「它们让我离开，我走就行了嘛」",
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 314,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600183"},
+			},
+			ja = {
+				{
+					"「就是这样」",
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 315,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600184"},
+			},
+			ja = {
+				{
+					"「要是遇到可疑的事物就拍照保存下来」",
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 316,
+	},
+	block_00147 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600185"},
+			},
+			ja = {
+				{
+					"「拍照片？」",
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 318,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600186"},
+			},
+			ja = {
+				{
+					"「对。当目标出现在拍摄范围内，终端会自动将其与内部数据做匹配。",
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 319,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600187"},
+			},
+			ja = {
+				{
+					"给你的那台终端里，存入了不少有关安保机器的数据」",
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 320,
+	},
+	block_00150 = {
+		{"bgm", vol=0, time=2000, file="bgm07"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600188"},
+			},
+			ja = {
+				{
+					"「裘德～」",
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 324,
+	},
+	block_00151 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"菲莉娅似是有意地叫了我的名字。",
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 326,
+	},
+	block_00152 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"se", id=0, file="se022"},
+		{"flash", time=350, alpha=224, loop=1, color="ffffff"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她盯准我转身的那一刻，按下了手中的快门。",
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 332,
+	},
+	block_00153 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600193"},
+			},
+			ja = {
+				{
+					"「……咦？是空的」",
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 336,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"想必是输出了一幅空白的图片吧。",
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 338,
+	},
+	block_00155 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600197"},
+			},
+			ja = {
+				{
+					"「大骗子……」",
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 341,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600198"},
+			},
+			ja = {
+				{
+					"「怎么可能这么轻易让你获取信息啊。这是因为我干扰了你的终端」",
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 342,
+	},
+	block_00157 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600199"},
+			},
+			ja = {
+				{
+					"「干扰，要怎么弄？」",
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 344,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600200"},
+			},
+			ja = {
+				{
+					"「对你来说还太难了」",
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 345,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我嘴上虽是这么说，",
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 347,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是说白了，就是因为我手上这台设备是主机，菲莉娅的则是从机。",
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 348,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"不过要是通晓其中原理，也能通过从机入侵主机就是了。",
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 349,
+	},
+	block_00162 = {
+		{"bgm", vol=100, time=3000, file="bgm07"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600206"},
+			},
+			ja = {
+				{
+					"「行了，我再问你一次，要不要带把枪？」",
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 354,
+	},
+	block_00163 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600207"},
+			},
+			ja = {
+				{
+					"「我不想拿」",
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 356,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z001600208"},
+			},
+			ja = {
+				{
+					"（依旧按自己的本能做事么）",
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 357,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600209"},
+			},
+			ja = {
+				{
+					"「……这要是一座死城的话，我倒也不用这么操心，可是这城还“活着”。",
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 358,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600210"},
+			},
+			ja = {
+				{
+					"但我们如果绕过这里，就得翻山越岭了。我不想绕路」",
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 359,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600211"},
+			},
+			ja = {
+				{
+					"「你绝对不能走在我前面，知道为什么吗？」",
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 360,
+	},
+	block_00168 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z001600212"},
+			},
+			ja = {
+				{
+					"「因为你的侦察能力更强」",
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 362,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z001600213"},
+			},
+			ja = {
+				{
+					"「说得没错。那你就照办吧」",
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 363,
+	},
+	block_00170 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z001600214"},
+			},
+			ja = {
+				{
+					"「明白！」",
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 365,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也不知道她这敬礼是从哪学的。",
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 367,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"但她如此举动，更是添了一分人味。",
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 368,
+	},
+	block_00173 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", wait=1500, func="wait", time=0},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00172",
+		line = 373,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

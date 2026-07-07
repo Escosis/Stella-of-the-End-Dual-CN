@@ -1,0 +1,979 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bgm", file="bgm15"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"cgdel", id=1, lv=5, sync=0},
+		{"bg", id=1, lv=5, file="ef_ui13", path=":fgf/", sync=0},
+		{"bg", id=2, lv=5, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1000},
+		{"se", id=1, file="se106"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"对Ae型仿生人的相关调查研究报告概要",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……本研究所整合了过去各个课题组的研究资料，以此为基础展开了与主题相关的调查，并在此提出最终报告。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 22,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在调查过程中，受到格劳纳财团的莫大支持。若无其支持，本研究所断不可能完成此次调查。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 23,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"有幸得以继承残余人类智慧灯火之伟业，笔者深感光荣……",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 24,
+	},
+	block_00004 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=100, alpha=224, x=0, y=0, path=":fgf/"},
+		{"se", id=0, file="se008"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					"目次",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 32,
+	},
+	block_00005 = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["1 調査実施概要"]],
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 44,
+	},
+	block_00006 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(1)調査目的"]],
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 47,
+	},
+	block_00007 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(2)調査対象"]],
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 49,
+	},
+	block_00008 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(3)調査時期"]],
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 51,
+	},
+	block_00009 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(4)調査例"]],
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 53,
+	},
+	block_00010 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					[["(5)……"]],
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 55,
+	},
+	block_00011 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=100, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ae型仿生人是史料记载从AH225年以来开始在安卡拉出现的制造者不明的高性能机器人。",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 62,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"安卡拉曾是大国“小亚细亚联邦”的首都，盛极一时，然而经历了持续数百年的人口缩减后，最终衰微成只有大约五千人的中规模共同体。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 63,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"即便如此，在畜牧与农耕的维持下，居民的生活仍相对富足。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 64,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但技术失传的趋势显著，科学文明复兴的希望极其渺茫。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 65,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大部分都市已遭废弃，为森林所覆盖。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"然而，这些城市的低功率系统是有生命力的，它们的电子社会日志（Social Logs）在无人观察的情况下继续更新。 从这些古代城市中挖掘出来的历史是本研究过程中的一个重要部分。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 67,
+	},
+	block_00017 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=150, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……该名Ae型仿生人呈现一副少年体态，被当地居民视作孤儿。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 74,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"故推测此样本是被同一地区的某群体收容，从而融入其中。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 75,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"该名仿生人被命名为克劳斯，于当地生活了三年。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 76,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"起初，该群体对其关照有加，后来逐渐转变为迫害。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 77,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"根据对留存录音的分析，大概率出于以下原因。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 78,
+	},
+	block_00022 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=200, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"·克劳斯时常在都市废墟游荡，挖掘古代机器，以报恩的名义上交给共同体",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 83,
+	},
+	block_00023 = {
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"·故障的机器经过克劳斯触碰后恢复了功能，此事频繁发生",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 87,
+	},
+	block_00024 = {
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"·有数条当地居民记录称，克劳斯会吸引自动机器接近",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 91,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当时，安卡拉地区已经出现对机器的忌讳倾向。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 93,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这类现象在各个文明的衰亡期中较为常见。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 94,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因而可合理推断，克劳斯的如上行动刺激了当地居民，最终导致自身受到迫害。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 95,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被收容进群体三年后，克劳斯被判以投石处死。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 96,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这时人们才发现，克劳斯并非人类，而是仿生人。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 97,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"克劳斯的残骸（遗体）在其停止运作后自动焚毁，没有丝毫残留。",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 98,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"此现象显然并非偶然，可合理推断是在制造之初便预设的功能。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 99,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这意味着，制造者为了不留下证据，对这一类仿生人进行了特殊处理。",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 100,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我们仍在推测制造者的目的，尚未明了……",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 101,
+	},
+	block_00034 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=250, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型仿生人是具备自我意识的。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 108,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过我们尚未调查过，仿生人的自我意识，与人类的自我意识具备多少一致性。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 109,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如前例所述，即便破坏样本也没有研究材料残留，使调查更为困难。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 110,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"下文所述内容，仅为由本研究所收集的各时代·各地域信息分析而来的客观事实之罗列。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 111,
+	},
+	block_00038 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=300, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"硬件层面，Ａｅ型仿生人的外观与正常人类毫无区别。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 118,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"与人类一样，具备头发、皮肤、体温，甚至能够出血。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 119,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"头发会自然生长，伤口也会自然愈合，此类容易暴露仿生人身份的细节问题，经过刻意的设计得以完善。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 120,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"金属探测器对其并无反应，因而可推测其骨骼与内部器械大半为非金属材料。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 121,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"食量小，但仍会进食。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 122,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能够消化吸收固体食物。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 123,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也能够摄入水分，仅此便能长期保持内环境稳定。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 124,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"然而，对其能否从饮食中获取能量这一点仍然不甚明了。可能仅为模拟功能。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 125,
+	},
+	block_00046 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=150, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外观方面，没有任何形式的外部端口。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 130,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是一种不具备外部连接方式的全封闭机。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 131,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为无法通过一般方法维护，且充电方法严格受限，所以可推断此类仿生人在丧失各项功能后，其系统会判定寿命终止，而后自发运行焚毁程序。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 132,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在能力方面，没有需要特别记录的地方。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 133,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在身体能力、智慧能力全无高于人类的表现。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 134,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"假如与之敌对，其威胁度也几乎与普通人类等同。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 135,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对周围的器械没有任何影响能力。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 136,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"其设计理念中并没有将其用于战斗或谍报的意图。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 137,
+	},
+	block_00054 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=200, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型仿生人的生产地至今仍不明晰。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 142,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在多数案例中，Ａｅ型仿生人是在危险地带出现，随后被附近的群体收容，借此与人类发生接触。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 143,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可以认为，他们是出于某种突发状况，被埋藏于危险地带的遗迹中的设备制造而成的。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 144,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"数量并不算多，但在各时代、各地区均有这一类仿生人的存在记录。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 145,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"数百年间，制造从未停止。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 146,
+	},
+	block_00059 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=250, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型仿生人大多呈现少年或少女姿态。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 151,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因此，尽管后续可能会发展至被人迫害的境地，但在初期接触中，多数群体都会对他们表示友好并予以收容。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 152,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"令人惊讶的是，Ａｅ型仿生人拥有身体生长发育的功能。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 153,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"每位个体都有身高增长数厘米的记录，只是生长速度比正常人类略为迟缓。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 154,
+	},
+	block_00063 = { 
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=300, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"需要特别记录的一点，是人类特有的自我意识竟然在仿生人身上得以重现了。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 159,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仅通过言行分辨出Ａｅ型仿生人几近不可能。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 160,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"无论在外部硬件还是在内部软件的层面上，都完全重现了人类的形态。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 161,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型仿生人能够通过任何形式的图灵测试。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 162,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"其设计过程涉及到极高水平的应用化学、组织工程、有机工程技术的运用……",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 163,
+	},
+	block_00068 = {
+		{"bgm", stop=1, time=5000},
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=100, alpha=224, x=0, y=0, path=":fgf/"},
+		{"ex", time=2000, func="wait"},
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"ex", time=2000, func="wait"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00067",
+		line = 177,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

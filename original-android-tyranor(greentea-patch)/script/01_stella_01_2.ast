@@ -1,0 +1,1075 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"se", id=0, file="se074", time=500},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg47", x=480, y=-270, speed=35000, ease="none", time=2000, zoom=150, sync=1, path=":bg/", x2=-480, y2=-270, set="bg47"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"脚下有积水，空气却略有温热。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 8,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"温度有些高了。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 9,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想必不是地热，若是发酵生热，设备也应该会将其识别为重大危险因素，发出警告。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 10,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"那就只剩下一种可能了。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 11,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200009"},
+			},
+			ja = {
+				{
+					"「它果然就在这里……」",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 17,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我心中期待更甚，继续深入。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 22,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"随着前进，洞内整体走向渐渐向下倾斜。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 23,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我注意着脚下的路，慎重下行。",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 24,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"斜度太大，已不像是坡道，更像是崖壁。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 25,
+	},
+	block_00009 = {
+		{"msgoff"},
+		{"se", id=0, file="se074", time=500},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg47", x=0, y=270, speed=25000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg47"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"路途混杂了人造物与自然造物，相当险阻，我将身体压低到手指几乎触及地面的程度前进着。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 31,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"洞窟顶部，一段扭曲的楼梯若隐若现。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 32,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正常而言，荒废的建筑在数百年后便不复存在。",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 33,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但高科技时代的建筑材料不同，有些甚至拥有长达数千年的耐用期。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 34,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这栋大楼整个被埋入地层中，受力变形，仍旧存留至今。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 35,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而在高端的建筑内，往往遗留着高端的物品。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 36,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我克制住心中的急切，向最深处进发。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 37,
+	},
+	block_00016 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1000, path=":bg/"},
+		{"se", id=0, file="se180"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", x=0, y=270, speed=25000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg48"},
+		{"ex", time=1000, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", time=1500, path=":bg/", set="bg48"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一扇坚固的金属门出现在眼前。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 47,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"它奇迹般幸免于水的淹没。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 48,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200025"},
+			},
+			ja = {
+				{
+					"「……电源都还在运作么」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 54,
+	},
+	block_00019 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", time=1000, path=":bg/", set="bg48"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"古代的科技遗产中，有些具备了千年以上自检维护的能力，这扇门应当就是如此。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 59,
+	},
+	block_00020 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48", x=-960, y=100, speed=4000, time=1000, zoom=200, sync=1, path=":bg/", x2=-760, y2=100, set="bg48"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"在门侧发现了用来验证身份的插槽。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 64,
+	},
+	block_00021 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_item_cutin01", time=500, y=0, speed=550, ease="in", sync=1, path=":fgf/", y2=100},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我从钥匙库中挑出规格一致的那张，插入进去。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 69,
+	},
+	block_00022 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5, time=500, y2=0, y=100, speed=600, ease="in", sync=1},
+		{"se", id=0, file="se078"},
+		{"fg", mode=-2},
+		{"bg", file="bg48_01", zoom=200, x=-960, y=100, sync=0, path=":bg/", set="bg48"},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"门上的状态灯强烈闪烁。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 79,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"看来是检测到万能钥匙了。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 80,
+	},
+	block_00024 = {
+		{"bgm", stop=1, time=8000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg48_01", time=1000, path=":bg/", set="bg48"},
+		{"se", id=0, file="se079"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="bg48_01", speed=10000, time=0, zoom=125, sync=1, ease="in", path=":bg/", z2=100, set="bg48"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"进行了数分钟的激烈较量后，门缓缓打开。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 93,
+	},
+	block_00025 = {
+		{"msgoff"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200034"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 100,
+	},
+	block_00026 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"bgm", file="bgm15"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=480, y=-200, speed=35000, ease="none", sync=0, zoom=150, path=":bg/", x2=-480, y2=-200, set="bg46"},
+		{"flash", mode="siglus", time=3500, alpha=255, color="ffffff", style="ar_screen"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"内部房间保存完好，没有半分受侵蚀的迹象。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 108,
+	},
+	block_00027 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=200, y=200, speed=5000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=200, y2=100, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"四面八方尽是器材。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 110,
+	},
+	block_00028 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-400, y=270, speed=5000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=-200, y2=270, set="bg46"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"周围的绿色指示灯如星光闪烁。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 112,
+	},
+	block_00029 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-100, y=-200, speed=4000, time=1500, zoom=200, sync=1, path=":bg/", x2=-100, y2=-100, set="bg46"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"还有安置在房间中央的胶囊舱，给人一种这是副棺材的错觉。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 117,
+	},
+	block_00030 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", time=1500, path=":bg/", set="bg46"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200041"},
+			},
+			ja = {
+				{
+					"「生成器」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 121,
+	},
+	block_00031 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-100, y=-150, speed=12000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=200, y2=-150, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种设备也被称作“打印机”。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 126,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"通过电力控制充满舱内的特殊溶液，直接生成（或称输出）物体。",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 127,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自不必说，在如今这个科技失传的时代，这是极其贵重的物品。",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 128,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"若还能正常运行，其价值无法估量。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 129,
+	},
+	block_00035 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", x=-100, y=-200, speed=4000, time=1000, zoom=200, sync=1, path=":bg/", x2=-100, y2=-100, set="bg46"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我伸出颤抖的手接触舱室表面。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 134,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"内部看不太清。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 135,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"状态窗显示它已处于完成生成后的待机状态。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 136,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"触感温热。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 137,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"就是它抬高了整个洞窟内的温度。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 138,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如果能将这台设备完完整整带回去，那这辈子就衣食无忧了。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 139,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但这并不可能，这般大小是无法搬运的。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 140,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……我重新将思绪牵回工作上。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 141,
+	},
+	block_00043 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg46", time=1000, path=":bg/", set="bg46"},
+		{"se", id=0, file="se006"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"操作起舱体上的操控板。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 146,
+	},
+	block_00044 = {
+		{"se", id=0, file="se080"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"舱内的深绿色溶液逐渐被排出。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 148,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"当溶液排尽后，系统又利用高压水清洁舱内。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 149,
+	},
+	block_00046 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"bgm", stop=1, time=1000},
+		{"se", id=0, file="se007"},
+		{"ex", time=2000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"随后，舱盖缓缓打开。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 158,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我随即大吃一惊。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 159,
+	},
+	block_00048 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=-500, y=0, speed=10000, ease="none", sync=0, zoom=100, path=":ev/", x2=-100, y2=0, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"bgm", file="bgm23", time=5000},
+		{"flash", mode="siglus", time=3000, alpha=255, color="ffffff", style="ar_screen"},
+		{"ex", time=500, func="wait"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01", speed=2000, time=2000, zoom=100, lv=5, z2=115, sync=1, path=":ev/", id=1, set="ts01"},
+		{"ex", time=1000, func="wait"},
+		{"msgon"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200063"},
+			},
+			ja = {
+				{
+					"「这是——」",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 173,
+	},
+	block_00049 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=-300, y=-150, speed=20000, ease="none", time=1500, zoom=100, sync=1, path=":ev/", x2=100, y2=-150, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少女型仿生人。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 178,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外观年龄在十二岁左右。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 179,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"身体部位并没有像寻常性爱人偶那样夸张到反常的地步。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 180,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她就跟活生生的人一样。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 181,
+	},
+	block_00053 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=100, y=-1090, speed=20000, ease="none", time=2000, zoom=100, sync=0, path=":ev/", x2=100, y2=-690, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"体表属于无缝构造。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 185,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"采用了一体生成手段，全身找不到一处零件拼接的痕迹。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 186,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不是用来做玩偶，还要设计得如此逼真，这是为什么呢。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 187,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……我想不出理由。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 188,
+	},
+	block_00057 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01", time=1500, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但也无妨，思考原因并不是我的任务。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 190,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我的工作，只是把它带回去，送到客户手里。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 191,
+	},
+	block_00059 = {
+		{"msgoff"},
+		{"bgm", stop=1, time=2000},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_01_ex", x=-150, y=-270, speed=2000, ease="none", time=1500, zoom=75, sync=1, path=":ev/", x2=-150, y2=-300, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200077"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 197,
+	},
+	block_00060 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_02_ex", x=-150, y=-270, speed=0, ease="none", time=2000, zoom=75, sync=1, path=":ev/", x2=-150, y2=-300, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"就在这时，“女孩”睁开了眼。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 202,
+	},
+	block_00061 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_04_ex", x=-200, y=-100, speed=2000, ease="none", time=2000, zoom=100, sync=1, path=":ev/", x2=-150, y2=-100, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她那双深邃的蓝眼睛凝视着我。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 207,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"让我有种压迫感。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 208,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这就像被一个足智多谋的对手强迫进行不平等谈判那样憋屈。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 209,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我能明白——",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 210,
+	},
+	block_00065 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_04", speed=2000, time=2000, zoom=100, lv=5, z2=110, sync=1, path=":ev/", id=1, set="ts01"},
+		{"msg", no=98, mode="novel"},
+		{"msgoff"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这个机器娃娃，是有智慧的。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 217,
+	},
+	block_00066 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", wait=0, func="wait", time=0},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00065",
+		line = 228,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,4257 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"savetitle", text="旅の始まり"},
+		{"user", mode="autosave", no=3},
+		{"eval", exp="g.chap03=1"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"se", file="se_eyecatch00", id=1},
+		{"savetitle", text="旅の始まり"},
+		{"bg", file="eyecatch_03", movie=1, path=":ani/", bx=960},
+		{"ex", movie=1, func="wait", time=0},
+		{"ex", time=4000, func="wait"},
+		{"ex", time=4500, func="wait"},
+		{"se", stop=1, id=-1, time=1000},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"于是——",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 12,
+	},
+	block_00001 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg47", x=480, y=0, speed=35000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=-480, y2=0, set="bg47"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我现在身处城市以西约四百公里的位置。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 14,
+	},
+	block_00002 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_03_ex", x=-100, y=-350, speed=10000, ease="none", time=1500, zoom=75, sync=1, path=":ev/", x2=100, y2=-350, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"而我眼前正是这次要收回的仿生人。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 16,
+	},
+	block_00003 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_05", time=2000, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200085"},
+			},
+			ja = {
+				{
+					"「啊……",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 20,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200086"},
+			},
+			ja = {
+				{
+					"你好」",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 21,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"与她娇小的外表对应的，是那可爱的声音。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 23,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200087"},
+			},
+			ja = {
+				{
+					"「嗯……嗯」",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 25,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她的反应出乎我的意料，我想都没想就回了一句。",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 27,
+	},
+	block_00008 = {
+		{"bgm", file="bgm02", time=1500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200092"},
+			},
+			ja = {
+				{
+					"「叔叔，你是人类？」",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 30,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200093"},
+			},
+			ja = {
+				{
+					"「嗯」",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 31,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200094"},
+			},
+			ja = {
+				{
+					"「你是……我的主人？」",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 32,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200095"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 33,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她的系统存在验证，我不能草率回答。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 35,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"要是一个失误导致验证失败，系统被锁定就麻烦了。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 36,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"要怎么才能让她把我识别为用户呢……",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 37,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200101"},
+			},
+			ja = {
+				{
+					"「初次见面，但是对不起」",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 39,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200102"},
+			},
+			ja = {
+				{
+					"「……啥？」",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 40,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200103"},
+			},
+			ja = {
+				{
+					"「我不能成为你的个人财产」",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 41,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200104"},
+			},
+			ja = {
+				{
+					"「我想也是……你的验证需要什么条件？」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 42,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200105"},
+			},
+			ja = {
+				{
+					"「什么是验证？」",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 43,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200106"},
+			},
+			ja = {
+				{
+					"「你说什么？」",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 44,
+	},
+	block_00021 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200107"},
+			},
+			ja = {
+				{
+					"「就算你是我的主人……我也要去」",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 48,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200108"},
+			},
+			ja = {
+				{
+					"「你要去？」",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 49,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看来她应该把我识别为用户了。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 51,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"却没有进行生物验证和身份核验。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 52,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这是怎么回事？",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 53,
+	},
+	block_00026 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200114"},
+			},
+			ja = {
+				{
+					"「我是……仿生人吗？」",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 57,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200115"},
+			},
+			ja = {
+				{
+					"「对」",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 58,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200116"},
+			},
+			ja = {
+				{
+					"「我的名字叫什么？」",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 59,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200117"},
+			},
+			ja = {
+				{
+					"「不清楚……也不知道你有名字还是没名字」",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 60,
+	},
+	block_00030 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200118"},
+			},
+			ja = {
+				{
+					"「没名字……」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 64,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她很失望。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 66,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"它可能是程序控制的那种方式，但它是一种令人恐惧的自然",
+					{"txruby", text="きょそ"},
+					"姿态",
+					{"txruby"},
+					"。",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 67,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"应该具备相当高的性能。",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 68,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200124"},
+			},
+			ja = {
+				{
+					"「多半会有机型名称」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 70,
+	},
+	block_00035 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200125"},
+			},
+			ja = {
+				{
+					"「机型名称……」",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 74,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200126"},
+			},
+			ja = {
+				{
+					"「只要找到你的产品手册，大概就能知道你这个型号的名称了」",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 75,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200127"},
+			},
+			ja = {
+				{
+					"「型号名称……」",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 76,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她更失望了。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 78,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是一场由没有感情的机器上演的无聊闹剧。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 79,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"想必是为了博取用户的关心吧。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 80,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她这种类似“人类的行为”没什么意思，但确实做得很好。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 81,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200134"},
+			},
+			ja = {
+				{
+					"「你知道自己是仿生人吧？」",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 83,
+	},
+	block_00043 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200135"},
+			},
+			ja = {
+				{
+					"「我知道。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 87,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200136"},
+			},
+			ja = {
+				{
+					"……虽然我不服」",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 88,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"不服？",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 90,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200140"},
+			},
+			ja = {
+				{
+					"「你还知道多少？」",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 92,
+	},
+	block_00047 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200141"},
+			},
+			ja = {
+				{
+					"「我是仿生人，还有……",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 96,
+	},
+	block_00048 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200142"},
+			},
+			ja = {
+				{
+					"……其他的，都不知道了」",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 100,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看来她只具备最基础的知识。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 102,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"居然不知道自己的产品名称。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 103,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我试着找了一下类似产品手册的东西，但到处都没有。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 104,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"也没有任何东西看起来像是用来保存数据的存储器。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 105,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200149"},
+			},
+			ja = {
+				{
+					"「……我是你的主人，对吧？」",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 107,
+	},
+	block_00054 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200150"},
+			},
+			ja = {
+				{
+					"「是啊。是吧？不是吗？」",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 111,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200151"},
+			},
+			ja = {
+				{
+					"「……没错。还有，我叫裘德」",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 112,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"单从年龄来看，我确实算是她叔叔。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 114,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这都不重要，关键是她认我为主了。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 115,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但我分明还没有经过验证。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 116,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这说明她是不需要验证的。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 117,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是任何人都能使用的机器。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 118,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知道为什么制造厂商能容许她这样。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 119,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不加验证就让这么高端的产品流向市场。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 120,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"真不明白古人是怎么想的。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 121,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200162"},
+			},
+			ja = {
+				{
+					"「然后……你要去什么地方？」",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 123,
+	},
+	block_00065 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_03_ex", x=-200, y=-100, speed=3000, time=1000, zoom=100, sync=1, path=":ev/", x2=-100, y2=-100, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"bgm", vol=0, time=2000, file="bgm02"},
+		{"msg", no=98, mode="novel"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200163"},
+			},
+			ja = {
+				{
+					"「能让我成为人类的地方」",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 132,
+	},
+	block_00066 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_03", time=1500, path=":ev/", set="ts01"},
+		{"msgon"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200164"},
+			},
+			ja = {
+				{
+					"「……你说什么？」",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 141,
+	},
+	block_00067 = {
+		{"bg", file="cg_ts01_05", time=1500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200165"},
+			},
+			ja = {
+				{
+					"「我一定要成为人类」",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 145,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200166"},
+			},
+			ja = {
+				{
+					"「成为人类？",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 146,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200167"},
+			},
+			ja = {
+				{
+					"这是你被输入的命令吗？」",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 147,
+	},
+	block_00070 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"bgm", vol=100, time=3000, file="bgm02"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000200168"},
+			},
+			ja = {
+				{
+					"「……可能是」",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 152,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200169"},
+			},
+			ja = {
+				{
+					"「仿生人没办法成为人类」",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 153,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200170"},
+			},
+			ja = {
+				{
+					"「可我……一定要这样」",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 154,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200171"},
+			},
+			ja = {
+				{
+					"「有技术能培养出人的手脚，还有其他器官。",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 155,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000200172"},
+			},
+			ja = {
+				{
+					"去搜罗那些器官，就有可能把你身体的各个部件转化成生物系统……」",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 156,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200173"},
+			},
+			ja = {
+				{
+					"「我不是指这些，而是想……在更本质的层面上成为人类」",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 157,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200174"},
+			},
+			ja = {
+				{
+					"「更本质……你……」",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 158,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为什么要特意给一个仿生人设置这种目标？",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 160,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我完全理不清制作厂商的意图。",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 161,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200179"},
+			},
+			ja = {
+				{
+					"「说到底，你准备怎么成为人类？」",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 163,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她摇了摇头。",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 165,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……我想也是。",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 166,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"怎么可能有这种办法。",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 167,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许她是个次品。",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 168,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就算……就算是这样。",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 169,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"只要利用她的这一需求，就能把她带走。",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 170,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000200188"},
+			},
+			ja = {
+				{
+					"「你为什么想成为人类？这也不知道？」",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 172,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她默默思考了一会。",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 174,
+	},
+	block_00088 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000200192"},
+			},
+			ja = {
+				{
+					"「……如果我成为人类……就能拯救所有人。……应该是这样」",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 178,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500009"},
+			},
+			ja = {
+				{
+					"「……成为人类啊」",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 179,
+	},
+	block_00090 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500010"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 183,
+	},
+	block_00091 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_04_ex", x=-200, y=-130, speed=20000, ease="none", time=1500, zoom=100, sync=1, path=":ev/", x2=200, y2=-130, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个少女型仿生人把脸转了过来，正对着我看。",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 187,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"吸收了四周指示灯那如星般闪烁的光，她的眼睛呈现出淡绿的色彩。",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 188,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"乍看之下和人类没有什么两样。",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 189,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一举一动却表现得不太自然。",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 190,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她脸上没有任何表情，也看不出有寻常机器那样冰冷的理性。",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 191,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"只是一台按照程序来模仿人类行为的机器罢了。",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 192,
+	},
+	block_00097 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_04", time=1500, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500019"},
+			},
+			ja = {
+				{
+					"「你成了人类……又要怎么拯救所有人？」",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 196,
+	},
+	block_00098 = {
+		{"bg", file="cg_ts01_03", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500020"},
+			},
+			ja = {
+				{
+					"「不清楚」",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 199,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500021"},
+			},
+			ja = {
+				{
+					"「这也不知道啊」",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 200,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500022"},
+			},
+			ja = {
+				{
+					"「……嗯」",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 201,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她身上的预设程序真是莫名其妙。",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 203,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就一味让她坚持要成为人类。",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 204,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其他什么要求都没有。",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 205,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我根本想不透写这个程序的人，他脑子里到底在想什么。",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 206,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500029"},
+			},
+			ja = {
+				{
+					"「……算了，够了」",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 208,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这毕竟是工作。",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 210,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500033"},
+			},
+			ja = {
+				{
+					"「机器是很难成为人类的」",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 212,
+	},
+	block_00108 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500034"},
+			},
+			ja = {
+				{
+					"「我也觉得」",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 216,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500035"},
+			},
+			ja = {
+				{
+					"「但我认识一个人，他也许能帮你」",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 217,
+	},
+	block_00110 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500036"},
+			},
+			ja = {
+				{
+					"「真的？」",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 221,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500037"},
+			},
+			ja = {
+				{
+					"「因为工作关系，我准备启程去见他。",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 222,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			clickpass = 750,
+			vo = {
+				{"vo", ch="c001", file="z900000044"},
+			},
+			ja = {
+				{
+					"如果你想跟着我的话……」",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 225,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500038"},
+			},
+			ja = {
+				{
+					"「我跟你走」",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 226,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z900000045"},
+			},
+			ja = {
+				{
+					"「答应得这么爽快啊，那挺好的。",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 266,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500040"},
+			},
+			ja = {
+				{
+					"你怎么不怀疑我一下？说不定我在说谎」",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 267,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500041"},
+			},
+			ja = {
+				{
+					"「是吗？」",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 268,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她的系统没安装安保程序？",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 270,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500045"},
+			},
+			ja = {
+				{
+					"「没，我没说谎。只要你跟我走，我就介绍你们认识。",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 272,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500046"},
+			},
+			ja = {
+				{
+					"但我不保证你一定能成为人类」",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 273,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500047"},
+			},
+			ja = {
+				{
+					"「没有关系。我要想办法成为人类，不然……」",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 274,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500048"},
+			},
+			ja = {
+				{
+					"「不然？」",
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 275,
+	},
+	block_00122 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500049"},
+			},
+			ja = {
+				{
+					"「……后果很严重」",
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 279,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500050"},
+			},
+			ja = {
+				{
+					"「……",
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 280,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500051"},
+			},
+			ja = {
+				{
+					"你没有其他使用规则之类的了？」",
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 281,
+	},
+	block_00125 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500052"},
+			},
+			ja = {
+				{
+					"「使用规则？",
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 285,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500053"},
+			},
+			ja = {
+				{
+					"我不是很清楚，只要能成为人类就够了吧」",
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 286,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500054"},
+			},
+			ja = {
+				{
+					"「是么……」",
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 287,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一度有些不知所措，但总算能够成功把她带走了。",
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 289,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"之后有必要跟那个老人统一口径。",
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 290,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500059"},
+			},
+			ja = {
+				{
+					"「这可是长途旅行啊，没问题吗？",
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 293,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500060"},
+			},
+			ja = {
+				{
+					"之后别跟我抱怨啊」",
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 294,
+	},
+	block_00132 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500061"},
+			},
+			ja = {
+				{
+					"「没问题」",
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 298,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500062"},
+			},
+			ja = {
+				{
+					"「……说得简单。算了」",
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 299,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她既然能自己走动，那赶起路就很轻松了。",
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 301,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500066"},
+			},
+			ja = {
+				{
+					"「好了，那我们马上准备出发吧。……呃。",
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 303,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500067"},
+			},
+			ja = {
+				{
+					"我要怎么称呼你？」",
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 304,
+	},
+	block_00137 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500068"},
+			},
+			ja = {
+				{
+					"「我没有名字……」",
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 308,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"是这样来着。",
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 310,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500072"},
+			},
+			ja = {
+				{
+					"「那你现在随便起一个」",
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 312,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500073"},
+			},
+			ja = {
+				{
+					"「哎，可我不想自己起」",
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 313,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500074"},
+			},
+			ja = {
+				{
+					"「为什么？」",
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 314,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500075"},
+			},
+			ja = {
+				{
+					"「因为我想让别人给我起一个……吧？」",
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 315,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500076"},
+			},
+			ja = {
+				{
+					"「意思是，你要让我来？」",
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 316,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500077"},
+			},
+			ja = {
+				{
+					"「嗯。",
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 317,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500078"},
+			},
+			ja = {
+				{
+					"这是父亲的义务……」",
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 318,
+	},
+	block_00146 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_05_ex", x=-200, y=-130, speed=1500, time=1000, zoom=100, sync=0, path=":ev/", x2=-100, y2=-130, set="ts01", ax=1920, ay=1080, bx=-960},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500079"},
+			},
+			ja = {
+				{
+					"「我不是你父亲」",
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 322,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我叫道。声音稍微大了些。",
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 324,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她直盯着我看。",
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 325,
+	},
+	block_00149 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts01_05", time=1000, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500084"},
+			},
+			ja = {
+				{
+					"「主人不应该是父亲或母亲吗？」",
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 329,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500085"},
+			},
+			ja = {
+				{
+					"「这是什么逻辑？」",
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 330,
+	},
+	block_00151 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500086"},
+			},
+			ja = {
+				{
+					"「……这样啊」",
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 334,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500087"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 335,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"居然对一台机器感情用事了。",
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 337,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这不像我。",
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 338,
+	},
+	block_00155 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500092"},
+			},
+			ja = {
+				{
+					"「那我的父母在哪里？」",
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 342,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500093"},
+			},
+			ja = {
+				{
+					"「不知道，大概很久以前就死了吧」",
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 343,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500094"},
+			},
+			ja = {
+				{
+					"「死了……？」",
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 344,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这台少女型机器正一脸困惑地看着我。",
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 346,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她会做出表情了。",
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 347,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"凭着和我的一小段对话。",
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 348,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……就学会了。",
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 349,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500101"},
+			},
+			ja = {
+				{
+					"「……你的名字叫什么？」",
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 351,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500102"},
+			},
+			ja = {
+				{
+					"「我叫裘德」",
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 352,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500103"},
+			},
+			ja = {
+				{
+					"「那我也这么叫吧」",
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 353,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500104"},
+			},
+			ja = {
+				{
+					"「啊？」",
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 354,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500105"},
+			},
+			ja = {
+				{
+					"「我也叫裘德」",
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 355,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500106"},
+			},
+			ja = {
+				{
+					"「哪有这种事啊」",
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 356,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她的脑回路里最基本的信息和语言应该输入完成了，但看来运行得还是一塌糊涂。",
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 358,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500110"},
+			},
+			ja = {
+				{
+					"「不行吗？」",
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 360,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500111"},
+			},
+			ja = {
+				{
+					"「这样太难区分了。而且这是男性的名字。",
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 361,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500112"},
+			},
+			ja = {
+				{
+					"……没办法。我来给你起一个」",
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 362,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500113"},
+			},
+			ja = {
+				{
+					"「真的？」",
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 363,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她忽然眼睛一亮。",
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 365,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这机器性能还挺强，但一想到这是程序的作用，我便觉得很虚假了。",
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 366,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500118"},
+			},
+			ja = {
+				{
+					"「你的名字……」",
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 368,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500119"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 369,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"她那满是期待的视线仿佛要射穿我。",
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 371,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500123"},
+			},
+			ja = {
+				{
+					"「叫罗德（Ｒｏｉｄ）。用仿生人（Ａｎｄｒｏｉｄ）英文的后半部分，这样可以吧」",
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 373,
+	},
+	block_00179 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500124"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 377,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500125"},
+			},
+			ja = {
+				{
+					"「这个名字也偏男性……但还是比较合理的。",
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 378,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500126"},
+			},
+			ja = {
+				{
+					"对你这种机器来说，合理性更重要吧」",
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 379,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500127"},
+			},
+			ja = {
+				{
+					"「那我们走吧，罗德」",
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 380,
+	},
+	block_00183 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500128"},
+			},
+			ja = {
+				{
+					"「等一下」",
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 384,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500129"},
+			},
+			ja = {
+				{
+					"「怎么？」",
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 385,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500130"},
+			},
+			ja = {
+				{
+					"「……最好可以换一个名字」",
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 386,
+	},
+	block_00186 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500131"},
+			},
+			ja = {
+				{
+					"「这还不够合理？」",
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 387,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500132"},
+			},
+			ja = {
+				{
+					"「合不合理不重要……」",
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 388,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500133"},
+			},
+			ja = {
+				{
+					"「那你想要什么样的」",
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 389,
+	},
+	block_00189 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500134"},
+			},
+			ja = {
+				{
+					"「……要可爱的」",
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 393,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500135"},
+			},
+			ja = {
+				{
+					"「你这明明就预设了偏好啊。为什么一开始不说？」",
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 394,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500136"},
+			},
+			ja = {
+				{
+					"「不知道你说的预设是什么意思，我只是慢慢有了这个想法」",
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 395,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500137"},
+			},
+			ja = {
+				{
+					"「你这机器真麻烦」",
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 396,
+	},
+	block_00193 = {
+		{"se", id=0, file="se082"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我通过终端的辞典功能调出一本人名词典。",
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 400,
+	},
+	block_00194 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一直保留着这个功能，以备不时之需，这还是第一次派上用场。",
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 401,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"我让结果显示在终端屏幕上，而不是我的视膜屏。",
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 402,
+	},
+	block_00196 = {
+		{"se", stop=1, id=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500143"},
+			},
+			ja = {
+				{
+					"「这一栏都是女性的名字。你挑个喜欢的吧」",
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 406,
+	},
+	block_00197 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500144"},
+			},
+			ja = {
+				{
+					"「不要」",
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 410,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500145"},
+			},
+			ja = {
+				{
+					"「这是我最不愿意的，或者说……排斥」",
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 411,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500146"},
+			},
+			ja = {
+				{
+					"「什么排斥？」",
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 412,
+	},
+	block_00200 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500147"},
+			},
+			ja = {
+				{
+					"「心理上的排斥……」",
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 416,
+	},
+	block_00201 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……她的麻烦程度足以和真实的女人媲美。",
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 418,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500151"},
+			},
+			ja = {
+				{
+					"「你怎么都要我来给你起名是吗？」",
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 420,
+	},
+	block_00203 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500152"},
+			},
+			ja = {
+				{
+					"「这样最圆满」",
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 424,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我不喜欢用人名称呼一个机器娃娃，这样显得我好像有不可告人的癖好。",
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 426,
+	},
+	block_00205 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过，想到这样就能把这玩意带出去，代价还算小。",
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 427,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"只是感觉被设计师牵着鼻子走了，让我有点恼火。",
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 428,
+	},
+	block_00207 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500158"},
+			},
+			ja = {
+				{
+					"「叫你弗碧雅（Ｐｈｏｂｉａ）怎么样？」",
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 430,
+	},
+	block_00208 = {
+		{"bg", file="cg_ts01_04", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500159"},
+			},
+			ja = {
+				{
+					"「……嗯，嗯……",
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 434,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500160"},
+			},
+			ja = {
+				{
+					"虽然感觉这个是有点女性的味道了……」",
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 435,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"思维真敏锐啊。",
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 437,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为这个词在英文上是恐惧症的意思。作名词后缀。",
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 438,
+	},
+	block_00212 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"比如恐高症，就是Ａｃｒｏｐｈｏｂｉａ。",
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 439,
+	},
+	block_00213 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"极度恐惧死亡的症状则称Ｔｈａｎａｔｏｐｈｏｂｉａ。",
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 440,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这个名字里包含了我对拟人化得让人不适的机器的讽刺。",
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 441,
+	},
+	block_00215 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500168"},
+			},
+			ja = {
+				{
+					"「我觉得这个名字很可爱，怎么样？」",
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 443,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500169"},
+			},
+			ja = {
+				{
+					"「我要其他的」",
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 444,
+	},
+	block_00217 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500170"},
+			},
+			ja = {
+				{
+					"「你要求也太高了吧」",
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 445,
+	},
+	block_00218 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500171"},
+			},
+			ja = {
+				{
+					"「人一辈子只能取一个名字，所以我想要个足够好的」",
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 446,
+	},
+	block_00219 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500172"},
+			},
+			ja = {
+				{
+					"「……真挑剔啊你」",
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 447,
+	},
+	block_00220 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是浪费时间。",
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 449,
+	},
+	block_00221 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"那我就如设计师所愿吧。",
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 450,
+	},
+	block_00222 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500177"},
+			},
+			ja = {
+				{
+					"「叫菲莉娅。这样你没意见了吧」",
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 452,
+	},
+	block_00223 = {
+		{"bg", file="cg_ts01_05", time=500, sync=0, path=":ev/", set="ts01"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500178"},
+			},
+			ja = {
+				{
+					"「这个……」",
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 456,
+	},
+	block_00224 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500179"},
+			},
+			ja = {
+				{
+					"「意思是“爱”。",
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 457,
+	},
+	block_00225 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500180"},
+			},
+			ja = {
+				{
+					"在古老的神话里有个女神应该也叫这个名字」",
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 458,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500181"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 459,
+	},
+	block_00227 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500182"},
+			},
+			ja = {
+				{
+					"「这个名字很好」",
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 460,
+	},
+	block_00228 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500183"},
+			},
+			ja = {
+				{
+					"「满意了？」",
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 461,
+	},
+	block_00229 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500184"},
+			},
+			ja = {
+				{
+					"「是哪位女神的名字？」",
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 462,
+	},
+	block_00230 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500185"},
+			},
+			ja = {
+				{
+					"「不清楚。你自己查」",
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 463,
+	},
+	block_00231 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500186"},
+			},
+			ja = {
+				{
+					"「嗯，我去查」",
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 464,
+	},
+	block_00232 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这台少女型机器……菲莉娅，慢慢弯起身，想要坐起来。",
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 466,
+	},
+	block_00233 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500190"},
+			},
+			ja = {
+				{
+					"「你能动吗？」",
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 468,
+	},
+	block_00234 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500191"},
+			},
+			ja = {
+				{
+					"「嗯。看来终于能自由活动了。可以跟你走了」",
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 469,
+	},
+	block_00235 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500192"},
+			},
+			ja = {
+				{
+					"「我最后确认一次，你真的同意？」",
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 470,
+	},
+	block_00236 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500193"},
+			},
+			ja = {
+				{
+					"「同意什么？」",
+				},
+			},
+		},
+		linkback = "block_00235",
+		linknext = "block_00237",
+		line = 471,
+	},
+	block_00237 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500194"},
+			},
+			ja = {
+				{
+					"「同意我不经验证。你总该知道我不是正常用户吧」",
+				},
+			},
+		},
+		linkback = "block_00236",
+		linknext = "block_00238",
+		line = 472,
+	},
+	block_00238 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500195"},
+			},
+			ja = {
+				{
+					"「你这句话，我不太听得懂」",
+				},
+			},
+		},
+		linkback = "block_00237",
+		linknext = "block_00239",
+		line = 473,
+	},
+	block_00239 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这说明她的人格部件没连接上验证功能。",
+				},
+			},
+		},
+		linkback = "block_00238",
+		linknext = "block_00240",
+		line = 475,
+	},
+	block_00240 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是一台硬件上没有外部端口的全封闭机。",
+				},
+			},
+		},
+		linkback = "block_00239",
+		linknext = "block_00241",
+		line = 476,
+	},
+	block_00241 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"这样一来任谁都能把她牵走。",
+				},
+			},
+		},
+		linkback = "block_00240",
+		linknext = "block_00242",
+		line = 477,
+	},
+	block_00242 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500201"},
+			},
+			ja = {
+				{
+					"「你真是一点安全性都没有」",
+				},
+			},
+		},
+		linkback = "block_00241",
+		linknext = "block_00243",
+		line = 479,
+	},
+	block_00243 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500202"},
+			},
+			ja = {
+				{
+					"「什么意思？」",
+				},
+			},
+		},
+		linkback = "block_00242",
+		linknext = "block_00244",
+		line = 480,
+	},
+	block_00244 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500203"},
+			},
+			ja = {
+				{
+					"「……意思是你毫无防备」",
+				},
+			},
+		},
+		linkback = "block_00243",
+		linknext = "block_00245",
+		line = 481,
+	},
+	block_00245 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500204"},
+			},
+			ja = {
+				{
+					"「？」",
+				},
+			},
+		},
+		linkback = "block_00244",
+		linknext = "block_00246",
+		line = 482,
+	},
+	block_00246 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500205"},
+			},
+			ja = {
+				{
+					"「好了。准备出发。你的可选配件应该也生成完毕了」",
+				},
+			},
+		},
+		linkback = "block_00245",
+		linknext = "block_00247",
+		line = 483,
+	},
+	block_00247 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"胶囊舱的副舱里容纳了衣物和鞋子。",
+				},
+			},
+		},
+		linkback = "block_00246",
+		linknext = "block_00248",
+		line = 485,
+	},
+	block_00248 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"se", id=0, file="se081"},
+		{"ex", time=2000, func="wait"},
+		{"se", stop=1, id=0, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg46", sync=0, path=":bg/", set="bg46"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z000500211"},
+			},
+			ja = {
+				{
+					"「正合适～」",
+				},
+			},
+		},
+		linkback = "block_00247",
+		linknext = "block_00249",
+		line = 496,
+	},
+	block_00249 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500212"},
+			},
+			ja = {
+				{
+					"「……你这个头饰是怎么回事」",
+				},
+			},
+		},
+		linkback = "block_00248",
+		linknext = "block_00250",
+		line = 498,
+	},
+	block_00250 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500213"},
+			},
+			ja = {
+				{
+					"「我看这个跟衣服放在一起就戴上了。感觉很可爱」",
+				},
+			},
+		},
+		linkback = "block_00249",
+		linknext = "block_00251",
+		line = 500,
+	},
+	block_00251 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000500214"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00250",
+		linknext = "block_00252",
+		line = 501,
+	},
+	block_00252 = {
+		{"msgoff"},
+		{"bg", file="b_bg46", zoom=350, y=900, speed=2000, ease="in", sync=0, path=":bg2/", y2=850, set="bg46"},
+		{"bg", id=1, lv=1, file="cinema200", path=":fgf/", sync=0},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_01", ch="c002", path=":fg/", zoom=190, speed=2000, ease="in", sync=0, lv=6, mode=3, head="bs3_ph0", y2=405, x=-589, y=505, id=13},
+		{"extrans", time=1000},
+		{"ex", time=200, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是个鲜花形状的头饰。",
+				},
+			},
+		},
+		linkback = "block_00251",
+		linknext = "block_00253",
+		line = 508,
+	},
+	block_00253 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"给机器娃娃戴装饰，这制作厂商到底是何等意图啊。",
+				},
+			},
+		},
+		linkback = "block_00252",
+		linknext = "block_00254",
+		line = 509,
+	},
+	block_00254 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg46", sync=0, zoom=100, path=":bg/", set="bg46"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z000500219"},
+			},
+			ja = {
+				{
+					"「算了。我们到地面上去。跟我来，菲莉娅」",
+				},
+			},
+		},
+		linkback = "block_00253",
+		linknext = "block_00255",
+		line = 516,
+	},
+	block_00255 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z000500220"},
+			},
+			ja = {
+				{
+					"「嗯！」",
+				},
+			},
+		},
+		linkback = "block_00254",
+		linknext = "block_00256",
+		line = 518,
+	},
+	block_00256 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg46", sync=0, zoom=150, path=":bg2/", set="bg46"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_05", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺便说一句，Ｐｈｉｌｉａ这个词也并非只有褒义。",
+				},
+			},
+		},
+		linkback = "block_00255",
+		linknext = "block_00257",
+		line = 523,
+	},
+	block_00257 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其实，这个词和Ｐｈｏｂｉａ同样是单词后缀，所以我是这么联想到的。",
+				},
+			},
+		},
+		linkback = "block_00256",
+		linknext = "block_00258",
+		line = 524,
+	},
+	block_00258 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这两个词乍看之下意思完全相反，却都没用在好地方上。",
+				},
+			},
+		},
+		linkback = "block_00257",
+		linknext = "block_00259",
+		line = 525,
+	},
+	block_00259 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ｎｅｃｒｏｐｈｉｌｉａ是恋尸癖的意思，甚至还有个词叫Ｐｅｄｏｐｈｉｌｉａ。",
+				},
+			},
+		},
+		linkback = "block_00258",
+		linknext = "block_00260",
+		line = 526,
+	},
+	block_00260 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"简要而言，作词尾的不同含义是“过度依恋”。",
+				},
+			},
+		},
+		linkback = "block_00259",
+		linknext = "block_00261",
+		line = 527,
+	},
+	block_00261 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"机器根本不需要做得这么接近人类。",
+				},
+			},
+		},
+		linkback = "block_00260",
+		linknext = "block_00262",
+		line = 528,
+	},
+	block_00262 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"要是在那个时代，甚至会有扰乱社会的风险。",
+				},
+			},
+		},
+		linkback = "block_00261",
+		linknext = "block_00263",
+		line = 529,
+	},
+	block_00263 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也会成为人权问题的导火线。",
+				},
+			},
+		},
+		linkback = "block_00262",
+		linknext = "block_00264",
+		line = 530,
+	},
+	block_00264 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所以肯定要对生产行为进行诸多法律限制。",
+				},
+			},
+		},
+		linkback = "block_00263",
+		linknext = "block_00265",
+		line = 531,
+	},
+	block_00265 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"比如，必须让产品和人类从外观上可区分。",
+				},
+			},
+		},
+		linkback = "block_00264",
+		linknext = "block_00266",
+		line = 532,
+	},
+	block_00266 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这样想来，菲莉娅有可能是违禁品。",
+				},
+			},
+		},
+		linkback = "block_00265",
+		linknext = "block_00267",
+		line = 533,
+	},
+	block_00267 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可能以前有人即使冒着触犯法律的风险，也要让她更像人类一些。",
+				},
+			},
+		},
+		linkback = "block_00266",
+		linknext = "block_00268",
+		line = 534,
+	},
+	block_00268 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"发饰的意义，就是在让她模仿人类，吸引人类的恋爱吧。",
+				},
+			},
+		},
+		linkback = "block_00267",
+		linknext = "block_00269",
+		line = 535,
+	},
+	block_00269 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"越界的爱情。",
+				},
+			},
+		},
+		linkback = "block_00268",
+		linknext = "block_00270",
+		line = 536,
+	},
+	block_00270 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"菲莉娅这个名字，说不定比弗碧雅更适合她。",
+				},
+			},
+		},
+		linkback = "block_00269",
+		linknext = "block_00271",
+		line = 537,
+	},
+	block_00271 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2500, path=":bg/"},
+		{"ex", wait=2000, func="wait", time=0},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00270",
+		line = 542,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}
