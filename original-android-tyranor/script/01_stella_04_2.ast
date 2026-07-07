@@ -1,0 +1,979 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bgm", file="bgm15"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"cgdel", id=1, lv=5, sync=0},
+		{"bg", id=1, lv=5, file="ef_ui13", path=":fgf/", sync=0},
+		{"bg", id=2, lv=5, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1000},
+		{"se", id=1, file="se106"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"Ａｅ型アンドロイドについての調査報告書概要版",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……当研究所は過去併合した各グループから引き継いだ資料・研究をもとに、表題の通り調査を進めてきた。その最終的な報告をここに提出する。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 22,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本調査の実施に際しては、グロウナー財団からの多大なる支援があった。この支援なくして、当研究所は本調査を完遂することは不可能だった。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 23,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"残存人類に知性のともしびを継承する偉業に携われたことを、心から光栄に思う……",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 24,
+	},
+	block_00004 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=100, alpha=224, x=0, y=0, path=":fgf/"},
+		{"se", id=0, file="se008"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					"目次",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 32,
+	},
+	block_00005 = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["1 調査実施概要"]],
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 44,
+	},
+	block_00006 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(1)調査目的"]],
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 47,
+	},
+	block_00007 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(2)調査対象"]],
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 49,
+	},
+	block_00008 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(3)調査時期"]],
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 51,
+	},
+	block_00009 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(4)調査例"]],
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 53,
+	},
+	block_00010 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					[["(5)……"]],
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 55,
+	},
+	block_00011 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=100, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ（Ａｒｔｉｆｉｃｉａｌ　Ｅｇｏ）型アンドロイドは、ＡＨ２２５年にアンカラにてはじめてその存在が記録された、製造者不明の高性能アンドロイド群のことを指す。",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 62,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"アンカラはかつてアナトリア連邦という大国の首都として栄えた土地だが、数百年続く人口減の結果、当時５０００人ほどの中規模共同体にまで衰微していた。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 63,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"それでも牧畜と農耕により、人々は比較的豊かに暮らすことができていた。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 64,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが技術の遺失状況は著しく、再び科学文明が復興することは絶望的という状況であった。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 65,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"都市の大部分はとうに放棄され、森林に呑まれていた。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"しかし都市の低電力システムは生きており、電子化された社会履歴（Ｓｏｃｉａｌ　Ｌｏｇ）が人知れず更新され続けていた。本調査を進める上では、こうした古代都市から採掘された履歴が大きなウェートを占めている……",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 67,
+	},
+	block_00017 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=150, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……そのＡｅ型アンドロイドは少年の姿をしており、地域住人によって孤児であると認識されていた。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 74,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おそらくある時期に同地に現れ、コミュニティに保護される形で溶け込んだものと考えられる。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 75,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"アンドロイドはクラウスと名付けられ、三年間を同地で過ごした。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 76,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当初、コミュニティは少年を手厚く保護していたが、次第に迫害するようになった。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 77,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"録音記録の解析により、以下が原因である可能性が高い。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 78,
+	},
+	block_00022 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=200, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"・クラウスは都市廃墟に入り浸り、古代機械を掘り出し、恩返しの名目で共同体に提供するという行為をたびたび行っていた",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 83,
+	},
+	block_00023 = {
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"・故障した機械でも、クラウスが触れることで機能回復するケースが頻発した",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 87,
+	},
+	block_00024 = {
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"・クラウスが自動機械を引き寄せている、という地域住民の声が数点残されている",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 91,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当時のアンカラ地方では、すでに機械忌避の傾向が出ていた。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 93,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これは文明衰亡期にはしばしば見られる現象である。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 94,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのため、クラウスのこうした行動が人々を刺激し、迫害に至らせたと考えるのが自然であろう。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 95,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"保護から三年後、クラウスは石打ちの刑により処刑された。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 96,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その際、少年が人間ではなくアンドロイドであることが判明したのである。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 97,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少年の残骸（遺体）は、停止後自動的に発熱し、破片ひとつ残らず焼失した。",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 98,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"偶発的にこのような現象が起きたとは考えられず、製造時に組み込まれていた機能であると考えるのが自然である。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 99,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"証拠を残さないための処置が施されたアンドロイドということになる。",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 100,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"製造者の目的については想像の域を出ない……",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 101,
+	},
+	block_00034 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=250, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型は、自我を持ったアンドロイドである。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 108,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ここでいう自我が、人間の自我とどの程度一致するのか、これまで調査が行われたことはない。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 109,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"前項で例示したように、たとえ破壊されても試料が残らないことも調査を困難にしている。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 110,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ここからの記述は、当研究所が集めた各時代・各地域の情報を解析した、状況的事実の羅列となる。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 111,
+	},
+	block_00038 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=300, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ハードウェアとしてのＡｅ型アンドロイドは、外見上は生身の人間とまったく見分けがつかない。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 118,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人間と同様に頭髪、皮膚、体温を備え、出血までしてみせる。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 119,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"頭髪は伸び、怪我も治癒するなど、多少のトラブルではアンドロイドであることが露見しないように設計されている。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 120,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"金属探知機で検出できないことから、骨格や内部機器の大半が非金属製と推定できる。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 121,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少食ながら食事を摂る。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 122,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"固形物の消化吸収が可能である。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 123,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"水分も摂取し、それのみで長期間恒常性を維持できる。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 124,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"しかし飲食物からエネルギーを生成しているかどうかは、不明である。単なる擬態の可能性もある。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 125,
+	},
+	block_00046 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=150, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外見について、外部端子の類いが一切存在しない。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 130,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外部接続手段を持たないクローズドマシンである。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 131,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一般的な方法によるメンテナンスは不可能であり、充電方法も限定的であることから、諸機能を喪失した時は寿命として焼却処理されるものと考えられる。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 132,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能力面で、特筆すべき点はない。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 133,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"身体的・知的能力面において、人類を凌駕する部分はまったくない。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 134,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仮に敵対しても、その脅威度は一般的な人間と大差ない。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 135,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"周辺機器に対する影響力も皆無である。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 136,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"設計思想に、戦闘・諜報はまったく想定されていない。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 137,
+	},
+	block_00054 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=200, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイドがどこで製造されているのかは判明していない。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 142,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"多くのケースで、危険地帯などから現れ、付近のコミュニティに保護されるという形で接触が起こる。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 143,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"危険地帯に埋もれた遺跡で、突発的に製造されていると考えられる。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 144,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"数は多くないが、Ａｅ型アンドロイドは各時代、各地域に確認されている。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 145,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"何百年という期間にわたって、製造は続けられている。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 146,
+	},
+	block_00059 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=250, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイドの大半は少年か少女の姿をとっている。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 151,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのため、後に迫害に発展するケースはあるにしろ、初期においては友好的に受け容れられることが多い。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 152,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"驚くべくことに、Ａｅ型アンドロイドは身体的成長を遂げる機能を持つ。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 153,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"生身の人間よりはゆるやかだが、数センチ程度の身長の伸びはどの個体にも見られた。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 154,
+	},
+	block_00063 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=300, y=-100, speed=13000, ease="in", path=":fgf/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"特筆すべきは、その自我再現にある。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 159,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイドを、言動のみから正体を看破することは不可能に近い。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 160,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外見面でも、ソフトウェア面でも、完全な人間が再現されている。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 161,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型はどのようなチューリングテストにもパスしうる。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 162,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"設計にはきわめて高度な応用化学や組織工学、有機工学の関与が認められる……",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 163,
+	},
+	block_00068 = {
+		{"bgm", stop=1, time=5000},
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=100, alpha=224, x=0, y=0, path=":fgf/"},
+		{"ex", time=2000, func="wait"},
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"ex", time=2000, func="wait"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00067",
+		line = 177,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

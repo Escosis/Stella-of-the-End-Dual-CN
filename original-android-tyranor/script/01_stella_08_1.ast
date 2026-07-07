@@ -1,0 +1,3550 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"savetitle", text="否定"},
+		{"user", mode="autosave", no=11},
+		{"eval", exp="g.chap11=1"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"se", file="se_eyecatch00", id=1},
+		{"savetitle", text="否定"},
+		{"bg", file="eyecatch_11", movie=1, path=":ani/", bx=960},
+		{"ex", movie=1, func="wait", time=0},
+		{"ex", time=4000, func="wait"},
+		{"ex", time=4500, func="wait"},
+		{"se", stop=1, id=-1, time=1000},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm04"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg34", time=1000, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800004"},
+			},
+			ja = {
+				{
+					"「……この先に、海があるんだよね？」",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 13,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800005"},
+			},
+			ja = {
+				{
+					"「ああ、そのうち海岸に出るな」",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 14,
+	},
+	block_00002 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800006"},
+			},
+			ja = {
+				{
+					"「ジュードは見たことある？」",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 16,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800007"},
+			},
+			ja = {
+				{
+					"「あるぞ。何度もな」",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 17,
+	},
+	block_00004 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800008"},
+			},
+			ja = {
+				{
+					"「海ってどんなだった？」",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 19,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800009"},
+			},
+			ja = {
+				{
+					"「……どんなって言われてもな。でかい水溜まりとしか。海の魚は旨い」",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 20,
+	},
+	block_00006 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800010"},
+			},
+			ja = {
+				{
+					"「はじめて見たときでも？」",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 22,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800011"},
+			},
+			ja = {
+				{
+					"「はじめて……？」",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 23,
+	},
+	block_00008 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"colortone", style="gray"},
+		{"fg", mode=-2},
+		{"bg", file="b_bg61", speed=35000, time=1000, zoom=100, lv=5, z2=150, sync=1, ease="none", path=":bg2/", id=1, set="bg61"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"記憶にない。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 29,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺は内陸生まれだから、はじめて大海原を目にした時、それなりに身に染みて感じたことがあるはずだった。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 30,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし思い出せない。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 31,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"時の流れが、記憶を流し去っていた。",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 32,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ということは、たいした記憶じゃなかったということだ。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 33,
+	},
+	block_00013 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", sync=0, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800019"},
+			},
+			ja = {
+				{
+					"「たぶん……感動はした」",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 39,
+	},
+	block_00014 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800020"},
+			},
+			ja = {
+				{
+					"「やっぱり！",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 41,
+	},
+	block_00015 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800021"},
+			},
+			ja = {
+				{
+					"楽しみ」",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 43,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"突然、両手を広げて満面の笑み。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 45,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800025"},
+			},
+			ja = {
+				{
+					"「何だ？」",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 47,
+	},
+	block_00018 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800026"},
+			},
+			ja = {
+				{
+					"「海を見て感動する練習」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 49,
+	},
+	block_00019 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"同じ動作を繰り返す。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 53,
+	},
+	block_00020 = {
+		{"bgm", stop=1, time=3000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……子供だ。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 55,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"おそろしいほど、そこらにいる子供だ。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 56,
+	},
+	block_00022 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"bgm", file="bgm15", time=2000},
+		{"colortone", style="gray"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="cg_ts62", speed=50000, time=2000, zoom=100, lv=5, z2=150, sync=0, ease="none", path=":ev/", id=1, set="ts62"},
+		{"bg", id=2, lv=5, file="ef_fnoise00", movie=1, movieloop=1, dummy="screen", alpha=160, ax=0, ay=0, zoom=200, path=":ani/", bx=960, sync=0},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, file="ef_rec_black00", sync=0, path=":ani/", bx=960},
+		{"extrans", time=2000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不気味の谷、という言葉がある。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 65,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"古くから存在する言い回しだ。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 66,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"現代まで伝わる古代語のひとつ。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 67,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"たとえば非人間型ロボットを改良して、だんだんと人に似せていくとする。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 68,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最初はドラム缶のようなロボットだとしよう。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 69,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"それに手足をつけてみる。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 70,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"頭部をつける。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 71,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"目鼻をつける。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 72,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少しずつ、人間的な記号を与えていく。",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 73,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すると最初のうち、人々はそれに好意的になる。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 74,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"無味無臭なロボットが、人間味を帯びていくことに親しみを覚える。",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 75,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"マスコットのように愛でる。",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 76,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ところがである。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 77,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"胴体にくびれを作る。",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 78,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"肌色にする。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 79,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"写実的な顔にする。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 80,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人間模倣の段階がある一定を超えると、親しみが増すどころか不気味に感じるようになる。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 81,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのラインは、限りなく人に近づいたあたりにある。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 82,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"好感度と相似度でグラフにした際に谷を生むことから、そう呼ばれる。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 83,
+	},
+	block_00041 = {
+		{"cgdel", id=7, lv=9},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts62", time=1500, path=":ev/", set="ts62"},
+		{"cgdel", id=2, lv=5},
+		{"colortone", style="reset"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts62", time=1500, path=":ev/", set="ts62"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人に似すぎたロボットは、不気味なのだ。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 92,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だったら、無骨な箱型ロボットにリボンでもつけた方がましになる。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 93,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不気味の谷を越える方法はひとつ。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 94,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"見た目や動作、言動を人と同質にするしかない。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 95,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"見分けがつかない水準まで再現して、やっと再び親しみを抱いてもらえる。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 96,
+	},
+	block_00046 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", sync=0, path=":bg/"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", alpha=96, zoom=100, speed=50000, ease="in", mode=3, head="bs2_ph0", y2=85, z2=150, x=25, y=0, lv=3, id=13},
+		{"extrans", time=1500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイド。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 102,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"限りなく人に近い機械。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 103,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その実機がフィリアだ。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 104,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不気味の谷は越えている。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 105,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"どこの街でも、フィリアは可愛がられるだろう。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 106,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"が、それでも俺はたまにフィリアをうすら寒く感じる。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 108,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"製造者。製造目的。すべてが謎だ。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 109,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人間になりたいという目的意識を与えられた機械。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 110,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人間社会に溶け込む能力を、あいつは持っている。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 111,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……諜報活動だろうが破壊工作だろうが思いのままだ。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 112,
+	},
+	block_00056 = {
+		{"colortone", style="gray"},
+		{"bg", file="black", path=":bg/"},
+		{"bg", id=3, lv=5, file="ef_noise2", movie=1, movieloop=1, style="ar_add", bx=960, path=":ani/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかしそもそもフィリアのスペックでは、そのいずれにも不向きなのだ。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 123,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"銃も撃てない、爆弾も扱えない。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 124,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"知識がないばかりか、ネットワーク経由でインプットすらできない。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 125,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本人がその意思を持ち、地道に学べばできるようになるが……。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 126,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"見たところ、フィリアはそっち方面であまり才能がない。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 127,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"もしこいつを共同体に放り込んだら、どんなことが起こるんだろうか。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 131,
+	},
+	block_00062 = {
+		{"bgm", stop=1, time=3000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"その疑問を確かめる機会は、きっとないのだろうが……。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 133,
+	},
+	block_00063 = {
+		{"cgdel", id=3, lv=5},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, wait=1000, path=":bg/"},
+		{"colortone", style="reset"},
+		{"bgm", file="bgm27"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg34", time=1000, path=":bg/", set="bg34"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"高原地帯から登山し、鞍部と思われる部位に到達する。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 142,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ここから下り道となる。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 143,
+	},
+	block_00065 = {
+		{"se", id=0, file="se120"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800078"},
+			},
+			ja = {
+				{
+					"「少し寒いよねここ」",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 148,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800079"},
+			},
+			ja = {
+				{
+					"「今さら気付いたのか。極寒とは言わんが、相当寒いぞ。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 149,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800080"},
+			},
+			ja = {
+				{
+					"人間になるなら、寒がる練習もしとけ」",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 150,
+	},
+	block_00068 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800081"},
+			},
+			ja = {
+				{
+					"「寒がる練習……。",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 152,
+	},
+	block_00069 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800082"},
+			},
+			ja = {
+				{
+					"震えればいいのかな。ぶるぶるぶるぶる」",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 154,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800083"},
+			},
+			ja = {
+				{
+					"「寒くて不調になりそうなら早めに言えよ」",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 155,
+	},
+	block_00071 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800084"},
+			},
+			ja = {
+				{
+					"「だいじょうぶそう。寒い気はするけど、内側からぽかぽかあったかいし」",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 157,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800085"},
+			},
+			ja = {
+				{
+					"「熱調整機能があるんだな。アンドロイドはそうでなくちゃな」",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 158,
+	},
+	block_00073 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800086"},
+			},
+			ja = {
+				{
+					"「嬉しくない」",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 160,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800087"},
+			},
+			ja = {
+				{
+					"「俺はアンドロイドが高性能だと嬉しいが、見解の相違だな」",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 161,
+	},
+	block_00075 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_09", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800088"},
+			},
+			ja = {
+				{
+					"「むう」",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 163,
+	},
+	block_00076 = {
+		{"se", stop=1, id=0, time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800089"},
+			},
+			ja = {
+				{
+					"「防寒装備が必要なら言え」",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 165,
+	},
+	block_00077 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800090"},
+			},
+			ja = {
+				{
+					"「うん、お父さん！」",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 167,
+	},
+	block_00078 = {
+		{"bgm", stop=1},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800091"},
+			},
+			ja = {
+				{
+					"「………！」",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 169,
+	},
+	block_00079 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg34", sync=0, x=0, speed=1000, zoom=150, path=":bg2/", x2=100, set="bg34"},
+		{"bg", id=1, lv=1, file="cinema200", path=":fgf/", sync=0},
+		{"fg", file="bs3_jd01_base01", face="bs3_jd_f01_09", ch="c001", path=":fg/", sync=0, x2=-100, speed=1000, mode=3, head="bs3_jd0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"msg", no=98, mode="novel"},
+		{"msgoff"},
+		{"msgon"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800092"},
+			},
+			ja = {
+				{
+					"「俺はおまえの父親じゃない！」",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 179,
+	},
+	block_00080 = {
+		{"msg", no=99, mode="novel"},
+		{"msgoff"},
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", sync=0, zoom=100, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"bgm", file="bgm21"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"少しびっくりしたように、フィリアが足を止めてこちらを見た。",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 190,
+	},
+	block_00081 = {
+		{"bgm", file="bgm21"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800096"},
+			},
+			ja = {
+				{
+					"「……知ってる」",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 194,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800097"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 195,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800098"},
+			},
+			ja = {
+				{
+					"「……二度とそんな風に呼ぶな」",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 196,
+	},
+	block_00084 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800099"},
+			},
+			ja = {
+				{
+					"「なに怒ってるの？」",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 198,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800100"},
+			},
+			ja = {
+				{
+					"「別に怒っちゃいない。違うことを言われたから訂正しただけだ」",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 199,
+	},
+	block_00086 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800101"},
+			},
+			ja = {
+				{
+					"「……怒ってるよ」",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 201,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800102"},
+			},
+			ja = {
+				{
+					"「怒ってないと言ったぞ。言葉ひとつ信頼できない相手が、おまえには父親に見えるのか？」",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 202,
+	},
+	block_00088 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_08", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800103"},
+			},
+			ja = {
+				{
+					"「だから知ってるって！」",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 204,
+	},
+	block_00089 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", x=-480, y=50, speed=35000, ease="none", time=1000, zoom=150, sync=0, path=":bg/", x2=480, y2=50, set="bg34"},
+		{"bg", id=9, lv=5, file="cinema200", path=":fgf/", sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"互いの言葉が途切れて、沈黙がやってきた。",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 210,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"カッとなった頭はすぐに冷えた。",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 211,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"怒っちゃいないというのは間違いだが、少なくとも怒る気はなかった。",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 212,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しばらく無言の時間が続いた。",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 213,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"フィリアがあんなことを言い出したことより、自分があの程度の冗談で動転したことが驚きだった。",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 214,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……過剰反応しすぎだ。",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 215,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"謝るべきか？",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 216,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いや相手は子供だ。しかもアンドロイドの。",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 217,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"謝らない……よな？",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 218,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"普通は機械に謝罪なんてしない。",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 219,
+	},
+	block_00099 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", id=1, lv=1, file="b_bg34", zoom=350, sync=0, path=":bg2/", set="bg34"},
+		{"bg", id=9, lv=5, file="cinema200", path=":fgf/", sync=0},
+		{"fg", file="bs3_jd01_base01", face="bs3_jd_f01_12", ch="c001", path=":fg/", zoom=250, mode=3, head="bs3_jd0", x=-50, y=-120, lv=3, id=13, sync=0},
+		{"extrans", time=1000},
+		{"fg", file="bs3_jd01_base01", face="bs3_jd_f01_01", ch="c001", path=":fg/", sync=1, mode=3, head="bs3_jd0", x=-50, y=-120, lv=3, id=13, zoom=250},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800116"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 226,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ため息を落とす。",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 228,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この悩み自体、完全にフィリアを一個の人格として認めている証しだ。",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 229,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いいだろう、謝ってやろうじゃないか。",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 230,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"後ろを歩くフィリアを振り向いて、年長者としてふさわしい振るまいに出ようとした。",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 231,
+	},
+	block_00104 = {
+		{"cgdel", id=9, lv=5},
+		{"fg", mode=-2, time=300},
+		{"bgm", stop=1, time=3000},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", sync=0, zoom=100, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_16", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800123"},
+			},
+			ja = {
+				{
+					"「ごめんなさい」",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 242,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800124"},
+			},
+			ja = {
+				{
+					"「……！！！」",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 243,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"再び衝撃が俺を襲った。",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 245,
+	},
+	block_00107 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800128"},
+			},
+			ja = {
+				{
+					"「無神経なこと言っちゃったかも。あやまる」",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 248,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800129"},
+			},
+			ja = {
+				{
+					"「……いや、まったく無神経ではない」",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 249,
+	},
+	block_00109 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800130"},
+			},
+			ja = {
+				{
+					"「もう言わないようにするから」",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 251,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800131"},
+			},
+			ja = {
+				{
+					"「別に俺は……そうか、わかった。",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 252,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800132"},
+			},
+			ja = {
+				{
+					"なんだ、その、悪かった」",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 253,
+	},
+	block_00112 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800133"},
+			},
+			ja = {
+				{
+					"「？　ジュードはちっとも悪くないでしょ。",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 255,
+	},
+	block_00113 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_16", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800134"},
+			},
+			ja = {
+				{
+					"馴れ馴れしいこと言った私のせいなんだから」",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 257,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……とんでもないアンドロイドだ、こいつ。",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 259,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ブログラムだけでこれが実現できるはずがない。",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 260,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800139"},
+			},
+			ja = {
+				{
+					"「親……というものに興味が出てきたか？」",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 262,
+	},
+	block_00117 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800140"},
+			},
+			ja = {
+				{
+					"「うん。私にはいないものだから」",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 264,
+	},
+	block_00118 = {
+		{"msgoff"},
+		{"bgm", file="bgm22"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg34", sync=0, zoom=150, path=":bg2/", set="bg34"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_01", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_04", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800141"},
+			},
+			ja = {
+				{
+					"「都市でさ、親子が一緒に遊んでる動画、いっぱい見てさ。",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 271,
+	},
+	block_00119 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800142"},
+			},
+			ja = {
+				{
+					"最初はピンと来なかったけど、だんだんと……」",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 273,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800143"},
+			},
+			ja = {
+				{
+					"「おまえでも、親がいなくて寂しいとか思うのか？」",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 274,
+	},
+	block_00121 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800144"},
+			},
+			ja = {
+				{
+					"「寂しいかどうかは、まだよくわからない。でも子供のために命を投げ出す親がいるっていうのが……すごく不思議で」",
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 276,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800145"},
+			},
+			ja = {
+				{
+					"「そこが気になるのか？」",
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 277,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800146"},
+			},
+			ja = {
+				{
+					"「おまえのしていることも、似たようなものじゃないか」",
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 278,
+	},
+	block_00124 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800147"},
+			},
+			ja = {
+				{
+					"「うん、だから父親っていっても、ジュードを基準にして考えてた」",
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 280,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800148"},
+			},
+			ja = {
+				{
+					"「……ん？」",
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 281,
+	},
+	block_00126 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800149"},
+			},
+			ja = {
+				{
+					"「常に身の安全を優先する、冷徹なリアリスト」",
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 283,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……刺さった。",
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 285,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"悪意がないのがまた。",
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 286,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800154"},
+			},
+			ja = {
+				{
+					"「……事実だが……考えとしちゃ間違ってないと思うんだが……」",
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 288,
+	},
+	block_00130 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800155"},
+			},
+			ja = {
+				{
+					"「でも父親は違うんだね。自分より子供の命を優先するんだなって。",
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 290,
+	},
+	block_00131 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_04", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800156"},
+			},
+			ja = {
+				{
+					"優しい世界」",
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 292,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800157"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 293,
+	},
+	block_00133 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", sync=0, zoom=100, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_04", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800158"},
+			},
+			ja = {
+				{
+					"「ガールズサロンって女性限定の集まりがあったんだよ」",
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 299,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800159"},
+			},
+			ja = {
+				{
+					"「都市ネットワークの話か？」",
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 300,
+	},
+	block_00135 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800160"},
+			},
+			ja = {
+				{
+					"「そう。そこのログを読んでたら、自分の赤ちゃんのために死ねますかって質問をひとりがしたの。それにたくさんの人が答えたんだけど」",
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 302,
+	},
+	block_00136 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800161"},
+			},
+			ja = {
+				{
+					"「ほぼ全員が我が子のためなら死ねるって断言してたの。興奮した。人間すごすぎるって」",
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 304,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800162"},
+			},
+			ja = {
+				{
+					"「……待て」",
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 305,
+	},
+	block_00138 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800163"},
+			},
+			ja = {
+				{
+					"「子のために死ねない親なんて親じゃないって意見が主流で、命なんて惜しくないって言ってて、感動しちゃって」",
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 307,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800164"},
+			},
+			ja = {
+				{
+					"「おい」",
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 308,
+	},
+	block_00140 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800165"},
+			},
+			ja = {
+				{
+					"「何人か、私は死ねないかも、って答えてる人もいたんだけど、他の人にめちゃくちゃ言葉で切り刻まれてて。",
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 310,
+	},
+	block_00141 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800166"},
+			},
+			ja = {
+				{
+					"子供のためにすべてを捧げないクズ母は生きてる資格がないって」",
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 312,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800167"},
+			},
+			ja = {
+				{
+					"「ネットワークリテラシーって言葉知ってるか？」",
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 313,
+	},
+	block_00143 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800168"},
+			},
+			ja = {
+				{
+					"「やっぱり人間はすごいんだ、って実感できたんだ」",
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 315,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800169"},
+			},
+			ja = {
+				{
+					"「いいか」",
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 316,
+	},
+	block_00145 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800170"},
+			},
+			ja = {
+				{
+					"「なに？」",
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 318,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800171"},
+			},
+			ja = {
+				{
+					"「……まず、言葉で人を切り刻むのは、良くないことだ」",
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 319,
+	},
+	block_00147 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800172"},
+			},
+			ja = {
+				{
+					"「そっか……そうかも」",
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 321,
+	},
+	block_00148 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800173"},
+			},
+			ja = {
+				{
+					"「それに、あー……」",
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 322,
+	},
+	block_00149 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"言いたいことがありすぎて、言葉がまとまらなかった。",
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 324,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800177"},
+			},
+			ja = {
+				{
+					"「……どうして親は子供のために命を捨てると思う？」",
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 326,
+	},
+	block_00151 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800178"},
+			},
+			ja = {
+				{
+					"「人間がすごいため」",
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 328,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800179"},
+			},
+			ja = {
+				{
+					"「違う。ちゃんと理由がある」",
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 329,
+	},
+	block_00153 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800180"},
+			},
+			ja = {
+				{
+					"「どんな？」",
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 331,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800181"},
+			},
+			ja = {
+				{
+					"「本能だ」",
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 332,
+	},
+	block_00155 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800182"},
+			},
+			ja = {
+				{
+					"「……？」",
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 334,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800183"},
+			},
+			ja = {
+				{
+					"「なぜ親は子供を命より大事にするんだと思う？」",
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 335,
+	},
+	block_00157 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800184"},
+			},
+			ja = {
+				{
+					"「愛しているから？」",
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 337,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800185"},
+			},
+			ja = {
+				{
+					"「なぜ愛する？」",
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 338,
+	},
+	block_00159 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800186"},
+			},
+			ja = {
+				{
+					"「自分の子供だから？」",
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 340,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800187"},
+			},
+			ja = {
+				{
+					"「つまり、生まれた瞬間から愛しているわけだ」",
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 341,
+	},
+	block_00161 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800188"},
+			},
+			ja = {
+				{
+					"「……そうだね」",
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 343,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800189"},
+			},
+			ja = {
+				{
+					"「それは本当に愛か？」",
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 344,
+	},
+	block_00163 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800190"},
+			},
+			ja = {
+				{
+					"「どういうこと？」",
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 346,
+	},
+	block_00164 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800191"},
+			},
+			ja = {
+				{
+					"「その赤子がどんな人間かもわからないのに、我が子というだけで愛している。",
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 347,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800192"},
+			},
+			ja = {
+				{
+					"普通、人が人を愛する時は、そいつがどんな人間か知ってからだ。",
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 348,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800193"},
+			},
+			ja = {
+				{
+					"だが子供に対してはそうではない。無条件かつ自動的だ。なぜか」",
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 349,
+	},
+	block_00167 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800194"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 351,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800195"},
+			},
+			ja = {
+				{
+					"「遺伝子が子孫を保てと本能に刻んでいるからだ」",
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 352,
+	},
+	block_00169 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800196"},
+			},
+			ja = {
+				{
+					"「……え？」",
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 354,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800197"},
+			},
+			ja = {
+				{
+					"「俺はそれが必ずしも気高いとは感じない。単に本能だ」",
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 355,
+	},
+	block_00171 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800198"},
+			},
+			ja = {
+				{
+					"「じゃあ、親が子供のために命を捨てるのは……」",
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 357,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800199"},
+			},
+			ja = {
+				{
+					"「遺伝子がそう命じるからだ。",
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 358,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800200"},
+			},
+			ja = {
+				{
+					"夢を壊すようで悪いがな、あまり人間を高潔だと考えていると、いつかおまえ自身を傷つけることになるぞ。",
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 359,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800201"},
+			},
+			ja = {
+				{
+					"子をうまく愛せない親だってごまんといる」",
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 360,
+	},
+	block_00175 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800202"},
+			},
+			ja = {
+				{
+					"「……でもちょっとは、本物もあるんだよね？」",
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 362,
+	},
+	block_00176 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800203"},
+			},
+			ja = {
+				{
+					"「それはある。",
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 363,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800204"},
+			},
+			ja = {
+				{
+					"何年もいっしょに暮らせば、本能由来じゃない愛も混ざってくる。そういう愛情なら、俺も理解せんでもない」",
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 364,
+	},
+	block_00178 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800205"},
+			},
+			ja = {
+				{
+					"「……だったらいいよ。少しでもあるならすごいよ」",
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 366,
+	},
+	block_00179 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800206"},
+			},
+			ja = {
+				{
+					"「私にも本能ってあるのかな？」",
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 368,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800207"},
+			},
+			ja = {
+				{
+					"「おまえの人間になりたいって願いは、まさに本能みたいなものだな」",
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 369,
+	},
+	block_00181 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800208"},
+			},
+			ja = {
+				{
+					"「おおっ」",
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 371,
+	},
+	block_00182 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800209"},
+			},
+			ja = {
+				{
+					"「どうして人間になりたいんだ？」",
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 372,
+	},
+	block_00183 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800210"},
+			},
+			ja = {
+				{
+					"「なりたいから」",
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 374,
+	},
+	block_00184 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002800211"},
+			},
+			ja = {
+				{
+					"「まだ初期設定に引っ張られてるな」",
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 375,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800212"},
+			},
+			ja = {
+				{
+					"「いいか、本能には後付けでもいいから考えを伴わせろ。それが人間だ」",
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 376,
+	},
+	block_00186 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_07", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800213"},
+			},
+			ja = {
+				{
+					"「……難しい」",
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 378,
+	},
+	block_00187 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800214"},
+			},
+			ja = {
+				{
+					"「難しいし、俺の考えも絶対じゃない。",
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 379,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800215"},
+			},
+			ja = {
+				{
+					"気長に学べ。おまえにはたぶん、その機会があるはずだ」",
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 380,
+	},
+	block_00189 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800216"},
+			},
+			ja = {
+				{
+					"「……？」",
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 382,
+	},
+	block_00190 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg34", sync=0, zoom=150, path=":bg2/", set="bg34"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老人の言葉を信じるなら、フィリアは偉業とやらにかかわることになる。",
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 387,
+	},
+	block_00191 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"偉業と言うくらいだ。",
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 388,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"多くの人を救うことになるのだろう。",
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 389,
+	},
+	block_00193 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"その時までに、自分が何者か決めておけばいい。",
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 390,
+	},
+	block_00194 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", sync=0, zoom=100, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800223"},
+			},
+			ja = {
+				{
+					"「聞いていい？」",
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 396,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800224"},
+			},
+			ja = {
+				{
+					"「何だ？」",
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 397,
+	},
+	block_00196 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800225"},
+			},
+			ja = {
+				{
+					"「ジュードは怒るかもしれない質問なんだけど」",
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 399,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800226"},
+			},
+			ja = {
+				{
+					"「……怒らないから言ってみろ」",
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 400,
+	},
+	block_00198 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800227"},
+			},
+			ja = {
+				{
+					"「ジュードは、自分の子供のために死ねる？」",
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 402,
+	},
+	block_00199 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800228"},
+			},
+			ja = {
+				{
+					"「フッ」",
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 403,
+	},
+	block_00200 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800229"},
+			},
+			ja = {
+				{
+					"「笑った……」",
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 405,
+	},
+	block_00201 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800230"},
+			},
+			ja = {
+				{
+					"「当然死ねる。生まれたばかりの我が子のためなら遺伝子の命に従って火の中水の中だ」",
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 406,
+	},
+	block_00202 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800231"},
+			},
+			ja = {
+				{
+					"「えー……」",
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 408,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800232"},
+			},
+			ja = {
+				{
+					"「そう振る舞わないと共同体から排斥されかねないからな。対外的にはそう言うしかない。",
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 409,
+	},
+	block_00204 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800233"},
+			},
+			ja = {
+				{
+					"本音としては、我が子だからといって無条件で愛する自信なんざ俺にはない」",
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 410,
+	},
+	block_00205 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800234"},
+			},
+			ja = {
+				{
+					"「……ジュードらしいね」",
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 412,
+	},
+	block_00206 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800235"},
+			},
+			ja = {
+				{
+					"「ただ子が死んだとしても、母親が生き残ってさえいれば遺伝子は残せる。そちらの方が合理的だし、ある意味では命を尊重できていると思うが」",
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 413,
+	},
+	block_00207 = {
+		{"bgm", stop=1, time=5000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800236"},
+			},
+			ja = {
+				{
+					"「聞かなければ良かった……」",
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 416,
+	},
+	block_00208 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, wait=1000, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm17"},
+		{"se", id=0, file="se120"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg34", x=-480, y=100, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=100, set="bg34"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"山道を下る。",
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 425,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"下り道といってもそれなりに体力を奪われるものだが、インナーのアシスト機能が負荷を吸ってくれるため、楽なものだった。",
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 426,
+	},
+	block_00210 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ついでにバッテリーも回生電力で補充できる。",
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 427,
+	},
+	block_00211 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"むしろノーアシストのフィリアに合わせ、何度も休憩を入れることになった。",
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 428,
+	},
+	block_00212 = {
+		{"se", stop=1, id=0, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg34", sync=0, path=":bg/", set="bg34"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_06", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800243"},
+			},
+			ja = {
+				{
+					"「……へとへと」",
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 435,
+	},
+	block_00213 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"はじめての登山にかなりこたえていたようだ。",
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 437,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"しかしトラブルといえるものはその程度で、つつがなく下山。",
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 438,
+	},
+	block_00215 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002800248"},
+			},
+			ja = {
+				{
+					"「山から下りただけなのにだいぶ温かくなったね」",
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 441,
+	},
+	block_00216 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002800249"},
+			},
+			ja = {
+				{
+					"「風が遮られたせいだろうが、実際これからは南に行くほどむし暑くなる。覚悟しとけ」",
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 442,
+	},
+	block_00217 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002800250"},
+			},
+			ja = {
+				{
+					"「うわあ」",
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 444,
+	},
+	block_00218 = {
+		{"bgm", stop=1, time=1000},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00217",
+		line = 449,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}
