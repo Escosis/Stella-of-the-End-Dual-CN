@@ -1,0 +1,39 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bg", file="cg_ts98", path=":ev/", set="ts98"},
+		{"bgm", file="song01"},
+		{"bgm", file="song02"},
+		{"bgm", file="song03"},
+		{"se", file="z000300016", id=1},
+		{"se", file="z000700142", id=1},
+		{"se", file="z900000013", id=1},
+		{"se", file="z900000015", id=1},
+		{"se", file="z900000020", id=1},
+		{"se", file="z900000086", id=1},
+		{"se", file="z900000113", id=1},
+		{"bg", file="cg_ts98", path=":ev/", set="ts98"},
+		{"bg", file="cg_ts19_01", path=":ev/", set="ts19"},
+		{"bg", file="cg_ts40_02", path=":ev/", set="ts40"},
+		{"bg", file="cg_ts01_02", path=":ev/", set="ts01"},
+		{"bg", file="cg_ts17", path=":ev/", set="ts17"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="z000300016", ch="man"},
+				{"vo", file="z000700142", ch="fem"},
+				{"vo", file="z900000013", ch="c004"},
+				{"vo", file="z900000015", ch="c002"},
+				{"vo", file="z900000020", ch="c001"},
+				{"vo", file="z900000086", ch="c003"},
+				{"vo", file="z900000113", ch="c005"},
+			},
+		},
+		line = 30,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

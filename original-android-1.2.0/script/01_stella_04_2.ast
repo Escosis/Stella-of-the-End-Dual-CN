@@ -1,0 +1,1661 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bgm", file="bgm15"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"cgdel", id=1, lv=5, sync=0},
+		{"bg", id=1, lv=5, file="ef_ui13", path=":cg/", sync=0},
+		{"bg", id=2, lv=5, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1000},
+		{"se", id=1, file="se106"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"Ａｅ型アンドロイドについての調査報告書概要版",
+				},
+			},
+			en = {
+				{
+					"Research Summary: AE Model Androids",
+				},
+			},
+			cn = {
+				{
+					"关于Ａｅ型仿生人的调查报告书概要版",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 14,
+	},
+	block_00001 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……当研究所は過去併合した各グループから引き継いだ資料・研究をもとに、表題の通り調査を進めてきた。その最終的な報告をここに提出する。",
+				},
+			},
+			en = {
+				{
+					"The following report was compiled based on information held by disparate labs and archives that have since merged with our own group.",
+				},
+			},
+			cn = {
+				{
+					"……基于本研究所过去整合的接手自各大集团的资料与研究，我们进行了如标题所示的调查，于此提交本调查的最终报告。 ",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 22,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本調査の実施に際しては、グロウナー財団からの多大なる支援があった。この支援なくして、当研究所は本調査を完遂することは不可能だった。",
+				},
+			},
+			en = {
+				{
+					"Such research is made possible by support from the Grosvenor Foundation. Access to these materials without the Foundation's permission is strictly prohibited.",
+				},
+			},
+			cn = {
+				{
+					"在进行本调查的过程中，我们获得了格罗夫纳财团的大力援助。没有这份援助，本研究所将无法完成这项调查。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 23,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"残存人類に知性のともしびを継承する偉業に携われたことを、心から光栄に思う……",
+				},
+			},
+			en = {
+				{
+					"This undertaking serves as a reminder of what humanity is capable of. Please treat it with all due honor and respect.",
+				},
+			},
+			cn = {
+				{
+					"能够参与将智慧的火种传递给残存人类这一伟大事业，我们感到无上的荣幸……",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 24,
+	},
+	block_00004 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=100, alpha=224, x=0, y=0, path=":cg/"},
+		{"se", id=0, file="se008"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					"目次",
+				},
+			},
+			en = {
+				{
+					"Contents",
+				},
+			},
+			cn = {
+				{
+					"目录",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 32,
+	},
+	block_00005 = {
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["1 調査実施概要"]],
+				},
+			},
+			en = {
+				{
+					"1. Results Summary",
+				},
+			},
+			cn = {
+				{
+					"1 调查概要",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 44,
+	},
+	block_00006 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(1)調査目的"]],
+				},
+			},
+			en = {
+				{
+					"(1) Research Brief",
+				},
+			},
+			cn = {
+				{
+					"(1)调查目的",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 47,
+	},
+	block_00007 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(2)調査対象"]],
+				},
+			},
+			en = {
+				{
+					"(2) Research Subject",
+				},
+			},
+			cn = {
+				{
+					"(2)调查对象",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 49,
+	},
+	block_00008 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(3)調査時期"]],
+				},
+			},
+			en = {
+				{
+					"(3) Time Range Covered",
+				},
+			},
+			cn = {
+				{
+					"(3)调查时期",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 51,
+	},
+	block_00009 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			clickpass = 1,
+			ja = {
+				{
+					[["(4)調査例"]],
+				},
+			},
+			en = {
+				{
+					"(4) Case Studies",
+				},
+			},
+			cn = {
+				{
+					"(4)调查案例",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 53,
+	},
+	block_00010 = {
+		{"ex", time=150, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					[["(5)……"]],
+				},
+			},
+			en = {
+				{
+					"(5)...",
+				},
+			},
+			cn = {
+				{
+					"(5)……",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 55,
+	},
+	block_00011 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=100, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ（Ａｒｔｉｆｉｃｉａｌ　Ｅｇｏ）型アンドロイドは、ＡＨ２２５年にアンカラにてはじめてその存在が記録された、製造者不明の高性能アンドロイド群のことを指す。",
+				},
+			},
+			en = {
+				{
+					"AE (Artificial Ego) androids were first observed in AH 225 in Ankara, Turkey. They are high-spec machines created by unknown parties.",
+				},
+			},
+			cn = {
+				{
+					[[Ae（"Artificial Ego"）型仿生人是指制造者未知的高性能仿生人集群，于ＡＨ２２５年在安卡拉首次出现关于其存在的记录。]],
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 62,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"アンカラはかつてアナトリア連邦という大国の首都として栄えた土地だが、数百年続く人口減の結果、当時５０００人ほどの中規模共同体にまで衰微していた。",
+				},
+			},
+			en = {
+				{
+					"Ankara was previously a thriving city state in the Anatolian peninsula. However, it has declined in more recent centuries and is now a medium-scale settlement with a population of around 5,000.",
+				},
+			},
+			cn = {
+				{
+					"作为大国安纳托利亚联邦的首都，安卡拉曾是一片繁荣的土地，但由于人口数百年来持续减少，当时已经衰落为仅有约5000人的中等规模共同体。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 63,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"それでも牧畜と農耕により、人々は比較的豊かに暮らすことができていた。",
+				},
+			},
+			en = {
+				{
+					"Today it experiences relative prosperity built on agriculture and animal husbandry.",
+				},
+			},
+			cn = {
+				{
+					"尽管如此，人们依靠畜牧和农耕还能过上相对富裕的生活。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 64,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが技術の遺失状況は著しく、再び科学文明が復興することは絶望的という状況であった。",
+				},
+			},
+			en = {
+				{
+					"The region's level of technology loss is especially high, so reestablishing science and industry is still a long way off.",
+				},
+			},
+			cn = {
+				{
+					"然而，技术遗失的状况极为严重，复兴科学文明几乎已处于绝望的局面。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 65,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"都市の大部分はとうに放棄され、森林に呑まれていた。",
+				},
+			},
+			en = {
+				{
+					"Most cities have been abandoned and reclaimed by nature.",
+				},
+			},
+			cn = {
+				{
+					"城市的大部分区域早已被遗弃，逐渐被森林吞噬。 ",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 66,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"しかし都市の低電力システムは生きており、電子化された社会履歴（Ｓｏｃｉａｌ　Ｌｏｇ）が人知れず更新され続けていた。本調査を進める上では、こうした古代都市から採掘された履歴が大きなウェートを占めている……",
+				},
+			},
+			en = {
+				{
+					"However, their social logs have survived on low-level systems, recording major events over time. Much of what we know of the region's history was gleaned from logs excavated from ancient cities.",
+				},
+			},
+			cn = {
+				{
+					[[但城市的低电力系统仍在运转，电子化的社会记录（"Social Log"）也依然在不为人知地持续更新。在本调查中，这些从古代城市出土的记录占据了很大的比重……]],
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 67,
+	},
+	block_00017 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=150, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……そのＡｅ型アンドロイドは少年の姿をしており、地域住人によって孤児であると認識されていた。",
+				},
+			},
+			en = {
+				{
+					"The first known AE android had the appearance of a young boy, assumed to be an orphan by the locals.",
+				},
+			},
+			cn = {
+				{
+					"……这位Ａｅ型仿生人呈现出少年的模样，当地居民将其视为一名孤儿。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 74,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おそらくある時期に同地に現れ、コミュニティに保護される形で溶け込んだものと考えられる。",
+				},
+			},
+			en = {
+				{
+					"Accounts suggest he simply appeared in the area one day, and in time was accepted into the community.",
+				},
+			},
+			cn = {
+				{
+					"它可能在某个时期出现在当地，以被社区收留的形式逐渐融入其中。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 75,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"アンドロイドはクラウスと名付けられ、三年間を同地で過ごした。",
+				},
+			},
+			en = {
+				{
+					"He was given a name - Klaus - and lived a peaceful life for the next three years.",
+				},
+			},
+			cn = {
+				{
+					"仿生人被起名为克劳斯，它在那里度过了三年的时光。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 76,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当初、コミュニティは少年を手厚く保護していたが、次第に迫害するようになった。",
+				},
+			},
+			en = {
+				{
+					"Initially protective of him as any child, as time went on the community began to see him as a threat.",
+				},
+			},
+			cn = {
+				{
+					"起初，社区对这名少年的照顾非常周到，但渐渐地开始对其进行迫害。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 77,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"録音記録の解析により、以下が原因である可能性が高い。",
+				},
+			},
+			en = {
+				{
+					"Contemporary accounts cite the following as causes for suspicion.",
+				},
+			},
+			cn = {
+				{
+					"通过分析录音记录，原因为下文所述几点的可能性较高： ",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 78,
+	},
+	block_00022 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=200, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"・クラウスは都市廃墟に入り浸り、古代機械を掘り出し、恩返しの名目で共同体に提供するという行為をたびたび行っていた",
+				},
+			},
+			en = {
+				{
+					"・Klaus was frequently seen in ruins, excavating advanced machinery, he claimed, to repay his debt to those who had taken him in.",
+				},
+			},
+			cn = {
+				{
+					"・克劳斯经常长时间进入城市废墟挖掘古代机器，并以答谢的名义提供机器给社区",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 83,
+	},
+	block_00023 = {
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"・故障した機械でも、クラウスが触れることで機能回復するケースが頻発した",
+				},
+			},
+			en = {
+				{
+					"・Broken machines were restored to working order the moment Klaus touched them.",
+				},
+			},
+			cn = {
+				{
+					"・故障的机器在克劳斯触摸后恢复功能的案例时有发生",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 87,
+	},
+	block_00024 = {
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"・クラウスが自動機械を引き寄せている、という地域住民の声が数点残されている",
+				},
+			},
+			en = {
+				{
+					"・Several residents claimed to have witnessed Klaus attracting autonomous machines toward him.",
+				},
+			},
+			cn = {
+				{
+					"・当地居民留下了数条声称克劳斯引来了自动机器的言论",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 91,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当時のアンカラ地方では、すでに機械忌避の傾向が出ていた。",
+				},
+			},
+			en = {
+				{
+					"By this time, Ankara had become highly fearful of technology.",
+				},
+			},
+			cn = {
+				{
+					"当时的安卡拉地区已经出现了对机器的排斥倾向。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 93,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"これは文明衰亡期にはしばしば見られる現象である。",
+				},
+			},
+			en = {
+				{
+					"This is a common trend in declining cultures.",
+				},
+			},
+			cn = {
+				{
+					"这是文明衰亡期中常见的现象。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 94,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのため、クラウスのこうした行動が人々を刺激し、迫害に至らせたと考えるのが自然であろう。",
+				},
+			},
+			en = {
+				{
+					"In hindsight, it seems only natural that the boy's behavior would incite distrust and paranoia.",
+				},
+			},
+			cn = {
+				{
+					"自然能推测到因此，克劳斯的这一系列行为刺激到了人们，并最终导致了迫害。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 95,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"保護から三年後、クラウスは石打ちの刑により処刑された。",
+				},
+			},
+			en = {
+				{
+					"Tensions escalated and Klaus was sentenced to death by stoning.",
+				},
+			},
+			cn = {
+				{
+					"在收留它的三年后，克劳斯被石刑处死。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 96,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"その際、少年が人間ではなくアンドロイドであることが判明したのである。",
+				},
+			},
+			en = {
+				{
+					"It was only then that it became obvious he had been an android all along.",
+				},
+			},
+			cn = {
+				{
+					"那时，人们才发现少年不是人类，而是一个仿生人。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 97,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少年の残骸（遺体）は、停止後自動的に発熱し、破片ひとつ残らず焼失した。",
+				},
+			},
+			en = {
+				{
+					[[His "corpse" combusted shortly after his functions ceased, and all traces of his body were consumed in fire.]],
+				},
+			},
+			cn = {
+				{
+					"少年的残骸（遗体）在停止运行后自动升温，不留一丝痕迹地焚烧殆尽。",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 98,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"偶発的にこのような現象が起きたとは考えられず、製造時に組み込まれていた機能であると考えるのが自然である。",
+				},
+			},
+			en = {
+				{
+					"It is hard to believe this was mere coincidence. More likely, it was a function installed by his creators.",
+				},
+			},
+			cn = {
+				{
+					"很难认为这种现象是偶然发生的，考虑其为制造时就内置的功能更符合逻辑。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 99,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"証拠を残さないための処置が施されたアンドロイドということになる。",
+				},
+			},
+			en = {
+				{
+					"A self-destruct mechanism to eliminate all evidence in cases of emergency.",
+				},
+			},
+			cn = {
+				{
+					"也就是说为了不留下证据，对仿生人进行过这样的设定。 ",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 100,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"製造者の目的については想像の域を出ない……",
+				},
+			},
+			en = {
+				{
+					"To this day, the reasons behind Klaus' creation remain a mystery.",
+				},
+			},
+			cn = {
+				{
+					"而关于制造者的目的则只有想象……",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 101,
+	},
+	block_00034 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=250, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型は、自我を持ったアンドロイドである。",
+				},
+			},
+			en = {
+				{
+					"AE model androids have a will of their own.",
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型是具有自我意识的仿生人。",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 108,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ここでいう自我が、人間の自我とどの程度一致するのか、これまで調査が行われたことはない。",
+				},
+			},
+			en = {
+				{
+					"However, it is still unclear whether their consciousness is on the same level as that of human beings.",
+				},
+			},
+			cn = {
+				{
+					"这里所指的自我意识与人类自我意识在多大程度上一致，关于这点目前为止尚未有人调查过。 ",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 109,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"前項で例示したように、たとえ破壊されても試料が残らないことも調査を困難にしている。",
+				},
+			},
+			en = {
+				{
+					"As shown in the above example, they seldom leave physical remains, meaning there are very few case studies.",
+				},
+			},
+			cn = {
+				{
+					"如前所述，它们被破坏后也不会留下样本，这一点也使得调查更加困难。",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 110,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ここからの記述は、当研究所が集めた各時代・各地域の情報を解析した、状況的事実の羅列となる。",
+				},
+			},
+			en = {
+				{
+					"Based on the Foundation's findings across several other regions and eras, the following observations have also been made.",
+				},
+			},
+			cn = {
+				{
+					"以下的记述，是本研究所在对收集的各个时代、各个地区的信息经过分析后，对情境事实的罗列。 ",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 111,
+	},
+	block_00038 = {
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=300, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ハードウェアとしてのＡｅ型アンドロイドは、外見上は生身の人間とまったく見分けがつかない。",
+				},
+			},
+			en = {
+				{
+					"In terms of hardware, AE models are virtually identical to human beings.",
+				},
+			},
+			cn = {
+				{
+					"从硬件角度看，Ａｅ型仿生人在外观上与真正的人类完全无法区分。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 118,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"人間と同様に頭髪、皮膚、体温を備え、出血までしてみせる。",
+				},
+			},
+			en = {
+				{
+					"They have a similar body temperature, hair, and skin. They can bleed.",
+				},
+			},
+			cn = {
+				{
+					"和人类一样，它们有头发、皮肤和体温，甚至也会出血。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 119,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"頭髪は伸び、怪我も治癒するなど、多少のトラブルではアンドロイドであることが露見しないように設計されている。",
+				},
+			},
+			en = {
+				{
+					"Their hair grows. Their wounds heal. They appear to have been made in such a way that no one would ever suspect them of being machines.",
+				},
+			},
+			cn = {
+				{
+					"头发会变长，伤口也会愈合，设计得不会因为偶尔的突发事件就暴露身份。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 120,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"金属探知機で検出できないことから、骨格や内部機器の大半が非金属製と推定できる。",
+				},
+			},
+			en = {
+				{
+					"Their skeletons are made of synthetic fibers, presumably to fool metal detection scans.",
+				},
+			},
+			cn = {
+				{
+					"由于无法用金属探测器检测分辨，可以推测骨架和大部分内部设备是非金属材料制造的。",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 121,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"少食ながら食事を摂る。",
+				},
+			},
+			en = {
+				{
+					"While not big eaters, they do eat.",
+				},
+			},
+			cn = {
+				{
+					"虽然食量小，但会进食。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 122,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"固形物の消化吸収が可能である。",
+				},
+			},
+			en = {
+				{
+					"They are able to digest solid food.",
+				},
+			},
+			cn = {
+				{
+					"能够消化吸收固体物。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 123,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"水分も摂取し、それのみで長期間恒常性を維持できる。",
+				},
+			},
+			en = {
+				{
+					"However, they are also able to subsist on water alone for long periods.",
+				},
+			},
+			cn = {
+				{
+					"也会摄取水分，并能仅靠水分维持长期的系统稳定。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 124,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"しかし飲食物からエネルギーを生成しているかどうかは、不明である。単なる擬態の可能性もある。",
+				},
+			},
+			en = {
+				{
+					"It is also unclear whether they actually generate energy from food and drink. It is possible it may just be another imitation of human behavior.",
+				},
+			},
+			cn = {
+				{
+					"不过尚不明确能量是否由食物转化而成，也有可能只是一种模拟行为。 ",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 125,
+	},
+	block_00046 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=150, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外見について、外部端子の類いが一切存在しない。",
+				},
+			},
+			en = {
+				{
+					"They do not appear to possess external hardware ports of any kind.",
+				},
+			},
+			cn = {
+				{
+					"就外观而言，完全不存在任何外部接口。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 130,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外部接続手段を持たないクローズドマシンである。",
+				},
+			},
+			en = {
+				{
+					"In other words, they are closed machines with no way to access their system.",
+				},
+			},
+			cn = {
+				{
+					"是一个没有外部连接手段的封闭式机器。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 131,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一般的な方法によるメンテナンスは不可能であり、充電方法も限定的であることから、諸機能を喪失した時は寿命として焼却処理されるものと考えられる。",
+				},
+			},
+			en = {
+				{
+					"In the course of normal operation, no charging or repairs are needed. When their functions finally do cease, the last thing they do is self-destruct.",
+				},
+			},
+			cn = {
+				{
+					"由于无法用常规方法进行维护，且充电方式有限，因此可以猜测当各项功能丧失时，就等同于它们的生命周期结束，将实施焚烧处理。 ",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 132,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"能力面で、特筆すべき点はない。",
+				},
+			},
+			en = {
+				{
+					"In terms of pure specs, they are utterly unremarkable.",
+				},
+			},
+			cn = {
+				{
+					"在能力方面，没有值得特别关注的地方。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 133,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"身体的・知的能力面において、人類を凌駕する部分はまったくない。",
+				},
+			},
+			en = {
+				{
+					"Their physique and cognitive skills are on the same level as an average human.",
+				},
+			},
+			cn = {
+				{
+					"在身体与智力的能力方面，完全没有优于人类的部分。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 134,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仮に敵対しても、その脅威度は一般的な人間と大差ない。",
+				},
+			},
+			en = {
+				{
+					"In the unlikely event of them becoming hostile, in a one-on-one confrontation they pose no serious threat.",
+				},
+			},
+			cn = {
+				{
+					"即使是敌对的情况下，其威胁程度也与普通人类相差无几。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 135,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"周辺機器に対する影響力も皆無である。",
+				},
+			},
+			en = {
+				{
+					"Likewise, they have no special ability to influence other devices.",
+				},
+			},
+			cn = {
+				{
+					"对周围的机器也没有任何影响力。 ",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 136,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"設計思想に、戦闘・諜報はまったく想定されていない。",
+				},
+			},
+			en = {
+				{
+					"Whatever the reason for their creation, it is unlikely to have been for war or espionage.",
+				},
+			},
+			cn = {
+				{
+					"设计思想中，完全看不到对战斗、谍报活动的预想。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 137,
+	},
+	block_00054 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=200, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイドがどこで製造されているのかは判明していない。",
+				},
+			},
+			en = {
+				{
+					"It has not been determined where the AE androids were made.",
+				},
+			},
+			cn = {
+				{
+					"目前尚不清楚Ａｅ型仿生人是在哪里制造的。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 142,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"多くのケースで、危険地帯などから現れ、付近のコミュニティに保護されるという形で接触が起こる。",
+				},
+			},
+			en = {
+				{
+					"In many cases they emerge from out of the Danger Zones and are taken in by nearby communities.",
+				},
+			},
+			cn = {
+				{
+					"在许多案例中，它们会从危险地区等地出现，以被收留的形式与附近的社区产生接触。",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 143,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"危険地帯に埋もれた遺跡で、突発的に製造されていると考えられる。",
+				},
+			},
+			en = {
+				{
+					"Some theorize they are created when certain ruins sites unexpectedly come back online.",
+				},
+			},
+			cn = {
+				{
+					"可以推测，它们是在危险地区埋藏的遗址中被突然制造出来的。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 144,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"数は多くないが、Ａｅ型アンドロイドは各時代、各地域に確認されている。",
+				},
+			},
+			en = {
+				{
+					"AE models are not common, but they have been observed in several different eras and regions.",
+				},
+			},
+			cn = {
+				{
+					"虽然数量不多，但Ａｅ型仿生人在各个时代、各个地区都有记录。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 145,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"何百年という期間にわたって、製造は続けられている。",
+				},
+			},
+			en = {
+				{
+					"They are sturdy enough to remain operational for several centuries.",
+				},
+			},
+			cn = {
+				{
+					"数百年来，一直在被持续制造着。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 146,
+	},
+	block_00059 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=250, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイドの大半は少年か少女の姿をとっている。",
+				},
+			},
+			en = {
+				{
+					"Most AE androids resemble human children.",
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型仿生人大部分呈现出少年或少女的样貌。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 151,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そのため、後に迫害に発展するケースはあるにしろ、初期においては友好的に受け容れられることが多い。",
+				},
+			},
+			en = {
+				{
+					"This may be to ensure people see them as something harmless and endearing on first contact.",
+				},
+			},
+			cn = {
+				{
+					"因此，即使有时最终会发展成遭受迫害的境地，最开始它们也往往会被友好接纳。 ",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 152,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"驚くべくことに、Ａｅ型アンドロイドは身体的成長を遂げる機能を持つ。",
+				},
+			},
+			en = {
+				{
+					"Surprisingly though, these machines do possess the ability to grow.",
+				},
+			},
+			cn = {
+				{
+					"令人惊讶的是，Ａｅ型仿生人具有身体成长的功能。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 153,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"生身の人間よりはゆるやかだが、数センチ程度の身長の伸びはどの個体にも見られた。",
+				},
+			},
+			en = {
+				{
+					"While far more subtle than in humans, their bodies have been seen to grow by a few inches.",
+				},
+			},
+			cn = {
+				{
+					"虽然比真正的人类缓慢，但每个个体都可以观察到数厘米左右的身高增长。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 154,
+	},
+	block_00063 = {
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=150, alpha=224, x=300, y=-100, speed=13000, ease="in", path=":cg/", y2=100},
+		{"se", id=0, file="se011"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"特筆すべきは、その自我再現にある。",
+				},
+			},
+			en = {
+				{
+					"Perhaps most noteworthy of all is their free will and sense of self.",
+				},
+			},
+			cn = {
+				{
+					"最值得注意的是，它们复现出的自我意识。 ",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 159,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型アンドロイドを、言動のみから正体を看破することは不可能に近い。",
+				},
+			},
+			en = {
+				{
+					"It is impossible to discern an AE android's true identity from their words and deeds alone.",
+				},
+			},
+			cn = {
+				{
+					"仅凭Ａｅ型仿生人的言行，几乎无法识破它们的真实身份。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 160,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外見面でも、ソフトウェア面でも、完全な人間が再現されている。",
+				},
+			},
+			en = {
+				{
+					"Their hardware and software is a near-perfect recreation of the human experience.",
+				},
+			},
+			cn = {
+				{
+					"无论是在外观还是在软件层面上，都完美地复现了人类。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 161,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"Ａｅ型はどのようなチューリングテストにもパスしうる。",
+				},
+			},
+			en = {
+				{
+					"Any one of them would pass the Turing Test with flying colors.",
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型能够通过任何图灵测试。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 162,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"設計にはきわめて高度な応用化学や組織工学、有機工学の関与が認められる……",
+				},
+			},
+			en = {
+				{
+					"Their very existence speaks to unprecedented achievements in the fields of applied chemistry, structural engineering, organic engineering...",
+				},
+			},
+			cn = {
+				{
+					"设计中可以看出有极为高等的应用化学、组织工学和有机工学参与其中…… ",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 163,
+	},
+	block_00068 = {
+		{"bgm", stop=1, time=5000},
+		{"msgoff"},
+		{"bg", id=1, lv=5, file="ef_ui13", time=1000, zoom=100, alpha=224, x=0, y=0, path=":cg/"},
+		{"ex", time=2000, func="wait"},
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"ex", time=2000, func="wait"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00067",
+		line = 177,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

@@ -1,0 +1,6511 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"bgm", file="bgm23"},
+		{"ex", time=750, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg25", x=-70, y=270, speed=25000, ease="none", sync=0, zoom=150, path=":bg/", x2=-70, y2=-270, set="bg25"},
+		{"flash", mode="siglus", time=4000, alpha=255, color="ffffff", style="ar_screen"},
+		{"ex", time=2000, func="wait"},
+		{"fg", mode=-2},
+		{"bg", file="bg25", speed=1500, time=1500, zoom=100, lv=5, z2=112, sync=1, path=":bg/", id=1, set="bg25"},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", zoom=150, x=0, y=0, sync=0, path=":bg2/", set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_a701_base01", face="bs3_a7_f01_05", ch="c008", path=":fg/", sync=0, mode=3, head="bs3_a70", x=-550, lv=3, id=11},
+		{"fg", file="bs3_a101_base01", face="bs3_a1_f01_05", ch="c007", path=":fg/", sync=0, mode=3, head="bs3_a10", x=410, lv=3, id=12},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"中にいた、同じ雰囲気を持つ若者がまったく同じタイミングでこちらに顔を向けた。",
+				},
+			},
+			en = {
+				{
+					"Two almost-identical young men step forward at the same time as we try to go in.",
+				},
+			},
+			cn = {
+				{
+					"里面散发着相同氛围的年轻人们，在完全一致的时间点朝我们这边看过来。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 28,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"誰ひとり、驚いている様子はない。",
+				},
+			},
+			en = {
+				{
+					"Neither of them look surprised to see us.",
+				},
+			},
+			cn = {
+				{
+					"没有一个人显得惊讶。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 29,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"予定外の出来事が発生、肉眼で確認――",
+				},
+			},
+			en = {
+				{
+					"Something unexpected happened, and they simply observed it.",
+				},
+			},
+			cn = {
+				{
+					"发生了一个意料之外的事件，于是用肉眼确认——",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 30,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そういった行動だった。",
+				},
+			},
+			en = {
+				{
+					"Their lack of any emotional reaction is uncanny.",
+				},
+			},
+			cn = {
+				{
+					"他们采取的就是这样的行动。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 31,
+	},
+	block_00004 = {
+		{"cgdel", id=1, lv=1},
+		{"fg", mode=-2},
+		{"bg", file="bg25", zoom=100, x=0, y=0, sync=0, path=":bg/", set="bg25"},
+		{"fg", file="bs1_a701_base01", face="bs1_a7_f01_05", ch="c008", path=":fg/", sync=0, mode=3, head="bs1_a70", x=-345, lv=3, id=9},
+		{"fg", file="bs1_a101_base01", face="bs1_a1_f01_05", ch="c007", path=":fg/", sync=0, mode=3, head="bs1_a10", x=345, lv=3, id=10},
+		{"extrans", time=1000},
+		{"fg", file="bs1_a701_base01", face="bs1_a7_f01_06", ch="c008", path=":fg/", time=300, sync=1, mode=3, head="bs1_a70", x=-345, lv=3, id=9},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c005", file="z004600009"},
+			},
+			ja = {
+				{
+					"「ここは関係者以外、立ち入り禁止です」",
+				},
+			},
+			en = {
+				{
+					[["We can only allow authorized personnel beyond this point."]],
+				},
+			},
+			cn = {
+				{
+					"「这里禁止无关人员进入」",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 45,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"アンドロイドのリーダー然とした男が前に進み出てくる。",
+				},
+			},
+			en = {
+				{
+					"The lead android speaks up, denying us entry.",
+				},
+			},
+			cn = {
+				{
+					"一个貌似是仿生人领班的男子走上前来。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 47,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600010"},
+			},
+			ja = {
+				{
+					"「関係者だ」",
+				},
+			},
+			en = {
+				{
+					[["I am authorized."]],
+				},
+			},
+			cn = {
+				{
+					"「我是相关人员」",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 49,
+	},
+	block_00007 = {
+		{"fg", file="bs1_a101_base01", face="bs1_a1_f01_06", ch="c007", path=":fg/", time=300, mode=3, head="bs1_a10", x=345, lv=3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c005", file="z004600011"},
+			},
+			ja = {
+				{
+					"「退出してください。現在、治療中です」",
+				},
+			},
+			en = {
+				{
+					[["Please return to the medical bay. You are not fully healed yet."]],
+				},
+			},
+			cn = {
+				{
+					"「请离开房间。现在正在进行治疗」",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 51,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600012"},
+			},
+			ja = {
+				{
+					"「黙れ」",
+				},
+			},
+			en = {
+				{
+					[["Shut up."]],
+				},
+			},
+			cn = {
+				{
+					"「闭嘴」",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 52,
+	},
+	block_00009 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="b_bg25", zoom=150, x=0, y=0, sync=0, path=":bg2/", set="bg25"},
+		{"fg", file="bs3_a701_base01", face="bs3_a7_f01_05", ch="c008", path=":fg/", sync=0, mode=3, head="bs3_a70", x=-550, lv=3, id=11},
+		{"fg", file="bs3_a101_base01", face="bs3_a1_f01_05", ch="c007", path=":fg/", sync=0, mode=3, head="bs3_a10", x=410, lv=3, id=12},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"口ではそう言うが、手は出してこないアンドロイドたちをかき分けるように、奥に進む。",
+				},
+			},
+			en = {
+				{
+					"I push between the two of them into the room beyond. They don't try to stop me.",
+				},
+			},
+			cn = {
+				{
+					"仿生人们嘴上这么说着却没有动手。我拨开它们的人群，径直朝里面走去。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 60,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……そう、こいつらは全員Ａｅ型アンドロイドだ。",
+				},
+			},
+			en = {
+				{
+					"These two must be AE models as well.",
+				},
+			},
+			cn = {
+				{
+					"……没错，它们全部都是Ａｅ型仿生人。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 61,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"揃いも揃って自我が芽生える前段階の。",
+				},
+			},
+			en = {
+				{
+					"But none of them are at a stage where they've really developed their own free will.",
+				},
+			},
+			cn = {
+				{
+					"一群全是处在萌生自我前一阶段的仿生人。",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 62,
+	},
+	block_00012 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", x=0, y=-300, speed=4000, ease="none", time=1000, zoom=200, sync=0, path=":bg2/", x2=0, y2=-400, set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600018"},
+			},
+			ja = {
+				{
+					"「爺さん、やっと見つけたぞ」",
+				},
+			},
+			en = {
+				{
+					[["We meet at last, 'Your Grace.'"]],
+				},
+			},
+			cn = {
+				{
+					"「老头，我可算是找到你了」",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 69,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"外部接続の大型モジュールに、仰々しい医療装置が鎮座している。",
+				},
+			},
+			en = {
+				{
+					"This entire module is taken up by outrageously advanced medical equipment.",
+				},
+			},
+			cn = {
+				{
+					"在一个连接于外部的大型模块中，坐镇着一台庞大肃穆的医疗设备。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 71,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"老人はそこに＜接続＞されていた。",
+				},
+			},
+			en = {
+				{
+					"And our old friend the duke is plugged right into it.",
+				},
+			},
+			cn = {
+				{
+					"老人被“连接”在了那里。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 72,
+	},
+	block_00015 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"se", id=0, file="se064"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg25", time=1500, path=":bg/", set="bg25"},
+		{"fg", file="bs1_a101_base01", face="bs1_a1_f01_03", ch="c007", path=":fg/", time=300, mode=3, head="bs1_a10", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c005", file="z004600025"},
+			},
+			ja = {
+				{
+					"「……処置終了です」",
+				},
+			},
+			en = {
+				{
+					[["...Your treatment for today is complete."]],
+				},
+			},
+			cn = {
+				{
+					"「……处理结束」",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 83,
+	},
+	block_00016 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"se", id=0, file="se007"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", zoom=350, sync=0, y=0, ease="in", speed=5000, path=":bg2/", y2=-100, set="bg25"},
+		{"bg", id=9, lv=5, file="cinema400", path=":cg/", sync=0},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_04", ch="c005", path=":fg/", zoom=250, y2=-30, ease="in", speed=5000, sync=0, rotate=8, mode=3, head="bs3_wi0", x=250, y=70, lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"体を覆っていた半透明のシェル状構造物がスライドしていく。",
+				},
+			},
+			en = {
+				{
+					"The clear plastic shell surrounding Willem's body slides away.",
+				},
+			},
+			cn = {
+				{
+					"覆盖在身体上的半透明壳状物体逐渐滑开。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 92,
+	},
+	block_00017 = {
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_13", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", x=250, y=70, lv=3, id=13, rotate=8, zoom=250},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"中に収まっていた老人が、目を開く。",
+				},
+			},
+			en = {
+				{
+					"He opens his eyes, but remains motionless.",
+				},
+			},
+			cn = {
+				{
+					"躺在里面的老人睁开了眼睛。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 94,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"アンドロイドらが近寄って、身支度を調えるとともに、薬呑器の中身を口内に少量流し入れた。",
+				},
+			},
+			en = {
+				{
+					"The android examines him once more, and squirts some kind of medical fluid into his mouth.",
+				},
+			},
+			cn = {
+				{
+					"仿生人们走近他，帮他打理了着装，同时将喂药器的内容物少量倒入他的嘴内。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 95,
+	},
+	block_00019 = {
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_02", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", x=250, y=70, lv=3, id=13, rotate=8, zoom=250},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"老人の目に力が戻ってくる。",
+				},
+			},
+			en = {
+				{
+					"His eyes begin to focus.",
+				},
+			},
+			cn = {
+				{
+					"力量在老人的眼中恢复。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 97,
+	},
+	block_00020 = {
+		{"cgdel", id=9, lv=5},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"se", id=0, file="se255"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老人の寝ていた寝台が医療機器から切り離され、背もたれが立ち上がる。",
+				},
+			},
+			en = {
+				{
+					"The old man's pod detaches from the machine and begins to change.",
+				},
+			},
+			cn = {
+				{
+					"躺有老人的床与医疗设备分离开来，升起了靠背。",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 104,
+	},
+	block_00021 = {
+		{"bgm", stop=1, time=2000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"車椅子に変形した。",
+				},
+			},
+			en = {
+				{
+					"In a few seconds, it's become a wheelchair.",
+				},
+			},
+			cn = {
+				{
+					"变形成了一把轮椅。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 106,
+	},
+	block_00022 = {
+		{"msgoff"},
+		{"bgm", file="bgm09"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"ex", time=750, func="wait"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"ex", time=350, func="wait"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600034"},
+			},
+			ja = {
+				{
+					"「……直接会うのははじめてだな、ジュード君」",
+				},
+			},
+			en = {
+				{
+					[["Yes... This is our first time speaking face to face, isn't it, Jude?"]],
+				},
+			},
+			cn = {
+				{
+					"「……这是我们第一次在现实中见面啊，裘德」",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 117,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600035"},
+			},
+			ja = {
+				{
+					"「まさかあんたがサイボーグだったとはな」",
+				},
+			},
+			en = {
+				{
+					[["I honestly had no idea you were a cyborg."]],
+				},
+			},
+			cn = {
+				{
+					"「没想到你居然是一个生化人」",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 118,
+	},
+	block_00024 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600036"},
+			},
+			ja = {
+				{
+					"「肉体の多くの部分を機械に置き換えていることをそう呼ぶなら、間違いではないな」",
+				},
+			},
+			en = {
+				{
+					[["I suppose that's a fair way to describe me. Most of my organs are now mechanical, after all."]],
+				},
+			},
+			cn = {
+				{
+					"「如果你把将大部分的肉体替换成机器这一行为称作生化人的话，那么确实没错」",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 120,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600037"},
+			},
+			ja = {
+				{
+					"「俺たちをほったらかしで、トラブルでもあったのか？」",
+				},
+			},
+			en = {
+				{
+					[["Did something bad happen after the last time we talked?"]],
+				},
+			},
+			cn = {
+				{
+					"「把我们晾在一边不管，是遇到了什么麻烦吗？」",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 121,
+	},
+	block_00026 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600038"},
+			},
+			ja = {
+				{
+					"「ああ、異なる重力環境下に来ると、調子が悪くなるのだ。ここまでひどいのは久しぶりだったがね。出迎えが滞ってしまったことは詫びよう。",
+				},
+			},
+			en = {
+				{
+					[["No, just ill effects of the change in gravity. It hasn't been this bad in a while... I apologize for not being here to greet you.]],
+				},
+			},
+			cn = {
+				{
+					"「是的，来到引力不同的环境，我的身体状况就会变差。虽然变得这么糟糕也是久违了。没能准时前去迎接你们，我很抱歉。 ",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 123,
+	},
+	block_00027 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_13", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600039"},
+			},
+			ja = {
+				{
+					"ここ数年は無重量地区にいることが多くてね。月程度でも重力が堪える」",
+				},
+			},
+			en = {
+				{
+					[[For many years I've been living in a weightless environment. Even an environment like the moon would put quite the strain on me."]],
+				},
+			},
+			cn = {
+				{
+					"这几年我大部分时候会待在无引力地区。即使是月球程度的引力，也让我难以承受」",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 125,
+	},
+	block_00028 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_13", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"実際に会って話すと、老人の青白さは尋常なものではなかった。",
+				},
+			},
+			en = {
+				{
+					"Now that I see him in person, I can see Willem's complexion is unnaturally pale.",
+				},
+			},
+			cn = {
+				{
+					"和老人实际面对面交谈后便能发现，他的脸色超乎寻常的苍白。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 131,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"生気がまったく存在しない。",
+				},
+			},
+			en = {
+				{
+					"His skin is devoid of any kind of healthy glow.",
+				},
+			},
+			cn = {
+				{
+					"完全没有一点活人的气息。",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 132,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"生きた人間というよりは、植物のような印象さえある。",
+				},
+			},
+			en = {
+				{
+					"When he's not moving, he resembles a plant more than a person.",
+				},
+			},
+			cn = {
+				{
+					"给人的印象与其说是活着的人，不如说是一株植物。 ",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 133,
+	},
+	block_00031 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_13", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600045"},
+			},
+			ja = {
+				{
+					"「私は人類史上、もっとも機械部分の割合が多い人間でね。５０％以上が機械化されている」",
+				},
+			},
+			en = {
+				{
+					[["I've replaced more of my body with machines than anyone in human history - over 50%, as it happens."]],
+				},
+			},
+			cn = {
+				{
+					"「我是人类历史上拥有最高机器部分比例的人。我身体的５０％以上都已经机器化了」",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 141,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600046"},
+			},
+			ja = {
+				{
+					"「そんなことが可能なのか？」",
+				},
+			},
+			en = {
+				{
+					[["I didn't know that was possible."]],
+				},
+			},
+			cn = {
+				{
+					"「这种事情有可能实现吗？」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 142,
+	},
+	block_00033 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600047"},
+			},
+			ja = {
+				{
+					"「最盛期医学であれば。だがよくある作り話とは違い、極めて脆弱なサイボーグだがね。",
+				},
+			},
+			en = {
+				{
+					[["With science from the peak of the Advanced Era it is. Unlike most fictional cyborgs, however, it's left me incredibly fragile.]],
+				},
+			},
+			cn = {
+				{
+					"「如果是全盛期的医学有可能。但不像那些编出来的故事，我是一个极为脆弱的生化人。",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 144,
+	},
+	block_00034 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600048"},
+			},
+			ja = {
+				{
+					"私は筋力的にも骨格的にも免疫的にも、地球環境で生存することは不可能なほど弱い」",
+				},
+			},
+			en = {
+				{
+					[[My muscles, bones, and immune system have degraded to a point I could never survive on earth."]],
+				},
+			},
+			cn = {
+				{
+					"无论是肌肉上、骨骼上还是免疫力上，我都无法在地球环境下生存」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 146,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600049"},
+			},
+			ja = {
+				{
+					"「免疫……俺を近づけて平気なのか？」",
+				},
+			},
+			en = {
+				{
+					[["Your immune system...? Is it okay for me to be this close to you?"]],
+				},
+			},
+			cn = {
+				{
+					"「免疫……让我靠近你是没关系的吗？」",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 147,
+	},
+	block_00036 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600050"},
+			},
+			ja = {
+				{
+					"「こちらで対処した。問題ない。それが原因で意識を失い、お待たせしてしまったが」",
+				},
+			},
+			en = {
+				{
+					[["I've taken preventative measures. In truth, they are what had me knocked out until now."]],
+				},
+			},
+			cn = {
+				{
+					"「我这边已经处理了，没有问题。虽然我也因此失去了意识，让你们久等了多时」",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 149,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……予防接種で体調を崩した、ということか。",
+				},
+			},
+			en = {
+				{
+					"Whatever vaccination he took must've been more than his body could handle.",
+				},
+			},
+			cn = {
+				{
+					"……这意思是接种疫苗就让他身体不适了啊。",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 151,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"この爺さん、想像するよりずっと危険な状態なんじゃないか。",
+				},
+			},
+			en = {
+				{
+					"I knew he was old, but I wasn't expecting him to be in this poor health.",
+				},
+			},
+			cn = {
+				{
+					"这个老头子，岂不是状态远比我想象中还要危险得多。",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 152,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600055"},
+			},
+			ja = {
+				{
+					"「ここに来ることはなかったんじゃないか？」",
+				},
+			},
+			en = {
+				{
+					[["Did you even need to come here in person?"]],
+				},
+			},
+			cn = {
+				{
+					"「那你是不是也不应该来这里？」",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 154,
+	},
+	block_00040 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600056"},
+			},
+			ja = {
+				{
+					"「フィリア君が来た以上、ここでの滞在準備は必要だ。",
+				},
+			},
+			en = {
+				{
+					[["I had to make arrangements once I knew Philia was coming.]],
+				},
+			},
+			cn = {
+				{
+					"「既然菲莉娅来了，那我就要准备在这里停留。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 156,
+	},
+	block_00041 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600057"},
+			},
+			ja = {
+				{
+					"Ａｅ型アンドロイドはこれ以上の低重力環境下では、知性を低下させてしまうのだ」",
+				},
+			},
+			en = {
+				{
+					[[Gravity weaker than this tends to have an adverse effect on AE androids' intellect."]],
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型仿生人在比这里更低的引力环境下，会出现智力下降的情况」",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 158,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600058"},
+			},
+			ja = {
+				{
+					"「何？」",
+				},
+			},
+			en = {
+				{
+					[["What is it?"]],
+				},
+			},
+			cn = {
+				{
+					"「什么？」",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 159,
+	},
+	block_00043 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600059"},
+			},
+			ja = {
+				{
+					"「彼らの脳内をその目で見たことはあるかね」",
+				},
+			},
+			en = {
+				{
+					[["Have you ever seen the inside of their heads?"]],
+				},
+			},
+			cn = {
+				{
+					"「你有亲眼看过他们的大脑内部吗？」",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 161,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600060"},
+			},
+			ja = {
+				{
+					"「一度……」",
+				},
+			},
+			en = {
+				{
+					[["Yeah, once..."]],
+				},
+			},
+			cn = {
+				{
+					"「有一次……」",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 162,
+	},
+	block_00045 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=300, path=":bg/"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"colortone", style="gray"},
+		{"se", id=0, file="se181"},
+		{"msgoff"},
+		{"bg", file="cg_ts08", time=1000, rule="sig_240", path=":ev/", set="ts08"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"デリラのそれを。",
+				},
+			},
+			en = {
+				{
+					"With Delilah.",
+				},
+			},
+			cn = {
+				{
+					"就是黛莉拉的那次。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 172,
+	},
+	block_00046 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600064"},
+			},
+			ja = {
+				{
+					"「だが俺には理解できなかった。未知の素材で作られているようだった」",
+				},
+			},
+			en = {
+				{
+					[["I didn't really understand what I was seeing, or what it was all made of."]],
+				},
+			},
+			cn = {
+				{
+					"「但是我完全没能理解，那似乎是用未知材料制成的」",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 179,
+	},
+	block_00047 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600065"},
+			},
+			ja = {
+				{
+					"「粘菌だよ」",
+				},
+			},
+			en = {
+				{
+					[["It's slime mold."]],
+				},
+			},
+			cn = {
+				{
+					"「那是黏菌」",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 181,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600066"},
+			},
+			ja = {
+				{
+					"「粘菌？」",
+				},
+			},
+			en = {
+				{
+					[["Slime mold?"]],
+				},
+			},
+			cn = {
+				{
+					"「黏菌？」",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 182,
+	},
+	block_00049 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts97", speed=8000, time=1000, zoom=100, lv=5, z2=115, sync=1, ease="none", path=":ev/", id=1, set="ts97"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600067"},
+			},
+			ja = {
+				{
+					"「機械部品で作られているのではない。分子機械性質を組み込んだ粘菌に、高度実態学習……つまり実生活を経験させることで指数関数的な成長を実現できるコンピュータ。Ａｅ型はそれを搭載している」",
+				},
+			},
+			en = {
+				{
+					[["Their brains aren't mechanical components, but a specialized substance capable of storing data. As the android learns and experiences, so too does the slime mold adjust and develop. That's what's inside an AE's head."]],
+				},
+			},
+			cn = {
+				{
+					"「并不是用机器部件制成的。而是让植入了分子机器特性的粘菌高度实况学习……换句话说是通过经历实际生活，实现了指数函数级成长的电脑。Ａｅ型所搭载的正是这种」 ",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 187,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z004600068"},
+			},
+			ja = {
+				{
+					"「……う、粘菌」",
+				},
+			},
+			en = {
+				{
+					[["Really? Slime...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……呃，黏菌」",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 188,
+	},
+	block_00051 = {
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_07", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアが頭を抱えて、嫌そうな顔をしている。",
+				},
+			},
+			en = {
+				{
+					"Philia puts a hand on her head. I don't think she likes the idea.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅抱着头，露出讨厌的表情。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 194,
+	},
+	block_00052 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600072"},
+			},
+			ja = {
+				{
+					"「ＡＩ産だけあって聞いたこともない技術だな」",
+				},
+			},
+			en = {
+				{
+					[["I never heard of technology like that before. Another AI invention?"]],
+				},
+			},
+			cn = {
+				{
+					"「不愧是ＡＩ造物，听都没听说过的技术」",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 199,
+	},
+	block_00053 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600073"},
+			},
+			ja = {
+				{
+					"「人類科学でも理論上は存在していたものだ。実現したのはＡＩだが」",
+				},
+			},
+			en = {
+				{
+					[["The theory was developed by human scientists, but it took AI to realize it."]],
+				},
+			},
+			cn = {
+				{
+					"「其实在人类科学中曾经也有过类似的理论。只不过实现它的是ＡＩ」",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 201,
+	},
+	block_00054 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts97", x=-100, y=0, speed=12000, ease="none", time=1000, zoom=125, sync=1, path=":ev/", x2=100, y2=0, set="ts97"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600074"},
+			},
+			ja = {
+				{
+					"「頭部内環境で粘菌は増殖・変形する。その複雑さが一定値を超えることで、人間に匹敵する自我が芽生える。",
+				},
+			},
+			en = {
+				{
+					[["Their craniums have to be set up to allow the mold to grow and change. Beyond a certain level, they develop a sense of self similar to humans'.]],
+				},
+			},
+			cn = {
+				{
+					"「在头部的内环境中，粘菌会增殖、变形。当其复杂度超过一定值后，与人类旗鼓相当的自我便能萌生出来。 ",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 206,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600075"},
+			},
+			ja = {
+				{
+					"粘菌型演算装置。だが演算自体は苦手でね」",
+				},
+			},
+			en = {
+				{
+					[[It's one big organic computer... Although many of them struggle with actual computations."]],
+				},
+			},
+			cn = {
+				{
+					"这就是粘菌型算术单元。但它们本身并不擅长算数。」",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 207,
+	},
+	block_00056 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600076"},
+			},
+			ja = {
+				{
+					"「確かに、機械が得意なことをこいつは何もできなかった」",
+				},
+			},
+			en = {
+				{
+					[["Now that you mention it, Philia's really bad with technology."]],
+				},
+			},
+			cn = {
+				{
+					"「的确，她也无法胜任机器所擅长的任何事情」",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 212,
+	},
+	block_00057 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600077"},
+			},
+			ja = {
+				{
+					"「それで良いのだ。人工的に自我を誕生させる。この偉業の前では、機能性や演算能力など取るに足らん。",
+				},
+			},
+			en = {
+				{
+					[["It matters not. She won't need those skills for my master plan. She's developed a mind of her own, that's what counts.]],
+				},
+			},
+			cn = {
+				{
+					"「这没关系。人工成功诞生出了自我。在这项成就的面前，功能性和计算能力根本不值一提。",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 214,
+	},
+	block_00058 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600078"},
+			},
+			ja = {
+				{
+					"科学はついに心を生み出すことに成功したということなのだからな」",
+				},
+			},
+			en = {
+				{
+					[[You could say all the complicated technical work was already done for us when she was created."]],
+				},
+			},
+			cn = {
+				{
+					"因为科学终于成功地创造了心灵。」",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 216,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600079"},
+			},
+			ja = {
+				{
+					"「それについては同感だ」",
+				},
+			},
+			en = {
+				{
+					[["I'm sure she's relieved she won't have to study for this."]],
+				},
+			},
+			cn = {
+				{
+					"「在这一点上我完全同意」",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 217,
+	},
+	block_00060 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_05", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600080"},
+			},
+			ja = {
+				{
+					"「欠点として、粘菌の活動が重力から無視できない影響を受けてしまうことがある。無重量状態では頭内での運動性が阻害されるからだ」",
+				},
+			},
+			en = {
+				{
+					[["One downside is gravity's effect on the slime mold. Zero gravity would reduce its function and possibly cause permanent damage."]],
+				},
+			},
+			cn = {
+				{
+					"「缺点是，黏菌的活动会受到引力无法忽视的影响。因为在无引力状态下，头脑内的活动性会受到抑制」 ",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 219,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600081"},
+			},
+			ja = {
+				{
+					"「ああ……」",
+				},
+			},
+			en = {
+				{
+					[["Oh..."]],
+				},
+			},
+			cn = {
+				{
+					"「哦……」",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 220,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"粘菌が思い通りに変形できないとなれば、複雑なネットワークは形成できなくなる。",
+				},
+			},
+			en = {
+				{
+					"If the slime can't move around and change like it needs to, that would disrupt the complex information network it's created.",
+				},
+			},
+			cn = {
+				{
+					"如果黏菌无法随心所欲地变形，那么复杂的网络就无法形成。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 222,
+	},
+	block_00063 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600085"},
+			},
+			ja = {
+				{
+					"「結果として、感情が失われたり、性格が変化したりする」",
+				},
+			},
+			en = {
+				{
+					[["When that happens, they lose all emotion, and sometimes have a complete change of personality."]],
+				},
+			},
+			cn = {
+				{
+					"「结果就会丧失情感，或者性格会发生变化」",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 225,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600086"},
+			},
+			ja = {
+				{
+					"「月重力ならいいのか？」",
+				},
+			},
+			en = {
+				{
+					[["But moon gravity is safe?"]],
+				},
+			},
+			cn = {
+				{
+					"「月球的引力就没事吗？」",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 226,
+	},
+	block_00065 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600087"},
+			},
+			ja = {
+				{
+					"「彼女ほど自我が確立していれば支障はない。",
+				},
+			},
+			en = {
+				{
+					[["For one already as developed as Philia, yes.]],
+				},
+			},
+			cn = {
+				{
+					"「如果形成的自我是它那样的水准，就不会有问题。 ",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 228,
+	},
+	block_00066 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600088"},
+			},
+			ja = {
+				{
+					"クリムゾンアイが彼女を狙ったのだから、成長度合いは保証されている。",
+				},
+			},
+			en = {
+				{
+					"The fact that Crimson Eye was targeting her proves she's reached an appropriate level already.",
+				},
+			},
+			cn = {
+				{
+					"赤红之眼将它视为了眼中钉，所以它的成长程度是有保障的。 ",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 230,
+	},
+	block_00067 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600089"},
+			},
+			ja = {
+				{
+					"ジュード君、君の働きに感謝する。実によくやってくれた。報酬の件だが」",
+				},
+			},
+			en = {
+				{
+					[[You have done a magnificent job, Jude. Shall we discuss your payment?"]],
+				},
+			},
+			cn = {
+				{
+					"裘德，我非常感谢你的工作，你真的做得很好。那么关于报酬」 ",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 232,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600090"},
+			},
+			ja = {
+				{
+					"「待ってくれ。その前に確認したいことがある」",
+				},
+			},
+			en = {
+				{
+					[["Wait. Before that, there's one thing I have to ask."]],
+				},
+			},
+			cn = {
+				{
+					"「等一下。在那之前，我有些事情想确认」",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 233,
+	},
+	block_00069 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_08", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老人は俺の顔を見つめる。",
+				},
+			},
+			en = {
+				{
+					"The old man regards me coolly.",
+				},
+			},
+			cn = {
+				{
+					"老人凝视着我的脸。",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 239,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"油断のない、値踏みするような目。",
+				},
+			},
+			en = {
+				{
+					"Those same cold, calculating eyes I've always felt a little wary of.",
+				},
+			},
+			cn = {
+				{
+					"一丝不苟的、仿佛是在对我进行评估的眼神。 ",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 240,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"あるいは、俺がこういう反応を示すと予測していたか。",
+				},
+			},
+			en = {
+				{
+					"I feel like he's not simply waiting for me to speak, but watching, appraising me.",
+				},
+			},
+			cn = {
+				{
+					"又或者，他已经预测到我会有这样的反应。",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 241,
+	},
+	block_00072 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600096"},
+			},
+			ja = {
+				{
+					"「もういいだろう。聞かせてくれ。偉業とは何だ？　フィリアはどう役立つ？」",
+				},
+			},
+			en = {
+				{
+					[["Let's just cut to the chase. What is this 'great work' of yours? And how does Philia fit into it?"]],
+				},
+			},
+			cn = {
+				{
+					"「已经可以了吧，告诉我。你说的伟大事业是什么？　菲莉娅又能起到什么作用？」",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 248,
+	},
+	block_00073 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600097"},
+			},
+			ja = {
+				{
+					"「気にするなという方が無理か。よかろう」",
+				},
+			},
+			en = {
+				{
+					[["I suppose I can't blame you for wanting to know. Very well."]],
+				},
+			},
+			cn = {
+				{
+					"「让你不去关心也不现实。好吧」",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 250,
+	},
+	block_00074 = {
+		{"msgoff"},
+		{"fg", mode=-2},
+		{"bg", file="bg25", zoom=100, x=0, y=0, sync=0, path=":bg/", set="bg25"},
+		{"fg", file="bs1_a701_base01", face="bs1_a7_f01_01", ch="c008", path=":fg/", sync=0, mode=3, head="bs1_a70", x=345, lv=3, id=10},
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_05", ch="c005", path=":fg/", sync=0, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_10", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600098"},
+			},
+			ja = {
+				{
+					"「７８号、フィリア君を連れて退出しろ。そうだな……娯楽室はどうした？」",
+				},
+			},
+			en = {
+				{
+					[["78, take Philia and leave us... Perhaps you'd like to see the entertainment quarters?"]],
+				},
+			},
+			cn = {
+				{
+					"「７８号，带菲莉娅离开房间。嗯……娱乐室现在是什么情况？」",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 264,
+	},
+	block_00075 = {
+		{"fg", file="bs1_a701_base01", face="bs1_a7_f01_04", ch="c008", path=":fg/", time=300, mode=3, head="bs1_a70", x=345, lv=3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c005", file="z004600099"},
+			},
+			ja = {
+				{
+					"「利用者がいなくなりましたので、現在は資材置き場になっています」",
+				},
+			},
+			en = {
+				{
+					[["They're currently being used for storage, due to there being no human personnel stationed here."]],
+				},
+			},
+			cn = {
+				{
+					"「因为没有人使用了，所以现在变成了材料存放处」",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 266,
+	},
+	block_00076 = {
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600100"},
+			},
+			ja = {
+				{
+					"「遊戯盤は処分したか？」",
+				},
+			},
+			en = {
+				{
+					[["Have the games themselves been disposed of?"]],
+				},
+			},
+			cn = {
+				{
+					"「游戏盘也已经处理掉了？」",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 268,
+	},
+	block_00077 = {
+		{"fg", file="bs1_a701_base01", face="bs1_a7_f01_01", ch="c008", path=":fg/", time=300, mode=3, head="bs1_a70", x=345, lv=3, id=10},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c005", file="z004600101"},
+			},
+			ja = {
+				{
+					"「いいえ、保管されております」",
+				},
+			},
+			en = {
+				{
+					[["No, they are also being stored safely."]],
+				},
+			},
+			cn = {
+				{
+					"「没有，现在仍在保管着」",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 270,
+	},
+	block_00078 = {
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600102"},
+			},
+			ja = {
+				{
+					"「では何人か連れていき、フィリア君と遊ぶのだ」",
+				},
+			},
+			en = {
+				{
+					[["Then round up some other androids and play with Philia a while."]],
+				},
+			},
+			cn = {
+				{
+					"「那就带上几个人，去和菲莉娅一起玩吧」",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 272,
+	},
+	block_00079 = {
+		{"msgoff"},
+		{"fg", mode=-2, time=300},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_13", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z004600103"},
+			},
+			ja = {
+				{
+					"「私はここにいますっ」",
+				},
+			},
+			en = {
+				{
+					[["I'd like to stay, please."]],
+				},
+			},
+			cn = {
+				{
+					"「我要留在这里」",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 280,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600104"},
+			},
+			ja = {
+				{
+					"「ジュード君とふたりで話がしたいのだ」",
+				},
+			},
+			en = {
+				{
+					[["I was hoping to discuss this with Jude in private."]],
+				},
+			},
+			cn = {
+				{
+					"「我想和裘德两个人单独谈谈」",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 282,
+	},
+	block_00081 = {
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_25", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z004600105"},
+			},
+			ja = {
+				{
+					"「ここにいます。口は挟まないです」",
+				},
+			},
+			en = {
+				{
+					[["I won't interrupt. But I want to stay."]],
+				},
+			},
+			cn = {
+				{
+					"「我留在这里，不会插嘴的」",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 284,
+	},
+	block_00082 = {
+		{"msgoff"},
+		{"fg", mode=-2, time=300},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg25", sync=0, zoom=100, path=":bg/", set="bg25"},
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_04", ch="c005", path=":fg/", sync=0, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600106"},
+			},
+			ja = {
+				{
+					"「……懐いているな。よくここまで……」",
+				},
+			},
+			en = {
+				{
+					[["She's certainly attached to you. How very impressive..."]],
+				},
+			},
+			cn = {
+				{
+					"「……真是相当黏人啊。竟然能如此的……」",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 291,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600107"},
+			},
+			ja = {
+				{
+					"「こいつがいたらまずい話か？」",
+				},
+			},
+			en = {
+				{
+					[["Is there any reason she shouldn't hear about it?"]],
+				},
+			},
+			cn = {
+				{
+					"「是有她在这里就难以启齿的事情吗？」",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 292,
+	},
+	block_00084 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_08", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"老人は口では答えず、意味深な表情を向けてきた。",
+				},
+			},
+			en = {
+				{
+					"He doesn't answer, but a telling look flashes across his face.",
+				},
+			},
+			cn = {
+				{
+					"老人没有张口回答，而是用意味深长的表情回应了我。",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 298,
+	},
+	block_00085 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg25", sync=0, zoom=100, path=":bg/", set="bg25"},
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_08", ch="c005", path=":fg/", sync=0, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600111"},
+			},
+			ja = {
+				{
+					"「……構わない。俺の予想のつく範囲で、言い含めてある」",
+				},
+			},
+			en = {
+				{
+					[["...No, it's fine. This too is within the range of my predictions."]],
+				},
+			},
+			cn = {
+				{
+					"「……没关系。已经在我预想到的范围内嘱咐过她了」 ",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 305,
+	},
+	block_00086 = {
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600112"},
+			},
+			ja = {
+				{
+					"「しかしだね」",
+				},
+			},
+			en = {
+				{
+					[["Although, really..."]],
+				},
+			},
+			cn = {
+				{
+					"「不过啊」",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 307,
+	},
+	block_00087 = {
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_13", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600113"},
+			},
+			ja = {
+				{
+					"「こいつにだまし討ちは無理だ。ごまかしても、必ず気付く。",
+				},
+			},
+			en = {
+				{
+					[["Don't try to deceive her. Trust me, she'll see right through you.]],
+				},
+			},
+			cn = {
+				{
+					"「想骗她还是省一省吧。即使想含糊了事，也肯定能察觉到。",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 311,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600114"},
+			},
+			ja = {
+				{
+					"本人に聞かせて納得させた方がいい」",
+				},
+			},
+			en = {
+				{
+					[[It's better to let her hear it and get it all out in the open."]],
+				},
+			},
+			cn = {
+				{
+					"倒不如让本人听听，想办法让她信服」",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 312,
+	},
+	block_00089 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg25", sync=0, zoom=100, path=":bg/", set="bg25"},
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_08", ch="c005", path=":fg/", sync=0, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"ex", time=350, func="wait"},
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_04", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600115"},
+			},
+			ja = {
+				{
+					"「……わかった。そこまで言うなら。",
+				},
+			},
+			en = {
+				{
+					[["...Very well. If that's how you feel.]],
+				},
+			},
+			cn = {
+				{
+					"「……明白了。既然你说到这份上了。",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 319,
+	},
+	block_00090 = {
+		{"fg", file="bs1_wi01_base01", face="bs1_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs1_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600116"},
+			},
+			ja = {
+				{
+					"楽にしてくれ。７８号、ふたりに飲み物を。他の者は待機しておれ」",
+				},
+			},
+			en = {
+				{
+					[[Make yourselves comfortable. 78, bring some refreshments for our guests. The rest of you, remain on standby mode."]],
+				},
+			},
+			cn = {
+				{
+					"放轻松点。７８号，给他们两位拿些喝的。其他人暂时待命」",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 321,
+	},
+	block_00091 = {
+		{"bgm", stop=1, time=5000},
+		{"fg", file="bs1_a101_base01", face="bs1_a1_f01_05", ch="c007", path=":fg/", time=300, mode=3, head="bs1_a10", x=550, lv=3, id=12},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"命令を受けるまで棒立ちしていたアンドロイドたちが、のろのろと動き出す。",
+				},
+			},
+			en = {
+				{
+					"The androids, stock still until a moment ago, spring to life at the duke's orders.",
+				},
+			},
+			cn = {
+				{
+					"接到命令为止始终呆站着的仿生人们慢悠悠地开始行动。",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 327,
+	},
+	block_00092 = {
+		{"fg", file="bs1_a101_base01", face="bs1_a1_f01_03", ch="c007", path=":fg/", time=300, mode=3, head="bs1_a10", x=550, lv=3, id=12},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"壁ぎわの椅子に座り、静かに目を閉じた。",
+				},
+			},
+			en = {
+				{
+					"Each of them makes their way to a chair at the edge of the room and sit quietly, their eyes closed.",
+				},
+			},
+			cn = {
+				{
+					"坐到了靠墙的椅子上，静静地闭上眼睛。",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 329,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"同じＡｅ型でありながら、彼らは実にアンドロイドらしい。",
+				},
+			},
+			en = {
+				{
+					"They may be AE models, but these ones are a lot more what I'd expect androids to be like.",
+				},
+			},
+			cn = {
+				{
+					"同为Ａｅ型，他们实在是很有仿生人的风范。",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 330,
+	},
+	block_00094 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"bgm", file="bgm15"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600122"},
+			},
+			ja = {
+				{
+					"「発達の機会を得ないまま粘菌の大部分が固着した個体は、皆こうなのだ。指示待ちの木偶の坊になる。",
+				},
+			},
+			en = {
+				{
+					[["That's what happens if their brain matter is allowed to solidify before fully developing. They're little better than mindless puppets.]],
+				},
+			},
+			cn = {
+				{
+					"「没有什么成长的机会，黏菌大部分都已经固定下来的个体全都是这样的。只会变成等待指示的木偶。",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 339,
+	},
+	block_00095 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z900000021"},
+			},
+			ja = {
+				{
+					"それでも充分高性能だがね。多少無能気味だが、言えばわかるのだ。ロボットに比べれば、応用力は桁違いだ」",
+				},
+			},
+			en = {
+				{
+					[[But they still have their uses. They understand orders and can carry out most tasks more efficiently than standard robot helpers."]],
+				},
+			},
+			cn = {
+				{
+					"即使如此性能也足够高了。虽然看上去有些低能，但说的话也都能听懂。跟机器人相比，应用力简直是天差地别」",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 341,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600124"},
+			},
+			ja = {
+				{
+					"「時間が経過すると、粘菌が固着するわけだ」",
+				},
+			},
+			en = {
+				{
+					[["So the slime mold solidifies after a certain amount of time?"]],
+				},
+			},
+			cn = {
+				{
+					"「确实随着时间的推移，黏菌就会固定下来」 ",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 342,
+	},
+	block_00097 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600125"},
+			},
+			ja = {
+				{
+					"「若いうちは活発に増えて広がるが、年月の経過とともにその活動は低下していく」",
+				},
+			},
+			en = {
+				{
+					[["It's more active and changeable while they're young, but it slows down and becomes rigid with time."]],
+				},
+			},
+			cn = {
+				{
+					"「年轻的时候它们会活跃地繁殖、扩张，但随着岁月的流逝，这种活动会越来越迟缓」 ",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 344,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600126"},
+			},
+			ja = {
+				{
+					"「人間と同じか。若い方が、学習に適している」",
+				},
+			},
+			en = {
+				{
+					[["Kind of like humans and how kids learn fast."]],
+				},
+			},
+			cn = {
+				{
+					"「和人类一样啊。年轻的时候才更适合学习」",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 345,
+	},
+	block_00099 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600127"},
+			},
+			ja = {
+				{
+					"「さて、どこから話したものか。この計画の全容を語る前に、私が何者かを話すべきだな」",
+				},
+			},
+			en = {
+				{
+					[["Now, to the matter at hand. Before we discuss my project, I must tell you a little about myself."]],
+				},
+			},
+			cn = {
+				{
+					"「那么，该从哪里开始讲呢。在谈论这个计划的全貌前，我应该先讲讲我的来历」",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 347,
+	},
+	block_00100 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600128"},
+			},
+			ja = {
+				{
+					"「私が何歳になるのか……確認しなくなってもう百年以上が経つ」",
+				},
+			},
+			en = {
+				{
+					[["I no longer remember how old I am... But it's easily over one hundred."]],
+				},
+			},
+			cn = {
+				{
+					"「我现在已经多少岁了……我不再确认年龄之后也已经过了一百多年」",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 349,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600129"},
+			},
+			ja = {
+				{
+					"「あんた、百歳以上なのか？」",
+				},
+			},
+			en = {
+				{
+					[["You're a hundred years old?"]],
+				},
+			},
+			cn = {
+				{
+					"「你已经过百岁了吗？」",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 350,
+	},
+	block_00102 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600130"},
+			},
+			ja = {
+				{
+					"「それどころではない。数世紀に亘って、私は延命を続けてきた」",
+				},
+			},
+			en = {
+				{
+					[["That's not all. I've kept myself alive long enough to see several centuries come and go."]],
+				},
+			},
+			cn = {
+				{
+					"「岂止百岁。几个世纪以来，我一直在延续自己的生命」",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 352,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600131"},
+			},
+			ja = {
+				{
+					"「……信じがたいな」",
+				},
+			},
+			en = {
+				{
+					[["That's a little hard to believe..."]],
+				},
+			},
+			cn = {
+				{
+					"「……难以置信」",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 353,
+	},
+	block_00104 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600132"},
+			},
+			ja = {
+				{
+					"「だろうな。私の脳活動が停止しなかったのは、ちょっとした奇跡だ」",
+				},
+			},
+			en = {
+				{
+					[["I imagine it is. It's a miracle my brain hasn't given up the ghost yet."]],
+				},
+			},
+			cn = {
+				{
+					"「是吧。我的大脑活动还没有停止，这也算是个小奇迹了」",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 355,
+	},
+	block_00105 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600133"},
+			},
+			ja = {
+				{
+					"「長い時を科学に捧げてきた。かつて私は情報総合学者だった」",
+				},
+			},
+			en = {
+				{
+					[["I dedicated my life to science. Many years ago, I was regarded as something of a polymath."]],
+				},
+			},
+			cn = {
+				{
+					"「我将漫长的岁月都献给了科学。我曾经是一个信息综合学家。」",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 357,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600134"},
+			},
+			ja = {
+				{
+					"「情報総合学？」",
+				},
+			},
+			en = {
+				{
+					[["Poly-what?"]],
+				},
+			},
+			cn = {
+				{
+					"「信息综合学？」",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 358,
+	},
+	block_00107 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600135"},
+			},
+			ja = {
+				{
+					"「複数の分野で実績を持つ者のことを、そう呼んだのだ。専門分野群の間に潜む、顧みられたことのない縦断的知見を見つけるのが主たる仕事だ。",
+				},
+			},
+			en = {
+				{
+					[["Someone who excels in several different fields. I mastered a number of disciplines in my relentless quest for knowledge.]],
+				},
+			},
+			cn = {
+				{
+					"「在多个领域都有建树的人便被如此称呼。主要工作是去发现潜藏在专业领域群之间，尚未有人关注的跨领域知识。",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 360,
+	},
+	block_00108 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600136"},
+			},
+			ja = {
+				{
+					"総合学者といっても一様ではない。専攻の掛け合わせ次第では、総合学者同士でも全く話は通じなくなる。",
+				},
+			},
+			en = {
+				{
+					"Though not everyone given that title is equal. By nature, we're jacks of all trades, so our specialties don't always line up.",
+				},
+			},
+			cn = {
+				{
+					"综合学家也并非千人一面。根据专攻的组合不同，综合学家之间也有可能完全无法沟通。 ",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 362,
+	},
+	block_00109 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600137"},
+			},
+			ja = {
+				{
+					"私が選んだのは、遺伝学と情報工学、臨床工学。駆け出しの頃の話だ。今はもっと広い方向を細かく囓っている」",
+				},
+			},
+			en = {
+				{
+					[[My areas of interest were genetics and clinical engineering, at first. I soon moved on to even more specialized subjects."]],
+				},
+			},
+			cn = {
+				{
+					"我当时选择的是遗传学、信息工程学和临床工程学。这是我初出茅庐时期的事情。现在已经在深入研究更广泛的方向了」",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 364,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600138"},
+			},
+			ja = {
+				{
+					"「遺伝学というのは意外だな」",
+				},
+			},
+			en = {
+				{
+					[["Genetics? Somehow I didn't think you'd be into that."]],
+				},
+			},
+			cn = {
+				{
+					"「遗传学这个选择很让我意外啊」",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 365,
+	},
+	block_00111 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600139"},
+			},
+			ja = {
+				{
+					"「かもしれん。だがその分野の知見がなければ、私は気付けなかった」",
+				},
+			},
+			en = {
+				{
+					[["Understandable. But had it not been for that, I'd never have realized it."]],
+				},
+			},
+			cn = {
+				{
+					"「或许吧。但如果没有这个领域的知识，我就无法意识得到了」",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 367,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600140"},
+			},
+			ja = {
+				{
+					"「何に？」",
+				},
+			},
+			en = {
+				{
+					[["Realized what?"]],
+				},
+			},
+			cn = {
+				{
+					"「无法意识到什么？」",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 368,
+	},
+	block_00113 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_08", ch="c005", path=":fg/", sync=0, mode=3, head="bs3_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"bgm", stop=1},
+		{"fg", file="bs3_wi01_base01", face="bs3_wi_f01_10", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs3_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600141"},
+			},
+			ja = {
+				{
+					"「現在地球を管理しているＡＩ群は、現人類のことを人類として認識していないという事実にだ」",
+				},
+			},
+			en = {
+				{
+					[["The fact that the AI roaming the earth no longer recognizes humans as humans."]],
+				},
+			},
+			cn = {
+				{
+					"「如今管理着地球的ＡＩ群，实际上没有把现在的人类识别为人类这一事实」",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 376,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"少し反応が遅れた。",
+				},
+			},
+			en = {
+				{
+					"It takes me a while to process that.",
+				},
+			},
+			cn = {
+				{
+					"我的反应慢了半拍。",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 378,
+	},
+	block_00115 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_10", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"bgm", file="bgm09"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600145"},
+			},
+			ja = {
+				{
+					"「……意味がよくわからなかった。人類は、人類じゃないのか？」",
+				},
+			},
+			en = {
+				{
+					[["I'm not sure I understand you... Humans aren't humans?"]],
+				},
+			},
+			cn = {
+				{
+					"「……我不太明白你的意思。人类难道不是人类吗？」",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 384,
+	},
+	block_00116 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600146"},
+			},
+			ja = {
+				{
+					"「遺伝的には人類ではなくなっている」",
+				},
+			},
+			en = {
+				{
+					[["Not anymore, genetically speaking."]],
+				},
+			},
+			cn = {
+				{
+					"「从遗传角度来说，已经快要不是人类了」",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 386,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600147"},
+			},
+			ja = {
+				{
+					"「なぜそんなことが？」",
+				},
+			},
+			en = {
+				{
+					[["But how? Why?"]],
+				},
+			},
+			cn = {
+				{
+					"「为什么会这样？」",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 387,
+	},
+	block_00118 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"bg", id=2, lv=5, file="ef_ui28_01", zoom=125, y=100, speed=12000, ease="in", style="ar_screen", path=":cg2/", y2=-100, sync=0},
+		{"bg", id=1, lv=5, file="ef_ui28_02", zoom=150, y=50, speed=12000, ease="in", path=":cg2/", y2=-50, sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600148"},
+			},
+			ja = {
+				{
+					"「もともと人類の遺伝子は日々変質している。一万年前の人類と今では、姿形こそ変わらないが、遺伝的差違があるものだ。",
+				},
+			},
+			en = {
+				{
+					[["The makeup of human genes is constantly changing. Our ancestors may have looked the same as us, but their DNA would make them subtly different.]],
+				},
+			},
+			cn = {
+				{
+					"「本来人类的基因就随时都在发生着变异。一万年前的人类和现在的人类，虽然外观上没什么区别，但在基因层面还是有差异的。",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 394,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600149"},
+			},
+			ja = {
+				{
+					"たとえば体温だな。一万年前と現在では、人類の平均体温は下がっている。これは屋内で暮らすようになった結果の変化だと言われているが」",
+				},
+			},
+			en = {
+				{
+					[[For example, the average human body temperature has fallen over the last 10,000 years, some believe as a result of our learning to build shelters and living indoors."]],
+				},
+			},
+			cn = {
+				{
+					"比如体温。一万年前和现在相比，人类的平均体温有所降低。这被认为是由于人类习惯了室内生活所导致的变化」",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 395,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600150"},
+			},
+			ja = {
+				{
+					"「だが人には違いないはずだ。腕が四本になったわけじゃない」",
+				},
+			},
+			en = {
+				{
+					[["But we're still people, right? We haven't started walking on four legs or anything like that."]],
+				},
+			},
+			cn = {
+				{
+					"「但人类还是人类啊。又不是胳膊长出了四条」",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 414,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600151"},
+			},
+			ja = {
+				{
+					"「わずかな差でも、ＡＩにとっては決定的な差だよ。",
+				},
+			},
+			en = {
+				{
+					[["Subtle as the changes may be, they're enough for the AI to notice.]],
+				},
+			},
+			cn = {
+				{
+					"「即使只是细微的差别，对ＡＩ来说也是决定性的。",
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 415,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600152"},
+			},
+			ja = {
+				{
+					"ＡＩ導入初期には問題にならない問題だった。だが時が流れるにつれ、人類の方が定義から逸脱してしまったのだ」",
+				},
+			},
+			en = {
+				{
+					[[And to begin with, it wasn't a problem. But as the years have gone on, we've drifted from their definition of humanity."]],
+				},
+			},
+			cn = {
+				{
+					"刚刚开始应用ＡＩ的时候，这还是个不成问题的问题。但随着时间的流逝，人类自己逐渐偏离了定义」",
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 416,
+	},
+	block_00123 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_09", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600153"},
+			},
+			ja = {
+				{
+					"「ＡＩは俺たちを人類と見ていないのか……」",
+				},
+			},
+			en = {
+				{
+					[["So the AI doesn't see us as human anymore..."]],
+				},
+			},
+			cn = {
+				{
+					"「ＡＩ没有把我们视为人类吗……」",
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 422,
+	},
+	block_00124 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_11", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600154"},
+			},
+			ja = {
+				{
+					"「別の生物だとしか見ておらん。",
+				},
+			},
+			en = {
+				{
+					[["Indeed. As far as they're concerned, we're a separate species.]],
+				},
+			},
+			cn = {
+				{
+					"「它们只把我们视为了另一种生物。",
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 424,
+	},
+	block_00125 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_10", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600155"},
+			},
+			ja = {
+				{
+					"よって、一切の支援が行われなくなった」",
+				},
+			},
+			en = {
+				{
+					[[As such, they're no longer obligated to aid us."]],
+				},
+			},
+			cn = {
+				{
+					"因此，也停止了所有的支援」",
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 426,
+	},
+	block_00126 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", x=480, y=-200, speed=40000, ease="none", time=1000, zoom=150, sync=0, path=":bg2/", x2=-480, y2=-200, set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ＡＩたちは、人類を支援するために稼働している……と聞いた。",
+				},
+			},
+			en = {
+				{
+					"AI was created to assist and support humanity... Or so I've heard.",
+				},
+			},
+			cn = {
+				{
+					"ＡＩ们是为支援人类而运作的……我曾这么听说。",
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 432,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その人類の定義から、俺たちが外れてしまっている。",
+				},
+			},
+			en = {
+				{
+					"But then, we changed in their eyes to being something other than human.",
+				},
+			},
+			cn = {
+				{
+					"然而，我们已然不再符合人类的定义了。",
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 433,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"結果、シンギュラリティマシンは俺たちを無視するか、邪魔なら排除する。",
+				},
+			},
+			en = {
+				{
+					"That's why the Singularity Machines either ignore us or attack when provoked.",
+				},
+			},
+			cn = {
+				{
+					"结果，奇点机器就对我们视而不见，或者要是觉得我们碍事就会消灭。",
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 434,
+	},
+	block_00129 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_05", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600161"},
+			},
+			ja = {
+				{
+					"「……ＡＩが認める人類は、どこにいる？」",
+				},
+			},
+			en = {
+				{
+					[["Isn't there anyone left that the AI would consider human?"]],
+				},
+			},
+			cn = {
+				{
+					"「……ＡＩ所认可的人类，到底哪里会有？」",
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 441,
+	},
+	block_00130 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_11", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600162"},
+			},
+			ja = {
+				{
+					"「どこにもいない」",
+				},
+			},
+			en = {
+				{
+					[["Not. Not a single one."]],
+				},
+			},
+			cn = {
+				{
+					"「哪里都不存在」",
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 443,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600163"},
+			},
+			ja = {
+				{
+					"「あんたは？」",
+				},
+			},
+			en = {
+				{
+					[["What about you?"]],
+				},
+			},
+			cn = {
+				{
+					"「那你呢？」",
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 444,
+	},
+	block_00132 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600164"},
+			},
+			ja = {
+				{
+					"「私も人類の遺伝的定義から外れている」",
+				},
+			},
+			en = {
+				{
+					[["Even my genetic code differs enough to no longer fit their definition."]],
+				},
+			},
+			cn = {
+				{
+					"「我也并不符合人类的遗传学定义」",
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 446,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600165"},
+			},
+			ja = {
+				{
+					"「……馬鹿な」",
+				},
+			},
+			en = {
+				{
+					[["You've got to be kidding..."]],
+				},
+			},
+			cn = {
+				{
+					"「……怎么会」",
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 447,
+	},
+	block_00134 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600166"},
+			},
+			ja = {
+				{
+					"「本来、ＡＩに自我というものはない。人類を支援するという初期目的に、愚直に従っている。かつては――」",
+				},
+			},
+			en = {
+				{
+					[["These AI possess no will of their own. They're simply following their prime directive to support humanity. In the past..."]],
+				},
+			},
+			cn = {
+				{
+					"「本来，ＡＩ是没有自我意识的。它们只是忠实地遵循着支援人类这一初衷。曾经——」 ",
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 449,
+	},
+	block_00135 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"かつては。",
+				},
+			},
+			en = {
+				{
+					"In the past, things must have been different.",
+				},
+			},
+			cn = {
+				{
+					"曾经。",
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 453,
+	},
+	block_00136 = {
+		{"cgdel", id=-1},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"bg", id=8, lv=9, movie=1, movieloop=1, file="ef_fnoise00", ax=0, ay=0, zoom=200, alpha=60, path=":ani/", bx=960},
+		{"bg", id=9, lv=9, movie=1, movieloop=1, style="ar_add", alpha=150, file="ef_noise2", path=":ani/", bx=960},
+		{"colortone", style="gray"},
+		{"bg", file="bg15_01g", x=0, y=-270, speed=35000, ease="none", time=1500, zoom=150, sync=0, path=":bg/", x2=0, y2=270, set="bg15"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ある地域で、人類の集団が困窮していたとする。",
+				},
+			},
+			en = {
+				{
+					"Like, imagine if there was a human settlement suffering from poverty.",
+				},
+			},
+			cn = {
+				{
+					"在某个地区，有一群人类陷入了困境。 ",
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 459,
+	},
+	block_00137 = {
+		{"bg", file="bg20g", x=-480, y=-200, speed=40000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=480, y2=-200, set="bg20"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ＡＩはただちに支援を行う。",
+				},
+			},
+			en = {
+				{
+					"The AI would dispatch a means to help immediately.",
+				},
+			},
+			cn = {
+				{
+					"ＡＩ立刻提供了支援。",
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 463,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"食糧不足なら合成食を提供し、インフラが破壊されればその復旧を、天災に見舞われる可能性が高ければ対抗処置を。",
+				},
+			},
+			en = {
+				{
+					"They could synthesize emergency food supplies, help repair any broken facilities, and protect the town from natural disasters.",
+				},
+			},
+			cn = {
+				{
+					"如果食物紧缺，就提供合成食品；如果基础设施被破坏，就将其修复；如果遭受自然灾害的概率较高，就采取预防措施。",
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 464,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"だが、いつしかＡＩは人類をそうと認識できなくなる。",
+				},
+			},
+			en = {
+				{
+					"But that all changed when they stopped seeing us as human.",
+				},
+			},
+			cn = {
+				{
+					"然而不知何时，ＡＩ无法再识别出人类了。",
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 465,
+	},
+	block_00140 = {
+		{"bg", file="bg53_01g", x=0, y=270, speed=35000, ease="none", time=2000, zoom=150, sync=0, path=":bg/", x2=0, y2=-270, set="bg53"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"厳格な識別基準が仇となり、人類は透明化した。",
+				},
+			},
+			en = {
+				{
+					"With the AI sticking rigidly to their original definition, it must have seemed like we didn't exist anymore.",
+				},
+			},
+			cn = {
+				{
+					"严格的识别标准反倒成了祸根，人类化为了透明。",
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 469,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ＡＩ側も異変は検出したが、原因がわからない。",
+				},
+			},
+			en = {
+				{
+					"Maybe they even noticed something was different, but couldn't reason out the cause of it.",
+				},
+			},
+			cn = {
+				{
+					"ＡＩ方面也检测到了异常，但找不出原因。",
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 470,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"このさほど複雑でもない事実を、類推すらできない。",
+				},
+			},
+			en = {
+				{
+					"The change was subtle, so complex, nobody saw it coming or recognized it for what it was.",
+				},
+			},
+			cn = {
+				{
+					"它们甚至无法推导出这并不复杂的事实。",
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 471,
+	},
+	block_00143 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_05", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_10", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600177"},
+			},
+			ja = {
+				{
+					"「ＡＩは人類を見失ったのだよ」",
+				},
+			},
+			en = {
+				{
+					[["The AI has lost sight of humanity."]],
+				},
+			},
+			cn = {
+				{
+					"「ＡＩ已经找不到人类的所在了」",
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 479,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600178"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 480,
+	},
+	block_00145 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600179"},
+			},
+			ja = {
+				{
+					"「彼らにはもはや人類は救えん。かといって、高度なセキュリティに守られたシステムは、外部からのアップデートを拒む」",
+				},
+			},
+			en = {
+				{
+					[["They no longer have it in them to save us. Their security is so tight even updating their system from the outside would be impossible."]],
+				},
+			},
+			cn = {
+				{
+					"「它们无法再去拯救人类了。偏偏受到高度安全保护的系统还会拒绝来自外部的更新」",
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 482,
+	},
+	block_00146 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600180"},
+			},
+			ja = {
+				{
+					"「だがそんな時、Ａｅ型アンドロイドが誕生した」",
+				},
+			},
+			en = {
+				{
+					[["But then, the AE androids appeared."]],
+				},
+			},
+			cn = {
+				{
+					"「但就在这时，Ａｅ型仿生人诞生了」",
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 488,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600181"},
+			},
+			ja = {
+				{
+					"「そうだ、こいつらもＡＩによって生み出されたんだろ」",
+				},
+			},
+			en = {
+				{
+					[["You told me before they were created by AI, too."]],
+				},
+			},
+			cn = {
+				{
+					"「对了，它们也是由ＡＩ创造出来的吧」",
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 489,
+	},
+	block_00148 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600182"},
+			},
+			ja = {
+				{
+					"「Ａｅ型を生み出したＡＩ群……カフカースだったか」",
+				},
+			},
+			en = {
+				{
+					[["By the Kavkaz faction, wasn't it?"]],
+				},
+			},
+			cn = {
+				{
+					"「创造出Ａｅ型的ＡＩ群……是高加索吗」",
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 495,
+	},
+	block_00149 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600183"},
+			},
+			ja = {
+				{
+					"「いかにも」",
+				},
+			},
+			en = {
+				{
+					[["Indeed."]],
+				},
+			},
+			cn = {
+				{
+					"「没错」",
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 497,
+	},
+	block_00150 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600184"},
+			},
+			ja = {
+				{
+					"「カフカースは、何の目的でＡｅ型を生み出した？」",
+				},
+			},
+			en = {
+				{
+					[["Why exactly did they create the AEs?"]],
+				},
+			},
+			cn = {
+				{
+					"「高加索创造出Ａｅ型是为了什么目的？」",
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 498,
+	},
+	block_00151 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600185"},
+			},
+			ja = {
+				{
+					"「君はどう思うかね？」",
+				},
+			},
+			en = {
+				{
+					[["What do you think?"]],
+				},
+			},
+			cn = {
+				{
+					"「你是怎么看的？」",
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 500,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600186"},
+			},
+			ja = {
+				{
+					"「……島での戦闘で、気付いたことがある」",
+				},
+			},
+			en = {
+				{
+					[["...Back on the island, I noticed something."]],
+				},
+			},
+			cn = {
+				{
+					"「……在岛上的战斗中，我注意到了一件事」",
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 501,
+	},
+	block_00153 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=300, path=":bg/"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"colortone", style="sepia2"},
+		{"se", id=0, file="se181"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts11_01", speed=5000, time=1000, rule="sig_240", zoom=100, lv=5, z2=105, sync=1, ease="none", path=":ev/", id=1, set="ts11"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"二基のシンギュラリティマシンが、フィリアを守った。",
+				},
+			},
+			en = {
+				{
+					"The two Singularity Machines that showed up and protected Philia.",
+				},
+			},
+			cn = {
+				{
+					"那两台奇点机器保护了菲莉娅。",
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 510,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"あれは、シンギュラリティマシンが本来の仕事を果たした、ということではないのかと。",
+				},
+			},
+			en = {
+				{
+					"I assumed they did that because it was linked to their real objective somehow.",
+				},
+			},
+			cn = {
+				{
+					"我猜测，这也许是奇点机器在完成它们原本的使命。",
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 511,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"その出来事から導出される結論はひとつ。",
+				},
+			},
+			en = {
+				{
+					"There's only one explanation I can think of.",
+				},
+			},
+			cn = {
+				{
+					"从这件事中得出的结论只有一个。",
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 512,
+	},
+	block_00156 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600192"},
+			},
+			ja = {
+				{
+					"「成長したＡｅ型は、かつての人類と同じと見なされる？」",
+				},
+			},
+			en = {
+				{
+					[["Does a fully developed AE model count as human to them?"]],
+				},
+			},
+			cn = {
+				{
+					"「成长后的Ａｅ型，会被视为和过去人类同等的存在？」",
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 519,
+	},
+	block_00157 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600193"},
+			},
+			ja = {
+				{
+					"「その通り！　で、その目的は？」",
+				},
+			},
+			en = {
+				{
+					[["Precisely! Now, think. Why would they do that?"]],
+				},
+			},
+			cn = {
+				{
+					"「没错！　那么，其目的是？」",
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 521,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600194"},
+			},
+			ja = {
+				{
+					"「認証をパスするため……今の人類が使えない、科学の恩恵を、使えるよう」",
+				},
+			},
+			en = {
+				{
+					[["Maybe... To tell them who and what humans are now? So we can use advanced science again?"]],
+				},
+			},
+			cn = {
+				{
+					"「为了通过认证……让现代人类无法使用的科学成果再次得以利用」",
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 522,
+	},
+	block_00159 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=500, path=":bg/"},
+		{"bg", id=1, lv=5, file="ef_ui29", zoom=100, speed=18000, ease="in", path=":cg/", z2=115, sync=0},
+		{"bg", id=2, lv=5, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"頭の中でパズルのピースがはまっていく。",
+				},
+			},
+			en = {
+				{
+					"The pieces of the puzzle are starting to slide into place.",
+				},
+			},
+			cn = {
+				{
+					"脑海中的拼图碎片逐渐拼合在一起。",
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 527,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そうか、そういうことだったのか。",
+				},
+			},
+			en = {
+				{
+					"This whole crazy situation is actually starting to make sense.",
+				},
+			},
+			cn = {
+				{
+					"原来如此，原来是这样的啊。",
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 528,
+	},
+	block_00161 = {
+		{"bg", id=1, lv=5, file="ef_ui29", zoom=175, y=-320, speed=3000, ease="in", path=":cg/", y2=-370},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"Ａｅ型とは、ＡＩからは透明な人類を探し出し、支援するための存在なのだ。",
+				},
+			},
+			en = {
+				{
+					"AE androids were created so the AI could stop ignoring humanity.",
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型是ＡＩ用来找出变得透明的人类，并提供支援的角色。",
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 532,
+	},
+	block_00162 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600200"},
+			},
+			ja = {
+				{
+					"「Ａｅ型は誕生した瞬間から、人に対して協力的な性質を持つ。ＡＩに与えられた初期の衝動として」",
+				},
+			},
+			en = {
+				{
+					[["AE models share an affinity with humans from the moment they're born. It's part of their core settings."]],
+				},
+			},
+			cn = {
+				{
+					"「Ａｅ型从诞生的那一刻起，就有着与人类积极合作的天性。这是ＡＩ所赋予的原始冲动」 ",
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 540,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600201"},
+			},
+			ja = {
+				{
+					"「人を愛し、人とともに生き、自らも自我を完成させたＡｅ型は……」",
+				},
+			},
+			en = {
+				{
+					[["So, an AE with a mind of its own, who loves humans and can live alongside them..."]],
+				},
+			},
+			cn = {
+				{
+					"「热爱人类，与人类共生，并完成了自我意识的Ａｅ型……」",
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 541,
+	},
+	block_00164 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, x=0, speed=2500, zoom=150, path=":bg2/", x2=100, set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_02", ch="c002", path=":fg/", sync=0, x2=-100, speed=2500, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"フィリアを見やる。",
+				},
+			},
+			en = {
+				{
+					"I look at Philia.",
+				},
+			},
+			cn = {
+				{
+					"望向菲莉娅。",
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 547,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"潤んだ瞳がまっすぐにこちらに向いていた。",
+				},
+			},
+			en = {
+				{
+					"She's taking this all in with an impassive look on her face.",
+				},
+			},
+			cn = {
+				{
+					"她湿润的眼睛直视着我。",
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 548,
+	},
+	block_00166 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600206"},
+			},
+			ja = {
+				{
+					"「自身を通じて、人を支援できる」",
+				},
+			},
+			en = {
+				{
+					[["They could tell the AI to offer support to modern humans."]],
+				},
+			},
+			cn = {
+				{
+					"「能够通过自己来支援人类」",
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 550,
+	},
+	block_00167 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", x=-480, y=-200, speed=40000, ease="none", time=1000, zoom=150, sync=0, path=":bg2/", x2=480, y2=-200, set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"すべてが納得できる。",
+				},
+			},
+			en = {
+				{
+					"It all adds up.",
+				},
+			},
+			cn = {
+				{
+					"一切都是那么的顺理成章。",
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 556,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"すべてが繋がる。",
+				},
+			},
+			en = {
+				{
+					"It all makes sense.",
+				},
+			},
+			cn = {
+				{
+					"一切都联系在了一起。",
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 557,
+	},
+	block_00169 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600211"},
+			},
+			ja = {
+				{
+					"「カフカースＡＩ群は人類支援不履行問題を担当していた。だが解決の目処は立たず、次善の手段としてＡｅ型という合鍵を各地に設置するというプロジェクトを開始した」",
+				},
+			},
+			en = {
+				{
+					[["The Kavkaz faction is concerned primarily with supporting humanity. But since they can no longer do so themselves, they began creating and distributing AE models."]],
+				},
+			},
+			cn = {
+				{
+					"「高加索ＡＩ群负责的是人类支援失能问题，然而始终找不到解决方案。于是作为次优选择它们启动了这样的计划，将名为Ａｅ型的钥匙部署在了各地」",
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 565,
+	},
+	block_00170 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600212"},
+			},
+			ja = {
+				{
+					"「もし人類が生存しているなら、その合鍵を使って支援を行えるわけだ」",
+				},
+			},
+			en = {
+				{
+					[["To seek out humanity, and act as a go-between?"]],
+				},
+			},
+			cn = {
+				{
+					"「如果人类依然存在，就可以通过这个钥匙来提供支援」",
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 566,
+	},
+	block_00171 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_03", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600213"},
+			},
+			ja = {
+				{
+					"「その通りだ」",
+				},
+			},
+			en = {
+				{
+					[["Precisely."]],
+				},
+			},
+			cn = {
+				{
+					"「没错」",
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 568,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600214"},
+			},
+			ja = {
+				{
+					"「しかし高性能ＡＩというなら、人類が変質した事実くらい認められないものか？",
+				},
+			},
+			en = {
+				{
+					[["Couldn't an AI that advanced figure out that humanity had just changed?]],
+				},
+			},
+			cn = {
+				{
+					"「但既然说是高性能ＡＩ，为什么就不能承认一下人类发生了变异这个事实？",
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 569,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600215"},
+			},
+			ja = {
+				{
+					"そいつを認めて、今の人類を支援する方が簡単じゃないか」",
+				},
+			},
+			en = {
+				{
+					[[It should be easy enough to make that connection and start helping us like before."]],
+				},
+			},
+			cn = {
+				{
+					"承认这个事实。然后支援现在的人类不会更简单吗」",
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 570,
+	},
+	block_00174 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600216"},
+			},
+			ja = {
+				{
+					"「私が話した遺伝的変質の事実は把握しているだろうが、ＡＩはそれを問題視しない」",
+				},
+			},
+			en = {
+				{
+					[["It may indeed have detected the genetic change I mentioned, but it doesn't see that as a problem."]],
+				},
+			},
+			cn = {
+				{
+					"「恐怕它们早已知晓我说的遗传变异这点事实，但ＡＩ并不将其视作问题」",
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 572,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600217"},
+			},
+			ja = {
+				{
+					"「ん？」",
+				},
+			},
+			en = {
+				{
+					[["Hm?"]],
+				},
+			},
+			cn = {
+				{
+					"「嗯？」",
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 573,
+	},
+	block_00176 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600218"},
+			},
+			ja = {
+				{
+					"「ＡＩにとって大切なのは、初期設定の実行だ。そこに推論……人間的判断は生じない。",
+				},
+			},
+			en = {
+				{
+					[["The important thing to the AI is its original orders. It can't reason or adapt the same way humans can.]],
+				},
+			},
+			cn = {
+				{
+					"「对ＡＩ来说重要的是执行初始设置。在这个过程中不会进行推论……也就是人类般的判断。",
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 575,
+	},
+	block_00177 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600219"},
+			},
+			ja = {
+				{
+					"人類が見つからなければ停止していればいいのだ。探せという命令でも受けていない限りな。もし人類が見つかれば支援を実行すればいい。いずれにせよ人類支援という初期設定に反することはない」",
+				},
+			},
+			en = {
+				{
+					[[If there are no humans to aid, it simply seeks out more so they can give it orders. To start thinking for itself or changing the definition of humanity would be a violation of that directive."]],
+				},
+			},
+			cn = {
+				{
+					"如果找不到人类了，就只需要停机不管。除非收到让它们去寻找的命令。如果找到了人类，那就执行支援。不管怎样，都不会违反支援人类这一初始设置」",
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 577,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そうか。",
+				},
+			},
+			en = {
+				{
+					"So that's it.",
+				},
+			},
+			cn = {
+				{
+					"原来如此。",
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 579,
+	},
+	block_00179 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"支援対象が消えたところで、機械は大慌てになったりはしない。",
+				},
+			},
+			en = {
+				{
+					"Losing their masters didn't make the machines panic or anything.",
+				},
+			},
+			cn = {
+				{
+					"就算支援对象消失，机器也不会惊慌失措。",
+				},
+			},
+		},
+		linkback = "block_00178",
+		linknext = "block_00180",
+		line = 580,
+	},
+	block_00180 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"その事実を冷たく受け止めるだけだ。",
+				},
+			},
+			en = {
+				{
+					"They just accepted the situation and waited for it to change.",
+				},
+			},
+			cn = {
+				{
+					"它只会冷静地接受这个事实。",
+				},
+			},
+		},
+		linkback = "block_00179",
+		linknext = "block_00181",
+		line = 581,
+	},
+	block_00181 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600225"},
+			},
+			ja = {
+				{
+					"「なのにＡｅ型は作られているのか？」",
+				},
+			},
+			en = {
+				{
+					[["But then, what led them to try making the AE androids?"]],
+				},
+			},
+			cn = {
+				{
+					"「那为什么还要制造出Ａｅ型呢？」",
+				},
+			},
+		},
+		linkback = "block_00180",
+		linknext = "block_00182",
+		line = 583,
+	},
+	block_00182 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600226"},
+			},
+			ja = {
+				{
+					"「トライ＆エラーが実行された結果だ」",
+				},
+			},
+			en = {
+				{
+					[["I suspect it was the result of continued trial and error."]],
+				},
+			},
+			cn = {
+				{
+					"「这是不断试错的结果」",
+				},
+			},
+		},
+		linkback = "block_00181",
+		linknext = "block_00183",
+		line = 585,
+	},
+	block_00183 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600227"},
+			},
+			ja = {
+				{
+					"「群体化したＡＩというのは、多様な判断を許容するようになる。雑多に生み出された個々のＡＩは、結合以前はそれぞれ異なる初期設定のもとで独立して稼働していたわけだからな。",
+				},
+			},
+			en = {
+				{
+					[["As the AI started forming factions, they began skewing their priorities in different directions. The more variety among their members' original directives, the more options they had to work with.]],
+				},
+			},
+			cn = {
+				{
+					"「群体化的ＡＩ能够容许多种多样的判断。因为在结合在一起之前，林林总总的ＡＩ都是基于各自的初始设置独立运行着的。",
+				},
+			},
+		},
+		linkback = "block_00182",
+		linknext = "block_00184",
+		line = 587,
+	},
+	block_00184 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600228"},
+			},
+			ja = {
+				{
+					"Ａｅ型アンドロイド計画も何かのはずみでラインに乗ったのだろう」",
+				},
+			},
+			en = {
+				{
+					[[Something must have provided them with the impetus to try this, anyway."]],
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型仿生人计划也是因为某些意外原因提上日程的吧」",
+				},
+			},
+		},
+		linkback = "block_00183",
+		linknext = "block_00185",
+		line = 589,
+	},
+	block_00185 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600229"},
+			},
+			ja = {
+				{
+					"「どういうはずみなんだ」",
+				},
+			},
+			en = {
+				{
+					[["Like what?"]],
+				},
+			},
+			cn = {
+				{
+					"「什么意外原因？」",
+				},
+			},
+		},
+		linkback = "block_00184",
+		linknext = "block_00186",
+		line = 590,
+	},
+	block_00186 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600230"},
+			},
+			ja = {
+				{
+					"「不明だ。さすがにそこまでは分析できん。",
+				},
+			},
+			en = {
+				{
+					[["Who knows? Not even I can deduce that much.]],
+				},
+			},
+			cn = {
+				{
+					"「不明。这实在是无从分析。",
+				},
+			},
+		},
+		linkback = "block_00185",
+		linknext = "block_00187",
+		line = 592,
+	},
+	block_00187 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_11", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600231"},
+			},
+			ja = {
+				{
+					"ＡＩ群の中に、現人類を人類に含めても良いと判断した少数個体がいたのだと考えるのがシンプルか。実際はより複雑化したロジックが働いているはずだが」",
+				},
+			},
+			en = {
+				{
+					[[I'm sure it wasn't as simple as some AI in the faction positing that modern humans may still qualify for their aid. Their logic tends to be a lot more complex than that."]],
+				},
+			},
+			cn = {
+				{
+					"一个简单的猜测是在ＡＩ群中，有少数个体认为可以将现代人类包含在人类之中。当然实际上应该有着一套更为复杂的逻辑」",
+				},
+			},
+		},
+		linkback = "block_00186",
+		linknext = "block_00188",
+		line = 594,
+	},
+	block_00188 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600232"},
+			},
+			ja = {
+				{
+					"「少数派の意見が特例的に採用されたものがＡｅ計画だと」",
+				},
+			},
+			en = {
+				{
+					[["But they decided to try with the androids just in case those minorities were right?"]],
+				},
+			},
+			cn = {
+				{
+					"「所以Ａｅ计划就是少数派意见被特例采纳的结果」",
+				},
+			},
+		},
+		linkback = "block_00187",
+		linknext = "block_00189",
+		line = 595,
+	},
+	block_00189 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600233"},
+			},
+			ja = {
+				{
+					"「そうだ。Ａｅ型の生産自体は、ほとんどエネルギーも資源も浪費しない。地上に残された設備と物資を再利用できる」",
+				},
+			},
+			en = {
+				{
+					[["So it would appear. Creating AE models isn't very resource intensive - they mostly just reactivate pre-existing facilities."]],
+				},
+			},
+			cn = {
+				{
+					"「是的。Ａｅ型的生产本身几乎不浪费能源和资源。可以对残留在地面上的设备和物资进行再利用」",
+				},
+			},
+		},
+		linkback = "block_00188",
+		linknext = "block_00190",
+		line = 597,
+	},
+	block_00190 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600234"},
+			},
+			ja = {
+				{
+					"「ローリスクの試行錯誤というわけだな」",
+				},
+			},
+			en = {
+				{
+					[["A low risk plan with high returns if it actually works, huh?"]],
+				},
+			},
+			cn = {
+				{
+					"「也就是低风险的试错」",
+				},
+			},
+		},
+		linkback = "block_00189",
+		linknext = "block_00191",
+		line = 598,
+	},
+	block_00191 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600235"},
+			},
+			ja = {
+				{
+					"「ただでさえカフカースはエネルギーと資源を持てあましている。新計画の採用基準はゆるくなっているはずだ」",
+				},
+			},
+			en = {
+				{
+					[["Kavkaz already has access to more energy than they know what to do with. Most proposed projects are accepted as a matter of course."]],
+				},
+			},
+			cn = {
+				{
+					"「更不要说高加索本就坐拥数不清的能源和资源。采纳新计划的标准应该也放松了许多」",
+				},
+			},
+		},
+		linkback = "block_00190",
+		linknext = "block_00192",
+		line = 600,
+	},
+	block_00192 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600236"},
+			},
+			ja = {
+				{
+					"「ずいぶんＡＩ陣営の内部に詳しいんだな」",
+				},
+			},
+			en = {
+				{
+					[["You sure know a lot about these factions' inner workings."]],
+				},
+			},
+			cn = {
+				{
+					"「你很了解ＡＩ阵营的内部情况啊」",
+				},
+			},
+		},
+		linkback = "block_00191",
+		linknext = "block_00193",
+		line = 601,
+	},
+	block_00193 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600237"},
+			},
+			ja = {
+				{
+					"「私は長年、ＡＩ群の活動を監視してきた。そうして得たエネルギー配分や施設稼働状況データを分析した。古代の電子情報も積極的に集めた。",
+				},
+			},
+			en = {
+				{
+					[["I've been studying them for a long time. I've also analyzed the way they allocate their energy, resources, any shred of electronic data I could get my hands on.]],
+				},
+			},
+			cn = {
+				{
+					"「我多年以来一直在监视ＡＩ群的动作。这过程中获取到的关于能源分配和设施运行状况的数据，我也都有分析过。古代的电子信息也有在积极收集。",
+				},
+			},
+		},
+		linkback = "block_00192",
+		linknext = "block_00194",
+		line = 603,
+	},
+	block_00194 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600238"},
+			},
+			ja = {
+				{
+					"彼らの力を援用できれば、どのようなことでも実現可能だからな」",
+				},
+			},
+			en = {
+				{
+					[[If I could but harness that power for myself, anything would be possible."]],
+				},
+			},
+			cn = {
+				{
+					"如果能借助它们的力量，任何事情都有可能实现」",
+				},
+			},
+		},
+		linkback = "block_00193",
+		linknext = "block_00195",
+		line = 605,
+	},
+	block_00195 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600239"},
+			},
+			ja = {
+				{
+					"「それでか。クリムゾンアイに目を付けられたのは」",
+				},
+			},
+			en = {
+				{
+					[["And that's how you got on Crimson Eye's bad side?"]],
+				},
+			},
+			cn = {
+				{
+					"「因为这个，赤红之眼才盯上了你对吧」",
+				},
+			},
+		},
+		linkback = "block_00194",
+		linknext = "block_00196",
+		line = 606,
+	},
+	block_00196 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600240"},
+			},
+			ja = {
+				{
+					"「うむ。こちらの活動もまた逆にＡＩに監視されていた。周辺情報から相手を分析することはＡＩの得意分野だ。私が相手にしていたことを、逆にされた形だな」",
+				},
+			},
+			en = {
+				{
+					[["Yes. I failed to realize I was being observed in the same way. AI excels at collecting and analyzing data, after all."]],
+				},
+			},
+			cn = {
+				{
+					"「嗯。我这边的动作反过来也被ＡＩ监视着。通过周围的信息分析对手是ＡＩ的强项。我对他们所做的事情，反过来也被他们做了」",
+				},
+			},
+		},
+		linkback = "block_00195",
+		linknext = "block_00197",
+		line = 608,
+	},
+	block_00197 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"ましてやクリムゾンアイの属するユーレイジアは、カフカースのＡｅ計画について最大限に警戒を払っていた状況だった。",
+				},
+			},
+			en = {
+				{
+					"I can imagine the Eurasia faction would have been suspicious of Kavkaz's AE project.",
+				},
+			},
+			cn = {
+				{
+					"更糟的是赤红之眼所属的欧亚群，还对高加索的Ａｅ计划万分警惕。",
+				},
+			},
+		},
+		linkback = "block_00196",
+		linknext = "block_00198",
+		line = 610,
+	},
+	block_00198 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ＡＩの活動を監視し、Ａｅ計画について探りを入れていた何者かに対してクリムゾンアイが敵性判定を下すのは想像に難くない。",
+				},
+			},
+			en = {
+				{
+					"And finding traces of a third party poking around in that project, it's no wonder Crimson Eye judged them to be an enemy.",
+				},
+			},
+			cn = {
+				{
+					"赤红之眼会对这个监视ＡＩ行动，并深入调查Ａｅ计划的人下达敌对判断也是不难想象的。",
+				},
+			},
+		},
+		linkback = "block_00197",
+		linknext = "block_00199",
+		line = 611,
+	},
+	block_00199 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600241"},
+			},
+			ja = {
+				{
+					"「結果、彼らは私の活動を攻撃的、侵略的だと判断した」",
+				},
+			},
+			en = {
+				{
+					[["Ever since, it's viewed my activities as acts of aggression."]],
+				},
+			},
+			cn = {
+				{
+					"「结果，他们认定我的行为具有攻击性和侵略性」",
+				},
+			},
+		},
+		linkback = "block_00198",
+		linknext = "block_00200",
+		line = 614,
+	},
+	block_00200 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600242"},
+			},
+			ja = {
+				{
+					"「統計的にあんたは危険だと判断されたわけだ」",
+				},
+			},
+			en = {
+				{
+					[["And you're considered enough of a threat to take action against."]],
+				},
+			},
+			cn = {
+				{
+					"「那就是从统计上来说，你被判定为了危险」",
+				},
+			},
+		},
+		linkback = "block_00199",
+		linknext = "block_00201",
+		line = 615,
+	},
+	block_00201 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_04", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600243"},
+			},
+			ja = {
+				{
+					"「ざっくりと言えばそういうことだろうな」",
+				},
+			},
+			en = {
+				{
+					[["Roughly speaking, that's about the size of it."]],
+				},
+			},
+			cn = {
+				{
+					"「简单来说就是这样」",
+				},
+			},
+		},
+		linkback = "block_00200",
+		linknext = "block_00202",
+		line = 617,
+	},
+	block_00202 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600244"},
+			},
+			ja = {
+				{
+					"「そうか……一個人が成長したＡｅ型を確保すれば、支援を牛耳れる。人間同士なら、相手を暗殺するじゅうぶんな理由になるな。",
+				},
+			},
+			en = {
+				{
+					[["Okay, so... If you had a fully developed AE android, you could monopolize the AI support for yourself. Enough for your enemies to send assassins after you, if they were human.]],
+				},
+			},
+			cn = {
+				{
+					"「原来如此……如果是个人拥有了成熟的Ａｅ型，那他就可以掌控支援。人类之间的话，已经有很充分的理由去暗杀对方了。 ",
+				},
+			},
+		},
+		linkback = "block_00201",
+		linknext = "block_00203",
+		line = 618,
+	},
+	block_00203 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600245"},
+			},
+			ja = {
+				{
+					"さっきの初期設定に愚直に従うだけという話とは矛盾するようだが」",
+				},
+			},
+			en = {
+				{
+					[[It still feels to me like there's a contradiction going on with all that original directive stuff."]],
+				},
+			},
+			cn = {
+				{
+					"不过和刚才说的，只遵循初始设置这个说法好像又有些矛盾」",
+				},
+			},
+		},
+		linkback = "block_00202",
+		linknext = "block_00204",
+		line = 619,
+	},
+	block_00204 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_06", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600246"},
+			},
+			ja = {
+				{
+					"「ＡＩが推論を苦手とするのは事実だ。ただ無警戒でいるべきではなかったな。群体化したＡＩの柔軟さは、人知を超えている。",
+				},
+			},
+			en = {
+				{
+					[["As you know, AI do not excel at deduction. But they're not careless either. Combining into factions has allowed their collective knowledge base to exceed humanity's.]],
+				},
+			},
+			cn = {
+				{
+					"「ＡＩ确实不擅长推理。但是也不应该毫无戒备。群体化ＡＩ的柔软性远超人类的智慧。",
+				},
+			},
+		},
+		linkback = "block_00203",
+		linknext = "block_00205",
+		line = 621,
+	},
+	block_00205 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_05", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600247"},
+			},
+			ja = {
+				{
+					"トライ＆エラーはＡＩの苦手とする推論を補う。人間は相手の誕生日や記念日から暗証番号を推理できるが、彼らは",
+					{"txruby", text="ブルートフォース"},
+					"総当たり攻撃",
+					{"txruby"},
+					"で同じ答えに到達する。",
+				},
+			},
+			en = {
+				{
+					"Trial and error helps them compensate for their poor reasoning skills. A human might be able to guess somebody's password based on their birthday, but an AI can simply brute force it.",
+				},
+			},
+			cn = {
+				{
+					"试错就可以弥补ＡＩ所不擅长的推理。人类可以通过对方的生日或纪念日推理出密码，而它们用穷举法（Brute-force）最终也能得到相同的答案。",
+				},
+			},
+		},
+		linkback = "block_00204",
+		linknext = "block_00206",
+		line = 623,
+	},
+	block_00206 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600248"},
+			},
+			ja = {
+				{
+					"Ａｅ型が自我を持つにいたった理由も、この作用による。",
+				},
+			},
+			en = {
+				{
+					"AE androids' capacity for free will is just an extension of that approach.",
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型如今能够拥有自我意识也是试错的结果。 ",
+				},
+			},
+		},
+		linkback = "block_00205",
+		linknext = "block_00207",
+		line = 625,
+	},
+	block_00207 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_11", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600249"},
+			},
+			ja = {
+				{
+					"初期型は性能が低かった。有名な不気味の谷だ。そしてこの時期の人々は、機械に対する偏見を強く持っていた。",
+				},
+			},
+			en = {
+				{
+					"There were obstacles to overcome, of course. The famous Uncanny Valley, for one. Not to mention a growing sense of distrust toward technology at the time.",
+				},
+			},
+			cn = {
+				{
+					"早期的型号性能较低，处于著名的恐怖谷状态。而且那个时期的人们对机器有很强烈的偏见。 ",
+				},
+			},
+		},
+		linkback = "block_00206",
+		linknext = "block_00208",
+		line = 627,
+	},
+	block_00208 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_10", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600250"},
+			},
+			ja = {
+				{
+					"破壊されたろう。何百、いや何万という数のＡｅ型が」",
+				},
+			},
+			en = {
+				{
+					[[That led to hundreds...no, thousands of early AE models being destroyed."]],
+				},
+			},
+			cn = {
+				{
+					"数百，甚至数万的Ａｅ型恐怕都被破坏了吧。」 ",
+				},
+			},
+		},
+		linkback = "block_00207",
+		linknext = "block_00209",
+		line = 629,
+	},
+	block_00209 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアが俺に身を寄せる。",
+				},
+			},
+			en = {
+				{
+					"Philia slides closer to me.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅向我靠了过来。",
+				},
+			},
+		},
+		linkback = "block_00208",
+		linknext = "block_00210",
+		line = 631,
+	},
+	block_00210 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600254"},
+			},
+			ja = {
+				{
+					"「そうした選択圧にさらされた結果、より適したアンドロイドが投入されるようになる。",
+				},
+			},
+			en = {
+				{
+					[["Observing these failures, they attempted to adapt the design to better suit their purpose.]],
+				},
+			},
+			cn = {
+				{
+					"「在如此淘汰压力的作用下，更适应环境的仿生人不断被投入进来。",
+				},
+			},
+		},
+		linkback = "block_00209",
+		linknext = "block_00211",
+		line = 634,
+	},
+	block_00211 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_10", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600255"},
+			},
+			ja = {
+				{
+					"繰り返しだ。破壊され、生み出され、破壊され、生み出され」",
+				},
+			},
+			en = {
+				{
+					[[It was a constant cycle of creation and destruction."]],
+				},
+			},
+			cn = {
+				{
+					"这是一个循环。破坏，创造，再破坏，再创造」",
+				},
+			},
+		},
+		linkback = "block_00210",
+		linknext = "block_00212",
+		line = 636,
+	},
+	block_00212 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600256"},
+			},
+			ja = {
+				{
+					"「その中で、成功した個体はいなかったのか？」",
+				},
+			},
+			en = {
+				{
+					[["Didn't they make any that fit the bill during that time?"]],
+				},
+			},
+			cn = {
+				{
+					"「在这其中，难道没有成功的个体吗？」",
+				},
+			},
+		},
+		linkback = "block_00211",
+		linknext = "block_00213",
+		line = 637,
+	},
+	block_00213 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600257"},
+			},
+			ja = {
+				{
+					"「いたかもしれんな。デリラのようなケースが過去にも。しかし現状を見たまえ。文明が復興せずに緑に没しつつあるこの現状を！」",
+				},
+			},
+			en = {
+				{
+					[["There were probably some, ones like Delilah. But you've seen the results for yourself. Far from saving humanity, it has only continued to decline!"]],
+				},
+			},
+			cn = {
+				{
+					"「也许有过吧。过去可能也有像黛莉拉那样的案例。但是放眼看看现状吧。看看这文明并未复兴，而正逐步在被绿色吞噬的现状！」",
+				},
+			},
+		},
+		linkback = "block_00212",
+		linknext = "block_00214",
+		line = 639,
+	},
+	block_00214 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600258"},
+			},
+			ja = {
+				{
+					"「……仮に完全な自我を持ったアンドロイドが何人か地上に散ったとして、それだけで人類が復興できるとは俺には思えん」",
+				},
+			},
+			en = {
+				{
+					[["...Let's say you did get a fully developed AE on your side. I still don't think that would be enough to rebuild civilization."]],
+				},
+			},
+			cn = {
+				{
+					"「……即使各地都能出现一些拥有完全自我意识的仿生人，我也不认为仅凭这点就足以让人类复兴。」",
+				},
+			},
+		},
+		linkback = "block_00213",
+		linknext = "block_00215",
+		line = 640,
+	},
+	block_00215 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_08", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600259"},
+			},
+			ja = {
+				{
+					"「同感だ。多少の支援で、現状が大きく変わることはない。",
+				},
+			},
+			en = {
+				{
+					[["I would have to agree with you. Very little would change.]],
+				},
+			},
+			cn = {
+				{
+					"「同感。仅凭或多或少的支援，现状不会有大的改变。",
+				},
+			},
+		},
+		linkback = "block_00214",
+		linknext = "block_00216",
+		line = 642,
+	},
+	block_00216 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600260"},
+			},
+			ja = {
+				{
+					"Ａｅ型の効果的な運用法は別にある。そのために君を見つけ、依頼をした。",
+				},
+			},
+			en = {
+				{
+					"We need a way to use the AE's qualities across a wider area. That is where you come in.",
+				},
+			},
+			cn = {
+				{
+					"Ａｅ型另有其他有效的运用方法。正因为如此我才找到了你，进行了委托。",
+				},
+			},
+		},
+		linkback = "block_00215",
+		linknext = "block_00217",
+		line = 644,
+	},
+	block_00217 = {
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600261"},
+			},
+			ja = {
+				{
+					"そして今、彼女がここに来た」",
+				},
+			},
+			en = {
+				{
+					[[You, and of course, her..."]],
+				},
+			},
+			cn = {
+				{
+					"而现在，它来到了这里」 ",
+				},
+			},
+		},
+		linkback = "block_00216",
+		linknext = "block_00218",
+		line = 646,
+	},
+	block_00218 = {
+		{"bgm", stop=1, time=5000},
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=150, path=":bg2/", set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_02", ch="c002", path=":fg/", sync=0, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z004600262"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00217",
+		linknext = "block_00219",
+		line = 654,
+	},
+	block_00219 = {
+		{"bgm", file="bgm14"},
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z004600263"},
+			},
+			ja = {
+				{
+					"「私に何をさせたいんですか？」",
+				},
+			},
+			en = {
+				{
+					[["What are you going to do to me?"]],
+				},
+			},
+			cn = {
+				{
+					"「你想让我做什么？」",
+				},
+			},
+		},
+		linkback = "block_00218",
+		linknext = "block_00220",
+		line = 659,
+	},
+	block_00220 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600264"},
+			},
+			ja = {
+				{
+					"「おお……。",
+				},
+			},
+			en = {
+				{
+					[["Oho...]],
+				},
+			},
+			cn = {
+				{
+					"「喔……",
+				},
+			},
+		},
+		linkback = "block_00219",
+		linknext = "block_00221",
+		line = 660,
+	},
+	block_00221 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600265"},
+			},
+			ja = {
+				{
+					"君はこれから起こることを予測しているな。なのに、逃げ出さずにここにいる。",
+				},
+			},
+			en = {
+				{
+					"You're attempting to predict what comes next? And yet you're still here.",
+				},
+			},
+			cn = {
+				{
+					"你已经预测到了接下来会发生的事情。尽管如此，你却没有逃跑，仍然留在这里。",
+				},
+			},
+		},
+		linkback = "block_00220",
+		linknext = "block_00222",
+		line = 661,
+	},
+	block_00222 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600266"},
+			},
+			ja = {
+				{
+					"素晴らしい……君は最高のＡｅ型だ」",
+				},
+			},
+			en = {
+				{
+					[[Simply wonderful... You are a remarkable AE."]],
+				},
+			},
+			cn = {
+				{
+					"真了不起……你就是最优秀的Ａｅ型」",
+				},
+			},
+		},
+		linkback = "block_00221",
+		linknext = "block_00223",
+		line = 662,
+	},
+	block_00223 = {
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z004600267"},
+			},
+			ja = {
+				{
+					"「私にＡＩを使わせたいんですか？」",
+				},
+			},
+			en = {
+				{
+					[["You want me to control the AI for you?"]],
+				},
+			},
+			cn = {
+				{
+					"「你想让我去使用ＡＩ吗？」",
+				},
+			},
+		},
+		linkback = "block_00222",
+		linknext = "block_00224",
+		line = 664,
+	},
+	block_00224 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600268"},
+			},
+			ja = {
+				{
+					"「まさしくそうだ。だが、一時的ではいけない」",
+				},
+			},
+			en = {
+				{
+					[["That's right. But not just once or twice."]],
+				},
+			},
+			cn = {
+				{
+					"「正是如此。但这不能只是暂时的」",
+				},
+			},
+		},
+		linkback = "block_00223",
+		linknext = "block_00225",
+		line = 665,
+	},
+	block_00225 = {
+		{"fg", file="bs3_ph02_base01", face="bs3_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z004600269"},
+			},
+			ja = {
+				{
+					"「永久に」",
+				},
+			},
+			en = {
+				{
+					[["Forever?"]],
+				},
+			},
+			cn = {
+				{
+					"「永久地」",
+				},
+			},
+		},
+		linkback = "block_00224",
+		linknext = "block_00226",
+		line = 667,
+	},
+	block_00226 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004600270"},
+			},
+			ja = {
+				{
+					"「彼女はもう完全に理解しているようだ。自分の果たすべき役割を」",
+				},
+			},
+			en = {
+				{
+					[["You see? She already understands what's required of her."]],
+				},
+			},
+			cn = {
+				{
+					"「看来它已经完全理解了自己应尽的使命」 ",
+				},
+			},
+		},
+		linkback = "block_00225",
+		linknext = "block_00227",
+		line = 668,
+	},
+	block_00227 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004600271"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00226",
+		linknext = "block_00228",
+		line = 669,
+	},
+	block_00228 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=1},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg25", sync=0, zoom=125, path=":bg2/", set="bg25"},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_01", ch="c005", path=":fg/", sync=0, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_wi01_base01", face="bs2_wi_f01_02", ch="c005", path=":fg/", time=300, sync=1, mode=3, head="bs2_wi0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600272"},
+			},
+			ja = {
+				{
+					"「この奥に、もうひとつモジュールがある。これだ」",
+				},
+			},
+			en = {
+				{
+					[["There's another module beyond this one. Take a look."]],
+				},
+			},
+			cn = {
+				{
+					"「在这里面还有另一个模块，就是这个」",
+				},
+			},
+		},
+		linkback = "block_00227",
+		linknext = "block_00229",
+		line = 676,
+	},
+	block_00229 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg25", x=480, y=-100, speed=1500, ease="none", time=1000, zoom=150, sync=0, path=":bg/", x2=480, y2=-150, set="bg25"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000},
+		{"se", id=0, file="se150"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"老人が手元のパネルを操作すると、壁面の大型モニターにそれが映し出される。",
+				},
+			},
+			en = {
+				{
+					"The old man touches a panel on his arm rest, and an image flickers onto the giant monitor on one side of the room.",
+				},
+			},
+			cn = {
+				{
+					"老人操作了手边的面板，墙上的大屏幕便将其显示了出来。",
+				},
+			},
+		},
+		linkback = "block_00228",
+		linknext = "block_00230",
+		line = 684,
+	},
+	block_00230 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts18", x=0, y=130, speed=8000, time=2500, zoom=125, sync=1, path=":ev/", x2=0, y2=-130, set="ts18"},
+		{"ex", time=500, func="wait"},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts18", speed=3000, time=2500, zoom=100, lv=5, z2=130, sync=1, path=":ev/", id=1, set="ts18"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004600276"},
+			},
+			ja = {
+				{
+					"「……衛星か？」",
+				},
+			},
+			en = {
+				{
+					[["Is that a satellite...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……这是卫星？」",
+				},
+			},
+		},
+		linkback = "block_00229",
+		linknext = "block_00231",
+		line = 697,
+	},
+	block_00231 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004600277"},
+			},
+			ja = {
+				{
+					"「彼女の新たな器となる」",
+				},
+			},
+			en = {
+				{
+					[["This will be her new vessel."]],
+				},
+			},
+			cn = {
+				{
+					"「这将成为它新的容器」 ",
+				},
+			},
+		},
+		linkback = "block_00230",
+		linknext = "block_00232",
+		line = 698,
+	},
+	block_00232 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts18", x=0, y=-130, speed=15000, ease="none", time=2000, zoom=125, sync=0, path=":ev/", x2=0, y2=130, set="ts18"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小型の人工衛星か？",
+				},
+			},
+			en = {
+				{
+					"A small artificial satellite...",
+				},
+			},
+			cn = {
+				{
+					"一颗小型的人造卫星？",
+				},
+			},
+		},
+		linkback = "block_00231",
+		linknext = "block_00233",
+		line = 702,
+	},
+	block_00233 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"つまりこういうことだ。",
+				},
+			},
+			en = {
+				{
+					"I think I can see where this is going.",
+				},
+			},
+			cn = {
+				{
+					"也就是说是这么回事。",
+				},
+			},
+		},
+		linkback = "block_00232",
+		linknext = "block_00234",
+		line = 703,
+	},
+	block_00234 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts18", x=-480, y=-100, speed=10000, sync=0, zoom=150, path=":ev/", x2=-280, y2=-100, set="ts18"},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_19", ch="c002", path=":fg/", alpha=96, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_19", ch="c002", path=":fg/", x2=0, speed=10000, mode=3, head="bs3_ph0", x=200, lv=3, id=13, alpha=96},
+		{"extrans", time=1500},
+		{"msgon"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z900000057"},
+			},
+			ja = {
+				{
+					"「フィリアの核たる部位をその衛星に移し替え、未来永劫に利用できる合鍵とする」",
+				},
+			},
+			en = {
+				{
+					[["You want to transfer Philia's core qualities into that satellite, so she can serve as a go-between permanently?"]],
+				},
+			},
+			cn = {
+				{
+					"「将菲莉娅的核心部分移至该卫星，让她变成一个可供永远使用的钥匙」",
+				},
+			},
+		},
+		linkback = "block_00233",
+		linknext = "block_00235",
+		line = 715,
+	},
+	block_00235 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z900000091"},
+			},
+			ja = {
+				{
+					"「その通りだ」",
+				},
+			},
+			en = {
+				{
+					[["Precisely."]],
+				},
+			},
+			cn = {
+				{
+					"「没错」",
+				},
+			},
+		},
+		linkback = "block_00234",
+		linknext = "block_00236",
+		line = 716,
+	},
+	block_00236 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00235",
+		line = 721,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}
