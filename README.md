@@ -2,4 +2,4 @@
 
 同时具有官中和绿茶汉化的星之终途（終のステラ，Stella of the End），已内购，支持在游戏内切换语言
 
-Stella of the End (終のステラ，星之终途) merging two Simplified Chinese translations (Official & GreenTea), with iap and in‑game switching support.
+Stella of the End (終のステラ，星之终途) merging two Simplified Chinese translations (Official & GreenTea), with in‑game purchase and language switching support.
