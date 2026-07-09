@@ -1,0 +1,4730 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bgm", file="bgm07"},
+		{"se", id=0, file="se156"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts25", x=200, y=150, speed=20000, ease="none", time=1500, zoom=150, sync=1, path=":ev/", x2=-400, y2=150, set="ts25"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺たちを乗せると、船は自動で航行を開始した。",
+				},
+			},
+			en = {
+				{
+					"Once we're both on, we're taken to the larger ship.",
+				},
+			},
+			cn = {
+				{
+					"船载上我们后，自动开始了航行。",
+				},
+			},
+			cn_gt = {
+				{
+					"我们一坐稳，船就自动开始航行。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 12,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"巨大船ゆえ揺れは少なかった。",
+				},
+			},
+			en = {
+				{
+					"For such a big vessel, it's a pretty smooth ride.",
+				},
+			},
+			cn = {
+				{
+					"船只巨大，因此没太有摇晃。",
+				},
+			},
+			cn_gt = {
+				{
+					"这毕竟是巨轮，因此晃动感并不强烈。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 13,
+	},
+	block_00002 = {
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60e", x=0, y=270, speed=25000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg60"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"が、フィリアも俺も体調を崩してしまった。",
+				},
+			},
+			en = {
+				{
+					"Philia and I have a rough time all the same.",
+				},
+			},
+			cn = {
+				{
+					"但菲莉娅和我都感到身体不适。",
+				},
+			},
+			cn_gt = {
+				{
+					"然而，我和菲莉娅还是晕得够呛。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 17,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"長時間、乗船した経験がないのだ。これは仕方なかった。",
+				},
+			},
+			en = {
+				{
+					"Neither of us are used to long sea voyages. Our bodies need time to adjust.",
+				},
+			},
+			cn = {
+				{
+					"我们很长时间都没有乘船的经验了，这也没办法。",
+				},
+			},
+			cn_gt = {
+				{
+					"我们都没有过长时间乘船的经历，也是无可奈何。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 18,
+	},
+	block_00004 = {
+		{"se", stop=1, id=0, time=1500},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, wait=1000, path=":bg/"},
+		{"se", id=0, file="se156"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg61", x=480, y=0, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=-480, y2=0, set="bg61"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"慣れて体調が整うのに、数日かかった。",
+				},
+			},
+			en = {
+				{
+					"It's a few days before we feel right again.",
+				},
+			},
+			cn = {
+				{
+					"花了好几天才适应并调整了过来。",
+				},
+			},
+			cn_gt = {
+				{
+					"等我们习惯、恢复过来，已经是几天之后了。",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 26,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"船に乗ってから、周辺情報を拾えなくなった。",
+				},
+			},
+			en = {
+				{
+					"That whole time my sensors barely pick up any data.",
+				},
+			},
+			cn = {
+				{
+					"自从上了船，我就没能再获取到周围的信息。",
+				},
+			},
+			cn_gt = {
+				{
+					"自从上了船，我就收集不到附近的信息。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 27,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"移動ルートを記録されたり、居場所を特定されたくないのだろう。",
+				},
+			},
+			en = {
+				{
+					"Willem must have taken measures to stop our destination being found out.",
+				},
+			},
+			cn = {
+				{
+					"也许是不希望被记录移动路径，或是被准确定位。",
+				},
+			},
+			cn_gt = {
+				{
+					"大概是不想我记下移动路径或是锁定目的地所在吧。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 28,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"進路もあえて直進はせず、迂回に迂回を重ねているようだった。",
+				},
+			},
+			en = {
+				{
+					"The route isn't a direct one either, it twists and turns and doubles back a few times.",
+				},
+			},
+			cn = {
+				{
+					"故意不走笔直的航线，而是一次又一次地迂回。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"前进时也刻意不走直线，而是不断迂回绕远。",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 29,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"老人の秘密主義はこんなところまで徹底されていた。",
+				},
+			},
+			en = {
+				{
+					"Even this near the end, the duke's insistence on secrecy is as strong as ever.",
+				},
+			},
+			cn = {
+				{
+					"老人的保密主义被贯彻到了如此地步。",
+				},
+			},
+			cn_gt = {
+				{
+					"老者将秘密主义贯彻得无所不至。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 30,
+	},
+	block_00009 = {
+		{"se", stop=1, id=0, time=4000},
+		{"bgm", stop=1, time=4000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg61", time=1000, path=":bg/", set="bg61"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"体調が回復した頃、老人から直接通信が届いた。",
+				},
+			},
+			en = {
+				{
+					"When I've recovered a little, I get a call from the man himself.",
+				},
+			},
+			cn = {
+				{
+					"等到我们身体恢复了，便收到了老人的直接通讯。",
+				},
+			},
+			cn_gt = {
+				{
+					"待我们身体恢复后，老者发起了直接通信。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 36,
+	},
+	block_00010 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", id=2, lv=5, time=200, file="ef_monitor02b_off", movie=1, style="ar_add", alpha=170, path=":ani/", bx=960},
+		{"se", file="se010", id=1},
+		{"ex", time=50, func="wait"},
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, path=":cg/"},
+		{"bg", id=20, lv=9, file="ef_monitor01", movie=1, movieloop=1, style="ar_add", path=":ani/", bx=960},
+		{"extrans", time=450, rule="rule081"},
+		{"bgm", file="bgm09"},
+		{"ex", time=250, func="wait"},
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000017"},
+			},
+			ja = {
+				{
+					"『よく無事にここまで来てくれた』",
+				},
+			},
+			en = {
+				{
+					[["I'm glad to see you made it here safely."]],
+				},
+			},
+			cn = {
+				{
+					"『很高兴你们安全抵达了这里』",
+				},
+			},
+			cn_gt = {
+				{
+					"『万幸你们安全赶到这里了』",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 47,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000018"},
+			},
+			ja = {
+				{
+					"「無事とはいえないが、生きてはいる……」",
+				},
+			},
+			en = {
+				{
+					[["I don't know about 'safely,' but we're alive, at least..."]],
+				},
+			},
+			cn = {
+				{
+					"「说不上安全吧，不过至少还活着……」",
+				},
+			},
+			cn_gt = {
+				{
+					"「安全谈不上，人总归还活着……」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 48,
+	},
+	block_00012 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000019"},
+			},
+			ja = {
+				{
+					"『トラブルに巻き込まれたことはこちらでも把握することができたが、途中に情報が途絶してしまった』",
+				},
+			},
+			en = {
+				{
+					[["I suspected you got caught up in some trouble, but my data feed cut out."]],
+				},
+			},
+			cn = {
+				{
+					"『我这边也把握到你们被卷入了某些麻烦之中，但途中信息就中断了』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我这里也察觉到你们遇上了麻烦，可期间一直没能收到相关信息，因而无力援助』",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 50,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000020"},
+			},
+			ja = {
+				{
+					"「……把握できているだけでたいしたものだが……情報が途絶えたのは、クリムゾンアイに接近されたせいだろうな」",
+				},
+			},
+			en = {
+				{
+					[["I'm impressed you could tell that much. I'm guessing that cut was because of Crimson Eye?"]],
+				},
+			},
+			cn = {
+				{
+					"「……能把握到就已经很了不起了……信息中断的原因大概是赤红之眼靠了过来吧」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……能发现就已经很不错了……至于信息中断，估计是因为进了猩红之眼的控制范围吧」",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 51,
+	},
+	block_00014 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000021"},
+			},
+			ja = {
+				{
+					"『そのようだ。肝が冷えたよ』",
+				},
+			},
+			en = {
+				{
+					[["Yes, indeed. Quite the shock, I can tell you."]],
+				},
+			},
+			cn = {
+				{
+					"『似乎是这样，真让我胆战心惊』",
+				},
+			},
+			cn_gt = {
+				{
+					"『应是如此。我也捏了把汗』",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 53,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000022"},
+			},
+			ja = {
+				{
+					"「この船旅は、どのくらい続くんだ？」",
+				},
+			},
+			en = {
+				{
+					[["How long are we going to be on this ship?"]],
+				},
+			},
+			cn = {
+				{
+					"「这次航行还要持续多久？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「这趟海上航行还得多长时间？」",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 54,
+	},
+	block_00016 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000023"},
+			},
+			ja = {
+				{
+					"『そう長くはない。あと少しの我慢だ』",
+				},
+			},
+			en = {
+				{
+					[["Only a while. I'll have to beg your indulgence a little longer."]],
+				},
+			},
+			cn = {
+				{
+					"『不会太久的，只要再忍耐一会』",
+				},
+			},
+			cn_gt = {
+				{
+					"『不会太久，再坚持些日子吧』",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 56,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"やはり具体的な数字は出さない、か。",
+				},
+			},
+			en = {
+				{
+					"No concrete numbers. As usual.",
+				},
+			},
+			cn = {
+				{
+					"果然还是不想给出具体的数字啊。",
+				},
+			},
+			cn_gt = {
+				{
+					"果然不会给出具体数字么。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 58,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000027"},
+			},
+			ja = {
+				{
+					"「聞きたいことがいくつか出てきた」",
+				},
+			},
+			en = {
+				{
+					[["I have several things I'd like to ask you."]],
+				},
+			},
+			cn = {
+				{
+					"「现在我有几个问题想问」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我有几个问题想问你」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 60,
+	},
+	block_00019 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000028"},
+			},
+			ja = {
+				{
+					"『答えられることならば』",
+				},
+			},
+			en = {
+				{
+					[["I'll answer them if I'm able."]],
+				},
+			},
+			cn = {
+				{
+					"『只要是我能回答的』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我尽量解答』",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 62,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000029"},
+			},
+			ja = {
+				{
+					"「クリムゾンアイについてだ。あれが俺たちを追跡……監視している節がある。知っていることはないか？」",
+				},
+			},
+			en = {
+				{
+					[["First, about Crimson Eye. It seems to be following and observing us. Did you know that?"]],
+				},
+			},
+			cn = {
+				{
+					"「是关于赤红之眼的。它看上去有在追踪……监视我们。你有没有什么头绪？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我想问问猩红之眼。我们在路上受到了它的追踪……监视。你对它有了解吗？」",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 63,
+	},
+	block_00021 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi10", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000030"},
+			},
+			ja = {
+				{
+					"『ある。私がこの事業に着手してから、かなりの年月が過ぎた。その途中、クリムゾンアイというマシンには幾度も遭遇した。",
+				},
+			},
+			en = {
+				{
+					[["Yes. It's been some years since I started putting this plan in motion. Crimson Eye and I have crossed paths on multiple occasions.]],
+				},
+			},
+			cn = {
+				{
+					"『有。自从我着手这项事业以来，已经过去了很多年。在这之间，我遭遇过多次这台名为赤红之眼的机器。",
+				},
+			},
+			cn_gt = {
+				{
+					"『有。自我着手谋划这项事业，已有不少年月。期间，数次遭遇过这台名为猩红之眼的超越机。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 65,
+	},
+	block_00022 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000031"},
+			},
+			ja = {
+				{
+					"その結果として、目をつけられている状態になっているのだと思う』",
+				},
+			},
+			en = {
+				{
+					[[I believe it is now monitoring my actions as a matter of course."]],
+				},
+			},
+			cn = {
+				{
+					"其结果，我想大概正处于被它重点关照的状态』",
+				},
+			},
+			cn_gt = {
+				{
+					"我想正因如此，它已将我视作监视对象』",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 67,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000032"},
+			},
+			ja = {
+				{
+					"「敵対しているのか？」",
+				},
+			},
+			en = {
+				{
+					[["Does it see you as an enemy?"]],
+				},
+			},
+			cn = {
+				{
+					"「你们是敌对关系吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「它和你是敌对关系吗？」",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 68,
+	},
+	block_00024 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi10", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000033"},
+			},
+			ja = {
+				{
+					"『事を構えるつもりはこちらにはない。勝ち目がないのだからな』",
+				},
+			},
+			en = {
+				{
+					[["I've never entered into open hostilities with it. I'd have no way of winning."]],
+				},
+			},
+			cn = {
+				{
+					"『我这边没有打算挑起事端，因为毫无胜算』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我并不想与它起争端，毕竟毫无胜算』",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 70,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000034"},
+			},
+			ja = {
+				{
+					"「あの港にしても、クリムゾンアイによって破壊されたように思うが」",
+				},
+			},
+			en = {
+				{
+					[["It looked to me like it was the one that wrecked the port we just left."]],
+				},
+			},
+			cn = {
+				{
+					"「包括那个港口也是，我猜也是被赤红之眼摧毁的」",
+				},
+			},
+			cn_gt = {
+				{
+					"「之前那港口，从情况看也是被猩红之眼毁掉的吧」",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 71,
+	},
+	block_00026 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000035"},
+			},
+			ja = {
+				{
+					"『その通りだ。攻撃されたのは一年前になる』",
+				},
+			},
+			en = {
+				{
+					[["You are correct. It happened about a year ago."]],
+				},
+			},
+			cn = {
+				{
+					"『你说得对，被袭击是一年前的事了』",
+				},
+			},
+			cn_gt = {
+				{
+					"『如你所言。港口是于一年前被毁的』",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 73,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000036"},
+			},
+			ja = {
+				{
+					"「手を出していないのに一方的に攻撃を受けたのか？」",
+				},
+			},
+			en = {
+				{
+					[["It attacked you without any provocation?"]],
+				},
+			},
+			cn = {
+				{
+					"「尽管没有出手，却还是单方面遭受了攻击吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「你什么动作都没搞，它就主动发动了攻击？」",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 74,
+	},
+	block_00028 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi10", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000037"},
+			},
+			ja = {
+				{
+					"『そうだ。私はあの怪物に、石ひとつ投げつけてはおらん。それでも何らかの理由によって、私はあれに睨まれている』",
+				},
+			},
+			en = {
+				{
+					[["I never did so much as throw a stone at that monster. But it seems to have taken a dislike to me for reasons of its own."]],
+				},
+			},
+			cn = {
+				{
+					"『对。我对那个怪物没有扔过哪怕一颗石子。即使如此，我还是出于某种原因被它盯上了』",
+				},
+			},
+			cn_gt = {
+				{
+					"『没错，我并未招惹它一丝一毫。可不知出于何种原因，它就是对我生出了敌意』",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 76,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000038"},
+			},
+			ja = {
+				{
+					"「理由は不明だと言うんだな」",
+				},
+			},
+			en = {
+				{
+					[["So there is a reason, we just don't know it."]],
+				},
+			},
+			cn = {
+				{
+					"「依然想说原因不明啊」",
+				},
+			},
+			cn_gt = {
+				{
+					"「你的意思是，动机不明么」",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 77,
+	},
+	block_00030 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000039"},
+			},
+			ja = {
+				{
+					"『あれらがいかなる行動原理に基づいて活動しているのかは誰にもわからない。君も知っての通りだ』",
+				},
+			},
+			en = {
+				{
+					[[“Perhaps. Or perhaps it's just acting on principles we don't understand. You know as much about that as I do."]],
+				},
+			},
+			cn = {
+				{
+					"『谁也看不懂它们的活动是基于何种行动原则，这你也是知道的』",
+				},
+			},
+			cn_gt = {
+				{
+					"『没人知道它们是基于怎样的行动原理进行活动，此事你也明白』",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 79,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000040"},
+			},
+			ja = {
+				{
+					"「……シンギュラリティマシンを運用しているのがＡＩという話があったが、つまりあんたとＡＩは対立関係にあるわけだ。でなければ俺たちがつけ狙われる理由がないからな。",
+				},
+			},
+			en = {
+				{
+					[["You said Singularity Machines were made by AI. You must have offended them somehow, but there's no reason for them to target us.]],
+				},
+			},
+			cn = {
+				{
+					"「……上次提到过操控着奇点机器的是ＡＩ，所以你实际上和ＡＩ处于对立关系，否则我们也没有理由会被盯上。",
+				},
+			},
+			cn_gt = {
+				{
+					"「……你上次说，是ＡＩ在调度超越机。这么看来，你和ＡＩ应该是对立关系，否则我们没道理会引起它的注意。",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 80,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000041"},
+			},
+			ja = {
+				{
+					"ただこれと絡んで、妙なことがあった。旅の途中でデリラというＡｅ型アンドロイドと出会った。知っているか？」",
+				},
+			},
+			en = {
+				{
+					[[At least, that's what I thought before we met this other AE android. Delilah. You remember her?"]],
+				},
+			},
+			cn = {
+				{
+					"不过与此相关的又有一件怪事。在旅途中，我们遇到了一位名叫黛莉拉的Ａｅ型仿生人，你知道她吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"不仅如此，还有一件怪事。我在路上遇到一个叫黛莉拉的Ａｅ型仿生人，你知道它吗？」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 81,
+	},
+	block_00033 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000042"},
+			},
+			ja = {
+				{
+					"『無論知っている。私がかつて調達しようとしたＡｅ型アンドロイドだ』",
+				},
+			},
+			en = {
+				{
+					[["Of course. I tried to use her for my plan previously."]],
+				},
+			},
+			cn = {
+				{
+					"『当然知道。那是我曾经想要获取的Ａｅ型仿生人』",
+				},
+			},
+			cn_gt = {
+				{
+					"『自然知道，这是我曾筹措过的Ａｅ型仿生人』",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 83,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000043"},
+			},
+			ja = {
+				{
+					"「クリムゾンアイは、なぜかデリラだけを選択して破壊した」",
+				},
+			},
+			en = {
+				{
+					[["Well, Crimson Eye destroyed her, and only her."]],
+				},
+			},
+			cn = {
+				{
+					"「赤红之眼不知出于何种原因，只选中了她将其破坏」",
+				},
+			},
+			cn_gt = {
+				{
+					"「不知道为什么，猩红之眼只挑了黛莉拉毁掉」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 84,
+	},
+	block_00035 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi07", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000044"},
+			},
+			ja = {
+				{
+					"『なんだと？　本当かね？』",
+				},
+			},
+			en = {
+				{
+					[["Really, now?"]],
+				},
+			},
+			cn = {
+				{
+					"『你说什么？　这是真的吗？』",
+				},
+			},
+			cn_gt = {
+				{
+					"『什么？当真如此？』",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 86,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000045"},
+			},
+			ja = {
+				{
+					"「事実だ。デリラはそれで死んだ。ただ隣にいた俺たちには攻撃しなかった。なぜだ？」",
+				},
+			},
+			en = {
+				{
+					[["It's true. We were right next to her when she died, but it left us alone. Why?"]],
+				},
+			},
+			cn = {
+				{
+					"「是事实，黛莉拉也因此死去。然而它并没有攻击我们这些就在旁边的人，为什么？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「是真的。黛莉拉当场死亡，但就在她身边的我们却没遭到攻击，这是为什么？」",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 87,
+	},
+	block_00037 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi03", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000046"},
+			},
+			ja = {
+				{
+					"『……それは……君の仕事にとって必要な情報かね？』",
+				},
+			},
+			en = {
+				{
+					[["...Is this information strictly necessary for you to complete the job?"]],
+				},
+			},
+			cn = {
+				{
+					"『……这个是……你的工作上有必要了解的信息吗？』",
+				},
+			},
+			cn_gt = {
+				{
+					"『……这……是你完成工作所必须的信息？』",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 89,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000047"},
+			},
+			ja = {
+				{
+					"「必要だ。今後のクリムゾンアイへの対処が違ってくる」",
+				},
+			},
+			en = {
+				{
+					[["It is. It could affect how I deal with Crimson Eye going forward."]],
+				},
+			},
+			cn = {
+				{
+					"「有必要。这会影响我今后应对赤红之眼的方针」",
+				},
+			},
+			cn_gt = {
+				{
+					"「是。这决定我今后要如何应对猩红之眼」",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 90,
+	},
+	block_00039 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000048"},
+			},
+			ja = {
+				{
+					"『もうその心配は不要だと思うが』",
+				},
+			},
+			en = {
+				{
+					[["I don't think you'll need to worry about that anymore."]],
+				},
+			},
+			cn = {
+				{
+					"『我认为你已经不用再担心这一点了』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我想你已不必再提防它了』",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 92,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000049"},
+			},
+			ja = {
+				{
+					"「理想家や夢想家の考えだな。俺は違う。少しでも可能性があるなら警戒したい。",
+				},
+			},
+			en = {
+				{
+					[["You forget, I'm a realist. I want to have a plan in place for every possibility.]],
+				},
+			},
+			cn = {
+				{
+					"「这是理想家和梦想家的想法，而我不一样。只要存在一点可能性，我就想保持警惕。",
+				},
+			},
+			cn_gt = {
+				{
+					"「这是理想家和梦想家的思维方式，我不一样。哪怕只有一丝可能性，我也要做好防备。",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 93,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000050"},
+			},
+			ja = {
+				{
+					"それ以前に、ＡＩとの対立、クリムゾンアイの存在、俺以外の運び屋に同じ依頼をしていたこと……すべて事前に知っておくべき情報だ。あんたは正直、秘密主義が過ぎる」",
+				},
+			},
+			en = {
+				{
+					[[First though, tell me about you and the AI, and Crimson Eye, and any other Couriers you hired before me. I can't have you keeping these secrets from me anymore."]],
+				},
+			},
+			cn = {
+				{
+					"更进一步说，你与ＡＩ的对立，赤红之眼的存在，委托过其他货运人同样的工作……这些全部是应该事先告知的信息。老实说，你的保密主义有点过头了」",
+				},
+			},
+			cn_gt = {
+				{
+					"哪怕不提这个，你和ＡＩ的对立关系、猩红之眼的存在、你曾委托过我以外的渡物客……这些信息你都应该事先告知我。讲道理，你对我隐瞒得太多了」",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 94,
+	},
+	block_00042 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000051"},
+			},
+			ja = {
+				{
+					"『それは難しいことだ。情報だけを持ち逃げする者もいる。依頼の初期段階では、危険な仕事だと伝えることが限度だ。それを承知の上で受けたのだと思ったが？』",
+				},
+			},
+			en = {
+				{
+					[["That may be difficult. I've known people to take such info and run. I made it clear to you that this would be a dangerous job, did I not?"]],
+				},
+			},
+			cn = {
+				{
+					"『这就强人所难了，也有人收下信息后就跑得不见踪影。在委托的初步阶段，我最多能告知的只有这是一份危险的工作。我本以为你接下任务，是对此已经有着充分的认知了啊？』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『此事我也不好妥协，有些人拿完情报便再无下文。在委托初期明言此行危险，已是我最大的让步。你不也是了解情况后才接下委托的吗？』",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 96,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000052"},
+			},
+			ja = {
+				{
+					"「命掛けは承知の上。だとしても、安売りしているわけじゃない。",
+				},
+			},
+			en = {
+				{
+					[["I knew going in I'd be risking my life. I'm not selling that short.]],
+				},
+			},
+			cn = {
+				{
+					"「我十分理解这会有生命危险。但即使如此，我也不打算贱卖自己。",
+				},
+			},
+			cn_gt = {
+				{
+					"「我知道这活是要玩命的，但这不代表我会贱卖自己。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 97,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000053"},
+			},
+			ja = {
+				{
+					"仕事はきっちり果たす。今後は隠し事はなしにしてもらいたい」",
+				},
+			},
+			en = {
+				{
+					[[I intend to see this job through to the end. So I need to know about anything that could affect it."]],
+				},
+			},
+			cn = {
+				{
+					"我会好好地把工作完成，希望你今后不要再有所隐瞒」",
+				},
+			},
+			cn_gt = {
+				{
+					"我保证如实完成工作，希望你今后别再对我藏着掖着」",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 98,
+	},
+	block_00045 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000054"},
+			},
+			ja = {
+				{
+					"『……承知した。苦労をかけたことを詫びよう』",
+				},
+			},
+			en = {
+				{
+					[["...After all you've been through, I suppose you deserve that much."]],
+				},
+			},
+			cn = {
+				{
+					"『……我明白了。给你添了不少麻烦，我向你道歉』",
+				},
+			},
+			cn_gt = {
+				{
+					"『……依你所言。我对劳你费心深表歉意』",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 100,
+	},
+	block_00046 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000055"},
+			},
+			ja = {
+				{
+					"『他に知りたいことがあれば、何でも言ってみたまえ』",
+				},
+			},
+			en = {
+				{
+					[["Tell me what you wish to know. Hold nothing back."]],
+				},
+			},
+			cn = {
+				{
+					"『如果你还有其他事想知道，请随意提问』",
+				},
+			},
+			cn_gt = {
+				{
+					"『若还有其他问题，但说无妨』",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 102,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000056"},
+			},
+			ja = {
+				{
+					"「そうだな、ではさっそくなんだが、この計画の全容について知りたい」",
+				},
+			},
+			en = {
+				{
+					[["All right. First of all, tell me what this 'great work' of yours is."]],
+				},
+			},
+			cn = {
+				{
+					"「很好，那么我就开门见山了，我想了解这个计划的全貌」 ",
+				},
+			},
+			cn_gt = {
+				{
+					"「是么，那我就开门见山了，我想了解这个计划的全貌」",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 103,
+	},
+	block_00048 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000057"},
+			},
+			ja = {
+				{
+					"『教えよう。ただし通信では無理だ。直接会ってでなければ』",
+				},
+			},
+			en = {
+				{
+					[["I will, but not over this call. We'll talk about it face to face."]],
+				},
+			},
+			cn = {
+				{
+					"『我可以告诉你。但是不能在通信里讲，必须当面才可以』",
+				},
+			},
+			cn_gt = {
+				{
+					"『可以，但不能在通信中详谈，待你我真正见面时再议』",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 105,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004000058"},
+			},
+			ja = {
+				{
+					"「機密保持のため、か。そこまで警戒が必要か？　正直、今の時代に過剰な防諜は必要ないと思うんだが」",
+				},
+			},
+			en = {
+				{
+					[["Still hung up on confidentiality, huh? To be honest with you, I don't think anyone is even capable of listening in on us."]],
+				},
+			},
+			cn = {
+				{
+					"「为了保密对吧。有必要这么警惕吗？说实话我觉得对这个时代而言，过剩的反间谍措施是毫无必要的」",
+				},
+			},
+			cn_gt = {
+				{
+					"「为了防止泄密么……至于这么提防吗？老实说，我觉得现在这年代没必要下这么大功夫防谍吧」",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 106,
+	},
+	block_00050 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000059"},
+			},
+			ja = {
+				{
+					"『危険なのは人間ではなく、ＡＩだよ』",
+				},
+			},
+			en = {
+				{
+					[["It's not human agencies that are the problem, but AI."]],
+				},
+			},
+			cn = {
+				{
+					"『危险的不是人类，而是ＡＩ』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我怕的并非人类，而是ＡＩ』",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 108,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000060"},
+			},
+			ja = {
+				{
+					"「うん？」",
+				},
+			},
+			en = {
+				{
+					[["Oh?"]],
+				},
+			},
+			cn = {
+				{
+					"「嗯？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「嗯？」",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 109,
+	},
+	block_00052 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000061"},
+			},
+			ja = {
+				{
+					"『ＡＩは通信網の大部分を今でも管理している。そこでやりとりされる情報を、彼らが解析している可能性がある』",
+				},
+			},
+			en = {
+				{
+					[["Their information network is still alive and well. Intercepting and analyzing our communications is entirely within their capabilities."]],
+				},
+			},
+			cn = {
+				{
+					"『ＡＩ如今依旧控制着大部分通信网络。在那里进行的一系列信息来往都有可能被它们分析』",
+				},
+			},
+			cn_gt = {
+				{
+					"『如今ＡＩ掌控了大部分通信网络，通过这些渠道传输的信息是可能随时受它们监听的』",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 111,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000062"},
+			},
+			ja = {
+				{
+					"「……傍受はできても、中身を理解するのは別だろう。ＡＩには統計は取れても、解釈はできないんじゃないか？」",
+				},
+			},
+			en = {
+				{
+					[["Interception I'll give you, but analysis? Can an AI even understand any deeper meaning in our conversation?"]],
+				},
+			},
+			cn = {
+				{
+					"「……即使能监听，理解内容又是另外一回事。ＡＩ即便会统计数据，也无法做出相应的解读吧？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……就算窃听到了，它们也未必能理解内容吧。你不是说哪怕ＡＩ进行了统计，也没法对其中的信息进行解释吗？」",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 112,
+	},
+	block_00054 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000063"},
+			},
+			ja = {
+				{
+					"『一般論だな。それも古代の。今のＡＩがどこまで人間心理を理解できているかは、まったくの未知数だよ』",
+				},
+			},
+			en = {
+				{
+					[["AI has come a long way in the past few centuries. Human psychology is no longer the mystery it once was to them."]],
+				},
+			},
+			cn = {
+				{
+					"『那只是惯用说法，而且还是古代的了。现在的ＡＩ能理解人类心理到什么程度，完全是未知数』",
+				},
+			},
+			cn_gt = {
+				{
+					"『那只是一般情况，且是针对古代ＡＩ而言。如今的ＡＩ对人类心理的认知有多清晰，还完全是个未知数』",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 114,
+	},
+	block_00055 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000064"},
+			},
+			ja = {
+				{
+					"『事実、私の計画は彼らに漏れているし、クリムゾンアイがこの地域で活発に活動している』",
+				},
+			},
+			en = {
+				{
+					[["It may be that the reason Crimson Eye is so active in this region is because it's learned of my plan."]],
+				},
+			},
+			cn = {
+				{
+					"『事实上，我的计划已经败露给了他们，而赤红之眼也在这片地区积极活动着』",
+				},
+			},
+			cn_gt = {
+				{
+					"『事实上，我的计划已经泄露给了它们，猩红之眼也正于这片地域积极活动』",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 116,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000065"},
+			},
+			ja = {
+				{
+					"「なぜＡＩはあんたの計画を邪魔する？」",
+				},
+			},
+			en = {
+				{
+					[["Why would an AI object to your plan?"]],
+				},
+			},
+			cn = {
+				{
+					"「ＡＩ为什么想妨碍你的计划？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「为什么ＡＩ要阻止你的计划？」",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 117,
+	},
+	block_00057 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000066"},
+			},
+			ja = {
+				{
+					"『……それも会ってから話そう』",
+				},
+			},
+			en = {
+				{
+					[["That too, we can discuss later, in person."]],
+				},
+			},
+			cn = {
+				{
+					"『……这个也见面后再谈吧』",
+				},
+			},
+			cn_gt = {
+				{
+					"『……此事也留待见面解释吧』",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 119,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"会ってから、か。便利な言葉だ。",
+				},
+			},
+			en = {
+				{
+					"Awfully convenient, the way everything's safer to discuss later.",
+				},
+			},
+			cn = {
+				{
+					"见面后啊，真是个方便的说法。",
+				},
+			},
+			cn_gt = {
+				{
+					"见面再说么，这借口真好用。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 121,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"こうなると聞けることはだいぶ少なくなる。",
+				},
+			},
+			en = {
+				{
+					"Considering the old man's caution, there's only so much I'll be able to get out of him.",
+				},
+			},
+			cn = {
+				{
+					"这样一来就几乎没什么好问的了。",
+				},
+			},
+			cn_gt = {
+				{
+					"他玩这么一手，我能套出的东西就极其有限了。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 122,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000071"},
+			},
+			ja = {
+				{
+					"「俺以外の運び屋に同じ依頼を出している件については？」",
+				},
+			},
+			en = {
+				{
+					[["What about the Couriers you've hired before me?"]],
+				},
+			},
+			cn = {
+				{
+					"「关于你给其他货运人也发出过同样委托这件事呢？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那除了我，你还委托其他渡物客做同样的事情，这又怎么讲？」",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 124,
+	},
+	block_00061 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000072"},
+			},
+			ja = {
+				{
+					"『可能なら、常に複数の運び屋を雇うようにしている』",
+				},
+			},
+			en = {
+				{
+					[["When possible, I employ several Couriers for this job at any one time."]],
+				},
+			},
+			cn = {
+				{
+					"『如果情况允许，我都会尽量雇用多名货运人』",
+				},
+			},
+			cn_gt = {
+				{
+					"『若条件允许，我一般都会雇佣多名渡物客』",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 126,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000073"},
+			},
+			ja = {
+				{
+					"「今も別の誰かが動いているのか？」",
+				},
+			},
+			en = {
+				{
+					[["Are there any others working on it right now?"]],
+				},
+			},
+			cn = {
+				{
+					"「现在还有其他人在行动吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「现在也有其他人在干这活？」",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 127,
+	},
+	block_00063 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000074"},
+			},
+			ja = {
+				{
+					"『Ａｅ型アンドロイドは地域ごとに、数年に一体程度の頻度で生成される。情報を入手次第、運び屋を向かわせている』",
+				},
+			},
+			en = {
+				{
+					[["AE androids are created once every couple of years per region. When I get intel on one, I send a Courier."]],
+				},
+			},
+			cn = {
+				{
+					"『Ａｅ型仿生人在各个地区，大约时隔几年会生成一台。我一旦收到了信息，就会委托货运人前去』",
+				},
+			},
+			cn_gt = {
+				{
+					"『Ａｅ型仿生人于每片地域均以数年一台的频率生成。只要得到情报，我便会派遣渡物客带回』",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 129,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000075"},
+			},
+			ja = {
+				{
+					"「待ってくれ。複数の運び屋が同時に仕事を達成したら、報酬はどうなる？」",
+				},
+			},
+			en = {
+				{
+					[["Hold on... What happens to the reward if several Couriers complete the job at once?"]],
+				},
+			},
+			cn = {
+				{
+					"「等一下。如果多名货运人同时完成任务，报酬会怎么样？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「你等会，如果几个渡物客同时完成工作，报酬怎么算？」",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 130,
+	},
+	block_00065 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000076"},
+			},
+			ja = {
+				{
+					"『そのようなケースが発生しないようにしているが、もしそうなった場合でも、約束通り報酬を渡す』",
+				},
+			},
+			en = {
+				{
+					[["The schedule usually prevents such things from happening, but I'd honor my original promise with each of them if it did."]],
+				},
+			},
+			cn = {
+				{
+					"『我会尽量避免这种情况发生，但如果真的有这种情况，我仍然会按照约定支付报酬』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我做好了统筹，不会出现此类情况。即便真有发生，那也会依约支付报酬』",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 132,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000077"},
+			},
+			ja = {
+				{
+					"「ずいぶん気前がいいんだな」",
+				},
+			},
+			en = {
+				{
+					[["Very generous of you."]],
+				},
+			},
+			cn = {
+				{
+					"「你还真够大方啊」",
+				},
+			},
+			cn_gt = {
+				{
+					"「出手还真阔绰」",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 133,
+	},
+	block_00067 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000078"},
+			},
+			ja = {
+				{
+					"『この計画は何十年も前から進めている。その間、何人もの運び屋を雇ったが、ほとんどは途中で命を落とすか、仕事をおりてしまうのだ。",
+				},
+			},
+			en = {
+				{
+					[["You can't imagine the years I've spent on this. I've employed many a Courier, but most of them die or quit partway through.]],
+				},
+			},
+			cn = {
+				{
+					"『这项计划在几十年前就启动了。在此期间，我雇佣过很多货运人，但大多数要么中途丧命，要么放弃工作。",
+				},
+			},
+			cn_gt = {
+				{
+					"『此计划早在几十年前便已在进行。期间，我雇佣过若干渡物客，可大多要么在路途中便丢了性命，要么放弃了工作。",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 135,
+	},
+	block_00068 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000079"},
+			},
+			ja = {
+				{
+					"それにせっかく連れてきても、アンドロイドが計画に適合しない、ということもある』",
+				},
+			},
+			en = {
+				{
+					[[Or sometimes they make it to me but their android proves to be...unsuitable."]],
+				},
+			},
+			cn = {
+				{
+					"而且哪怕是费尽心思带过来了，也会有仿生人不符合计划的情况』",
+				},
+			},
+			cn_gt = {
+				{
+					"便是能成功将仿生人带来，该个体也可能不符合计划所需』",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 137,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000080"},
+			},
+			ja = {
+				{
+					"「適合しない、というのは？」",
+				},
+			},
+			en = {
+				{
+					[["Unsuitable how?"]],
+				},
+			},
+			cn = {
+				{
+					"「不符合指的是？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「什么叫……不符合？」",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 138,
+	},
+	block_00070 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000081"},
+			},
+			ja = {
+				{
+					"『成長度合い、とでも言おうか。自我が形成されていない個体では、私の計画には差し障りが出てくる』",
+				},
+			},
+			en = {
+				{
+					[["Their development is lacking, shall we say. A mindless machine would only hinder my plan rather than help it."]],
+				},
+			},
+			cn = {
+				{
+					"『可以说是成长的程度吧。如果是没有形成自我的个体，那么我的计划就会受阻』",
+				},
+			},
+			cn_gt = {
+				{
+					"『不妨称作成长程度不足吧。没能培养出自我的个体会对我的计划造成影响』",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 140,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000082"},
+			},
+			ja = {
+				{
+					"「差し障りが出た場合、仕事は失敗扱いになるのか？」",
+				},
+			},
+			en = {
+				{
+					[["And in those cases, is the job deemed a failure?"]],
+				},
+			},
+			cn = {
+				{
+					"「你的计划受阻，任务就会被认定为失败吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「如果造成影响，就视为委托失败？」",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 141,
+	},
+	block_00072 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000083"},
+			},
+			ja = {
+				{
+					"『……まったく自我が発生していない場合や、破壊が著しい場合などは、報酬を減らすことはある』",
+				},
+			},
+			en = {
+				{
+					[["If the android has no will of their own or is heavily damaged I reduce the payment accordingly."]],
+				},
+			},
+			cn = {
+				{
+					"『……完全没有自我产生，或者受到严重破坏的情况下，可能会减少报酬』",
+				},
+			},
+			cn_gt = {
+				{
+					"『……若完全无自我产生，又或是受损严重，我便会削减报酬』",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 143,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000084"},
+			},
+			ja = {
+				{
+					"「そいつは困るな。いくらでも後出しできちまう」",
+				},
+			},
+			en = {
+				{
+					[["Huh. I wish you'd told me that sooner."]],
+				},
+			},
+			cn = {
+				{
+					"「那可就头疼了，反正事后你想怎么说都行」",
+				},
+			},
+			cn_gt = {
+				{
+					"「这可不好算啊，怎么衡量不都是你一张嘴的事么」",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 144,
+	},
+	block_00074 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000085"},
+			},
+			ja = {
+				{
+					"『いや、今のところ、フィリアは極めて順調に自我が育っている。ここまで連れてきてくれれば、約束した通りに報酬は出す』",
+				},
+			},
+			en = {
+				{
+					[["From what I've seen you've done an admirable job raising Philia. I fully expect to offer you the full reward as promised."]],
+				},
+			},
+			cn = {
+				{
+					"『不，目前看来，菲莉娅非常顺利地培育着自我。只要你带它来到这里，我一定会按照约定支付报酬』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『你且放心，目前而言，菲莉娅的自我成长得非常顺利。只要你将她带到我面前，我便依约向你支付报酬』",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 146,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000086"},
+			},
+			ja = {
+				{
+					"「そいつを聞いて安心したよ」",
+				},
+			},
+			en = {
+				{
+					[["Thanks. That's a load off my mind."]],
+				},
+			},
+			cn = {
+				{
+					"「听到这个我就放心了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「有你这话我就放心了」",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 147,
+	},
+	block_00076 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000087"},
+			},
+			ja = {
+				{
+					"『他に今知りたいことはあるかね？』",
+				},
+			},
+			en = {
+				{
+					[["Was there anything else you wanted to ask about?"]],
+				},
+			},
+			cn = {
+				{
+					"『还有什么现在想知道的吗？』",
+				},
+			},
+			cn_gt = {
+				{
+					"『可还有什么想问的？』",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 149,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000088"},
+			},
+			ja = {
+				{
+					"「そうだな……デリラを担当した運び屋は、あんたのもとまで行った上で引き返したそうだが、なぜだ？」",
+				},
+			},
+			en = {
+				{
+					[["I hear the Courier in charge of Delilah had a disagreement with you. Why was that?"]],
+				},
+			},
+			cn = {
+				{
+					"「对了……负责黛莉拉的货运人，听说他在见过你之后又打道回府了，这是为什么？」 ",
+				},
+			},
+			cn_gt = {
+				{
+					"「我想想……负责黛莉拉的那个渡物客到过你那儿，最后却又带着她回来了，这是什么情况？」",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 150,
+	},
+	block_00078 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000089"},
+			},
+			ja = {
+				{
+					"『それも答えられる。",
+				},
+			},
+			en = {
+				{
+					[["That, I can answer.]],
+				},
+			},
+			cn = {
+				{
+					"『这个也可以回答。",
+				},
+			},
+			cn_gt = {
+				{
+					"『此事也可透露。",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 152,
+	},
+	block_00079 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000090"},
+			},
+			ja = {
+				{
+					"デリラという個体は、計画の基準に適合しなかった。自我がほとんど存在せず、まともに会話することすらできない有様だった。原因は教育不足』",
+				},
+			},
+			en = {
+				{
+					[[The android you call Delilah was entirely unfit for purpose. She could barely hold up a conversation. She simply hadn't been raised enough."]],
+				},
+			},
+			cn = {
+				{
+					"名为黛莉拉的个体并不符合计划的标准。它几乎没有自我，甚至无法进行正常对话。原因是教育不足』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"黛莉拉这一个体不符合计划标准。她几乎没有自我，连对话都无法流畅进行。原因是教育不足』",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 154,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000091"},
+			},
+			ja = {
+				{
+					"「教育不足……」",
+				},
+			},
+			en = {
+				{
+					[["Not raised enough...?"]],
+				},
+			},
+			cn = {
+				{
+					"「教育不足……」",
+				},
+			},
+			cn_gt = {
+				{
+					"「教育不足……」",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 155,
+	},
+	block_00081 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000092"},
+			},
+			ja = {
+				{
+					"『ともに旅をしてきたのなら、それなり以上の経験と関係性が構築される。それなりにぞんざいに扱ってもだ。デリラを担当した運び屋は、それなりですらなかったのだ』",
+				},
+			},
+			en = {
+				{
+					[["Given enough time with a human, an AE should develop some awareness of themselves and the world around them. But Delilah's Courier couldn't even do that."]],
+				},
+			},
+			cn = {
+				{
+					"『如果在一起旅行，那就能建立起一定程度的经验和人际关系，哪怕多少受到些粗暴的对待。负责黛莉拉的货运人，连这个程度都没能做到』",
+				},
+			},
+			cn_gt = {
+				{
+					"『经过一路磨合，仿生人应当具备相对丰富的经验，与渡物客构筑一定信赖关系，哪怕只是草草应付也当有此程度。而负责黛莉拉的渡物客，连这都没能做到』",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 157,
+	},
+	block_00082 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5},
+		{"cgdel", id=2, lv=5},
+		{"cgdel", id=20, lv=9},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts50", speed=35000, time=1000, zoom=100, lv=5, z2=150, sync=1, ease="none", path=":ev/", id=1, set="ts50"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000093"},
+			},
+			ja = {
+				{
+					"『単なる荷物、機械として、彼女を引きずってきただけだ。検品では銃撃戦の盾にしていた事実も判明した。あまりに悪質だったため、報酬を減額したのだ』",
+				},
+			},
+			en = {
+				{
+					[["He treated her as nothing more than a machine, dragging her along like baggage. He'd even used her as a human - or rather, android - shield. I reduced his payment considerably."]],
+				},
+			},
+			cn = {
+				{
+					"『他只是像对待货物或机器一样，把她生拉硬拽来了这里。在验货时还发现曾经拿她在枪战中当肉盾来用。因为过于恶劣，我减少了给他的报酬』",
+				},
+			},
+			cn_gt = {
+				{
+					"『他只当黛莉拉是件货物、是台机器般拖了过来。验收时，还证实他在枪战中将黛莉拉当做掩体使用。他的行为实属恶劣，我因而削减了他的报酬』",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 163,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000094"},
+			},
+			ja = {
+				{
+					"「事実なのか、それは……？」",
+				},
+			},
+			en = {
+				{
+					[["Is all of that true...?"]],
+				},
+			},
+			cn = {
+				{
+					"「你说的这些是事实吗……？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「真的是这样……？」",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 164,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000095"},
+			},
+			ja = {
+				{
+					"『嘘をつく理由などないと思うが？　プロ意識のある運び屋が貴重なことは、君の方が私よりよく知っているはずだ』",
+				},
+			},
+			en = {
+				{
+					[["Why would I lie to you? You of all people should know how hard it is to find true professionals these days."]],
+				},
+			},
+			cn = {
+				{
+					"『我觉得我没有理由骗你吧？　有职业操守的货运人是多么的可贵，你应该比我清楚得多』",
+				},
+			},
+			cn_gt = {
+				{
+					"『我又何必虚言？具备职业精神的渡物客凤毛麟角，这一点你应比我更清楚』",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 165,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004000096"},
+			},
+			ja = {
+				{
+					"「いや、デリラの話とはいくぶん違ったんでな……」",
+				},
+			},
+			en = {
+				{
+					[["Sorry. It's just that Delilah made him sound so different..."]],
+				},
+			},
+			cn = {
+				{
+					"「不，你和黛莉拉所讲述的有一些出入……」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我倒不是怀疑这个，只是这和黛莉拉说的出入太大……」",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 166,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"父。",
+				},
+			},
+			en = {
+				{
+					"Her father.",
+				},
+			},
+			cn = {
+				{
+					"父亲。",
+				},
+			},
+			cn_gt = {
+				{
+					"父亲。",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 168,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"多くのことを教えてくれた。",
+				},
+			},
+			en = {
+				{
+					"The one who taught her everything.",
+				},
+			},
+			cn = {
+				{
+					"教会了许多东西。",
+				},
+			},
+			cn_gt = {
+				{
+					"教了她很多东西。",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 169,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"科学の信奉者。",
+				},
+			},
+			en = {
+				{
+					"A true believer in the power of science.",
+				},
+			},
+			cn = {
+				{
+					"信仰并献身于科学的人。",
+				},
+			},
+			cn_gt = {
+				{
+					"科学的信奉者。",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 170,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そうした言葉から想像した、高潔な人物像が崩れていく。",
+				},
+			},
+			en = {
+				{
+					"The noble image I had of this guy in my head has been shattered.",
+				},
+			},
+			cn = {
+				{
+					"从这些话中想象得出的高洁人物形象逐渐土崩瓦解。",
+				},
+			},
+			cn_gt = {
+				{
+					"我根据这些话想象出的高洁形象就此坍塌。",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 171,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000103"},
+			},
+			ja = {
+				{
+					"『デリラが何を話したかは知らんが、彼は減額に納得しなかった。交渉は決裂してね。彼はデリラを連れ去った』",
+				},
+			},
+			en = {
+				{
+					[["I'm not sure what Delilah told you, but he wasn't satisfied with his reward, we failed to reach an understanding and he took Delilah away with him."]],
+				},
+			},
+			cn = {
+				{
+					"『我不知道黛莉拉是怎么和你说的，不过那个人不想接受减少报酬这件事。于是谈判破裂了，他也就带着黛莉拉离开了』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『我不知道黛莉拉是如何说的，但真相如此。他不接受我对报酬的削减，谈判因而破裂，他便带着黛莉拉离开了』",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 173,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000104"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 174,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000105"},
+			},
+			ja = {
+				{
+					"『こちらから再交渉を引き出す腹だったのかもしれんが、私にはそのつもりはなかった。品のない男だった。",
+				},
+			},
+			en = {
+				{
+					[["He tried to contact me and reopen negotiations later, but I had no interest in dealing with such a boorish man.]],
+				},
+			},
+			cn = {
+				{
+					"『也许他想以此要挟我重新谈判，但我没有这个打算。那是个品行恶劣的男人。",
+				},
+			},
+			cn_gt = {
+				{
+					"『他或许是试图激我主动提出重新交涉，然而我并无此意。此人品性实属低劣。",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 175,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000106"},
+			},
+			ja = {
+				{
+					"デリラもとうてい使い物にならないと思ったが……成長していたのだな？』",
+				},
+			},
+			en = {
+				{
+					[[I thought Delilah was a lost cause... Are you telling me she developed further?"]],
+				},
+			},
+			cn = {
+				{
+					"我本以为黛莉拉终究也不会有什么用武之地……不过看来它也成长了吗？』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"我本以为黛莉拉已不值得期待……莫非是成长了？』",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 176,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000107"},
+			},
+			ja = {
+				{
+					"「聡明なアンドロイドだった。自分の意思、自我を持っていた」",
+				},
+			},
+			en = {
+				{
+					[["The Delilah I knew was smart and practical. And she definitely had a mind of her own."]],
+				},
+			},
+			cn = {
+				{
+					"「她是个聪明的仿生人，有着自己的意愿和自我」",
+				},
+			},
+			cn_gt = {
+				{
+					"「她是个伶俐的仿生人，有自己的思想和自我」",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 177,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z900000087"},
+			},
+			ja = {
+				{
+					"『……あの状態から成長するとは。何かよほどの変化でもあったのかもしれん』",
+				},
+			},
+			en = {
+				{
+					[["To improve to that level...she must have experienced a drastic change."]],
+				},
+			},
+			cn = {
+				{
+					"『……居然能从那种状态成长起来。可能是发生了某种非常大的变化吧』",
+				},
+			},
+			cn_gt = {
+				{
+					"『……能从那般状态成长，想必是遭遇了某种极其剧烈的变化』",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 178,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z900000073"},
+			},
+			ja = {
+				{
+					"「そういうケースもあるのか？」",
+				},
+			},
+			en = {
+				{
+					[["Can that happen?"]],
+				},
+			},
+			cn = {
+				{
+					"「会有这样的情况吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「还有这种情况？」",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 179,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z900000088"},
+			},
+			ja = {
+				{
+					"『Ａｅ型の学習速度にも個体差はある。それに環境、接した人間、個体ごとの資質なども作用する。人間の子供と同様だ。",
+				},
+			},
+			en = {
+				{
+					[["Different AE androids learn at different speeds. They can also be influenced by the people and environment around them, just like human children.]],
+				},
+			},
+			cn = {
+				{
+					"『Ａｅ型的学习速度会因个体而异。此外，还受环境、所接触的人类、个体资质等因素影响。就像人类的孩子一样。",
+				},
+			},
+			cn_gt = {
+				{
+					"『Ａｅ型的学习速度存在个体差异，且环境、接触的人群、个体资质都有影响，这与人类幼儿无异。",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 180,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z900000089"},
+			},
+			ja = {
+				{
+					"私が監視していた限り、彼は半島に戻った直後に流れ者の集団と戦闘になり、消息不明となった。",
+				},
+			},
+			en = {
+				{
+					"My data on the two of them ends shortly after they returned to the peninsula and were attacked by a group of wanderers.",
+				},
+			},
+			cn = {
+				{
+					"根据我监视得知的情况，他在返回半岛后不久就与流浪者团伙发生了战斗，之后便音讯全无。",
+				},
+			},
+			cn_gt = {
+				{
+					"根据我的监控，他回到半岛后便与流浪者团体陷入战斗，随后再无音信。",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 181,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z900000090"},
+			},
+			ja = {
+				{
+					"あの男ならば経過を目にしているかもしれんが』",
+				},
+			},
+			en = {
+				{
+					[[That Courier could probably tell you what happened better than I can."]],
+				},
+			},
+			cn = {
+				{
+					"那个男人的话，也许目睹了它的成长过程』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"以他的性格，可能只是拿黛莉拉当挡箭牌，自己溜之大吉吧』",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 182,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000109"},
+			},
+			ja = {
+				{
+					"「そいつは死んでいた。デリラもそいつのもとで一緒に死ぬことを選んだ」",
+				},
+			},
+			en = {
+				{
+					[["He's dead. Delilah, too. She wanted to be with him at the very end."]],
+				},
+			},
+			cn = {
+				{
+					"「那家伙死了。黛莉拉也选择了在他身边一起死去」",
+				},
+			},
+			cn_gt = {
+				{
+					"「他死了，黛莉拉也陪着他一起死了」",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 183,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000110"},
+			},
+			ja = {
+				{
+					"『事実かね？　ひどい扱いを受けていたはずだが』",
+				},
+			},
+			en = {
+				{
+					[["Really? After the terrible way he treated her?"]],
+				},
+			},
+			cn = {
+				{
+					"『真的吗？按说它受到了极为糟糕的对待啊』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『此话当真？黛莉拉在他手中的待遇可是很差的』",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 184,
+	},
+	block_00102 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, path=":cg/"},
+		{"bg", id=20, lv=9, file="ef_monitor01", movie=1, movieloop=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"extrans"},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この食い違いは何だ。",
+				},
+			},
+			en = {
+				{
+					"These different accounts just don't add up.",
+				},
+			},
+			cn = {
+				{
+					"这些矛盾是怎么回事？",
+				},
+			},
+			cn_gt = {
+				{
+					"怎么会有出入呢。",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 190,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"デリラの言っていることは、嘘だったのか？",
+				},
+			},
+			en = {
+				{
+					"Was everything Delilah told us a lie?",
+				},
+			},
+			cn = {
+				{
+					"黛莉拉所说的都是谎言吗？",
+				},
+			},
+			cn_gt = {
+				{
+					"难道黛莉拉说的那些都是假的？",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 191,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"嘘を吐いてまで、自分を道具扱いした相手のもとに戻りたがった、その理由。",
+				},
+			},
+			en = {
+				{
+					"Why would she do all that, just to be with someone who treated her like an object?",
+				},
+			},
+			cn = {
+				{
+					"她哪怕是撒谎也想回到那个试图利用她的人身边，这会是什么原因？",
+				},
+			},
+			cn_gt = {
+				{
+					"她不惜说谎，都要回到把自己当工具对待的人身边，这是为什么？",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 192,
+	},
+	block_00105 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000116"},
+			},
+			ja = {
+				{
+					"『だが、人もそういうことがたまにあるな。",
+				},
+			},
+			en = {
+				{
+					[["...We humans do the same thing.]],
+				},
+			},
+			cn = {
+				{
+					"『不过，人类有时也会有这种情况。",
+				},
+			},
+			cn_gt = {
+				{
+					"『不过也并非不可能。人身上时而也有此类情况，",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 195,
+	},
+	block_00106 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000117"},
+			},
+			ja = {
+				{
+					"自分の願望通りに、記憶を改ざんしてしまうことが』",
+				},
+			},
+			en = {
+				{
+					[[We modify our memories to suit our own beliefs."]],
+				},
+			},
+			cn = {
+				{
+					"会按照自己的心愿，篡改记忆』",
+				},
+			},
+			cn_gt = {
+				{
+					"修改自己的记忆，将它变成自己希望的样子』",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 197,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000118"},
+			},
+			ja = {
+				{
+					"「アンドロイドがそれをやるかい？」",
+				},
+			},
+			en = {
+				{
+					[["Can androids do that, too?"]],
+				},
+			},
+			cn = {
+				{
+					"「仿生人也会做这种事啊？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「仿生人会这么做吗？」",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 198,
+	},
+	block_00108 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi08", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000119"},
+			},
+			ja = {
+				{
+					"『私のところに来た時点で、ひどい損傷具合だったよ。どんな誤動作が生じても不思議ではない。あれを納品とは言わない』",
+				},
+			},
+			en = {
+				{
+					[["When Delilah came to me, she was in terrible condition. Close to malfunctioning. Not a successful delivery by any means."]],
+				},
+			},
+			cn = {
+				{
+					"『它在来到我这里时，就已经严重受损了。即使有什么异常行为也并不奇怪。那样的状态不能算作交货』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『她来到我面前时，损伤已极其严重，发生任何运行故障都可以理解。我不认可这样的货物』",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 200,
+	},
+	block_00109 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5},
+		{"cgdel", id=2, lv=5},
+		{"cgdel", id=20, lv=9},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=300, path=":bg/"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"colortone", style="sepia2"},
+		{"se", id=0, file="se181"},
+		{"bg", file="cg_ts09_01", x=-400, y=200, speed=0, ease="none", time=1000, rule="sig_240", zoom=150, sync=1, path=":ev/", x2=-400, y2=200, set="ts09"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"デリラは頭部の損傷によって記憶を失った、と言っていた。",
+				},
+			},
+			en = {
+				{
+					"Delilah did say she lost part of her memory from that head injury.",
+				},
+			},
+			cn = {
+				{
+					"黛莉拉说过，她因为头部损伤而失去了记忆。",
+				},
+			},
+			cn_gt = {
+				{
+					"黛莉拉说是由于头部的损伤，失去了记忆。",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 212,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"……そういうこと、なのか？",
+				},
+			},
+			en = {
+				{
+					"Is that what happened here...?",
+				},
+			},
+			cn = {
+				{
+					"……是指的这么回事吗？",
+				},
+			},
+			cn_gt = {
+				{
+					"……原来是这样？",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 213,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自我が乏しい時期の記憶など、色のついてない絵画のようなものだ。",
+				},
+			},
+			en = {
+				{
+					"Maybe her memories of before she developed were vague and fuzzy, like a picture without color.",
+				},
+			},
+			cn = {
+				{
+					"在自我尚不成熟的时期，记忆就如同没有上色的画一样。",
+				},
+			},
+			cn_gt = {
+				{
+					"自我匮乏时期的记忆，就像没有颜色的图画一样。",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 214,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"熱帯の風景にも、極寒の地にもできる。",
+				},
+			},
+			en = {
+				{
+					"Bleak and empty, like a desert or a tundra.",
+				},
+			},
+			cn = {
+				{
+					"既可以看作热带的风景，也可以看作极寒的大地。",
+				},
+			},
+			cn_gt = {
+				{
+					"它可以看成是热带风光，也可以是极寒之景。",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 215,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"その反転ひとつで、一気に成長が進み、デリラは父の愛を誤認した。皮肉な逆転。",
+				},
+			},
+			en = {
+				{
+					"Then something happened that made her develop quickly, and she mistook that abuse for a father's love.",
+				},
+			},
+			cn = {
+				{
+					"一点小小的翻转，便让她瞬间得到了成长，也使黛莉拉误认了父爱。真是十分讽刺的逆转。",
+				},
+			},
+			cn_gt = {
+				{
+					"仅凭这一个反转，黛莉拉便飞速成长，将虐待误认为是父爱。真是讽刺。",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 216,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本人は幸福のうちに死んだことが唯一の救いだ。",
+				},
+			},
+			en = {
+				{
+					"At least she died happy. Or believing that she was.",
+				},
+			},
+			cn = {
+				{
+					"唯一的救赎就是她本人沉浸在幸福中死去了。",
+				},
+			},
+			cn_gt = {
+				{
+					"不过，她是在幸福的簇拥中死去的，这是唯一的幸运了。",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 217,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"……だが、こんな話はフィリアにはとてもできん。",
+				},
+			},
+			en = {
+				{
+					"I won't be telling Philia about any of this, though.",
+				},
+			},
+			cn = {
+				{
+					"……但是，我绝对无法把这种事告诉菲莉娅。",
+				},
+			},
+			cn_gt = {
+				{
+					"……然而，这些事情绝对不能让菲莉娅知道。",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 218,
+	},
+	block_00116 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi08", sync=0, path=":cg/"},
+		{"bg", id=20, lv=9, file="ef_monitor01", movie=1, movieloop=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"extrans"},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000129"},
+			},
+			ja = {
+				{
+					"「クリムゾンアイがＡｅ型アンドロイドを直接狙ったことは、過去にもあるのか？」",
+				},
+			},
+			en = {
+				{
+					[["Has Crimson Eye ever gone after AE androids in the past?"]],
+				},
+			},
+			cn = {
+				{
+					"「过去也有赤红之眼直接对Ａｅ型仿生人发动攻击的事例吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「猩红之眼径直追杀Ａｅ型仿生人，这有先例吗？」",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 226,
+	},
+	block_00117 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000130"},
+			},
+			ja = {
+				{
+					"『ない。デリラの件が事実なら、これがはじめてだ。",
+				},
+			},
+			en = {
+				{
+					[["No. If what you say is true, Delilah was the first.]],
+				},
+			},
+			cn = {
+				{
+					"『没有。如果黛莉拉的事属实，那这就是第一次。",
+				},
+			},
+			cn_gt = {
+				{
+					"『没有。若黛莉拉之事属实，那便是第一例。",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 228,
+	},
+	block_00118 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi07", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000131"},
+			},
+			ja = {
+				{
+					"確証はないが、もしかすると、一定段階以上の自我を持ったＡｅ型は破壊対象と見なすのかもしれん』",
+				},
+			},
+			en = {
+				{
+					[[This is merely speculation, but it may only target AE models that have grown to a certain level of consciousness."]],
+				},
+			},
+			cn = {
+				{
+					"虽然没有确凿证据，但也许它会将具有超过一定程度自我意识的Ａｅ型视为破坏目标』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"此话并无实证——我认为，它应是将自我发育到一定程度的Ａｅ型视作消灭目标』",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 230,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000132"},
+			},
+			ja = {
+				{
+					"「フィリアが破壊されなかった理由は？」",
+				},
+			},
+			en = {
+				{
+					[["Then why didn't it attack Philia?"]],
+				},
+			},
+			cn = {
+				{
+					"「那为什么菲莉娅没有被破坏？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那菲莉娅为什么没被毁掉？」",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 231,
+	},
+	block_00120 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000133"},
+			},
+			ja = {
+				{
+					"『まだ自我は育ちきっていない、と判断したのかもしれん』",
+				},
+			},
+			en = {
+				{
+					[["It must have judged her sense of self to not be fully developed yet."]],
+				},
+			},
+			cn = {
+				{
+					"『也许是判断它的自我尚未完全成熟』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『可能是判定她的自我尚未发育完全吧』",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 233,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004000134"},
+			},
+			ja = {
+				{
+					"「……ＡＩ産の科学に、自我を計測できる手段があるのか」",
+				},
+			},
+			en = {
+				{
+					[["AI-developed science can measure that kind of stuff, huh...?"]],
+				},
+			},
+			cn = {
+				{
+					"「……ＡＩ酝酿出的科学中，有衡量自我的方法吗」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……ＡＩ所开发的科学领域里，还有能测量自我的手段？」",
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 234,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そんな都合のいい手段などあるものなのかと疑念を抱いた途端に、ふとある光景が脳裏を過った。",
+				},
+			},
+			en = {
+				{
+					"Normally I'd have my doubts about it, but then I remember something.",
+				},
+			},
+			cn = {
+				{
+					"当我还在对是否存在如此方便的手段心存疑惑时，脑海中突然闪过一个场景。",
+				},
+			},
+			cn_gt = {
+				{
+					"正当我对是否存在如此神乎其技的手段感到怀疑时，一道景象忽然掠过脑海。",
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 236,
+	},
+	block_00123 = {
+		{"msgoff"},
+		{"cgdel", id=1, lv=5},
+		{"cgdel", id=2, lv=5},
+		{"cgdel", id=20, lv=9},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=300, path=":bg/"},
+		{"bg", id=7, lv=9, movie=1, movieloop=1, style="blend", file="ef_rec_white00", ax=0, ay=0, path=":ani/", bx=960},
+		{"se", id=0, file="se181"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="b_bg39n", sync=0, zoom=150, path=":bg2/", set="bg39"},
+		{"fg", file="bs3_de02_base01", face="bs3_de_f01_08", ch="c003", path=":fg/", sync=0, mode=3, head="bs3_de0", lv=3, id=13},
+		{"extrans", time=1000, rule="sig_240"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"デリラの瞳に赤光が灯ったあの瞬間。",
+				},
+			},
+			en = {
+				{
+					"The way Delilah's eyes flashed red.",
+				},
+			},
+			cn = {
+				{
+					"黛莉拉的眼睛闪烁出红光的那一刻。",
+				},
+			},
+			cn_gt = {
+				{
+					"我想起了黛莉拉眼中亮起红光的那个瞬间。",
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 249,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"あれは、何らかのバグだろうと思っていたが……",
+				},
+			},
+			en = {
+				{
+					"At first I dismissed that as a bug...but maybe it's a feature.",
+				},
+			},
+			cn = {
+				{
+					"我本以为那是某种程序错误，但……",
+				},
+			},
+			cn_gt = {
+				{
+					"我本以为那只是某种ＢＵＧ，可现在看来……",
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 250,
+	},
+	block_00125 = {
+		{"colortone", style="reset"},
+		{"cgdel", id=-1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1000, path=":bg/"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg61", sync=0, path=":bg/", set="bg61"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, path=":cg/"},
+		{"bg", id=20, lv=9, file="ef_monitor01", movie=1, movieloop=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"extrans"},
+		{"extrans", time=1000},
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi04", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000135"},
+			},
+			ja = {
+				{
+					"『あっても不思議ではないな。",
+				},
+			},
+			en = {
+				{
+					[["It's entirely possible.]],
+				},
+			},
+			cn = {
+				{
+					"『即使有也不奇怪。",
+				},
+			},
+			cn_gt = {
+				{
+					"『便是有，我也并不意外。",
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 260,
+	},
+	block_00126 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000136"},
+			},
+			ja = {
+				{
+					"彼らが計画のマスターピースが何かを看破しているということだ。機密保持が重要な理由がわかってもらえたはず』",
+				},
+			},
+			en = {
+				{
+					[[The AI may even have seen through my master plan. You see now why I have to be so secretive."]],
+				},
+			},
+			cn = {
+				{
+					"说明它们已经识破了计划的关键所在。这样你应该理解保密的重要性了』",
+				},
+			},
+			cn_gt = {
+				{
+					"这说明它们已经掌握了计划的关键所在。先前已向你解释过信息保密的重要性』",
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 262,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000137"},
+			},
+			ja = {
+				{
+					"「この通話は大丈夫なのか？」",
+				},
+			},
+			en = {
+				{
+					[["Is this conversation secure?"]],
+				},
+			},
+			cn = {
+				{
+					"「这次的通话没问题吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我们现在的通话会不会泄密？」",
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 263,
+	},
+	block_00128 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000138"},
+			},
+			ja = {
+				{
+					"『対策した』",
+				},
+			},
+			en = {
+				{
+					[["I've made sure it is."]],
+				},
+			},
+			cn = {
+				{
+					"『采取过措施』",
+				},
+			},
+			cn_gt = {
+				{
+					"『已有布置』",
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 265,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000139"},
+			},
+			ja = {
+				{
+					"「わからんな。俺がクリムゾンアイなら、Ａｅ型を手当たり次第破壊すると思うんだが」",
+				},
+			},
+			en = {
+				{
+					[["I don't get it. If I were Crimson Eye, I'd take out all the AEs I could before they became a threat."]],
+				},
+			},
+			cn = {
+				{
+					"「我搞不懂。如果我是赤红之眼，我会把见到的Ａｅ型悉数破坏才是」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我还是理解不了。如果我是猩红之眼，只要发现Ａｅ型就直接灭掉了事」",
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 266,
+	},
+	block_00130 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi09", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000140"},
+			},
+			ja = {
+				{
+					"『それを実行すれば、クリムゾンアイの飼い主であるユーレイジア群と、Ａｅ型アンドロイドを製造しているカフカース群との敵対が深刻化する』",
+				},
+			},
+			en = {
+				{
+					[["Doing that would only increase hostilities between Crimson Eye's Eurasia faction and the Kavkaz faction that created the AE androids."]],
+				},
+			},
+			cn = {
+				{
+					"『如果这么做，会进一步加深赤红之眼的主人欧亚群，和制造Ａｅ型仿生人的高加索群之间的敌对关系』",
+				},
+			},
+			cn_gt = {
+				{
+					"『如此一来，猩红之眼的指使者亚欧群、制造Ａｅ型的高加索群间的关系便会进一步恶化』",
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 268,
+	},
+	block_00131 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000141"},
+			},
+			ja = {
+				{
+					"『ＡＩは統計的に判断する。成熟した単体のみを排除し、統計上に与える影響を最小限とすることで、閾値を超えないようにしているのだ』",
+				},
+			},
+			en = {
+				{
+					[["AI weighs everything up statistically. Exterminating only the fully developed units eliminates the threat with the least chance of adverse effects."]],
+				},
+			},
+			cn = {
+				{
+					"『ＡＩ会根据统计做出判断。仅消除成熟的个体，使统计上的影响最小化，以防止超过阈值』",
+				},
+			},
+			cn_gt = {
+				{
+					"『ＡＩ的判断基于统计结果。只清除成熟的单一个体，将统计层面的影响抑制到最低，以此将判定数值限制在阈值之下』",
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 270,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z004000142"},
+			},
+			ja = {
+				{
+					"「ＡＩ同士で話し合わないのか？」",
+				},
+			},
+			en = {
+				{
+					[["Can't these AI just sit down and talk about it?"]],
+				},
+			},
+			cn = {
+				{
+					"「ＡＩ之间不会进行交流的吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「ＡＩ之间不会商量着来吗？」",
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 271,
+	},
+	block_00133 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi01", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000143"},
+			},
+			ja = {
+				{
+					"『君はこの分野の知識には暗いのだな。ＡＩは言語や意味を理解しない。ＡＩの基礎理論は統計・確率・論理だ。万物の解を抽出する三つの神器だよ。",
+				},
+			},
+			en = {
+				{
+					[["I see this isn't your field of specialty. AI don't possess language as we would understand it. They think in statistics, probabilities, if-then statements.]],
+				},
+			},
+			cn = {
+				{
+					"『你对这个领域的知识还很是生疏啊。ＡＩ并不会理解语言和含义。ＡＩ的基础理论是统计、概率和逻辑。这是能够求出万物解的三大神器。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『看来你对此领域所知甚少。ＡＩ并不会去理解语言和意义。ＡＩ的基础理论是统计、概率、逻辑，此为提取万物通解的三大神器。",
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 273,
+	},
+	block_00134 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi05", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000144"},
+			},
+			ja = {
+				{
+					"彼らに言語的理解力はない。統計的に傾向を抽出しているだけだ。",
+				},
+			},
+			en = {
+				{
+					"They analyze samples and extrapolate data based on that.",
+				},
+			},
+			cn = {
+				{
+					"它们没有对语言的理解能力，仅仅是从统计数据中提取趋势。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"它们并没有语言概念上的理解能力，单纯是提取统计结果中的趋势罢了。",
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 275,
+	},
+	block_00135 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi06", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c003", file="z004000145"},
+			},
+			ja = {
+				{
+					"それが最適解なので、人類以上に因果関係を理解する知性があるように見えるだけで、実際はそこに理解も意思も自我もない。他の疑問は？』",
+				},
+			},
+			en = {
+				{
+					[[For all their dealing with problems on a scale beyond humanity's understanding, they don't truly comprehend any of it. Any other questions?"]],
+				},
+			},
+			cn = {
+				{
+					"只因为它们找到了最优解，所以看起来像是理解因果关系的能力超越了人类。但实际上，它们既不存在理解能力，也没有意愿和自我。你还有其他问题吗？』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"如此得出的答案为最优解，因而ＡＩ在因果关系的理解上表现出了超越人类的智慧，可实际上，整个过程并无理解、意识、自我可言。还有问题吗？』",
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 277,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z004000146"},
+			},
+			ja = {
+				{
+					"「……いや、もうない」",
+				},
+			},
+			en = {
+				{
+					[["...No, I think that's all."]],
+				},
+			},
+			cn = {
+				{
+					"「……不，没有了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……不，没有了」",
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 278,
+	},
+	block_00137 = {
+		{"bg", id=1, lv=5, file="ef_monitor_bg61", sync=0, zoom=110, time=300, path=":cg/"},
+		{"bg", id=2, lv=5, file="ef_monitor_wi02", sync=0, time=300, path=":cg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c003", file="z004000147"},
+			},
+			ja = {
+				{
+					"『長旅も終わる。彼女を最良の状態で連れてきてくれたこと、嬉しく思う。君は最高の父親役だった』",
+				},
+			},
+			en = {
+				{
+					[["Your journey will soon be over. Please continue to watch over Philia. You've been an admirable father to her so far."]],
+				},
+			},
+			cn = {
+				{
+					"『漫长的旅途也结束了。你将它以最佳的状态带来了这里，我为此感到高兴。你扮演了一个很好的父亲角色』 ",
+				},
+			},
+			cn_gt = {
+				{
+					"『漫长旅途将尽。你能将她以最好的状态带来，我深感欢欣。你是最好的父亲替身』",
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 280,
+	},
+	block_00138 = {
+		{"bgm", stop=1, time=3000},
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg61", sync=0, path=":bg/", set="bg61"},
+		{"bg", id=20, lv=9, file="ef_monitor02b_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"se", file="se011", id=1},
+		{"bg", file="bg61", path=":bg/", set="bg61"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"extrans", time=450, rule="rule081"},
+		{"ex", time=500, func="wait"},
+		{"se", id=0, file="se156"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg61", x=480, y=0, speed=40000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=-480, y2=0, set="bg61"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"通信が終わったあと、俺は動けなかった。",
+				},
+			},
+			en = {
+				{
+					"The call ends, and I just stand there.",
+				},
+			},
+			cn = {
+				{
+					"通话结束后，我感到无法动弹。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"通信结束后，我仍僵在原地。",
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 292,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老人は隠し事こそ多かったが、許しがたい裏切りはなかった。",
+				},
+			},
+			en = {
+				{
+					"I don't like the way Willem has kept so much hidden, but he's never outright lied or misled me.",
+				},
+			},
+			cn = {
+				{
+					"老人虽然隐瞒了很多事情，但并不存在难以饶恕的背叛。",
+				},
+			},
+			cn_gt = {
+				{
+					"他是有很多事情瞒着我，却并没有做出过令我无可忍让的背叛。",
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 293,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"俺は……それがあることをひそかに期待していた自分に気がついた。",
+				},
+			},
+			en = {
+				{
+					"I realize now that part of me was almost wishing he would.",
+				},
+			},
+			cn = {
+				{
+					"我……意识到自己竟在悄悄期待着这种事情。",
+				},
+			},
+			cn_gt = {
+				{
+					"我发现……自己竟然还暗自期待着他这么做。",
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 294,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"向こうが悪ければ、何とでもできた。",
+				},
+			},
+			en = {
+				{
+					"If he were in the wrong, that would make things easier on me.",
+				},
+			},
+			cn = {
+				{
+					"如果错在对方身上，我就有理由采取各种措施。",
+				},
+			},
+			cn_gt = {
+				{
+					"如果是他理亏在先，那我就能为所欲为。",
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 295,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"仕事に対する意固地なこだわりが俺にはあるが、そういうことへの諦めもついた。",
+				},
+			},
+			en = {
+				{
+					"Even a workaholic like me has limits on what I'll allow a client to get away with.",
+				},
+			},
+			cn = {
+				{
+					"我对工作是有着顽固的执念，但那也原本打算看开了的。",
+				},
+			},
+			cn_gt = {
+				{
+					"尽管我对工作有着不可退让的坚持，但我已经与自己做好了妥协。",
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 296,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"だがもう老人を悪者に仕立て上げることはできなかった。",
+				},
+			},
+			en = {
+				{
+					"But no matter how I look at it, I can't see the duke as the villain of this piece.",
+				},
+			},
+			cn = {
+				{
+					"然而，我并没能找到将老人塑造为恶人的机会。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"然而，我没能找到将老人定性为恶人的机会。",
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 297,
+	},
+	block_00144 = {
+		{"se", stop=1, id=0, time=2000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, wait=1000, path=":bg/"},
+		{"se", id=0, file="se156"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg60e", x=0, y=270, speed=25000, ease="none", time=1500, zoom=150, sync=0, path=":bg/", x2=0, y2=-270, set="bg60"},
+		{"bg", id=2, lv=5, file="ef_flare01", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"extrans", time=1500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"五日後、船は停泊した。",
+				},
+			},
+			en = {
+				{
+					"Five days later, the ship stops at a port.",
+				},
+			},
+			cn = {
+				{
+					"五天后，船靠岸停泊了。",
+				},
+			},
+			cn_gt = {
+				{
+					"五天后，船靠岸了。",
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 306,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大洋に孤立した、遠海の孤島。",
+				},
+			},
+			en = {
+				{
+					"It's on an isolated island far out to sea.",
+				},
+			},
+			cn = {
+				{
+					"孤立在大洋上的，一座遥远的孤岛。",
+				},
+			},
+			cn_gt = {
+				{
+					"一座孤立于大洋中的远海孤岛。",
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 307,
+	},
+	block_00146 = {
+		{"se", stop=1, id=0, time=2000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そこが旅の終着点だった。",
+				},
+			},
+			en = {
+				{
+					"Seems we've reached our destination.",
+				},
+			},
+			cn = {
+				{
+					"那里便是旅途的终点站。",
+				},
+			},
+			cn_gt = {
+				{
+					"这里就是旅途的终点。",
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 309,
+	},
+	block_00147 = {
+		{"achievements", name="stat_17"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00146",
+		line = 314,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

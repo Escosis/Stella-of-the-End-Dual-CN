@@ -1,0 +1,17 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"brandlogo", mode="black", time=1000, wait=2500},
+		{"achievements", name="stat_1"},
+		{"user", mode="brandlogo", file="_warning"},
+		{"keyskip"},
+		{"brandlogo"},
+		{"text"},
+		line = 22,
+	},
+	label = {
+		label_skip = { block="block_00000", label=4 },
+		top = { block="block_00000", label=1 },
+	},
+}

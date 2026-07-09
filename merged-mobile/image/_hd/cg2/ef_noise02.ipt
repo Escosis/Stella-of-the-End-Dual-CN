@@ -1,0 +1,9 @@
+ipt = {
+	mode = "anime_full",
+	base = { x=0, y=0, w=1280, h=720, ax=640, ay=360, time=100, max=5, loop=-1 },
+	{"ef_noise02_01"},
+	{"ef_noise02_02"},
+	{"ef_noise02_03"},
+	{"ef_noise02_04"},
+	{"ef_noise02_05"},
+}

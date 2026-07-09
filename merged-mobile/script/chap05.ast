@@ -1,0 +1,13 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"excall", file="00シナリオフロー", label="z05"},
+		{"text"},
+		line = 9,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

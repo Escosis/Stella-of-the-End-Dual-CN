@@ -1,0 +1,3793 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"bgm", file="bgm17"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg56", x=-480, y=-100, speed=35000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=480, y2=-100, set="bg56"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500004"},
+			},
+			ja = {
+				{
+					"「おお、こいつはすごいな」",
+				},
+			},
+			en = {
+				{
+					[["Wow, now this is really something."]],
+				},
+			},
+			cn = {
+				{
+					"「哦，这可真是厉害」",
+				},
+			},
+			cn_gt = {
+				{
+					"「噢噢，这里还真气派啊」",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 8,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"駅を出た瞬間、非現実的な光景が飛び込んできた。",
+				},
+			},
+			en = {
+				{
+					"Outside the station, the scenery is unnaturally pleasant.",
+				},
+			},
+			cn = {
+				{
+					"一离开车站，一幅超乎现实的景象映入眼帘。",
+				},
+			},
+			cn_gt = {
+				{
+					"走出车站的瞬间，不现实的景象便映入了眼帘。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 10,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"何十人もの人間が横並びに歩けるほどの、巨大な通り。",
+				},
+			},
+			en = {
+				{
+					"It's a giant thoroughfare, wide enough for crowds of people to pass through side by side.",
+				},
+			},
+			cn = {
+				{
+					"足以让数十人并排行走的巨大大道。",
+				},
+			},
+			cn_gt = {
+				{
+					"能够容纳几十个人并排走的大道。",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 11,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"いくつものアーチが連なり、アーケードを形成している。",
+				},
+			},
+			en = {
+				{
+					"There are fancy arches and arcades all connected together above our heads.",
+				},
+			},
+			cn = {
+				{
+					"数个拱门相连，形成了拱廊。",
+				},
+			},
+			cn_gt = {
+				{
+					"上方许多拱形排列在一起组成了一个拱廊。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 12,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ひとつひとつのアーチには緑が絡まり、明るい森を歩いているかのようだった。",
+				},
+			},
+			en = {
+				{
+					"Each arch is suffused with green, making the whole place look like a lovely little forest scene.",
+				},
+			},
+			cn = {
+				{
+					"每个拱门上都缠绕着绿色植物，我仿佛是在一个明亮的森林之中行走。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"每一个拱形上都缠绕着植物，让我感觉自己仿佛漫步于明亮的森林中。",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 13,
+	},
+	block_00005 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg56", time=1000, path=":bg/", set="bg56"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500011"},
+			},
+			ja = {
+				{
+					"「……さすがは上流階級も来る場所だな」",
+				},
+			},
+			en = {
+				{
+					[["Those upper crust types sure knew how to live."]],
+				},
+			},
+			cn = {
+				{
+					"「……不愧是上流阶层也会来的地方啊」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……不愧是上流阶级来的地方啊」",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 17,
+	},
+	block_00006 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500012"},
+			},
+			ja = {
+				{
+					"「天井たっかーい！",
+				},
+			},
+			en = {
+				{
+					[["The ceiling's so high!]],
+				},
+			},
+			cn = {
+				{
+					"「天花板好～高！",
+				},
+			},
+			cn_gt = {
+				{
+					"「天花板好高！",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 19,
+	},
+	block_00007 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500013"},
+			},
+			ja = {
+				{
+					"ここはどういう場所？」",
+				},
+			},
+			en = {
+				{
+					[[What is this place?"]],
+				},
+			},
+			cn = {
+				{
+					"这里是什么地方？」",
+				},
+			},
+			cn_gt = {
+				{
+					"这地方是干嘛的？」",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 21,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500014"},
+			},
+			ja = {
+				{
+					"「複合的なレジャー施設だな。",
+				},
+			},
+			en = {
+				{
+					[["A general purpose leisure space, I think.]],
+				},
+			},
+			cn = {
+				{
+					"「一处综合性休闲设施。",
+				},
+			},
+			cn_gt = {
+				{
+					"「综合娱乐场所吧。",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 22,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500015"},
+			},
+			ja = {
+				{
+					"大小様々な店を集めてる。売り買いをしたり、食事をしたり、遊んだりするための場所だ」",
+				},
+			},
+			en = {
+				{
+					[[There's stores too, so you could shop here, get something to eat, or just hang out."]],
+				},
+			},
+			cn = {
+				{
+					"这里有着大小各为不同的店铺。一个用来买卖商品、用餐以及娱乐的地方」",
+				},
+			},
+			cn_gt = {
+				{
+					"大大小小各种店铺都聚集在这里。是做买卖，吃饭以及娱乐的地方」",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 23,
+	},
+	block_00010 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500016"},
+			},
+			ja = {
+				{
+					"「下にいた人たち、こっちで暮らせばいいのに」",
+				},
+			},
+			en = {
+				{
+					[["Those people down below should have just moved here."]],
+				},
+			},
+			cn = {
+				{
+					"「在下面的人们要是能住到这里就好了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「下层居民如果能在这生活就好了」",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 25,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500017"},
+			},
+			ja = {
+				{
+					"「ここは中流以上の階級だけが入れる場所だ。連中はここまで来ることはできない」",
+				},
+			},
+			en = {
+				{
+					[["They wouldn't be allowed. This is strictly for middle class or better."]],
+				},
+			},
+			cn = {
+				{
+					"「这里只有中产阶级以上的人才能进入。那些人是不能来到这里的」",
+				},
+			},
+			cn_gt = {
+				{
+					"「这里只有中层及以上的阶级才能进入。那些下层居民甚至都没办法过来」",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 26,
+	},
+	block_00012 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500018"},
+			},
+			ja = {
+				{
+					"「……なんか……それって」",
+				},
+			},
+			en = {
+				{
+					[["Huh... But isn't that..."]],
+				},
+			},
+			cn = {
+				{
+					"「……总觉得……这有点」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……感觉……这就像是」",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 28,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500019"},
+			},
+			ja = {
+				{
+					"「差別だな」",
+				},
+			},
+			en = {
+				{
+					[["Discrimination? You bet it is."]],
+				},
+			},
+			cn = {
+				{
+					"「这就是歧视」",
+				},
+			},
+			cn_gt = {
+				{
+					"「歧视啊」",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 29,
+	},
+	block_00014 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"思った通り、フィリアは嫌そうな顔をした。",
+				},
+			},
+			en = {
+				{
+					"Philia frowns at the injustice of it all.",
+				},
+			},
+			cn = {
+				{
+					"正如我所料，菲莉娅露出了不高兴的神情。",
+				},
+			},
+			cn_gt = {
+				{
+					"和我想的一样，菲莉娅露出了厌恶的表情。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 33,
+	},
+	block_00015 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500023"},
+			},
+			ja = {
+				{
+					"「ここにもともといた人たちは？」",
+				},
+			},
+			en = {
+				{
+					[["Where are the people who used to live here?"]],
+				},
+			},
+			cn = {
+				{
+					"「那原本住在这里的人呢？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那原本在这里的人呢？」",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 36,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500024"},
+			},
+			ja = {
+				{
+					"「もし文明人が生き残っていれば、俺たちのようなよそ者を通すはずがない。死に絶えてる」",
+				},
+			},
+			en = {
+				{
+					[["They're probably all dead. They wouldn't let in outsiders like us otherwise."]],
+				},
+			},
+			cn = {
+				{
+					"「如果有文明人幸存，他们是不会让我们这些外来者进入的。他们已经灭绝了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「如果文明人还残存着，他们是绝不会让我们这些外人进来的。已经死绝了」",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 37,
+	},
+	block_00017 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500025"},
+			},
+			ja = {
+				{
+					"「でも、ここは駅よりキレイだよ」",
+				},
+			},
+			en = {
+				{
+					[["But the station still looks so clean."]],
+				},
+			},
+			cn = {
+				{
+					"「可是，这里比车站还要干净呢」",
+				},
+			},
+			cn_gt = {
+				{
+					"「但是，这里比车站干净呀」",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 39,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500026"},
+			},
+			ja = {
+				{
+					"「確かにそうだな。埃ひとつ積もっちゃいない」",
+				},
+			},
+			en = {
+				{
+					[["You're right about that. There's not a speck of dust anywhere."]],
+				},
+			},
+			cn = {
+				{
+					"「确实是这样，哪里都一尘不染」",
+				},
+			},
+			cn_gt = {
+				{
+					"「的确如此。哪里都一尘不染」",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 40,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そう、清掃が行き届いている。",
+				},
+			},
+			en = {
+				{
+					"There must be automatic cleaning procedures still running.",
+				},
+			},
+			cn = {
+				{
+					"没错，清洁工作做得很到位。",
+				},
+			},
+			cn_gt = {
+				{
+					"确实，这里清洁得很到位。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 42,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500030"},
+			},
+			ja = {
+				{
+					"「警戒を忘れるな。俺も気を付けるが、ここからは肉眼が頼りだ」",
+				},
+			},
+			en = {
+				{
+					[["Don't get your guard down. We'll mostly be relying on our own senses here."]],
+				},
+			},
+			cn = {
+				{
+					"「不要放松警惕。我也会多加小心，但在这里我们只能依靠肉眼」",
+				},
+			},
+			cn_gt = {
+				{
+					"「别忘了戒备。我也会小心，但从现在开始就要依靠肉眼了」",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 44,
+	},
+	block_00021 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500031"},
+			},
+			ja = {
+				{
+					"「誰もいないのに？」",
+				},
+			},
+			en = {
+				{
+					[["Even when there's no one around?"]],
+				},
+			},
+			cn = {
+				{
+					"「可是这里一个人都没有啊？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「明明一个人都没有？」",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 46,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500032"},
+			},
+			ja = {
+				{
+					"「そう思うが、もしかすると生き残っているかもしれん。何より機械に注意しろ」",
+				},
+			},
+			en = {
+				{
+					[["You never know who might have survived. But above all, look out for machines."]],
+				},
+			},
+			cn = {
+				{
+					"「我也是这么想的，但可能还是会有人幸存，而且尤其要注意机器」",
+				},
+			},
+			cn_gt = {
+				{
+					"「想是这么想，但说不定还有人活着。最主要的是小心那些机器」",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 47,
+	},
+	block_00023 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500033"},
+			},
+			ja = {
+				{
+					"「どんな機械？」",
+				},
+			},
+			en = {
+				{
+					[["What kind of machines?"]],
+				},
+			},
+			cn = {
+				{
+					"「什么样的机器？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「什么样的机器？」",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 49,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500034"},
+			},
+			ja = {
+				{
+					"「……一概には言えんが、警備系の機械らしきものを見かけたら絶対に俺に知らせてくれ」",
+				},
+			},
+			en = {
+				{
+					[["Hm... If you see anything that looks like it might be a security bot, tell me right away."]],
+				},
+			},
+			cn = {
+				{
+					"「……很难一言以蔽之，不过如果看到疑似警备机器的物体，一定要告诉我」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……没法一概而论，反正你如果看见像安保机器的东西就一定要告诉我」",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 50,
+	},
+	block_00025 = {
+		{"msgoff"},
+		{"se", id=0, file="se112"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"画像を送信する。",
+				},
+			},
+			en = {
+				{
+					"I send Philia a reference image.",
+				},
+			},
+			cn = {
+				{
+					"把图片发送过去。",
+				},
+			},
+			cn_gt = {
+				{
+					"发送图像。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 56,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアが端末をのぞきこむ。",
+				},
+			},
+			en = {
+				{
+					"She takes out her terminal and studies it.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅看了看终端。",
+				},
+			},
+			cn_gt = {
+				{
+					"菲莉娅查看着终端。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 57,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500039"},
+			},
+			ja = {
+				{
+					"「そういう感じのものが警備機械だ。自律型、巡回型、固定形……世界各地で何億機と製造されて、その何十倍もの人間を殺した、地球最大のヒット商品だ」",
+				},
+			},
+			en = {
+				{
+					[["That's your standard model. They can be fixed, free roaming, or move on a dedicated path. There's millions of them all over the world, and they've killed over ten times that many humans."]],
+				},
+			},
+			cn = {
+				{
+					"「这样子的就是安保机器人。自主型、巡逻型、固定型……在全球各地制造了几亿台，并杀死了几十倍于此的人类，是地球上最畅销的热门产品」",
+				},
+			},
+			cn_gt = {
+				{
+					"「这样的就是安保机器。自律型、巡逻型、固定型……这种机器在世界各地被制造了数亿台，杀死了自身数量几十倍的人类，是地球上最热门的的商品」",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 59,
+	},
+	block_00028 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500040"},
+			},
+			ja = {
+				{
+					"「……」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「……」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……」",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 61,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500041"},
+			},
+			ja = {
+				{
+					"「昔発掘した都市遺跡で、武器を持っていただけで攻撃を受けたことがある」",
+				},
+			},
+			en = {
+				{
+					[["They've been known to attack people exploring ruins just because they were carrying weapons."]],
+				},
+			},
+			cn = {
+				{
+					"「在以前挖掘出的古城遗址，有次只是拿着武器就遭到了攻击」",
+				},
+			},
+			cn_gt = {
+				{
+					"「在之前发掘出来的城市遗迹中，有人仅仅因为拿着武器就遭到了攻击」",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 62,
+	},
+	block_00030 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500042"},
+			},
+			ja = {
+				{
+					"「…………」",
+				},
+			},
+			en = {
+				{
+					[["..."]],
+				},
+			},
+			cn = {
+				{
+					"「…………」",
+				},
+			},
+			cn_gt = {
+				{
+					"「…………」",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 64,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500043"},
+			},
+			ja = {
+				{
+					"「だいたいは、その土地の犯罪行為と規定された行動に反応する。気を付けて行動すれば戦闘が未然に防げる」",
+				},
+			},
+			en = {
+				{
+					[["For the most part they only react if you step into the territory they're protecting. We'll be fine so long as you don't provoke them."]],
+				},
+			},
+			cn = {
+				{
+					"「通常它们会对土地上被视为犯罪行为的动作产生反应。只要小心行事，就可以避免战斗」",
+				},
+			},
+			cn_gt = {
+				{
+					"「大体上，它们只会对当地规定的犯罪行为作出反应。谨慎行动的话就能避免战斗」",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 65,
+	},
+	block_00032 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500044"},
+			},
+			ja = {
+				{
+					"「悪いことをしなければいいんだね」",
+				},
+			},
+			en = {
+				{
+					[["So just don't do anything bad?"]],
+				},
+			},
+			cn = {
+				{
+					"「只要不做坏事就行了呢」",
+				},
+			},
+			cn_gt = {
+				{
+					"「只要不干坏事就好了吧」",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 67,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500045"},
+			},
+			ja = {
+				{
+					"「この都市での犯罪行為、だな」",
+				},
+			},
+			en = {
+				{
+					[["Well, 'bad' as defined by this city's laws."]],
+				},
+			},
+			cn = {
+				{
+					"「准确来说，是不犯这个城市的法」",
+				},
+			},
+			cn_gt = {
+				{
+					"「是不干这个城市内规定的犯罪行为」",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 68,
+	},
+	block_00034 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500046"},
+			},
+			ja = {
+				{
+					"「たとえば？」",
+				},
+			},
+			en = {
+				{
+					[["Like what?"]],
+				},
+			},
+			cn = {
+				{
+					"「比如？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「比如？」",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 70,
+	},
+	block_00035 = {
+		{"se", id=0, file="se023"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500047"},
+			},
+			ja = {
+				{
+					"「送信したぞ」",
+				},
+			},
+			en = {
+				{
+					[["I'll send you a list."]],
+				},
+			},
+			cn = {
+				{
+					"「已经发给你了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我发你了」",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 74,
+	},
+	block_00036 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_07", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500048"},
+			},
+			ja = {
+				{
+					"「……多いよ。こんなの全部読めない」",
+				},
+			},
+			en = {
+				{
+					[["There's so many... I can't read through all this."]],
+				},
+			},
+			cn = {
+				{
+					"「……太多了，我没法把这些都看完啊」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……好多啊。这哪看的完」",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 76,
+	},
+	block_00037 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500049"},
+			},
+			ja = {
+				{
+					"「そういうことだ。探り探りやるしかない。ちなみに銃を持って商業地区に入ることは禁止事項だ」",
+				},
+			},
+			en = {
+				{
+					[["Yeah, so we'll have to wing it. By the way, carrying guns is considered illegal in the business quarter."]],
+				},
+			},
+			cn = {
+				{
+					"「就是这样，只能摸着石头过河。顺便说一下，带枪进入商业区是禁止的」",
+				},
+			},
+			cn_gt = {
+				{
+					"「就是这样。所以只能小心摸索。对了，持枪进商业区域也是禁止事项」",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 77,
+	},
+	block_00038 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500050"},
+			},
+			ja = {
+				{
+					"「それ大丈夫なの……？」",
+				},
+			},
+			en = {
+				{
+					[["Are we gonna be okay...?"]],
+				},
+			},
+			cn = {
+				{
+					"「那个就没问题吗……？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那带着这把枪没问题吗……？」",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 79,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500051"},
+			},
+			ja = {
+				{
+					"「だいたいは当時の登録された型の銃にしか反応しない。こいつの製造年代は現代だ。照合不能だから、銃とは認識されない。",
+				},
+			},
+			en = {
+				{
+					[["It only reacts to weapons that existed back then. Mine are newer; the system won't recognize what they are, let alone see them as a threat.]],
+				},
+			},
+			cn = {
+				{
+					"「它们通常只对当时登记过的枪型有反应。这把枪的制造年代是现代，匹配不上，所以不会被认为是枪。",
+				},
+			},
+			cn_gt = {
+				{
+					"「它们基本上只会对当时被记录的枪型产生反应。这把枪是现代制造的。它们搜不到对应型号，自然也就不会将其认知为枪。",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 80,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500052"},
+			},
+			ja = {
+				{
+					"ただ万全ではないから、いくらかは注意しろってことだ」",
+				},
+			},
+			en = {
+				{
+					[[But nothing's ever 100% certain, so we still have to be careful."]],
+				},
+			},
+			cn = {
+				{
+					"不过也不保证绝对安全，还是要多少小心一些」",
+				},
+			},
+			cn_gt = {
+				{
+					"但这也不是万无一失的，还是得小心一点」",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 81,
+	},
+	block_00041 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500053"},
+			},
+			ja = {
+				{
+					"「これは？」",
+				},
+			},
+			en = {
+				{
+					[["How about this?"]],
+				},
+			},
+			cn = {
+				{
+					"「那这个呢？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那这个呢？」",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 83,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"光線銃を構える。",
+				},
+			},
+			en = {
+				{
+					"Philia holds up her ray gun.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅举起了光线枪。",
+				},
+			},
+			cn_gt = {
+				{
+					"我举起激光枪。",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 85,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"俺は笑い飛ばした。",
+				},
+			},
+			en = {
+				{
+					"I break into a smile.",
+				},
+			},
+			cn = {
+				{
+					"我一笑而过。",
+				},
+			},
+			cn_gt = {
+				{
+					"笑着敷衍过去。",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 86,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500058"},
+			},
+			ja = {
+				{
+					"「いつも通りだ。俺のすぐ後ろにぴったりついて、離れるな」",
+				},
+			},
+			en = {
+				{
+					[["Just do things like always. Stay close to me and don't wander off."]],
+				},
+			},
+			cn = {
+				{
+					"「和平时一样，在我的身后跟紧，别走远了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「和之前一样。紧跟在我身后，别离开我」",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 88,
+	},
+	block_00045 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアがうなずく。",
+				},
+			},
+			en = {
+				{
+					"She nods.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅点了点头。",
+				},
+			},
+			cn_gt = {
+				{
+					"菲莉娅点点头。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 92,
+	},
+	block_00046 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"アーチをくぐり、大きな階段を上っていく。",
+				},
+			},
+			en = {
+				{
+					"We cross through the arches and up a large staircase.",
+				},
+			},
+			cn = {
+				{
+					"我们穿过拱门，顺着宽阔的楼梯向上走去。",
+				},
+			},
+			cn_gt = {
+				{
+					"穿过拱廊，登上了一个巨大的楼梯后。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 97,
+	},
+	block_00047 = {
+		{"bgm", stop=1, time=2500},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", time=1500, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"驚きの光景が広がっていた。",
+				},
+			},
+			en = {
+				{
+					"It leads to yet another surprisingly green area.",
+				},
+			},
+			cn = {
+				{
+					"震撼的景象呈现在我们面前。",
+				},
+			},
+			cn_gt = {
+				{
+					"惊人的光景便展现在我的眼前。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 102,
+	},
+	block_00048 = {
+		{"msgoff"},
+		{"bgm", file="bgm04"},
+		{"bg", file="bg53_10", y=0, speed=10000, time=1500, ease="none", path=":bg/", y2=-300, set="bg53", ax=960, ay=1350, bx=0},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"緑を基調とした広大な吹き抜け空間。",
+				},
+			},
+			en = {
+				{
+					"It's a large open space decorated with carefully-cultivated plants.",
+				},
+			},
+			cn = {
+				{
+					"以绿色为主色调的广阔通顶空间。",
+				},
+			},
+			cn_gt = {
+				{
+					"以绿色为基调的巨型天井。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 108,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天井の低い場所ばかり通ってきたから、解放感がある。",
+				},
+			},
+			en = {
+				{
+					"After all the low ceilings we've passed through up till now, this is really refreshing.",
+				},
+			},
+			cn = {
+				{
+					"我们一路都走在天花板低矮的地方，因此在这里有一种开阔感。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"我们是从天花板很低的地方过来的，因此有种解放感。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 109,
+	},
+	block_00050 = {
+		{"bg", file="bg53_10", y=-1000, speed=12000, time=2000, ease="none", path=":bg/", y2=-600, set="bg53", ax=960, ay=1350, bx=0},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"街路樹が植えつけられ、低層の商業建築物の外観も多くが緑化されている。",
+				},
+			},
+			en = {
+				{
+					"Trees have been planted along the pathways, making the place feel more outdoorsy than any of the other floors.",
+				},
+			},
+			cn = {
+				{
+					"街边种植着树木，很多不高的商业建筑外观也进行了绿化。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"街边种着景观树，低层商业建筑的外部也覆盖着很多植物。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 113,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"歩行者専用の歩道が縦横に走り、小さな広場が随所に設けられていた。",
+				},
+			},
+			en = {
+				{
+					"The pedestrian paths run in all directions, giving access to the whole of the plaza.",
+				},
+			},
+			cn = {
+				{
+					"行人专用的人行道纵横交错，随处都设有小型广场。",
+				},
+			},
+			cn_gt = {
+				{
+					"人行道四通八达，小广场也随处可见。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 114,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"噴水にランドマーク、ひとつとして同じ形のない東屋。",
+				},
+			},
+			en = {
+				{
+					"There are fountains, landmarks, and lots of gazebos, all with unique designs.",
+				},
+			},
+			cn = {
+				{
+					"喷泉、地标以及各式各样的亭子。",
+				},
+			},
+			cn_gt = {
+				{
+					"喷泉边有地标，和外观不尽相同的凉亭。",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 115,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"床には小川すら流れている。",
+				},
+			},
+			en = {
+				{
+					"A little stream runs alongside us, cut into the ground.",
+				},
+			},
+			cn = {
+				{
+					"地面上甚至还流淌着小溪。",
+				},
+			},
+			cn_gt = {
+				{
+					"地面上甚至还流淌着小河。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 116,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"完全に、当時のままの姿が維持されていた。",
+				},
+			},
+			en = {
+				{
+					"It's like stepping back in time to when the city was in its prime.",
+				},
+			},
+			cn = {
+				{
+					"这里完全保持着当时的模样。",
+				},
+			},
+			cn_gt = {
+				{
+					"完全维持着当时的样子。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 117,
+	},
+	block_00055 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg53_01", sync=0, path=":bg/", set="bg53"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500071"},
+			},
+			ja = {
+				{
+					"「わあーっ」",
+				},
+			},
+			en = {
+				{
+					[["Wow...!"]],
+				},
+			},
+			cn = {
+				{
+					"「哇啊——」 ",
+				},
+			},
+			cn_gt = {
+				{
+					"「哇——」",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 121,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアが目を丸くする。",
+				},
+			},
+			en = {
+				{
+					"Philia's eyes widen in surprise.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅睁大了眼睛。",
+				},
+			},
+			cn_gt = {
+				{
+					"菲莉娅睁大了眼睛。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 123,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500075"},
+			},
+			ja = {
+				{
+					"「金かけてやがる」",
+				},
+			},
+			en = {
+				{
+					[["Just think of what this must've cost."]],
+				},
+			},
+			cn = {
+				{
+					"「可真舍得花钱啊」",
+				},
+			},
+			cn_gt = {
+				{
+					"「真奢侈啊」",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 125,
+	},
+	block_00058 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500076"},
+			},
+			ja = {
+				{
+					"「すごく……すごくわくわくする……！」",
+				},
+			},
+			en = {
+				{
+					[["It's wonderful... This is so exciting...!"]],
+				},
+			},
+			cn = {
+				{
+					"「真的……真的好兴奋啊……！」",
+				},
+			},
+			cn_gt = {
+				{
+					"「我……我好兴奋啊……！」",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 127,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"わなわなと震えている。",
+				},
+			},
+			en = {
+				{
+					"She's shivering with anticipation.",
+				},
+			},
+			cn = {
+				{
+					"它激动得浑身发抖。",
+				},
+			},
+			cn_gt = {
+				{
+					"她激动到颤抖。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 129,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"年頃の娘が好きそうな場所だろう。",
+				},
+			},
+			en = {
+				{
+					"It does look like the kind of place a girl her age would like.",
+				},
+			},
+			cn = {
+				{
+					"这里正是年轻女孩会喜欢的地方。",
+				},
+			},
+			cn_gt = {
+				{
+					"这就是妙龄少女喜欢的场所吧。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 130,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"打ちっ放しの殺風景な空間でも、高度な画像加工技術できらびやかに飾ることができる。",
+				},
+			},
+			en = {
+				{
+					"The desolate undressed concrete is decorated with sophisticated image mapping.",
+				},
+			},
+			cn = {
+				{
+					"即使是没有一丝装饰的单调空间，也可以通过高级的图像处理技术将其装点得五彩缤纷。",
+				},
+			},
+			cn_gt = {
+				{
+					"虽然是个虚拟的煞风景空间，但用先进的图像加工技术也能装饰得十分华丽。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 131,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"その方が安上がりであり、切り替えも容易だ。",
+				},
+			},
+			en = {
+				{
+					"That's probably more economical and easier to switch out than regular posters.",
+				},
+			},
+			cn = {
+				{
+					"这样做成本更低，想换装饰也很容易。",
+				},
+			},
+			cn_gt = {
+				{
+					"这种方式更省钱，也更容易更换。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 132,
+	},
+	block_00063 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"bg", file="bg53_10", y=0, speed=15000, time=1000, ease="none", path=":bg/", y2=-600, set="bg53", ax=960, ay=1350, bx=0},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"この技術は地上にあまねく広まった。",
+				},
+			},
+			en = {
+				{
+					"I've even seen this technology used back on the surface.",
+				},
+			},
+			cn = {
+				{
+					"这种技术在地面上得到了广泛传播。",
+				},
+			},
+			cn_gt = {
+				{
+					"这技术在地上普及得很广。",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 139,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"拡張レイヤーなら限界のある現実より、想像力次第でどのようにも彩れる。",
+				},
+			},
+			en = {
+				{
+					"With these AR projections, people shut up in this city their whole lives could still experience changes of scenery.",
+				},
+			},
+			cn = {
+				{
+					"用好扩展图层，只要你有想象力，即使是有局限性的现实世界也可以变得多姿多彩。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"比起有限制的现实，ＡＲ图形只要有想象力想怎么点缀都行。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 140,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そんな風に売り込まれた技術がいつしか陳腐化し、富裕層は古くさい物理的な緑化内装に価値を見いだすようになった。",
+				},
+			},
+			en = {
+				{
+					"When the technology became obsolete, the upper classes probably started seeing more value in this old-fashioned physical greenery.",
+				},
+			},
+			cn = {
+				{
+					"以此为卖点的技术逐渐进入了衰退期，结果富裕阶层又反过来开始重视古典的物理绿化装饰。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"以此来进行推销的技术早晚会被淘汰，到那时富裕阶层也会发现传统物理绿化的价值。",
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 141,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"現代人からすれば、笑い話である。",
+				},
+			},
+			en = {
+				{
+					"Kind of funny, considering the way the world looks today.",
+				},
+			},
+			cn = {
+				{
+					"由现代人来看，这实在太可笑了。 ",
+				},
+			},
+			cn_gt = {
+				{
+					"在现代人看来，这就是个笑话。",
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 142,
+	},
+	block_00067 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg53_01", sync=0, path=":bg/", set="bg53"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_01", ch="c002", path=":fg/", sync=0, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"extrans", time=1000},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, sync=1, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500087"},
+			},
+			ja = {
+				{
+					"「あれ何？　こっちは？　それは？」",
+				},
+			},
+			en = {
+				{
+					[["What's that? And that? Ooh, what's this over here?"]],
+				},
+			},
+			cn = {
+				{
+					"「那是什么？　这个呢？　还有那个？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那是什么？这个呢？那个呢？」",
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 147,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500088"},
+			},
+			ja = {
+				{
+					"「落ち着け。全部店だ」",
+				},
+			},
+			en = {
+				{
+					[["Hey, calm down. They're all stores."]],
+				},
+			},
+			cn = {
+				{
+					"「冷静点，这些都是商店」",
+				},
+			},
+			cn_gt = {
+				{
+					"「冷静点。都是店铺」",
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 148,
+	},
+	block_00069 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_20", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500089"},
+			},
+			ja = {
+				{
+					"「調べる？　調べるの？」",
+				},
+			},
+			en = {
+				{
+					[["Can we look in them? Can we?"]],
+				},
+			},
+			cn = {
+				{
+					"「要去调查？　要去调查吗？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「要去调查一下吗？去吗去吗？」",
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 150,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500090"},
+			},
+			ja = {
+				{
+					"「期待してるようで申し訳ないが、そんな暇はない」",
+				},
+			},
+			en = {
+				{
+					[["Sorry to rain on your parade, but we don't have the time."]],
+				},
+			},
+			cn = {
+				{
+					"「我也知道你很想去，但是抱歉，我们没那个时间」",
+				},
+			},
+			cn_gt = {
+				{
+					"「虽然你很期待但很抱歉我们没有那个时间」",
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 151,
+	},
+	block_00071 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500091"},
+			},
+			ja = {
+				{
+					"「えー」",
+				},
+			},
+			en = {
+				{
+					[["Awww...!"]],
+				},
+			},
+			cn = {
+				{
+					"「哎——」 ",
+				},
+			},
+			cn_gt = {
+				{
+					"「哎——」",
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 153,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500092"},
+			},
+			ja = {
+				{
+					"「店に入って商品の一つでも持ち出したら、何が起こるかわからん」",
+				},
+			},
+			en = {
+				{
+					[["Touching any of their products could set off an alarm."]],
+				},
+			},
+			cn = {
+				{
+					"「进了商店，哪怕只是拿走一件商品，都不知道会引起什么后果」",
+				},
+			},
+			cn_gt = {
+				{
+					"「要是进店带了什么商品出来，不知道会发生什么」",
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 154,
+	},
+	block_00073 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_14", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500093"},
+			},
+			ja = {
+				{
+					"「入るだけでも」",
+				},
+			},
+			en = {
+				{
+					[["Can't we just look?"]],
+				},
+			},
+			cn = {
+				{
+					"「如果只是进去呢」",
+				},
+			},
+			cn_gt = {
+				{
+					"「就只是进去也不行吗」",
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 156,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500094"},
+			},
+			ja = {
+				{
+					"「駄目だ。あ、いや待て」",
+				},
+			},
+			en = {
+				{
+					[["No. ...Wait, maybe..."]],
+				},
+			},
+			cn = {
+				{
+					"「不行。啊不，等一下」",
+				},
+			},
+			cn_gt = {
+				{
+					"「不行。啊，等下」",
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 157,
+	},
+	block_00075 = {
+		{"fg", mode=-2, time=300},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"店内の情報だけは欲しい。",
+				},
+			},
+			en = {
+				{
+					"I could use some info about these stores' interior.",
+				},
+			},
+			cn = {
+				{
+					"还是想要关于店内的信息。",
+				},
+			},
+			cn_gt = {
+				{
+					"我只想获取商店里的信息。",
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 161,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"敷地内では入手できる情報が異なるケースがあるから。",
+				},
+			},
+			en = {
+				{
+					"Scanning the outside as we pass by is only going to tell us so much.",
+				},
+			},
+			cn = {
+				{
+					"因为有时候在店家的地盘上能获取到不一样的信息。",
+				},
+			},
+			cn_gt = {
+				{
+					"或许会和外面的信息有所不同。",
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 162,
+	},
+	block_00077 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500099"},
+			},
+			ja = {
+				{
+					"「商品には絶対に触るなよ」",
+				},
+			},
+			en = {
+				{
+					[["Don't touch anything, you got that?"]],
+				},
+			},
+			cn = {
+				{
+					"「千万不要碰商品啊」",
+				},
+			},
+			cn_gt = {
+				{
+					"「绝对不能碰商品啊」",
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 165,
+	},
+	block_00078 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_13", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500100"},
+			},
+			ja = {
+				{
+					"「肝に銘じてる」",
+				},
+			},
+			en = {
+				{
+					[["I won't. I promise."]],
+				},
+			},
+			cn = {
+				{
+					"「我已经铭记在心」",
+				},
+			},
+			cn_gt = {
+				{
+					"「铭记在心」",
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 167,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500101"},
+			},
+			ja = {
+				{
+					"「なら、ちょっと様子だけ見ていくか」",
+				},
+			},
+			en = {
+				{
+					[["Okay, but look with your eyes, not your hands."]],
+				},
+			},
+			cn = {
+				{
+					"「那我们去稍微看看情况吧」",
+				},
+			},
+			cn_gt = {
+				{
+					"「那就去看看吧」",
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 168,
+	},
+	block_00080 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500102"},
+			},
+			ja = {
+				{
+					"「やった！」",
+				},
+			},
+			en = {
+				{
+					[["Yay!"]],
+				},
+			},
+			cn = {
+				{
+					"「太好了！」",
+				},
+			},
+			cn_gt = {
+				{
+					"「好耶！」",
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 170,
+	},
+	block_00081 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg53_01", zoom=150, x=-480, y=0, sync=0, path=":bg/", set="bg53"},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000, rule="rule101"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"手近な店舗のひとつに入る。",
+				},
+			},
+			en = {
+				{
+					"We go into the nearest store.",
+				},
+			},
+			cn = {
+				{
+					"我们走进附近的一家店铺。",
+				},
+			},
+			cn_gt = {
+				{
+					"进了一家附近的店铺。",
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 180,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500106"},
+			},
+			ja = {
+				{
+					"「……！」",
+				},
+			},
+			en = {
+				{
+					[["...!"]],
+				},
+			},
+			cn = {
+				{
+					"「……！」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……！」",
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 182,
+	},
+	block_00083 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500107"},
+			},
+			ja = {
+				{
+					"「あれっ？」",
+				},
+			},
+			en = {
+				{
+					[["Huh?"]],
+				},
+			},
+			cn = {
+				{
+					"「咦？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「咦？」",
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 184,
+	},
+	block_00084 = {
+		{"fg", mode=-2, time=300},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そこは個人商店と思われた。",
+				},
+			},
+			en = {
+				{
+					"This one was a privately run business.",
+				},
+			},
+			cn = {
+				{
+					"那里看起来像是一家个体户的店。",
+				},
+			},
+			cn_gt = {
+				{
+					"那应该是个私人商店。",
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 188,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"拡張レイヤーで確認できるステータスは［営業中］。",
+				},
+			},
+			en = {
+				{
+					[[The city network still gives its status as "open."]],
+				},
+			},
+			cn = {
+				{
+					"在扩展图层上的状态显示为［营业中］。",
+				},
+			},
+			cn_gt = {
+				{
+					"ＡＲ图形确认到的状态是“营业中”。",
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 189,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"しかし……カウンターは破壊され、棚は荒らされていた。",
+				},
+			},
+			en = {
+				{
+					"The counter has been smashed up, and the shelves are in disarray.",
+				},
+			},
+			cn = {
+				{
+					"然而……柜台被砸坏，货架被洗劫一空。",
+				},
+			},
+			cn_gt = {
+				{
+					"但是……柜台被破坏了，货架也一片狼藉。",
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 190,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"清掃が行き届いていた店外とは異なり、積もった埃が層となっていた。",
+				},
+			},
+			en = {
+				{
+					"Unlike the plaza outside, this place hasn't been cleaned in a long, long time.",
+				},
+			},
+			cn = {
+				{
+					"与外面干净整洁的环境形成鲜明对比，这里的灰尘堆积成了厚厚的一层。",
+				},
+			},
+			cn_gt = {
+				{
+					"与清洁到位的店外不同，里面覆盖着一层厚灰。",
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 191,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"かつて商品だったらしき陶器の破片が、床に転がっている。",
+				},
+			},
+			en = {
+				{
+					"Shards of porcelain that might have been products once litter the floor.",
+				},
+			},
+			cn = {
+				{
+					"可能曾是这里商品的陶瓷，其碎片散落在了地板上。",
+				},
+			},
+			cn_gt = {
+				{
+					"似乎曾是商品的陶器，其碎片滚落在地板上。",
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 192,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500115"},
+			},
+			ja = {
+				{
+					"「雑貨屋……土産物屋か？」",
+				},
+			},
+			en = {
+				{
+					[["Looks like a general store... Or maybe a curiosity shop?"]],
+				},
+			},
+			cn = {
+				{
+					"「杂货店……还是纪念品商店？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「杂货店……还是特产店？」",
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 194,
+	},
+	block_00090 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_03", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500116"},
+			},
+			ja = {
+				{
+					"「泥棒でも入ったのかな」",
+				},
+			},
+			en = {
+				{
+					[["Maybe it got robbed?"]],
+				},
+			},
+			cn = {
+				{
+					"「是不是有小偷闯进来过？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「是进了贼吗？」",
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 196,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500117"},
+			},
+			ja = {
+				{
+					"「……さあな。わからん……」",
+				},
+			},
+			en = {
+				{
+					[["It's possible. I can't really tell..."]],
+				},
+			},
+			cn = {
+				{
+					"「……谁知道呢，我不清楚……」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……谁知道……」",
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 197,
+	},
+	block_00092 = {
+		{"fg", mode=-2, time=300},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"扱っていた商品は、カップやグラス類。",
+				},
+			},
+			en = {
+				{
+					"The main goods sold here seem to have been cups, glasses, that kind of thing.",
+				},
+			},
+			cn = {
+				{
+					"店里出售的是茶杯和玻璃器皿一类的商品。",
+				},
+			},
+			cn_gt = {
+				{
+					"这里出售的商品都是杯子这种玻璃类的东西。",
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 201,
+	},
+	block_00093 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"回収する意味もなく、何も盗らずに店を出た。",
+				},
+			},
+			en = {
+				{
+					"Nothing we'd find useful. We leave it all where it is.",
+				},
+			},
+			cn = {
+				{
+					"回收的意义也不大，我们没拿任何东西就走出了商店。",
+				},
+			},
+			cn_gt = {
+				{
+					"没什么回收的意义，所以我们什么都没拿就走了。",
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 205,
+	},
+	block_00094 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg53_01", time=1000, rule="rule101", path=":bg/", set="bg53"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500122"},
+			},
+			ja = {
+				{
+					"「外はきれいなのに、あの店だけどうして荒れっぱなしだったんだろ」",
+				},
+			},
+			en = {
+				{
+					[["The outside's so nice, so why was that store so messy?"]],
+				},
+			},
+			cn = {
+				{
+					"「外面那么干净，为什么只有那家店变得一团糟呢」",
+				},
+			},
+			cn_gt = {
+				{
+					"「明明外面这么干净，那家店里为什么就那么杂乱呢？」",
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 212,
+	},
+	block_00095 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500123"},
+			},
+			ja = {
+				{
+					"「……次はこっちだ」",
+				},
+			},
+			en = {
+				{
+					[["Let's try this one."]],
+				},
+			},
+			cn = {
+				{
+					"「……下面去这家」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……接下来去这里」",
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 213,
+	},
+	block_00096 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_11", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500124"},
+			},
+			ja = {
+				{
+					"「あ、待って」",
+				},
+			},
+			en = {
+				{
+					[["Wait for me!"]],
+				},
+			},
+			cn = {
+				{
+					"「啊，等等我」",
+				},
+			},
+			cn_gt = {
+				{
+					"「啊，等等我」",
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 215,
+	},
+	block_00097 = {
+		{"fg", mode=-2, time=300},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"二階建てのショップに入った。",
+				},
+			},
+			en = {
+				{
+					"The next store has two floors.",
+				},
+			},
+			cn = {
+				{
+					"我们走进了一家两层的商店。",
+				},
+			},
+			cn_gt = {
+				{
+					"进入了一家双层商店。",
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 220,
+	},
+	block_00098 = {
+		{"msgoff"},
+		{"bg", file="bg53_10", y=-900, time=1000, rule="rule101", path=":bg/", set="bg53", ax=960, ay=1350, bx=0, sync=0},
+		{"bg", id=1, lv=1, file="cinema200", path=":cg/", sync=0},
+		{"extrans", time=1000, rule="rule101"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こちらも［営業中］。",
+				},
+			},
+			en = {
+				{
+					[[It's also marked as "open."]],
+				},
+			},
+			cn = {
+				{
+					"这里也显示［营业中］。",
+				},
+			},
+			cn_gt = {
+				{
+					"这里也是“营业中”。",
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 226,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"店内は清潔だった。",
+				},
+			},
+			en = {
+				{
+					"This one, however, is still pristine inside.",
+				},
+			},
+			cn = {
+				{
+					"店里非常整洁。",
+				},
+			},
+			cn_gt = {
+				{
+					"店内干干净净。",
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 227,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"食料品から小物からを取り扱う店のようだ。",
+				},
+			},
+			en = {
+				{
+					"It stocks everything from food products to fashion accessories.",
+				},
+			},
+			cn = {
+				{
+					"看样子是一家出售食品和小饰品的商店。",
+				},
+			},
+			cn_gt = {
+				{
+					"似乎能从这家店拿点什么吃的和杂物。",
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 228,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"棚の商品は乏しかったが、埃のひとつも積もっていない。",
+				},
+			},
+			en = {
+				{
+					"The goods themselves are nothing to write home about, but the lack of dust is impressive in itself.",
+				},
+			},
+			cn = {
+				{
+					"货架上的商品虽然不多，但是一尘不染。",
+				},
+			},
+			cn_gt = {
+				{
+					"虽然货架上的商品寥寥无几，但店内却没有积灰。",
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 229,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"明らかにさっきの個人店とは様子が違う。",
+				},
+			},
+			en = {
+				{
+					"It's the complete opposite of the last one.",
+				},
+			},
+			cn = {
+				{
+					"明显与刚才那家个体户完全不同。",
+				},
+			},
+			cn_gt = {
+				{
+					"很明显和刚刚那家私人店不同。",
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 230,
+	},
+	block_00103 = {
+		{"fg", file="bs3_ph01_base01", face="bs3_ph_f01_05", ch="c002", path=":fg/", time=300, mode=3, head="bs3_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500133"},
+			},
+			ja = {
+				{
+					"「あっ、これかわいい」",
+				},
+			},
+			en = {
+				{
+					[["Ooh, this is cute."]],
+				},
+			},
+			cn = {
+				{
+					"「啊，这个好可爱」",
+				},
+			},
+			cn_gt = {
+				{
+					"「啊，这个好可爱」",
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 233,
+	},
+	block_00104 = {
+		{"cgdel", id=1, lv=1},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts36", x=0, y=0, speed=2500, ease="none", time=1000, zoom=150, sync=1, path=":ev/", x2=0, y2=-200, set="ts36"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts36", time=1000, path=":ev/", set="ts36"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"フィリアが手を伸ばしたのは、兎の形をしたフェルト製の人形だった。",
+				},
+			},
+			en = {
+				{
+					"I turn to see Philia reaching for a stuffed felt rabbit.",
+				},
+			},
+			cn = {
+				{
+					"菲莉娅打算伸手去拿一个兔子造型的毛绒玩偶。",
+				},
+			},
+			cn_gt = {
+				{
+					"菲莉娅伸手要去碰的，是一个毛毡兔子玩偶。",
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 243,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500137"},
+			},
+			ja = {
+				{
+					"「触れるな！」",
+				},
+			},
+			en = {
+				{
+					[["Don't touch it!"]],
+				},
+			},
+			cn = {
+				{
+					"「不要碰！」",
+				},
+			},
+			cn_gt = {
+				{
+					"「别碰！」",
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 245,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500138"},
+			},
+			ja = {
+				{
+					"「えっ？」",
+				},
+			},
+			en = {
+				{
+					[["Huh?"]],
+				},
+			},
+			cn = {
+				{
+					"「诶？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「哎？」",
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 246,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"びくついて、伸ばした手を戻す。",
+				},
+			},
+			en = {
+				{
+					"She jerks her arm away as if the thing tried to bite her.",
+				},
+			},
+			cn = {
+				{
+					"它吓了一跳，把手收了回来。",
+				},
+			},
+			cn_gt = {
+				{
+					"她吓得一抖，缩回伸出的手。",
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 248,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z002500142"},
+			},
+			ja = {
+				{
+					"「うかつに触れるな。この店は管理されてる」",
+				},
+			},
+			en = {
+				{
+					[["Don't touch anything. We're being watched."]],
+				},
+			},
+			cn = {
+				{
+					"「不要随便碰，这家店还是有管理的」",
+				},
+			},
+			cn_gt = {
+				{
+					"「别乱摸。这家店是处于管理下的」",
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 250,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"天井を示す。",
+				},
+			},
+			en = {
+				{
+					"I point to the ceiling.",
+				},
+			},
+			cn = {
+				{
+					"我指了指天花板。",
+				},
+			},
+			cn_gt = {
+				{
+					"我指了指天花板。",
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 252,
+	},
+	block_00110 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"そこにはセンサーが設置されており、店内を今でも監視している。",
+				},
+			},
+			en = {
+				{
+					"There's a sensor there, monitoring everything that happens in the store.",
+				},
+			},
+			cn = {
+				{
+					"那里安装了传感器，如今也仍在监视着店铺内部。",
+				},
+			},
+			cn_gt = {
+				{
+					"那里装置着监视器，正监视着店内。",
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 253,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500147"},
+			},
+			ja = {
+				{
+					"「出るぞ」",
+				},
+			},
+			en = {
+				{
+					[["We're leaving."]],
+				},
+			},
+			cn = {
+				{
+					"「我们走吧」",
+				},
+			},
+			cn_gt = {
+				{
+					"「出去吧」",
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 255,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500148"},
+			},
+			ja = {
+				{
+					"「……うさちゃん」",
+				},
+			},
+			en = {
+				{
+					[["But, the bunny..."]],
+				},
+			},
+			cn = {
+				{
+					"「……小兔子」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……小兔子」",
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 256,
+	},
+	block_00113 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg53_01", time=1000, rule="rule101", path=":bg/", set="bg53"},
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500149"},
+			},
+			ja = {
+				{
+					"「さっきの何が危なかったの？」",
+				},
+			},
+			en = {
+				{
+					[["Were we really in any danger back there?"]],
+				},
+			},
+			cn = {
+				{
+					"「刚才是什么有危险？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「刚刚是哪里有危险？」",
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 262,
+	},
+	block_00114 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500150"},
+			},
+			ja = {
+				{
+					"「決済せず商品を持ち出すと窃盗罪になる」",
+				},
+			},
+			en = {
+				{
+					[["If you touch a product without paying, it's judged as theft."]],
+				},
+			},
+			cn = {
+				{
+					"「不付款就带走商品，那就是盗窃罪」",
+				},
+			},
+			cn_gt = {
+				{
+					"「不结账就把商品拿走可是盗窃罪」",
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 263,
+	},
+	block_00115 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_02", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500151"},
+			},
+			ja = {
+				{
+					"「けっさい？」",
+				},
+			},
+			en = {
+				{
+					[["Paying...?"]],
+				},
+			},
+			cn = {
+				{
+					"「付款？」",
+				},
+			},
+			cn_gt = {
+				{
+					"「ｊｉｅｚｈａｎｇ？」",
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 265,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500152"},
+			},
+			ja = {
+				{
+					"「支払いだ。俺たちには支払い手段がない。",
+				},
+			},
+			en = {
+				{
+					[["You need to give the store money. And we don't have any way to do that.]],
+				},
+			},
+			cn = {
+				{
+					"「就是支付金钱。我们没有支付手段。",
+				},
+			},
+			cn_gt = {
+				{
+					"「就是付钱。我们没法付钱。",
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 266,
+	},
+	block_00117 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500153"},
+			},
+			ja = {
+				{
+					"今でも管理されているんだ。それなりの企業か、都市が運営していた店だろう。盗めばすぐに手配されるぞ」",
+				},
+			},
+			en = {
+				{
+					[[That store's still being monitored... Maybe it was more successful, or funded by the city. Either way, stealing from it is a bad idea."]],
+				},
+			},
+			cn = {
+				{
+					"这里依然存在管理，那么很有可能是一个相当大的企业或者城市所经营的店铺。如果偷了东西，马上就会被通缉的」",
+				},
+			},
+			cn_gt = {
+				{
+					"这家店现在也还在被管理着。所以应该是比较大的企业，或者是城市自身运营的店吧。如果在这里偷东西马上就会被抓」",
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 267,
+	},
+	block_00118 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_10", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c002", file="z002500154"},
+			},
+			ja = {
+				{
+					"「……ああ」",
+				},
+			},
+			en = {
+				{
+					[["Maybe..."]],
+				},
+			},
+			cn = {
+				{
+					"「……啊啊」 ",
+				},
+			},
+			cn_gt = {
+				{
+					"「……啊」",
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 269,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", ch="c001", file="z002500155"},
+			},
+			ja = {
+				{
+					"「それでもいただく手段はあるが……リスクだ。やめとけ」",
+				},
+			},
+			en = {
+				{
+					[["There might be one way but it's too risky. Just let it go."]],
+				},
+			},
+			cn = {
+				{
+					"「尽管如此也有能带出去的手段……不过还是太冒险了，不要去做」",
+				},
+			},
+			cn_gt = {
+				{
+					"「虽然即使如此也有方法能拿到它……但有风险。放弃吧」",
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 270,
+	},
+	block_00120 = {
+		{"fg", file="bs2_ph01_base01", face="bs2_ph_f01_18", ch="c002", path=":fg/", time=300, mode=3, head="bs2_ph0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c002", file="z002500156"},
+			},
+			ja = {
+				{
+					"「うさちゃん……」",
+				},
+			},
+			en = {
+				{
+					[["Poor bunny..."]],
+				},
+			},
+			cn = {
+				{
+					"「小兔子……」",
+				},
+			},
+			cn_gt = {
+				{
+					"「小兔子……」",
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 272,
+	},
+	block_00121 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1500, path=":bg/"},
+		{"ex", wait=1000, func="wait", time=0},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00120",
+		line = 277,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		top = { block="block_00000", label=1 },
+	},
+}

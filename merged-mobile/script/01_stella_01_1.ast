@@ -1,0 +1,2204 @@
+astver = 2.0
+astname = "ast"
+ast = {
+	block_00000 = {
+		{"msg", no=99, mode="novel"},
+		{"user", mode="altthumb", no=0},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, path=":bg/"},
+		{"ex", time=1000, func="wait"},
+		{"bg", file="bg82", zoom=150, speed=35000, time=2500, path=":bg/", z2=100, set="bg82"},
+		{"ex", time=4500, func="wait"},
+		{"se", id=0, file="se001"},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg60_01", x=-200, y=270, speed=20000, ease="none", time=2500, zoom=150, sync=0, path=":bg/", x2=-200, y2=-270, set="bg60"},
+		{"bg", id=10, lv=5, file="ef_dust01_short", movie=1, sync=0, path=":ani/", bx=960},
+		{"extrans", time=2500},
+		{"se", id=1, file="se002"},
+		{"quake", dir="user", move="wh", dir2="wh", time=100, count=4, power=6},
+		{"ex", time=3500, func="wait"},
+		{"se", stop=1, id=0, time=2000},
+		{"se", id=2, file="se003"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg15_01", x=-480, y=270, speed=40000, ease="none", time=1500, zoom=150, sync=0, path=":bg/", x2=480, y2=270, set="bg15"},
+		{"bg", id=1, lv=5, file="ef_smoke01", movie=1, ax=0, ay=0, zoom=200, sync=0, alpha=192, path=":ani/", bx=960},
+		{"bg", id=2, lv=5, file="ef_dust04", movie=1, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1500},
+		{"quake", dir="user", move="wh", dir2="wh", time=100, count=4, power=6},
+		{"ex", time=3500, func="wait"},
+		{"cgdel", id=1, lv=5},
+		{"se", id=0, file="se004"},
+		{"fg", mode=-2},
+		{"bg", file="bg60_02", speed=20000, time=1000, rule="sig_250", zoom=100, lv=5, z2=125, sync=1, path=":bg/", id=1, set="bg60"},
+		{"ex", time=1000, func="wait"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg15", x=-100, y=270, speed=5000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=-100, y2=170, set="bg15"},
+		{"ex", time=1000, func="wait"},
+		{"fg", mode=-2},
+		{"bg", file="bg15", speed=15000, time=1500, zoom=100, lv=5, z2=125, sync=1, ease="none", path=":bg/", id=1, set="bg15"},
+		{"ex", time=1000, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=5000, path=":bg/"},
+		{"ex", time=2000, func="wait"},
+		{"bgm", file="bgm06"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg16", x=-480, y=0, speed=35000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=480, y2=0, set="bg16"},
+		{"ex", time=1500, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg16", time=1000, path=":bg/", set="bg16"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"se", file="se054", id=1},
+		{"bg", id=2, lv=5, file="ef_monitor01_on", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"bg", id=1, lv=5, file="black", alpha=192, path=":bg/", sync=0},
+		{"extrans", time=0},
+		{"bg", id=1, lv=5, time=120, file="ef_ui01", rule="rule120", alpha=192, path=":cg/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=0, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"情報収集装置が微弱な震動を検出。",
+				},
+			},
+			en = {
+				{
+					"My data sensors register a faint tremor.",
+				},
+			},
+			cn = {
+				{
+					"信息收集设备检测到了微弱的震动。",
+				},
+			},
+			cn_gt = {
+				{
+					"信息收集器检测出微弱的振动。",
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 95,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"北東、３キロ地点。",
+				},
+			},
+			en = {
+				{
+					"Its source is almost two miles northeast of my current location.",
+				},
+			},
+			cn = {
+				{
+					"在东北方向，３公里处。",
+				},
+			},
+			cn_gt = {
+				{
+					"震源东北方向，三公里。",
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 96,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100010"},
+			},
+			ja = {
+				{
+					"「クソっ、またか」",
+				},
+			},
+			en = {
+				{
+					[["Great, another one."]],
+				},
+			},
+			cn = {
+				{
+					"「该死，又来了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「见鬼，又是这玩意」",
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 103,
+	},
+	block_00003 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"se", file="se008", id=1},
+		{"bg", id=2, lv=5, file="ef_monitor01_on", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"bg", id=1, lv=5, file="black", alpha=192, path=":bg/", sync=0},
+		{"extrans", time=0},
+		{"bg", id=1, lv=5, time=120, file="ef_ui03", rule="rule120", alpha=192, path=":cg/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=0, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, path=":ani/", bx=960},
+		{"ex", time=350, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"警戒対象を示す赤い光点が、簡易地図上をじりじりと動いていく。",
+				},
+			},
+			en = {
+				{
+					"A red light appears on my map, showing a potential threat in the area.",
+				},
+			},
+			cn = {
+				{
+					"标注出警戒目标的红色亮点在简易地图上缓缓移动。",
+				},
+			},
+			cn_gt = {
+				{
+					"象征着警戒对象的红色光点在简易地图上一点点移动着。",
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 113,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"震動を示す波形図が、リアルタイムで小刻みに跳ねている。",
+				},
+			},
+			en = {
+				{
+					"The seismometer waveform spikes up and down in a steady rhythm.",
+				},
+			},
+			cn = {
+				{
+					"用来显示震动的波形图正细微地实时跳动着。",
+				},
+			},
+			cn_gt = {
+				{
+					"表征实时震动的波形图小幅跳动。",
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 114,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"かなりの重さだ。",
+				},
+			},
+			en = {
+				{
+					"This must be a big one.",
+				},
+			},
+			cn = {
+				{
+					"其重量相当可观。",
+				},
+			},
+			cn_gt = {
+				{
+					"重量不小。",
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 115,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そいつが無限軌道ではなく、歩脚を使い移動している。",
+				},
+			},
+			en = {
+				{
+					"And it's probably the kind with legs rather than a continuous track.",
+				},
+			},
+			cn = {
+				{
+					"它使用腿脚移动，而不是履带。",
+				},
+			},
+			cn_gt = {
+				{
+					"它的前进方式并非履带式，而是步足式。",
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 116,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そう読み取れる。",
+				},
+			},
+			en = {
+				{
+					"That's what these readings would indicate, anyway.",
+				},
+			},
+			cn = {
+				{
+					"我如此推测道。",
+				},
+			},
+			cn_gt = {
+				{
+					"由所得信息可如此推断。",
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 117,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"震度と距離から算出される推定重量およそ１４２００トン――",
+				},
+			},
+			en = {
+				{
+					"Judging by its distance and the strength of these tremors, it weighs about 14,200 tons.",
+				},
+			},
+			cn = {
+				{
+					"根据震级和距离计算得出的预估重量约为１４２００吨――",
+				},
+			},
+			cn_gt = {
+				{
+					"根据震强和距离推算出的预估重量为１４２００吨——",
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 118,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"間違いない。",
+				},
+			},
+			en = {
+				{
+					"There's no doubt about it.",
+				},
+			},
+			cn = {
+				{
+					"毫无疑问。",
+				},
+			},
+			cn_gt = {
+				{
+					"毫无疑问。",
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 119,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"シンギュラリティマシンだ。",
+				},
+			},
+			en = {
+				{
+					"It's a Singularity Machine.",
+				},
+			},
+			cn = {
+				{
+					"这是一台奇点机器。",
+				},
+			},
+			cn_gt = {
+				{
+					"是超越机。",
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 120,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100023"},
+			},
+			ja = {
+				{
+					"（……近い）",
+				},
+			},
+			en = {
+				{
+					"(It's close...)",
+				},
+			},
+			cn = {
+				{
+					"（……很近）",
+				},
+			},
+			cn_gt = {
+				{
+					"（……很近了）",
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 122,
+	},
+	block_00012 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"ex", time=1000, func="wait"},
+		{"se", id=0, file="se161"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg16", x=400, y=0, speed=15000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=400, y2=-270, set="bg16"},
+		{"ex", time=500, func="wait"},
+		{"se", id=0, file="se125"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts65", x=0, y=100, speed=3000, time=1000, zoom=125, sync=1, path=":ev/", x2=200, y2=100, set="ts65"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"木陰に身を隠し、息を潜める。",
+				},
+			},
+			en = {
+				{
+					"I duck behind a tree and bring my breathing under control.",
+				},
+			},
+			cn = {
+				{
+					"我躲进树荫，屏住了呼吸。",
+				},
+			},
+			cn_gt = {
+				{
+					"我藏入树荫，屏住呼吸。",
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 138,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"手にしたライフルを強く意識する。",
+				},
+			},
+			en = {
+				{
+					"My grip on my gun tightens.",
+				},
+			},
+			cn = {
+				{
+					"全神贯注地握住手中的步枪。",
+				},
+			},
+			cn_gt = {
+				{
+					"将注意力集中在手中的步枪上。",
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 139,
+	},
+	block_00014 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="cg_ts65", time=1500, path=":ev/", set="ts65"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"徹甲弾も撃てる大口径。",
+				},
+			},
+			en = {
+				{
+					"It's a high caliber rifle that fires armor-piercing rounds, but there's no guarantee it'll be any help.",
+				},
+			},
+			cn = {
+				{
+					"一把可以发射穿甲弹的大口径步枪。",
+				},
+			},
+			cn_gt = {
+				{
+					"这把大口径步枪连穿甲弹都能发射。",
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 143,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"こいつが通用するのは、せいぜい小型機械までだ。",
+				},
+			},
+			en = {
+				{
+					"A weapon this size will only affect the smaller Machines.",
+				},
+			},
+			cn = {
+				{
+					"这把枪最多只能用来对付一些小型机器。",
+				},
+			},
+			cn_gt = {
+				{
+					"但它充其量也就只能对付些小型机。",
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 144,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"小山のような巨大機をどうこうできるものではない。",
+				},
+			},
+			en = {
+				{
+					"The bigger ones, the walking metal mountains, won't be fazed by it in the slightest.",
+				},
+			},
+			cn = {
+				{
+					"不可能奈何得了这小山一般的巨型机器。",
+				},
+			},
+			cn_gt = {
+				{
+					"眼下这台小山般的巨型机，不是它所能撼动的。",
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 145,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"敵対されたら終わりだ。",
+				},
+			},
+			en = {
+				{
+					"If one of them decides to attack, it's all over.",
+				},
+			},
+			cn = {
+				{
+					"一旦与其敌对就万事皆休。",
+				},
+			},
+			cn_gt = {
+				{
+					"一旦被对方盯上就是死路一条。",
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 146,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"だが、こんなものですら心の支えにするしかない。",
+				},
+			},
+			en = {
+				{
+					"One of my most powerful guns, and all it's really good for is moral support.",
+				},
+			},
+			cn = {
+				{
+					"但即便是这样的武器，我也只能将其视为仅有的心灵寄托。",
+				},
+			},
+			cn_gt = {
+				{
+					"然而，如今也只能仰仗它了。",
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 147,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"相手はそれほど強大な存在だから。",
+				},
+			},
+			en = {
+				{
+					"That's the sheer scale of the enemy I'm dealing with here.",
+				},
+			},
+			cn = {
+				{
+					"因为对手就是如此强大的存在。",
+				},
+			},
+			cn_gt = {
+				{
+					"对方的强大使我必须利用一切手段。",
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 148,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100034"},
+			},
+			ja = {
+				{
+					"（仕方ない。センサーを絞るか）",
+				},
+			},
+			en = {
+				{
+					"(I'll have to throttle the sensors for now...)",
+				},
+			},
+			cn = {
+				{
+					"（没办法，缩小传感器范围吧）",
+				},
+			},
+			cn_gt = {
+				{
+					"（没办法，先调低传感器吧）",
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 150,
+	},
+	block_00021 = {
+		{"se", id=0, file="se076", time=200},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"情報収集系のセンサー出力をギリギリまで絞る。",
+				},
+			},
+			en = {
+				{
+					"I adjust my equipment, turning it down to the lowest output level possible.",
+				},
+			},
+			cn = {
+				{
+					"将信息收集类传感器的输出功率压缩到最低。",
+				},
+			},
+			cn_gt = {
+				{
+					"我将用于收集信息的传感器功率降到最低。",
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 154,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"追加情報はほぼ入ってこなくなるが、物理的にも電磁的にも目立たなくなる。",
+				},
+			},
+			en = {
+				{
+					"I'll hardly receive any data this way, but it'll make me stand out less.",
+				},
+			},
+			cn = {
+				{
+					"这样一来我就几乎无法再获取新的信息了，但物理和电子层面上我会变得很不显眼。",
+				},
+			},
+			cn_gt = {
+				{
+					"这样的状态下几乎无法再获取外界信息，但在物理和电磁层面上都相对隐蔽。",
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 155,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"初期予測に基づき、マシンが数キロ離れるまで待機する。",
+				},
+			},
+			en = {
+				{
+					"Based on the initial readings, the Machine is still several miles off.",
+				},
+			},
+			cn = {
+				{
+					"按照初步预测，我决定在原地等待机器走出我数公里范围之外。",
+				},
+			},
+			cn_gt = {
+				{
+					"通过前期探查得到的信息，可推测出其离开数公里所需的时间，而在此期间只能就地等待。",
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 156,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"自ら目と耳を塞いで、通り過ぎるのを待つ。",
+				},
+			},
+			en = {
+				{
+					"I cover my eyes and ears, and wait for it to go by.",
+				},
+			},
+			cn = {
+				{
+					"就像捂住自己的眼睛和耳朵，静待它离开这里。",
+				},
+			},
+			cn_gt = {
+				{
+					"主动闭目塞耳，等待它通过。",
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 157,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今、もし別の敵に襲われたらひとたまりもない。",
+				},
+			},
+			en = {
+				{
+					"I've left myself open to attack from other threats, I realize that.",
+				},
+			},
+			cn = {
+				{
+					"如果现在被其他敌人袭击，我将会不堪一击。",
+				},
+			},
+			cn_gt = {
+				{
+					"若是在这个关头遭遇其他敌人，将毫无反抗之力。",
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 158,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"だが自動機械に遭遇した時、もっとも生存確率の高いのはこの手のやり方だ。",
+				},
+			},
+			en = {
+				{
+					"But in cases like this, staying put gives me the best chance of survival.",
+				},
+			},
+			cn = {
+				{
+					"但与自动机器遭遇时，采取这样的行动能有最高的生存概率。",
+				},
+			},
+			cn_gt = {
+				{
+					"但这是与自动机器狭路相逢时，生存率最高的应对方式。",
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 159,
+	},
+	block_00027 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg60_01", x=0, y=270, speed=35000, ease="none", time=1500, zoom=150, sync=1, path=":bg/", x2=0, y2=-270, set="bg60"},
+		{"ex", time=1500, func="wait"},
+		{"bgm", stop=1, time=4000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"恐怖と闘いながら、５時間待った。",
+				},
+			},
+			en = {
+				{
+					"Trying not to give in to the fear, I sit and wait for the next five hours.",
+				},
+			},
+			cn = {
+				{
+					"在与恐惧的斗争中度过了五个小时。",
+				},
+			},
+			cn_gt = {
+				{
+					"这场与恐惧的对抗，持续了五个小时。",
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 168,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"体感できるだけの震動がなくなると、ほっと息をつく。",
+				},
+			},
+			en = {
+				{
+					"When the tremors finally stop, I heave a sigh of relief.",
+				},
+			},
+			cn = {
+				{
+					"直到体感不到任何震动后，才总算舒了口气。",
+				},
+			},
+			cn_gt = {
+				{
+					"当体感再无震动后，我大松一口气。",
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 169,
+	},
+	block_00029 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg16", sync=0, path=":bg/", set="bg16"},
+		{"fg", file="bs2_jd01_base01", face="bs2_jd_f01_03", ch="c001", path=":fg/", sync=0, mode=3, head="bs2_jd0", lv=3, id=13},
+		{"extrans", time=1500},
+		{"fg", file="bs2_jd01_base01", face="bs2_jd_f01_12", ch="c001", path=":fg/", time=300, sync=1, mode=3, head="bs2_jd0", lv=3, id=13},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100047"},
+			},
+			ja = {
+				{
+					"「……さすがに多いな」",
+				},
+			},
+			en = {
+				{
+					[["Sure are a lot of 'em out here..."]],
+				},
+			},
+			cn = {
+				{
+					"「……实在是太多了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……真够多的」",
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 173,
+	},
+	block_00030 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm07"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg15_01", x=480, y=0, speed=50000, ease="none", time=1500, zoom=150, sync=0, path=":bg/", x2=-480, y2=0, set="bg15"},
+		{"bg", id=1, lv=5, color="0x000000", alpha=64, ax=0, ay=0, bx=960, sync=0},
+		{"bg", id=2, lv=5, file="ef_fnoise00", movie=1, movieloop=1, dummy="screen", alpha=128, ax=0, ay=0, zoom=200, path=":ani/", bx=960, sync=0},
+		{"bg", id=3, lv=5, file="ef_noise2", movie=1, movieloop=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"extrans", time=1500},
+		{"ex", time=500, func="wait"},
+		{"bg", id=8, lv=5, file="ef_avan_text00_01", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100053"},
+			},
+			ja = {
+				{
+					"危険地帯として知られる地域に入り、すでに二週間",
+				},
+			},
+			en = {
+				{
+					"It's been two weeks since I entered the Danger Zone.",
+				},
+			},
+			cn = {
+				{
+					"进入被称为危险地区的一带后，已经过了两个星期",
+				},
+			},
+			cn_gt = {
+				{
+					"自进入这片公认的危险地带已有两周",
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 189,
+	},
+	block_00031 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_02", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100054"},
+			},
+			ja = {
+				{
+					"シンギュラリティマシンに遭遇するのは、これで三台目だ",
+				},
+			},
+			en = {
+				{
+					"And this is the third Singularity Machine I've had to avoid during that time.",
+				},
+			},
+			cn = {
+				{
+					"这是我第三次遭遇奇点机器",
+				},
+			},
+			cn_gt = {
+				{
+					"这已经是第三次遭遇超越机了",
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 192,
+	},
+	block_00032 = {
+		{"bg", file="cg_ts19", x=280, y=-340, speed=15000, ease="none", time=2000, zoom=200, sync=0, path=":ev/", x2=480, y2=-340, set="ts19"},
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_03", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100055"},
+			},
+			ja = {
+				{
+					"いつ誰が造ったのかもわからない、用途不明の無人巨大機械群",
+				},
+			},
+			en = {
+				{
+					"Nobody knows who made these massive automatons, or for what purpose.",
+				},
+			},
+			cn = {
+				{
+					"不知道何时何人所制造，并且用途不明的无人巨大机器群",
+				},
+			},
+			cn_gt = {
+				{
+					"所谓超越机，是不知几时由何人所造、用途不详的无人巨型机群",
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 198,
+	},
+	block_00033 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_04", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100056"},
+			},
+			ja = {
+				{
+					"小型のものでも数千トン",
+				},
+			},
+			en = {
+				{
+					"Even the smallest models weigh several thousand tons.",
+				},
+			},
+			cn = {
+				{
+					"即使是小型机器也有数千吨重",
+				},
+			},
+			cn_gt = {
+				{
+					"其中较小的也重达数千吨",
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 200,
+	},
+	block_00034 = {
+		{"bg", file="cg_ts19", x=-960, y=340, speed=15000, ease="none", time=2000, zoom=200, sync=0, path=":ev/", x2=-960, y2=140, set="ts19"},
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_05", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100057"},
+			},
+			ja = {
+				{
+					"それほど巨大でありながら、移動能力を持つ",
+				},
+			},
+			en = {
+				{
+					"In spite of their size, they cover ground at an alarming rate.",
+				},
+			},
+			cn = {
+				{
+					"有着如此巨大体积的同时，还拥有移动能力",
+				},
+			},
+			cn_gt = {
+				{
+					"如此巨大的机体，却具备移动能力",
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 205,
+	},
+	block_00035 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_06", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100058"},
+			},
+			ja = {
+				{
+					"踏破能力は車輌を凌駕し、山岳地帯すら平気で移動する",
+				},
+			},
+			en = {
+				{
+					"They can outpace any regular vehicle and travel across rough terrain with ease.",
+				},
+			},
+			cn = {
+				{
+					"越野能力远超车辆，甚至山地也可以畅通无阻",
+				},
+			},
+			cn_gt = {
+				{
+					"其跨越能力凌驾于车辆之上，在山岳地带都能畅通无碍",
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 207,
+	},
+	block_00036 = {
+		{"fg", mode=-2},
+		{"bg", file="cg_ts19", speed=50000, time=2500, zoom=100, lv=5, z2=150, sync=0, ease="none", path=":ev/", id=1, set="ts19"},
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_07", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100059"},
+			},
+			ja = {
+				{
+					"積極的に人間を襲うことはないが、何かのはずみで敵対しようものなら、終わりだ",
+				},
+			},
+			en = {
+				{
+					"They don't go out of their way to attack humans, but if you do anything to upset them, you're as good as dead.",
+				},
+			},
+			cn = {
+				{
+					"它们不会主动袭击人类，但若是不巧与其敌对，就死定了 ",
+				},
+			},
+			cn_gt = {
+				{
+					"它们不会主动攻击人类，但若不巧被其锁定，就是死路一条",
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 212,
+	},
+	block_00037 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_08", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100060"},
+			},
+			ja = {
+				{
+					"たった一発の銃撃に対してすら、熾烈な反撃行動に出てくる",
+				},
+			},
+			en = {
+				{
+					"A hit from a single stray bullet is enough for them to launch a relentless counterattack.",
+				},
+			},
+			cn = {
+				{
+					"哪怕只是一枪，也会激起其猛烈的反击",
+				},
+			},
+			cn_gt = {
+				{
+					"区区一发子弹，便能引起猛烈的反击",
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 214,
+	},
+	block_00038 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_09", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100061"},
+			},
+			ja = {
+				{
+					"ターゲットされれば半永久的に追尾されることになる",
+				},
+			},
+			en = {
+				{
+					"Once they judge something as a threat, they'll chase it to the ends of the earth.",
+				},
+			},
+			cn = {
+				{
+					"一旦成为它的目标，就会被半永久地追踪",
+				},
+			},
+			cn_gt = {
+				{
+					"一旦被锁定，将遭受近乎永久的追击",
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 216,
+	},
+	block_00039 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_10", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100062"},
+			},
+			ja = {
+				{
+					"なにせ機械は物忘れをしない",
+				},
+			},
+			en = {
+				{
+					"They're not human. They don't forgive. They don't forget.",
+				},
+			},
+			cn = {
+				{
+					"毕竟机器绝不会忘事",
+				},
+			},
+			cn_gt = {
+				{
+					"因为机器没有忘记这一说",
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 218,
+	},
+	block_00040 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_11", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100063"},
+			},
+			ja = {
+				{
+					"実際、アレに攻め滅ぼされた居住地を俺はいくつも知っている",
+				},
+			},
+			en = {
+				{
+					"I've seen entire settlements wiped out by these things.",
+				},
+			},
+			cn = {
+				{
+					"实际上，我知道许多定居点遭受了它的攻击并被摧毁",
+				},
+			},
+			cn_gt = {
+				{
+					"实际上，我也知道不少被它们毁灭的人类聚居地",
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 220,
+	},
+	block_00041 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_12", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100064"},
+			},
+			ja = {
+				{
+					"手を出すどころか、無闇に接近することさえ避けるべき相手だ",
+				},
+			},
+			en = {
+				{
+					"If you value your life, you need to avoid even touching them, never mind attacking.",
+				},
+			},
+			cn = {
+				{
+					"就连靠近都应该尽量避免，更不要说招惹它们了",
+				},
+			},
+			cn_gt = {
+				{
+					"莫说对它刀剑相向，单是接近都应该极力避免",
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 222,
+	},
+	block_00042 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"bg", id=8, lv=5, file="ef_avan_text00_13", time=1000, sync=0, path=":cg/"},
+		{"text"},
+		text = {
+			hide = true,
+			clickpass = -1,
+			vo = {
+				{"vo", ch="c001", file="z000100065"},
+			},
+			ja = {
+				{
+					"幸い、うまくやり過ごせてはいるが……油断はできない",
+				},
+			},
+			en = {
+				{
+					"This one may have passed by harmlessly, but that doesn't mean I'm safe.",
+				},
+			},
+			cn = {
+				{
+					"还好目前算是顺利应付了过去……但依然不能掉以轻心",
+				},
+			},
+			cn_gt = {
+				{
+					"万幸，刚才顺利躲了过去……但还不能掉以轻心",
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 224,
+	},
+	block_00043 = {
+		{"cgdel", id=8, lv=5, time=1000, sync=1},
+		{"cgdel", id=1, lv=5},
+		{"cgdel", id=2, lv=5},
+		{"cgdel", id=3, lv=5},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=2000, path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"user", mode="altthumb", no=1},
+		{"msgoff"},
+		{"savetitle", text="遭遇と覚醒", en="Encounter and Awakening", cn="遭遇与觉醒"},
+		{"user", mode="autosave", no=1},
+		{"eval", exp="g.chap01=1"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="white", path=":bg/"},
+		{"savetitle", text="遭遇と覚醒", en="Encounter and Awakening", cn="遭遇与觉醒"},
+		{"bg", file="eyecatch_01", movie=1, path=":ani/", bx=960},
+		{"ex", movie=1, func="wait", time=0},
+		{"ex", time=4000, func="wait"},
+		{"ex", time=4500, func="wait"},
+		{"se", stop=1, id=-1, time=1000},
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg16", time=1500, path=":bg/", set="bg16"},
+		{"se", id=0, file="se208"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100070"},
+			},
+			ja = {
+				{
+					"「もう間もなくのようだな」",
+				},
+			},
+			en = {
+				{
+					[["I'm probably almost there now."]],
+				},
+			},
+			cn = {
+				{
+					"「应该马上就要到了」",
+				},
+			},
+			cn_gt = {
+				{
+					"「应该不远了」",
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 248,
+	},
+	block_00044 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"se", file="se077", id=1},
+		{"bg", id=2, lv=5, file="ef_monitor01_on", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"bg", id=1, lv=5, file="black", alpha=192, path=":bg/", sync=0},
+		{"extrans", time=0},
+		{"bg", id=1, lv=5, time=120, file="ef_ui04_02", rule="rule120", alpha=192, path=":cg2/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=0, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"情報収集の出力と感度を再び上げ、移動を再開する。",
+				},
+			},
+			en = {
+				{
+					"I turn up my sensors' sensitivity and start moving.",
+				},
+			},
+			cn = {
+				{
+					"调高信息收集的功率和灵敏度，继续前进。",
+				},
+			},
+			cn_gt = {
+				{
+					"我将信息收集器的功率与灵敏度重新调高，再次开始移动。",
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 254,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"レーザーを照射したり、電波を飛ばしたりするアクティブな探査は、敵対的な何者かに発見されるリスクを伴うが、膨大な情報ももたらしてくれる。",
+				},
+			},
+			en = {
+				{
+					"The energy signature of my gear is higher now. I run a bigger risk of giving away my location, but the potential reward is also that much greater.",
+				},
+			},
+			cn = {
+				{
+					"像这样发射激光或无线电波，采取积极主动的侦查方式有被敌人发现的风险，但也会为我带来海量的信息。",
+				},
+			},
+			cn_gt = {
+				{
+					"主动探测需要发射激光或电波，存在被敌对势力觉察的风险，但也能收集大量的信息。",
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 255,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"リスクにしても、自身が発するあらゆる電波に欺瞞処理の厚化粧を施せば最小限に抑えられるし、俺にはその技術と知識があった。",
+				},
+			},
+			en = {
+				{
+					"Fortunately, I have both the tech and knowledge to disguise my vital signs, reducing the risk as much as possible.",
+				},
+			},
+			cn = {
+				{
+					"而我只需要在自己发出的各种电波上施加厚重的伪装处理，就可以把这种风险降到最低，当然我也具备这方面的技术和知识。",
+				},
+			},
+			cn_gt = {
+				{
+					"况且，还可以对自身所发出的各类信号进行严密伪装，把风险控制到最小，而我拥有的技术和经验也允许我如此行动。",
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 256,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"危険が去った今は、強気で探索するタイミングだ。",
+				},
+			},
+			en = {
+				{
+					"Now the immediate danger is passed, I have to make up for the lost time.",
+				},
+			},
+			cn = {
+				{
+					"现在危险已经远去，正是激进探索的好时机。",
+				},
+			},
+			cn_gt = {
+				{
+					"如今危险已去，正当积极探索。",
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 257,
+	},
+	block_00048 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"ex", time=750, func="wait"},
+		{"se", id=0, file="se005"},
+		{"ex", time=500, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鉈で下草を打ち払いながら、奥に進む。",
+				},
+			},
+			en = {
+				{
+					"Hacking through undergrowth with my machete, I make my way deeper into the wilderness.",
+				},
+			},
+			cn = {
+				{
+					"挥动柴刀劈砍着杂草丛开路，继续深入。",
+				},
+			},
+			cn_gt = {
+				{
+					"我用柴刀劈开周围的草木，向更深处前进。",
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 268,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"今のところ付近に危険要素はない。",
+				},
+			},
+			en = {
+				{
+					"There don't appear to be any threats in this area.",
+				},
+			},
+			cn = {
+				{
+					"目前周围没有危险因素。",
+				},
+			},
+			cn_gt = {
+				{
+					"眼下，附近并无危险。",
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 269,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そこそこ大きな肉食獣が、一度探索範囲内にあらわれたが、人間が発する不気味な気配を嫌ってか、すぐ圏外に消えていった。",
+				},
+			},
+			en = {
+				{
+					"Carnivorous animals are always a possibility, but they mostly avoid humans, leaving as soon as they realize who's making all the noise.",
+				},
+			},
+			cn = {
+				{
+					"有过还算是巨大的肉食动物出现在了探索范围内，但也许是对人类的气息感到不适，它很快就走远消失了。",
+				},
+			},
+			cn_gt = {
+				{
+					"先前倒也发现过具备一定体格的食肉动物，但或许是出于对人类气息的厌恶，一进入探测范围，便躲避开了。",
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 270,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"進むうち、地面の起伏が激しくなる。",
+				},
+			},
+			en = {
+				{
+					"The further I go, the bumpier the ground gets.",
+				},
+			},
+			cn = {
+				{
+					"越是前进，地势也变得越是崎岖。",
+				},
+			},
+			cn_gt = {
+				{
+					"随着前行，地势越发崎岖。",
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 271,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"古い地層が地表に露出しているのか。",
+				},
+			},
+			en = {
+				{
+					"Must be from older layers of earth getting forced upwards.",
+				},
+			},
+			cn = {
+				{
+					"大概是古老地层暴露在了地表上吧。",
+				},
+			},
+			cn_gt = {
+				{
+					"也许是因为地表上显露了古老的地层——",
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 272,
+	},
+	block_00053 = {
+		{"msgoff"},
+		{"ex", time=500, func="wait"},
+		{"se", id=0, file="se161"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg17", x=0, y=100, speed=3000, ease="none", time=1000, zoom=150, sync=1, path=":bg/", x2=0, y2=0, set="bg17"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"やがて斜面の中腹に、蔓草に覆われた洞窟が現れた。",
+				},
+			},
+			en = {
+				{
+					"Halfway down one slope I find a cave entrance covered in vines.",
+				},
+			},
+			cn = {
+				{
+					"不久，半山腰上显现出了一个布满藤蔓的山洞。",
+				},
+			},
+			cn_gt = {
+				{
+					"不久，我在一片斜坡的半腰处，发现了一个被蔓草遮盖的洞窟。",
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 281,
+	},
+	block_00054 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg17", time=1000, path=":bg/", set="bg17"},
+		{"msgoff"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"se", file="se054", id=1},
+		{"bg", id=2, lv=5, file="ef_monitor01_on", movie=1, style="ar_add", path=":ani/", bx=960, sync=0},
+		{"bg", id=1, lv=5, file="black", alpha=192, path=":bg/", sync=0},
+		{"extrans", time=0},
+		{"bg", id=1, lv=5, time=120, file="ef_ui04_01", rule="rule120", alpha=192, path=":cg2/"},
+		{"ex", video=1, func="wait", time=0},
+		{"bg", id=2, lv=5, time=0, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"ex", time=500, func="wait"},
+		{"se", id=0, file="se077"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"情報機器を高精度モードに切り替えて波を飛ばす。",
+				},
+			},
+			en = {
+				{
+					"I turn my receivers' sensitivity up all the way and run a scan.",
+				},
+			},
+			cn = {
+				{
+					"将信息设备切换到高精度模式，发射电波。",
+				},
+			},
+			cn_gt = {
+				{
+					"我将信息终端切换至高精度模式，向洞中发射电波。",
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 289,
+	},
+	block_00055 = {
+		{"msgoff"},
+		{"cgdel", id=-1, sync=0},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg17", x=0, y=100, speed=2000, ease="none", time=1000, zoom=150, sync=0, path=":bg/", x2=0, y2=50, set="bg17"},
+		{"bg", id=1, lv=5, time=0, file="ef_ui04_01", zoom=150, alpha=128, y=0, speed=2000, ease="in", path=":cg2/", y2=-50, sync=0},
+		{"bg", id=2, lv=5, time=0, file="ef_monitor01", movie=1, style="ar_add", movieloop=1, ax=0, ay=0, path=":ani/", bx=960, sync=0},
+		{"extrans", time=1000},
+		{"se", id=0, file="se023"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100087"},
+			},
+			ja = {
+				{
+					"「……当たりだ」",
+				},
+			},
+			en = {
+				{
+					[["Bingo..."]],
+				},
+			},
+			cn = {
+				{
+					"「……就是这里」",
+				},
+			},
+			cn_gt = {
+				{
+					"「……就是这儿了」",
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 298,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"洞窟内に動物や機械が潜んでいる形跡はなし。",
+				},
+			},
+			en = {
+				{
+					"There's nothing to indicate any animals or Machines have been inside.",
+				},
+			},
+			cn = {
+				{
+					"洞窟中没有任何动物或机器藏身的痕迹。",
+				},
+			},
+			cn_gt = {
+				{
+					"洞窟内没有动物或机器潜藏的形迹。",
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 300,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"反射波の波長からして、中にあるものは主に土、岩、水。",
+				},
+			},
+			en = {
+				{
+					"Based on the sonar readings, the interior's mostly composed of dirt, rocks and water.",
+				},
+			},
+			cn = {
+				{
+					"从反射波的波长来看，内部的物质主要是土、岩石、水。",
+				},
+			},
+			cn_gt = {
+				{
+					"根据反射波波长分析，其内部组成主要为泥土、岩石、水，",
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 301,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"そして材質不明の何か。これは人工物だ。",
+				},
+			},
+			en = {
+				{
+					"That, and one other unidentified substance.",
+				},
+			},
+			cn = {
+				{
+					"还有些材质不详的物品。这些是人造物。",
+				},
+			},
+			cn_gt = {
+				{
+					"此外还有一样未知材料的东西——人造物。",
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 302,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"おそらく遺失科学時代の特殊な建材だ。",
+				},
+			},
+			en = {
+				{
+					"Ten to one it's a manmade material from the Advanced Era.",
+				},
+			},
+			cn = {
+				{
+					"可能是失落科学时代的特殊建筑材料。",
+				},
+			},
+			cn_gt = {
+				{
+					"应该是属于失落科学时代的特殊建材。",
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 303,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"土砂が建築物を巻き込んで倒壊し、内部空間が洞窟化した。そんなところだ。",
+				},
+			},
+			en = {
+				{
+					"That happens a lot - old buildings collapse, get filled in over time, and end up looking like any other cave.",
+				},
+			},
+			cn = {
+				{
+					"土石连带着建筑物一起坍塌，于是内部空间形成了洞穴，大概就是这么回事。",
+				},
+			},
+			cn_gt = {
+				{
+					"周围沙土包覆住建筑物，使之倒塌，让内部空间形成了洞穴。这里应是如此演变而成的。",
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 304,
+	},
+	block_00061 = {
+		{"msgoff"},
+		{"msgoff"},
+		{"se", file="se011", id=1},
+		{"bg", id=3, lv=5, time=200, file="ef_monitor02_off", movie=1, style="ar_add", path=":ani/", bx=960},
+		{"ex", time=500, func="wait"},
+		{"cgdel", id=-1},
+		{"extrans", time=450, rule="rule081"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg17", time=1000, path=":bg/", set="bg17"},
+		{"se", id=0, file="se005"},
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="bg17_01", time=1500, path=":bg/", set="bg17"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"蔓草の壁に鉈を差し込んで、こじ開けていく。",
+				},
+			},
+			en = {
+				{
+					"I ready my knife and slash through the vines.",
+				},
+			},
+			cn = {
+				{
+					"把柴刀插进藤蔓构成的墙，将其撬开。",
+				},
+			},
+			cn_gt = {
+				{
+					"我将柴刀刺入蔓草壁，试图打开一条通路。",
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 315,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"あっけないほど簡単に刃は突き抜ける。",
+				},
+			},
+			en = {
+				{
+					"They fall away so easily it actually feels a little disappointing.",
+				},
+			},
+			cn = {
+				{
+					"刀刃轻松穿了过去。",
+				},
+			},
+			cn_gt = {
+				{
+					"刀刃毫不费力地刺透藤蔓。",
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 316,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			pagebreak = true,
+			vo = {
+				{"vo", ch="c001", file="z000100097"},
+			},
+			ja = {
+				{
+					"「有毒成分検出なし。酸素濃度正常……よし」",
+				},
+			},
+			en = {
+				{
+					[["No toxins detected... Oxygen levels acceptable... Good to go."]],
+				},
+			},
+			cn = {
+				{
+					"「未检测到有毒物质，氧气浓度正常……很好」",
+				},
+			},
+			cn_gt = {
+				{
+					"「未检测出有毒成分。氧浓度正常……行了」",
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 321,
+	},
+	block_00064 = {
+		{"msgoff"},
+		{"cgdel", id=-1},
+		{"fg", mode=-2},
+		{"bg", file="black", time=1000, rule="rule101", wait=0, path=":bg/"},
+		{"text"},
+		text = {
+			pagebreak = true,
+			ja = {
+				{
+					"ヘッドライトを灯して中に。",
+				},
+			},
+			en = {
+				{
+					"I switch on my headlight and enter the cave.",
+				},
+			},
+			cn = {
+				{
+					"点亮头盔灯进入内部。",
+				},
+			},
+			cn_gt = {
+				{
+					"我打开前灯，走入洞内。",
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 326,
+	},
+	block_00065 = {
+		{"msgoff"},
+		{"ex", time=1000, func="wait"},
+		{"exreturn"},
+		{"text"},
+		linkback = "block_00064",
+		line = 332,
+	},
+	label = {
+		z00 = { block="block_00000", label=2 },
+		z01 = { block="block_00000", label=47 },
+		top = { block="block_00000", label=1 },
+	},
+}
