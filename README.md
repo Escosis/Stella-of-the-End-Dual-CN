@@ -4,3 +4,5 @@
 Stella of the End (終のステラ，星之终途) merging two Simplified Chinese translations (Official & GreenTea), with in‑game purchase and language switching support.
 
 各游戏版本解包后文件及修改版文件已分文件夹存放，方便对比
+
+该项目的网页预览版：stella-of-the-end.cc.cd，国内访问速度较慢
